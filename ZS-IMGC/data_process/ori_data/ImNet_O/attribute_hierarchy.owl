@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#"
+     xml:base="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#bread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#bread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#buff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#buff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#buff_cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#buff_cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cheese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cheese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#circular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#circular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cuboid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cuboid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#curly_leaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#curly_leaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#leaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#dark_green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#dark_green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#decoration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#decoration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#diced_meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#diced_meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#diced_vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#diced_vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#globular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#globular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#golden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#golden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#green_leaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#green_leaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#leaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#leaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#leaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#lettuce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#lettuce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#liquid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#liquid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#long_strip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#long_strip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat_pie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat_pie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat_sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat_sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#mottled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#mottled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#decoration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#oval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#oval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#peach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#peach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#pepperoni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#pepperoni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sausage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#pink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#pink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#purple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#purple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#red_cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#red_cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#roll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sausage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sausage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#slice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#slice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sliced_sausage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sliced_sausage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sausage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#small_cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#small_cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#strawberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#strawberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#tortilla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#tortilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#triangular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#triangular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#tubular_sausage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#tubular_sausage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#sausage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#umbrella-like_cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#umbrella-like_cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#cap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#white_gill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#white_gill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#white_spot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#white_spot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#decoration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-85#color"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

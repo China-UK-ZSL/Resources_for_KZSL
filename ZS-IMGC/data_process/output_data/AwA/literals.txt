@@ -1,0 +1,202 @@
+AwA:n02403454	rdfs:label	cow, moo-cow
+AwA:n01471682	rdfs:label	vertebrate, craniate
+AwA:n02331046	rdfs:label	rat
+AwA:n02066707	rdfs:label	toothed_whale
+AwA:n02403003	rdfs:label	ox
+AwA:n02127482	rdfs:label	bobcat, bay_lynx, Lynx_rufus
+AwA:n02123597	rdfs:label	Siamese_cat, Siamese
+AwA:n02083346	rdfs:label	canine, canid
+AwA:n02075927	rdfs:label	pinniped_mammal, pinniped, pinnatiped
+AwA:n02441326	rdfs:label	musteline_mammal, mustelid, musteline
+AwA:n02120997	rdfs:label	feline, felid
+AwA:n01861778	rdfs:label	mammal, mammalian
+AwA:n02104523	rdfs:label	shepherd_dog, sheepdog, sheep_dog
+AwA:n02103406	rdfs:label	working_dog
+AwA:n02510455	rdfs:label	giant_panda, panda, panda_bear, coon_bear, Ailuropoda_melanoleuca
+AwA:n02489589	rdfs:label	New_World_monkey, platyrrhine, platyrrhinian
+AwA:n02342885	rdfs:label	hamster
+AwA:n02085374	rdfs:label	toy_dog, toy
+AwA:n02128385	rdfs:label	leopard, Panthera_pardus
+AwA:n02391994	rdfs:label	rhinoceros, rhino
+AwA:n02480153	rdfs:label	great_ape, pongid
+AwA:n02106662	rdfs:label	German_shepherd, German_shepherd_dog, German_police_dog, alsatian
+AwA:n02127052	rdfs:label	lynx, catamount
+AwA:n02129165	rdfs:label	lion, king_of_beasts, Panthera_leo
+AwA:n02127808	rdfs:label	big_cat, cat
+AwA:n02323449	rdfs:label	lagomorph, gnawing_mammal
+AwA:n02445715	rdfs:label	skunk, polecat, wood_pussy
+AwA:n02076196	rdfs:label	seal
+AwA:n01466257	rdfs:label	chordate
+AwA:n02065726	rdfs:label	humpback, humpback_whale, Megaptera_novaeangliae
+AwA:n02121620	rdfs:label	cat, true_cat
+AwA:n02503517	rdfs:label	elephant
+AwA:n02330245	rdfs:label	mouse
+AwA:n02507649	rdfs:label	procyonid
+AwA:n02419796	rdfs:label	antelope
+AwA:n02062430	rdfs:label	cetacean, cetacean_mammal, blower
+AwA:n02110341	rdfs:label	dalmatian, coach_dog, carriage_dog
+AwA:n02391049	rdfs:label	zebra
+AwA:n02062017	rdfs:label	aquatic_mammal
+AwA:n02062744	rdfs:label	whale
+AwA:n02439033	rdfs:label	giraffe, camelopard, Giraffa_camelopardalis
+AwA:n02129604	rdfs:label	tiger, Panthera_tigris
+AwA:n02114100	rdfs:label	wolf
+AwA:n02370806	rdfs:label	ungulate, hoofed_mammal
+AwA:n02401031	rdfs:label	bovid
+AwA:n02374149	rdfs:label	equine, equid
+AwA:n02432983	rdfs:label	elk, European_elk, moose, Alces_alces
+AwA:n02395406	rdfs:label	hog, pig, grunter, squealer, Sus_scrofa
+AwA:n02453108	rdfs:label	pachyderm
+AwA:n02085620	rdfs:label	Chihuahua
+AwA:n01889520	rdfs:label	mole
+AwA:n02430045	rdfs:label	deer, cervid
+AwA:n01317541	rdfs:label	domestic_animal, domesticated_animal
+AwA:n02395003	rdfs:label	swine
+AwA:n01889074	rdfs:label	insectivore
+AwA:n02444819	rdfs:label	otter
+AwA:n02323902	rdfs:label	leporid, leporid_mammal
+AwA:n02329401	rdfs:label	rodent, gnawer
+AwA:n02123394	rdfs:label	Persian_cat
+AwA:n02063224	rdfs:label	baleen_whale, whalebone_whale
+AwA:n02503127	rdfs:label	proboscidean, proboscidian
+AwA:n02470325	rdfs:label	ape
+AwA:n02411705	rdfs:label	sheep
+AwA:n02441942	rdfs:label	weasel
+AwA:n02068974	rdfs:label	dolphin
+AwA:n02132136	rdfs:label	brown_bear, bruin, Ursus_arctos
+AwA:n02106030	rdfs:label	collie
+AwA:n02071294	rdfs:label	killer_whale, killer, orca, grampus, sea_wolf, Orcinus_orca
+AwA:n02081571	rdfs:label	walrus, seahorse, sea_horse
+AwA:n02470899	rdfs:label	anthropoid_ape
+AwA:n02124623	rdfs:label	wildcat
+AwA:n02402010	rdfs:label	bovine
+AwA:n02481823	rdfs:label	chimpanzee, chimp, Pan_troglodytes
+AwA:n02132580	rdfs:label	grizzly, grizzly_bear, silvertip, silver-tip, Ursus_horribilis, Ursus_arctos_horribilis
+AwA:n02324045	rdfs:label	rabbit, coney, cony
+AwA:n02410702	rdfs:label	American_bison, American_buffalo, buffalo, Bison_bison
+AwA:n02134084	rdfs:label	ice_bear, polar_bear, Ursus_Maritimus, Thalarctos_maritimus
+AwA:n02363005	rdfs:label	beaver
+AwA:n02480855	rdfs:label	gorilla, Gorilla_gorilla
+AwA:n02398521	rdfs:label	hippopotamus, hippo, river_horse, Hippopotamus_amphibius
+AwA:n02139199	rdfs:label	bat, chiropteran
+AwA:n02075296	rdfs:label	carnivore
+AwA:n02118333	rdfs:label	fox
+AwA:n02394477	rdfs:label	even-toed_ungulate, artiodactyl, artiodactyl_mammal
+AwA:n02508021	rdfs:label	raccoon, racoon
+AwA:n02410509	rdfs:label	bison
+AwA:n02484322	rdfs:label	monkey
+AwA:n00015388	rdfs:label	animal, animate_being, beast, brute, creature, fauna
+AwA:n02469914	rdfs:label	primate
+AwA:n02064816	rdfs:label	blue_whale, sulfur_bottom, Balaenoptera_musculus
+AwA:n02121808	rdfs:label	domestic_cat, house_cat, Felis_domesticus, Felis_catus
+AwA:n02131653	rdfs:label	bear
+AwA:n02084071	rdfs:label	dog, domestic_dog, Canis_familiaris
+AwA:n02373336	rdfs:label	odd-toed_ungulate, perissodactyl, perissodactyl_mammal
+AwA:n02402425	rdfs:label	cattle, cows, kine, oxen, Bos_taurus
+AwA:n02374451	rdfs:label	horse, Equus_caballus
+AwA:n01886756	rdfs:label	placental, placental_mammal, eutherian, eutherian_mammal
+AwA:n02399000	rdfs:label	ruminant
+AwA:n02355227	rdfs:label	squirrel
+AwA:n02493793	rdfs:label	spider_monkey, Ateles_geoffroyi
+AwA:a001	rdfs:label	black
+AwA:a002	rdfs:label	white
+AwA:a003	rdfs:label	blue
+AwA:a004	rdfs:label	brown
+AwA:a005	rdfs:label	gray
+AwA:a006	rdfs:label	orange
+AwA:a007	rdfs:label	red
+AwA:a008	rdfs:label	yellow
+AwA:a009	rdfs:label	patches
+AwA:a010	rdfs:label	spots
+AwA:a011	rdfs:label	stripes
+AwA:a012	rdfs:label	furry
+AwA:a013	rdfs:label	hairless
+AwA:a014	rdfs:label	tough_skin
+AwA:a015	rdfs:label	big
+AwA:a016	rdfs:label	small
+AwA:a017	rdfs:label	bulbous
+AwA:a018	rdfs:label	lean
+AwA:a019	rdfs:label	flippers
+AwA:a020	rdfs:label	hands
+AwA:a021	rdfs:label	hooves
+AwA:a022	rdfs:label	pads
+AwA:a023	rdfs:label	paws
+AwA:a024	rdfs:label	long_leg
+AwA:a025	rdfs:label	longneck
+AwA:a026	rdfs:label	tail
+AwA:a027	rdfs:label	chew_teeth
+AwA:a028	rdfs:label	meat_teeth
+AwA:a029	rdfs:label	buck_teeth
+AwA:a030	rdfs:label	strain_teeth
+AwA:a031	rdfs:label	horns
+AwA:a032	rdfs:label	claws
+AwA:a033	rdfs:label	tusks
+AwA:a034	rdfs:label	smelly
+AwA:a035	rdfs:label	flys
+AwA:a036	rdfs:label	hops
+AwA:a037	rdfs:label	swims
+AwA:a038	rdfs:label	tunnels
+AwA:a039	rdfs:label	walks
+AwA:a040	rdfs:label	fast
+AwA:a041	rdfs:label	slow
+AwA:a042	rdfs:label	strong
+AwA:a043	rdfs:label	weak
+AwA:a044	rdfs:label	muscle
+AwA:a045	rdfs:label	bipedal
+AwA:a046	rdfs:label	quadrupedal
+AwA:a047	rdfs:label	active
+AwA:a048	rdfs:label	inactive
+AwA:a049	rdfs:label	nocturnal
+AwA:a050	rdfs:label	hibernate
+AwA:a051	rdfs:label	agility
+AwA:a052	rdfs:label	fish
+AwA:a053	rdfs:label	meat
+AwA:a054	rdfs:label	plankton
+AwA:a055	rdfs:label	vegetation
+AwA:a056	rdfs:label	insects
+AwA:a057	rdfs:label	forager
+AwA:a058	rdfs:label	grazer
+AwA:a059	rdfs:label	hunter
+AwA:a060	rdfs:label	scavenger
+AwA:a061	rdfs:label	skimmer
+AwA:a062	rdfs:label	stalker
+AwA:a063	rdfs:label	new_world
+AwA:a064	rdfs:label	old_world
+AwA:a065	rdfs:label	arctic
+AwA:a066	rdfs:label	coastal
+AwA:a067	rdfs:label	desert
+AwA:a068	rdfs:label	bush
+AwA:a069	rdfs:label	plains
+AwA:a070	rdfs:label	forest
+AwA:a071	rdfs:label	fields
+AwA:a072	rdfs:label	jungle
+AwA:a073	rdfs:label	mountains
+AwA:a074	rdfs:label	ocean
+AwA:a075	rdfs:label	ground
+AwA:a076	rdfs:label	water
+AwA:a077	rdfs:label	tree
+AwA:a078	rdfs:label	cave
+AwA:a079	rdfs:label	fierce
+AwA:a080	rdfs:label	timid
+AwA:a081	rdfs:label	smart
+AwA:a082	rdfs:label	group
+AwA:a083	rdfs:label	solitary
+AwA:a084	rdfs:label	nestspot
+AwA:a085	rdfs:label	domestic
+AwA:a086	rdfs:label	behavior
+AwA:a087	rdfs:label	body_part
+AwA:a088	rdfs:label	body_power
+AwA:a089	rdfs:label	body_shape
+AwA:a090	rdfs:label	body_size
+AwA:a091	rdfs:label	character
+AwA:a092	rdfs:label	color
+AwA:a093	rdfs:label	decoration
+AwA:a094	rdfs:label	food
+AwA:a095	rdfs:label	habitat
+AwA:a096	rdfs:label	move_speed
+AwA:a097	rdfs:label	move_way
+AwA:a098	rdfs:label	movement
+AwA:a099	rdfs:label	outlook
+AwA:a100	rdfs:label	role
+AwA:a101	rdfs:label	teeth
+AwA:a102	rdfs:label	texture

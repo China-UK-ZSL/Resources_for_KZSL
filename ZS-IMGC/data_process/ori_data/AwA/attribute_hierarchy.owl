@@ -1,0 +1,828 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#"
+     xml:base="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#active -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#active">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#agility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#agility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#arctic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#arctic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#big -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#big">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bipedal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bipedal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#black -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#black">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#brown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#brown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#buck_teeth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#buck_teeth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bulbous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bulbous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bush -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#bush">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#cave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#cave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#chew_teeth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#chew_teeth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#claws -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#claws">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#coastal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#coastal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#decoration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#decoration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#desert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#desert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#domestic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#domestic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fields -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fields">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fierce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fierce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#flippers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#flippers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#flys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#flys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#forager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#forager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#furry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#furry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#gray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#gray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#grazer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#grazer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#ground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#ground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hairless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hairless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hibernate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hibernate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hooves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hooves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#horns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#horns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hunter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#hunter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#inactive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#inactive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#insects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#insects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#jungle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#jungle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#lean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#lean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#long_leg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#long_leg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#longneck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#longneck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#meat_teeth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#meat_teeth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#mountains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#mountains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#movement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#movement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#movement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#movement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#muscle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#muscle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#nestspot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#nestspot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#new_world -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#new_world">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#nocturnal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#nocturnal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#ocean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#ocean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#old_world -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#old_world">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#pads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#pads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#patches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#patches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#decoration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#paws -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#paws">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#plains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#plains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#plankton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#plankton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#quadrupedal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#quadrupedal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#scavenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#scavenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#skimmer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#skimmer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#slow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#slow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#smart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#smart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#smelly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#smelly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#solitary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#solitary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#spots -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#spots">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#decoration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#stalker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#stalker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#strain_teeth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#strain_teeth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#stripes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#stripes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#decoration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#swims -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#swims">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#teeth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#texture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#texture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#outlook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#timid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#timid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tough_skin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tough_skin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tunnels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tunnels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tusks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#tusks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#vegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#vegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#walks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#walks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#move_way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#weak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#weak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#body_power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#white -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#white">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geng/ontologies/2021/3/untitled-ontology-82#color"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
