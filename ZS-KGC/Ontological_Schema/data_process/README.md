@@ -1,20 +1,20 @@
-## Ontological Schema Construction
+# Ontological Schema Construction
 
-### Original Data Preparation and Introduction
+## Original Data Preparation and Introduction
 
 1. download the ontology file of NELL from [here](http://rtw.ml.cmu.edu/resources/results/08m/NELL.08m.1115.ontology.csv.gz) and put it into the folder `ori_data`;
 
-2. relations in datasets and split for training, validation and testing
+2. relations in datasets and their triples, including splits for training, validation and testing
     - NELL: `NELL.train_tasks.json` (training relations), `NELL.dev_tasks.json` (validation relations) and `NELL.test_tasks.json` (testing relations);
     - Wiki: relation file and triple file, `Wiki.train_tasks.json` (training relations), `Wiki.dev_tasks.json` (validation relations) and `Wiki.test_tasks.json` (testing relations), and `Wiki.relation2ids_1` with all relations in Wikidata-ZS
 
 
 
-### Data Processing
+## Data Processing
 
 We run the following scripts to construct ontological schemas for NELL-ZS and Wikidata-ZS:
 
-#### For NELL-ZS
+### For NELL-ZS
 
 1. `extract_RDFS_literals.py`: extract RDFS axioms and literal information of relations and concepts, output `rdfs_triples.txt` and `literals.txt`
 
@@ -22,9 +22,9 @@ We run the following scripts to construct ontological schemas for NELL-ZS and Wi
 
 3. `extract_OWL_composition.py`: extract relation compositions, output `owl2_composition.txt`
 
-#### For Wikidata-ZS
+### For Wikidata-ZS
 
-1. For efficiency, we first run `lookup_rels_info.py` to lookup the relation information in Wikidata. Each relation has a queried json file named by its name and saved in `ori_data/WikidataRelsInfo`
+1. For efficiency, we first run `lookup_rels_info.py` to lookup the relation information in Wikidata. Each relation has a queried json file named by its name and saved in `ori_data/WikidataRelsInfo/`
 
 2. Then, we run `parse_rels_info.py` to parse the json file to extract RDFS axioms, including relation hierarchy, relation domain and range, and output `rdfs_triples_sp_domain_range.txt`
 

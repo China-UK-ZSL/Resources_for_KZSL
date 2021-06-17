@@ -1,6 +1,6 @@
-## KG Construction
+# KG Construction
 
-### Original Data Introduction and Preparation
+## Original Data Introduction and Preparation
 
 For each dataset, we prepare the following original data:
 
@@ -18,7 +18,7 @@ For each dataset, we prepare the following original data:
 
 
 
-### Data Processing
+## Data Processing
 
 For each dataset, we run the following scripts to construct KG:
 
