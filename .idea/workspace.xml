@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/AwA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_A/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_O/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImageFeatures_ResNet101/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/NELL-ZS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/Wikidata-ZS/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +55,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="md" value="5848" />
+          <entry key="md" value="6272" />
           <entry key="py" value="4911" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5914" />
+          <entry key="PLAIN_TEXT" value="6338" />
           <entry key="Python" value="4911" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="10" />
+          <entry key="md" value="11" />
           <entry key="py" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="45" />
         </counts>
       </usages-collector>
@@ -97,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="237" column="52" selection-start-line="237" selection-start-column="44" selection-end-line="237" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -151,15 +150,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -244,6 +256,8 @@
         <option value="$PROJECT_DIR$/ZS-IMGC/KG/data_process/README.md" />
         <option value="$PROJECT_DIR$/ZS-IMGC/KG/README.md" />
         <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md" />
       </list>
     </option>
   </component>
@@ -287,6 +301,19 @@
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="ZSL_Dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="ZSL_Dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,13 +321,6 @@
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
               <item name="Ontological_Schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ontological_Schema" type="462c0819:PsiDirectoryNode" />
-              <item name="data_process" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
@@ -550,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623904496571</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ReadMe update">
+      <created>1623905005835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623905005835</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -809,13 +836,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

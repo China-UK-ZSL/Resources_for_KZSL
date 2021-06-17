@@ -5,21 +5,15 @@
 Seen and unseen relations
 
 
-
 ## Statistics
 
 |Dataset| # Entities| # Relations (Train/Val/Test) | # Triples (Train/Val/Test) |
 |:------:|:------:|:------:|
-|**NELL-ZS**|65567|139 / 10 / 32| 181053/1856/5483|
-|**Wikidata-ZS**|605812|469 / 20 / 48|701977/7241/15710|
+|**NELL-ZS**|65,567|139 / 10 / 32| 181,053/1,856/5,483|
+|**Wikidata-ZS**|605,812|469 / 20 / 48|701,977/7,241/15,710|
 
-## Two Formats
+## Dataset Preparation
 
-1. RDF triples, which are saved in a CSV file with three columns corresponding to subjects, meta-relations and objects, i.e.,
+You can download these two datasets from [here](https://github.com/Panda0406/Zero-shot-knowledge-graph-relational-learning) and put them to the corresponding data folder.
 
-2. OWL axioms,
-
-## Examples
-
-some examples
 
