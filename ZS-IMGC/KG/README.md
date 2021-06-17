@@ -2,7 +2,7 @@
 
 ## Introduction
 
-what kinds of semantics in our schemas
+what kinds of semantics in our KGs
 
 ## Statistics
 
