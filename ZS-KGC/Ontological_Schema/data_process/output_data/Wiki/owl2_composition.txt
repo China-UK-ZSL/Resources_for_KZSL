@@ -1,0 +1,7 @@
+Wikidata:P1299	Wikidata:P195	Wikidata:P485
+Wikidata:P123	Wikidata:P169	Wikidata:P98
+Wikidata:P115	Wikidata:P127	Wikidata:P1268
+Wikidata:P115	Wikidata:P127	Wikidata:P831
+Wikidata:P155	Wikidata:P178	Wikidata:P3931
+Wikidata:P406	Wikidata:P527	Wikidata:P942
+Wikidata:P406	Wikidata:P658	Wikidata:P942
