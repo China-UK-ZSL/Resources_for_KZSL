@@ -7,7 +7,7 @@ Seen and unseen classes
 
 ## Statistics
 |Dataset| # Classes (Total/Seen/Unseen) | # Attributes |# Images|
-|:------:|:------:|:------:|
+|:------:|:------:|:------:|:------:|
 |**AwA**|50/40/10| 85 |37,322|
 |**ImNet-A**|80/25/55| 85 |77,323|
 |**ImNet-O**|35/10/25| 40 |39,361|
