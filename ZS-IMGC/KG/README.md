@@ -1,9 +1,3 @@
-
-
-Each KG is composed of RDF triples and saved in a CSV file with three columns corresponding to subjects, predicates and objects.
-
-
-
 # Knowledge Graphs for ZS-IMGC datasets AwA and ImNet-A/O
 
 ## Introduction
