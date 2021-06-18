@@ -10,7 +10,7 @@ At the same time, these resources are thought to be used to develop more robust 
 
 
 ## Zero-shot Image Classification (ZS-IMGC)
-*ZS-IMGC aims to predict images with new classes that have no labeled training images*. Here, we provide three standard ZS-IMGC datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
+*ZS-IMGC aims to predict images with new classes that have no labeled training images.* Here, we provide three standard ZS-IMGC datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
 For each dataset, we construct a knowledge graph (KG) to represent its different kinds of class semantics, including class attribute, text and hierarchy, as well as common sense class knowledge from ConceptNet and logical relationships between classes.
 
 ### Statistics
@@ -32,7 +32,10 @@ For each dataset, we construct a knowledge graph (KG) to represent its different
 
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
-*ZS-KGC *
+*ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
+In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wikidata-ZS** extracted from NELL and Wikidata, respectively.
+For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS (relation and concept hierarchy, relation domain and range),
+relation semantics expressed by OWL (relation characteristics and inter-relation relationships), and textual meta data of relations and concepts.
 
 
 ### Statistics
@@ -47,6 +50,7 @@ For each dataset, we construct a knowledge graph (KG) to represent its different
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |**NELL-ZS**| 894 | 292 | 1,063 | 9 | 3,055 | 134 |
 |**Wikidata-ZS**| 560 | 1,344 | 3,808 | 11 | 4,821 | 113 |
+- "concept" means entity type/class.
 
 
 ### Usage
