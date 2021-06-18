@@ -40,7 +40,7 @@ Each KG is composed of RDF triples and stored in a CSV file with three columns c
 We have provided these KGs in our repository. You can browse them in the folder `ZS-IMGC/KG` or download from [here](https://drive.google.com/drive/folders/1IUOkon-RjvkAO3ZF4-eu959aYBbNNmhA?usp=sharing).
 **Note the CSV file is saved with delimiter '\t'.**
 
-In addition, we also provided detailed construction process in `ZS-IMGC/KG/data_process`, you can run the scripts to build KGs yourself.
+In addition, we also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), you can run the scripts to build KGs yourself.
 
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
