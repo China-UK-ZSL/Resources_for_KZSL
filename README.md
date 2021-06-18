@@ -31,13 +31,16 @@ For each dataset, we construct a knowledge graph (KG) to represent its different
 
 ### Usage
 
-#### ZSL Datasets (ImNet-A/O and AwA)
+#### ZSL Datasets (Class Splits and Image Features)
 -
--
+- AwA: the class split file and image feature file are both presented in `.mat` file. See detailed introductions [here](ZS-IMGC/ZSL_Dataset/README.md).
+
 #### KGs
 Each KG is composed of RDF triples and stored in a CSV file with three columns corresponding to subjects, relations and objects.
 We have provided these KGs in our repository. You can browse them in the folder `ZS-IMGC/KG` or download from [here](https://drive.google.com/drive/folders/1IUOkon-RjvkAO3ZF4-eu959aYBbNNmhA?usp=sharing).
 **Note the CSV file is saved with delimiter '\t'.**
+
+In addition, we also provided detailed construction process in `ZS-IMGC/KG/data_process`, you can run the scripts to build KGs yourself.
 
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
