@@ -10,7 +10,7 @@ At the same time, these resources are thought to be used to develop more robust 
 
 
 ## Zero-shot Image Classification (ZS-IMGC)
-ZS-IMGC aims to predict images with new classes that have no labeled training images. We provide three standard ZS-IMGC datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
+*ZS-IMGC aims to predict images with new classes that have no labeled training images*. Here, we provide three standard ZS-IMGC datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
 For each dataset, we construct a knowledge graph (KG) to represent its different kinds of class semantics, including class attribute, text and hierarchy, as well as common sense class knowledge from ConceptNet and logical relationships between classes.
 
 ### Statistics
@@ -32,6 +32,8 @@ For each dataset, we construct a knowledge graph (KG) to represent its different
 
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
+*ZS-KGC *
+
 
 ### Statistics
 
