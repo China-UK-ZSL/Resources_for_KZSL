@@ -9,8 +9,8 @@ Seen and unseen relations
 
 |Dataset| # Entities| # Relations (Train/Val/Test) | # Triples (Train/Val/Test) |
 |:------:|:------:|:------:|:------:|
-|**NELL-ZS**|65,567|139 / 10 / 32| 181,053/1,856/5,483|
-|**Wikidata-ZS**|605,812|469 / 20 / 48|701,977/7,241/15,710|
+|**NELL-ZS**|65,567|139 / 10 / 32| 181,053 / 1,856 / 5,483|
+|**Wikidata-ZS**|605,812|469 / 20 / 48|701,977 / 7,241 / 15,710|
 
 ## Dataset Preparation
 
