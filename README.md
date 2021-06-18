@@ -10,16 +10,16 @@ At the same time, these resources are thought to be used to develop more robust 
 
 
 ## Zero-shot Image Classification (ZS-IMGC)
-ZS-IMGC aims to predict images with new classes that have no labeled training images. We provide three standard ZSL datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
-For each dataset, we construct a knowledge graph (KG) to represent different kinds of class semantics, including class attribute, class text, class hierarchy, common sense class knowledge from ConceptNet and logical relationships between classes.
+ZS-IMGC aims to predict images with new classes that have no labeled training images. We provide three standard ZS-IMGC datasets, including two datasets **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
+For each dataset, we construct a knowledge graph (KG) to represent its different kinds of class semantics, including class attribute, text and hierarchy, as well as common sense class knowledge from ConceptNet and logical relationships between classes.
 
 ### Statistics
 
 |Dataset| # Classes (Total/Seen/Unseen) | # Attributes | # Images |
 |:------:|:------:|:------:|:------:|
-|**ImNet-A**|80/25/55| 85 |77,323|
-|**ImNet-O**|35/10/25| 40 |39,361|
-|**AwA**|50/40/10| 85 |37,322|
+|**ImNet-A**|80 / 28 / 52| 85 |77,323|
+|**ImNet-O**|35 / 10 / 25| 40 |39,361|
+|**AwA**|50 / 40 / 10| 85 |37,322|
 
 
 |KG| # Entities | # Relations | # Triples |
@@ -33,7 +33,23 @@ For each dataset, we construct a knowledge graph (KG) to represent different kin
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
 
+### Statistics
 
-For each task, we contribute standard ZSL datasets and corresponding KGs or ontological schemas.
+|Dataset| # Entities | # Relations (Train/Val/Test) | # Triples (Train/Val/Test) |
+|:------:|:------:|:------:|:------:|
+|**NELL-ZS**|65,567| 139 / 10 / 32 | 181,053 / 1,856 / 5,483 |
+|**Wikidata-ZS**|605,812| 469 / 20 / 48 | 701,977 / 7,241 / 15,710 |
+
+
+|Ontological Schema| # Relations | # Concepts | # Literals | # Meta-relations | # RDFS axioms | # OWL axioms |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|**NELL-ZS**| 894 | 292 | 1,063 | 9 | 3,055 | 134 |
+|**Wikidata-ZS**| 560 | 1,344 | 3,808 | 11 | 4,821 | 113 |
+
+
+### Usage
+
+
+
 
 
