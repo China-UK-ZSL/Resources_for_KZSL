@@ -32,8 +32,9 @@ For each dataset, we construct a KG to represent its different kinds of class se
 ### Usage
 
 #### ZSL Datasets (Dataset Split and Image Features)
-- ImNet-A/O: the class split files have been provided in the folder `ZS-IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`. The image features of these classes are saved in `.mat` files.
-- AwA: the split file and image feature file are both presented in `.mat` file.
+- ImNet-A/O: the class split files have been provided in the folder `ZS-IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`. Image features of these classes are saved in `.mat` files.
+- AwA: the dataset split file and image feature file are both presented in `.mat` file.
+
 See detailed introductions for these files [here](ZS-IMGC/ZSL_Dataset/README.md).
 
 #### KGs
