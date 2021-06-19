@@ -6,14 +6,14 @@
 ### ImageNet (ImNet-A, ImNet-O)
 Download image features and class splits of ImageNet classes from [here](https://drive.google.com/drive/folders/1An6nLXRRvlKSCbJoKKlqTNDvgN7PyvvW) and put them to the folder `ImageNet/`.
 
-1. The class split file `seen.txt` and `unseen.txt` separately list the seen and unseen classes in ImNet-A/O with WordNet ids.
+1. The class split file `seen.txt` and `unseen.txt` separately list the WordNet ids of seen and unseen classes in ImNet-A/O.
 
 2. The downloaded image feature folder `Res101_Features` contains three sub-folders:
     - ILSVRC2012_train: training set features (for all seen classes)
     - ILSVRC2012_val: testing set features for seen classes
     - ILSVRC2011: testing set features for unseen classes
 
-&ensp;&ensp; In each sub-folder, each `.mat` file corresponds to the image features of one class and is named by the index of this class in `split.mat`.
+&ensp;&ensp; In each sub-folder, each `.mat` file corresponds to one class and is named by the index of this class in `split.mat`.
 
 3. `split.mat` includes the following fields:
     - allwnids: the WordNet ids of all ImageNet classes
@@ -42,7 +42,7 @@ Download public image features and dataset split for [AwA](http://datasets.d2.mp
 
 
 3. `resNet101.mat` includes the following fields:
-    - features: columns correspond to image instances
+    - features: columns correspond to all image instances in the dataset
     - labels: the labels of all images in features, and the label number of a class is its row number in allclasses.txt
     - image_files: original image sources
 
