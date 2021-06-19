@@ -13,16 +13,16 @@ Download image features and class splits of ImageNet classes from [here](https:/
     - ILSVRC2012_val: testing set features for seen classes
     - ILSVRC2011: testing set features for unseen classes
 
-In each sub-folder, each `.mat` file corresponds to the image features of one class and is named by the index of this class in `split.mat`.
+&ensp;&ensp; In each sub-folder, each `.mat` file corresponds to the image features of one class and is named by the index of this class in `split.mat`.
 
 3. `split.mat` includes the following fields:
-- allwnids: the WordNet ids of all ImageNet classes
-- allwords: the class names
-- seen: all seen classes in ImageNet (i.e., the ImageNet 2012 1K subset)
-- hops2: the classes that are within 2-hops  the seen classes according to the WordNet hierarchy
-- hops3: the classes that are within 3-hops of the seen classes according to the WordNet hierarchy
-- rest: all the rest classes in ImageNet 2011 21K after removing the 2/3-hops classes
-- no_w2v_index: the classes with no pre-trained word vectors
+    - allwnids: the WordNet ids of all ImageNet classes
+    - allwords: the class names
+    - seen: all seen classes in ImageNet (i.e., the ImageNet 2012 1K subset)
+    - hops2: the classes that are within 2-hops  the seen classes according to the WordNet hierarchy
+    - hops3: the classes that are within 3-hops of the seen classes according to the WordNet hierarchy
+    - rest: all the rest classes in ImageNet 2011 21K after removing the 2/3-hops classes
+    - no_w2v_index: the classes with no pre-trained word vectors
 
 ### AwA
 Download public image features and dataset split for [AwA](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), uncompress it and put the files in **AWA2** folder to our folder `AwA/`.
