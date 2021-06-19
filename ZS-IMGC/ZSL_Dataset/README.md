@@ -13,9 +13,10 @@ Download image features and class splits of ImageNet classes from [here](https:/
     - ILSVRC2012_val: testing set features for seen classes
     - ILSVRC2011: testing set features for unseen classes
 
-&ensp;&ensp; In each sub-folder, each `.mat` file corresponds to one class and is named by the index of this class in `split.mat`.
+&ensp;&ensp;&ensp;&ensp; In each sub-folder, each `.mat` file corresponds to one class and is named by the index of this class in `split.mat`.
 
 3. `split.mat` includes the following fields:
+
     - allwnids: the WordNet ids of all ImageNet classes
     - allwords: the class names
     - seen: all seen classes in ImageNet (i.e., the ImageNet 2012 1K subset)
