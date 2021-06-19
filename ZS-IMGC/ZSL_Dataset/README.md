@@ -8,7 +8,7 @@ Download image features and class splits of ImageNet classes from [here](https:/
 
 1. The class split file `seen.txt` and `unseen.txt` separately list the seen and unseen classes in ImNet-A/O with WordNet ids.
 
-2. Image Feature folder `Res101_Features` contains three sub-folders:
+2. The downloaded image feature folder `Res101_Features` contains three sub-folders:
     - ILSVRC2012_train: training set features (for all seen classes)
     - ILSVRC2012_val: testing set features for seen classes
     - ILSVRC2011: testing set features for unseen classes
