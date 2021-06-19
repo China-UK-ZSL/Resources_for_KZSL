@@ -2,13 +2,35 @@
 
 ## Dataset Preparation and Illustrations
 
+
+### ImageNet (ImNet-A, ImNet-O)
+Download image features and class splits of ImageNet classes from [here](https://drive.google.com/drive/folders/1An6nLXRRvlKSCbJoKKlqTNDvgN7PyvvW) and put them to the folder `ImageNet/`.
+
+The class split file `seen.txt` and `unseen.txt` separately list the seen and unseen classes in the ImNet-A or ImNet-O with WordNet ids.
+
+`Res101_Features` contains three sub-folders:
+- ILSVRC2012_train: training set features (for all seen classes)
+- ILSVRC2012_val: testing set features for seen classes
+- ILSVRC2011: testing set features for unseen classes
+
+In each sub-folder, each `.mat` file corresponds to the image features of one class and is named by the index of this class in `split.mat`.
+
+`split.mat` includes the following fields:
+- allwnids: the WordNet ids of all ImageNet classes
+- allwords: the class names
+- seen: all seen classes in ImageNet (i.e., the ImageNet 2012 1K subset)
+- hops2: the classes that are within 2-hops  the seen classes according to the WordNet hierarchy
+- hops3: the classes that are within 3-hops of the seen classes according to the WordNet hierarchy
+- rest: all the rest classes in ImageNet 2011 21K after removing the 2/3-hops classes
+- no_w2v_index: the classes with no pre-trained word vectors
+
 ### AwA
 Download public image features and dataset split for [AwA](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), uncompress it and put the files in **AWA2** folder to our folder `AwA/`.
 
-`resNet101.mat` includes the following fields:
-- features: columns correspond to image instances
-- labels: label number of a class is its row number in allclasses.txt
-- image_files: image sources
+The class splits consist of:
+- allclasses.txt: list of names of all classes in the dataset
+- trainvalclasses.txt: seen classes
+- testclasses.txt: unseen classes
 
 
 `att_splits.mat` includes the following fields:
@@ -19,7 +41,12 @@ Download public image features and dataset split for [AwA](http://datasets.d2.mp
 - test_unseen_loc: instances indexes of test set features for unseen classes
 
 
+`resNet101.mat` includes the following fields:
+- features: columns correspond to image instances
+- labels: the labels of all images in features, and the label number of a class is its row number in allclasses.txt
+- image_files: original image sources
 
-### ImageNet (ImNet-A, ImNet-O)
-- Download image features of ImageNet classes from [here](https://drive.google.com/drive/folders/1An6nLXRRvlKSCbJoKKlqTNDvgN7PyvvW) and put them to the folder `ImageNet/`.
-- Class splits have been provided in the corresponding folders
+
+
+
+
