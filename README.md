@@ -102,7 +102,7 @@ python output2CSV.py --dataset AwA --cls_hie
 
 See more details [here](ZS-IMGC/KG/data_process).
 
-## 4. Related References
+## 5. Related References
 
 1. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zhiquan Ye, Zonggang Yuan, Yantao Jia, and Huajun Chen. "OntoZSL: Ontology-enhanced Zero-shot Learning." In Proceedings of the Web Conference 2021, pp. 3325-3336. 2021.
 2. Chen, Jiaoyan, Yuxia Geng, Zhuo Chen, Ian Horrocks, Jeff Z. Pan, and Huajun Chen. "Knowledge-aware Zero-Shot Learning: Survey and Perspective." IJCAI Survey Track, 2021.
