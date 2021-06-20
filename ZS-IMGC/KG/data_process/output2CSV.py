@@ -1,7 +1,7 @@
 from collections import Counter
 import os
 import csv
-
+import argparse
 
 def readTriples(file_name):
     triples = list()
@@ -28,18 +28,34 @@ def readTriples(file_name):
 
 if __name__ == '__main__':
 
-    # dataset = 'ImNet_A'
-    dataset = 'AwA'
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--dataset", type=str, default='AwA', help='AwA, ImNet_A, ImNet_O')
+
+    parser.add_argument("--full", action='store_true', default=False)
+
+    parser.add_argument("--cls_hie", action='store_true', default=False)
+    parser.add_argument("--att_hie", action='store_true', default=False)
+    parser.add_argument("--att", action='store_true', default=False)
+    parser.add_argument("--cn", action='store_true', default=False)
+    parser.add_argument("--literal", action='store_true', default=False)
+    parser.add_argument("--disjoint", action='store_true', default=False)
+
+    args = parser.parse_args()
+
+
+    # # dataset = 'ImNet_A'
+    # dataset = 'AwA'
 
     All_triples = list()
 
-    conceptnet_triple_file = os.path.join('output_data', dataset, 'conceptnet_triples_filter.txt')
-    class_hierarchy_triple_file = os.path.join('output_data', dataset, 'class_hierarchy_triples.txt')
-    attribute_hierarchy_triple_file = os.path.join('output_data', dataset, 'attribute_hierarchy_triples.txt')
-    class_attribute_triple_file = os.path.join('output_data', dataset, 'class_attribute_triples.txt')
+    conceptnet_triple_file = os.path.join('output_data', args.dataset, 'conceptnet_triples_filter.txt')
+    class_hierarchy_triple_file = os.path.join('output_data', args.dataset, 'class_hierarchy_triples.txt')
+    attribute_hierarchy_triple_file = os.path.join('output_data', args.dataset, 'attribute_hierarchy_triples.txt')
+    class_attribute_triple_file = os.path.join('output_data', args.dataset, 'class_attribute_triples.txt')
 
-    literal_file = os.path.join('output_data', dataset, 'literals.txt')
-    sameAs_file = os.path.join('output_data', dataset, 'sameAs_triples.txt')
+    literal_file = os.path.join('output_data', args.dataset, 'literals.txt')
+    sameAs_file = os.path.join('output_data', args.dataset, 'sameAs_triples.txt')
 
 
 
@@ -69,28 +85,66 @@ if __name__ == '__main__':
     all_ents = conp_ents + hie_cls_ents + hie_att_ents + cls_att_ents
     print(len(set(all_ents)))
 
-    All_triples.extend(hie_cls_triples)
-    All_triples.extend(hie_att_triples)
-    All_triples.extend(att_triples)
-    All_triples.extend(literal_triples)
-    All_triples.extend(sameAs_triples)
-    All_triples.extend(conp_triples)
 
-    if dataset == 'AwA':
-        dis_cls_file = os.path.join('output_data', dataset, 'disjoint_cls_cls_triples.txt')
-        dis_cls_att_file = os.path.join('output_data', dataset, 'disjoint_cls_att_triples.txt')
+    if args.full or args.cls_hie:
+        All_triples.extend(hie_cls_triples)
+
+    if args.full or args.att_hie:
+        All_triples.extend(hie_att_triples)
+
+    if args.full or args.att:
+        All_triples.extend(att_triples)
+
+    if args.full or args.literal:
+        All_triples.extend(literal_triples)
+
+    if args.full:
+        All_triples.extend(sameAs_triples)
+
+    if args.full or args.cn:
+        All_triples.extend(conp_triples)
+
+    # if args.cls_hie:
+    #     All_triples.extend(hie_cls_triples)
+    # if args.att_hie:
+    #     All_triples.extend(hie_att_triples)
+    # if args.att:
+    #     All_triples.extend(att_triples)
+    # if args.literal:
+    #     All_triples.extend(hie_cls_triples)
+    # if args.cn:
+    #     All_triples.extend(conp_triples)
+
+    if args.dataset == 'AwA':
+        dis_cls_file = os.path.join('output_data', args.dataset, 'disjoint_cls_cls_triples.txt')
+        dis_cls_att_file = os.path.join('output_data', args.dataset, 'disjoint_cls_att_triples.txt')
         _, _, dis_cls_triples = readTriples(dis_cls_file)
         _, _, dis_cls_att_triples = readTriples(dis_cls_att_file)
-        All_triples.extend(dis_cls_triples)
-        All_triples.extend(dis_cls_att_triples)
+
+        if args.full or args.disjoint:
+            All_triples.extend(dis_cls_triples)
+            All_triples.extend(dis_cls_att_triples)
 
     print(len(All_triples))
 
     # save to CSV file
-    if dataset == 'ImNet_A' or dataset == 'ImNet_O':
-        dataset = dataset.replace('_', '-')
+    if args.dataset == 'ImNet_A' or args.dataset == 'ImNet_O':
+        args.dataset = args.dataset.replace('_', '-')
 
-    filename = '../KG-' + dataset + '.csv'
+    if args.full:
+        filename = '../KG-' + args.dataset + '.csv'
+    if args.cls_hie:
+        filename = '../KG-' + args.dataset + '-cls-hie.csv'
+    if args.att_hie:
+        filename = '../KG-' + args.dataset + '-att-hie.csv'
+    if args.att:
+        filename = '../KG-' + args.dataset + '-att.csv'
+    if args.cn:
+        filename = '../KG-' + args.dataset + '-cn.csv'
+    if args.literal:
+        filename = '../KG-' + args.dataset + '-literal.csv'
+    if args.disjoint:
+        filename = '../KG-' + args.dataset + '-disjoint.csv'
 
     with open(filename, "w") as csvfile:
         writer = csv.writer(csvfile, delimiter='\t')

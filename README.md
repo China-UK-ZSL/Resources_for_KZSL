@@ -83,12 +83,20 @@ Each dataset contains three `.json` files:
 Each ontological schema is saved in two formats:
 - the original ontology file ended with `.owl`
 - the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
-OWL to RDF graph mapping
+OWL to RDF graph mapping.
 
-We have provided these files in our repository. You can browse them in the folder `ZS-KGC/Ontological_Schema/` or download from here.
+We have provided these files in our repository. You can browse them in the folder `ZS-KGC/Ontological_Schema/` or download from [here](https://drive.google.com/drive/folders/19LptzZvgl_Ze32fuNV90D2MrTOlN4BKe?usp=sharing).
 
 
 
 ## Build KGs or Ontological Schemas Yourself
 We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
+
+<br>
+
+Besides, we have provided temporary output files in our repository, you also can run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
+For example, you can run the following command to output the AwA's KG with only class hierarchy semantics (`KG-AwA-cls-hie.csv`).
+``
+python output2CSV.py --dataset AwA --cls_hie
+``
 
