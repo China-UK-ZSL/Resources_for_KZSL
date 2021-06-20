@@ -47,8 +47,8 @@ We have provided these KGs in our repository. You can browse them in the folder 
 ## 3. Zero-shot Knowledge Graph Completion (ZS-KGC)
 *ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
 In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wikidata-ZS** extracted from NELL and Wikidata, respectively.
-For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS (relation and concept hierarchy, relation domain and range),
-relation semantics expressed by OWL (relation characteristics and inter-relation relationships), and textual meta data of relations and concepts.
+For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS, such as relation and concept hierarchy, relation domain and range,
+relation semantics expressed by OWL, including relation characteristics (e.g., symmetry) and inter-relation relationships (e.g., composition), and textual meta data of relations and concepts.
 
 
 ### Statistics
@@ -63,8 +63,7 @@ relation semantics expressed by OWL (relation characteristics and inter-relation
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |**NELL-ZS**| 894 | 292 | 1,063 | 9 | 3,055 | 134 |
 |**Wikidata-ZS**| 560 | 1,344 | 3,808 | 11 | 4,821 | 113 |
-- "concept" means entity type/class.
-
+- concept means entity type/class; RDFS axioms refer to axioms expressed by RDFS vocabularies; OWL axioms refer to axioms expressed by OWL vocabularies.
 
 ### Usage
 
@@ -102,3 +101,9 @@ python output2CSV.py --dataset AwA --cls_hie
 ``
 
 See more details [here](ZS-IMGC/KG/data_process).
+
+## 4. Related References
+
+1. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zhiquan Ye, Zonggang Yuan, Yantao Jia, and Huajun Chen. "OntoZSL: Ontology-enhanced Zero-shot Learning." In Proceedings of the Web Conference 2021, pp. 3325-3336. 2021.
+2. Chen, Jiaoyan, Yuxia Geng, Zhuo Chen, Ian Horrocks, Jeff Z. Pan, and Huajun Chen. "Knowledge-aware Zero-Shot Learning: Survey and Perspective." IJCAI Survey Track, 2021.
+3. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zonggang Yuan, and Huajun Chen. "K-ZSL: Resources for Knowledge-driven Zero-shot Learning." (submitted to CIKM'21 resource track)
