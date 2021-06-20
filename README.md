@@ -1,7 +1,7 @@
 # K-ZSL: Resources for Knowledge-driven Zero-shot Learning
 
 
-## Introduction
+## 1. Introduction
 This repository includes resources for our CIKM resource track submission entitled "**K-ZSL: Resources for Knowledge-driven Zero-shot Learning**".
 In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
 including **5 ZSL datasets and their corresponding KGs**,
@@ -9,7 +9,7 @@ with the goal of providing standard benchmarks and ranging semantics settings fo
 At the same time, these resources can be used to develop more robust ZSL methods as well as semantic embedding techniques such as multi-relational graph embedding, ontology embedding and multi-modal KG embedding.
 
 
-## Zero-shot Image Classification (ZS-IMGC)
+## 2. Zero-shot Image Classification (ZS-IMGC)
 *ZS-IMGC aims to predict images with new classes that have no labeled training images.*
 Here, we provide three standard ZS-IMGC datasets, including **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
 For each dataset, we construct a KG to represent its different kinds of class semantics, including class attribute, text and hierarchy, as well as common sense knowledge from ConceptNet and logical relationships between classes (e.g., disjointness).
@@ -44,7 +44,7 @@ We have provided these KGs in our repository. You can browse them in the folder 
 
 
 
-## Zero-shot Knowledge Graph Completion (ZS-KGC)
+## 3. Zero-shot Knowledge Graph Completion (ZS-KGC)
 *ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
 In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wikidata-ZS** extracted from NELL and Wikidata, respectively.
 For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS (relation and concept hierarchy, relation domain and range),
@@ -89,7 +89,7 @@ We have provided these files in our repository. You can browse them in the folde
 
 
 
-## Build KGs or Ontological Schemas Yourself
+## 4. Build KGs or Ontological Schemas Yourself
 We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
 
 <br>
