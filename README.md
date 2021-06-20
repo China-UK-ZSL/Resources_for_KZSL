@@ -100,4 +100,5 @@ For example, you can run the following command to output AwA's KG with only clas
 ``
 python output2CSV.py --dataset AwA --cls_hie
 ``
-See more details [here](ZS-IMGC/KG/data_process)
+
+See more details [here](ZS-IMGC/KG/data_process).

@@ -41,5 +41,8 @@ We run the following scripts to construct ontological schemas for NELL-ZS and Wi
     - Finally, we process these rules with ``extract_OWL_composition.py`` and output the composition axioms `owl2_composition.txt`.
 
 
-7. Run `output2CSV.py` to save the ontological schemas in the form of RDF triples
+7. Run `output2CSV.py` to save the ontological schemas in the form of RDF triples. Note we set different parameters to output schema graphs with different semantic settings. Taking NELL-ZS as an example:
+    - generate schema graph with all semantics by running `python output2CSV.py --dataset NELL --all`
+    - generate schema graph with semantics in RDFS by running `python output2CSV.py --dataset NELL --rdfs`
+    - generate schema graph with semantics in RDFS and text by running `python output2CSV.py --dataset NELL --rdfs --literal`
 

@@ -30,16 +30,16 @@ For each dataset, we run the following scripts to construct KG:
 
 4. `literal.py`: add literal information of nodes in graph, output `literals.txt`
 
-5. link to ConceptNet
+5. Link to ConceptNet
     - `conceptnet_alignment_extraction.py`: align classes and attributes to conceptnet entities and extract their one-hop neighbor subgraph;
     - `conceptnet_entity_alignment.py`: save the aligned pairs, output `sameAs_triples.txt`;
     - `conceptnet_repeat_check.py`: remove repetitive triples, output `conceptnet_triples_filter.txt`
 
-6. disjointness semantics
+6. Set disjointness semantics
     - `disjointness_classes.py`: disjointness between different classes, output `disjoint_cls_cls_triples.txt`
     - `disjointness_cls_atts.py`: disjointness between classes and attributes, output `disjoint_cls_att_triples.txt`
 
-7. save to CSV file: `output2CSV.py`. Note we set different parameters to output KGs with different semantic settings. Taking AwA as an example.
-    - KG with all semantics: `python output2CSV.py --dataset AwA --all`
-    - KG with semantics of class hierarchy: `python output2CSV.py --dataset AwA --cls_hie`
-    - KG with semantics of class hierarchy and attribute hierarchy: `python output2CSV.py --dataset AwA --cls_hie --att_hie`
+7. Run `output2CSV.py` to save KGs to CSV file. Note we set different parameters to output KGs with different semantic settings. Taking AwA as an example:
+    - generate KG with all semantics by running `python output2CSV.py --dataset AwA --all`
+    - generate KG with semantics of class hierarchy by running `python output2CSV.py --dataset AwA --cls_hie`
+    - generate KG with semantics of class hierarchy and attribute hierarchy by running `python output2CSV.py --dataset AwA --cls_hie --att_hie`
