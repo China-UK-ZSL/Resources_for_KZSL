@@ -102,8 +102,11 @@ python output2CSV.py --dataset AwA --cls_hie
 
 See more details [here](ZS-IMGC/KG/data_process).
 
+
 ## 5. Related References
 
-1. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zhiquan Ye, Zonggang Yuan, Yantao Jia, and Huajun Chen. "[OntoZSL: Ontology-enhanced Zero-shot Learning](https://dl.acm.org/doi/abs/10.1145/3442381.3450042?casa_token=DUwKdZAerT8AAAAA:sBWZHvnys0N7CallEQkj8YS_Rii55DLVrgL0I934ddzCCqZWYJfY6Sd0r9FY0mT9XdHVonJabZPJ)." In Proceedings of the Web Conference 2021, pp. 3325-3336. 2021.
-2. Chen, Jiaoyan, Yuxia Geng, Zhuo Chen, Ian Horrocks, Jeff Z. Pan, and Huajun Chen. "[Knowledge-aware Zero-Shot Learning: Survey and Perspective](https://arxiv.org/abs/2103.00070)." IJCAI Survey Track, 2021.
-3. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zonggang Yuan, and Huajun Chen. "[K-ZSL: Resources for Knowledge-driven Zero-shot Learning](https://github.com/China-UK-ZSL/Resources_for_KZSL/blob/master/Paper%20Draft.pdf)." (submitted to CIKM'21 resource track)
+1. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zonggang Yuan, and Huajun Chen. "[K-ZSL: Resources for Knowledge-driven Zero-shot Learning](https://github.com/China-UK-ZSL/Resources_for_KZSL/blob/master/Paper%20Draft.pdf)." (submitted to CIKM'21 resource track)
+2. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zhiquan Ye, Zonggang Yuan, Yantao Jia, and Huajun Chen. "[OntoZSL: Ontology-enhanced Zero-shot Learning](https://dl.acm.org/doi/abs/10.1145/3442381.3450042?casa_token=DUwKdZAerT8AAAAA:sBWZHvnys0N7CallEQkj8YS_Rii55DLVrgL0I934ddzCCqZWYJfY6Sd0r9FY0mT9XdHVonJabZPJ)." In Proceedings of the Web Conference 2021, pp. 3325-3336. 2021.
+3. Chen, Jiaoyan, Yuxia Geng, Zhuo Chen, Ian Horrocks, Jeff Z. Pan, and Huajun Chen. "[Knowledge-aware Zero-Shot Learning: Survey and Perspective](https://arxiv.org/abs/2103.00070)." IJCAI Survey Track, 2021.
+4. Geng, Yuxia, Jiaoyan Chen, Zhiquan Ye, Wei Zhang, and Huajun Chen. "[Explainable zero-shot learning via attentive graph convolutional network and knowledge graphs](http://www.semantic-web-journal.net/system/files/swj2318.pdf)." Semantic Web Journal. (2020). (To appear)
+5. Chen, Jiaoyan, Freddy Lécué, Yuxia Geng, Jeff Z. Pan, and Huajun Chen. "[Ontology-guided Semantic Composition for Zero-shot Learning](https://arxiv.org/abs/2006.16917)." In Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning, vol. 17, no. 1, pp. 850-854. 2020.
