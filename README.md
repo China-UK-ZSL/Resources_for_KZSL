@@ -31,18 +31,17 @@ For each dataset, we construct a KG to represent its different kinds of class se
 
 ### Usage
 
-#### ZSL Datasets (Dataset Splits and Image Features)
+#### ZSL Datasets (Class Splits and Image Features)
 - ImNet-A/O: the class split files have been provided in the folder `ZS-IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`, the image features of these classes are saved in `.mat` files.
 - AwA: the dataset split file and image feature file are both presented in `.mat` file.
 
-See detailed introductions for these files [here](ZS-IMGC/ZSL_Dataset/README.md).
+&ensp;&ensp; See detailed introductions for these files [here](ZS-IMGC/ZSL_Dataset/README.md).
 
 #### KGs
 Each KG is composed of RDF triples and stored in a CSV file with three columns corresponding to subjects, relations and objects.
 We have provided these KGs in our repository. You can browse them in the folder `ZS-IMGC/KG/` or download from [here](https://drive.google.com/drive/folders/1IUOkon-RjvkAO3ZF4-eu959aYBbNNmhA?usp=sharing).
 **Note the CSV file is saved with delimiter '\t'.**
 
-In addition, we also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), you can run the scripts to build KGs yourself.
 
 
 ## Zero-shot Knowledge Graph Completion (ZS-KGC)
@@ -71,5 +70,8 @@ relation semantics expressed by OWL (relation characteristics and inter-relation
 
 
 
+## Build KGs or Ontological Schemas Yourself
 
+
+In addition, we also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), you can run the scripts to build KGs yourself.
 
