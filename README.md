@@ -90,7 +90,5 @@ We have provided these files in our repository. You can browse them in the folde
 
 
 ## Build KGs or Ontological Schemas Yourself
-
-
-In addition, we also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), you can run the scripts to build KGs yourself.
+We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
 
