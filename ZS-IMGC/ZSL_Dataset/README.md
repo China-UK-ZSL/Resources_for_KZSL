@@ -35,7 +35,7 @@ Download public image features and dataset split for [AwA](http://datasets.d2.mp
 
 
 2. `att_splits.mat` includes the following fields:
-    - att: columns correpond to class attribute vectors normalized to have unit l2 norm, following the classes order in allclasses.txt
+    - att: columns correspond to class attribute vectors normalized to have unit l2 norm, following the classes order in allclasses.txt
     - original_att: the original class attribute vectors without normalization
     - trainval_loc: instances indexes of train+val set features (for only seen classes) in resNet101.mat
     - test_seen_loc: instances indexes of test set features for seen classes

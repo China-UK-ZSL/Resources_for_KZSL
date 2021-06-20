@@ -68,6 +68,15 @@ relation semantics expressed by OWL (relation characteristics and inter-relation
 
 ### Usage
 
+#### ZSL Datasets
+Download [NELL-ZS](https://drive.google.com/file/d/1fng-IxtweEb516vScwlrkzgEP6EYQv-g/view?usp=sharing) and [Wikidata-ZS](https://drive.google.com/file/d/1xGB3n0ioRfl838JSpk3CzB7h7mE9kKYj/view?usp=sharing), and put them into `ZS-KGC/ZSL_Dataset/`.
+
+Each dataset contains three `.json` files:
+- `train_tasks.json`: triples in training set and training relations
+- `dev_tasks.json`: triples in validation set and validation relations
+- `test_tasks.json`: triples in testing set and testing relations (i.e., unseen relations)
+
+&ensp;&ensp; In each json file, `keys` correspond to relations in the set, `values` correspond to the triples of this relation.
 
 
 ## Build KGs or Ontological Schemas Yourself
