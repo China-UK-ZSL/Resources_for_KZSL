@@ -76,7 +76,14 @@ Each dataset contains three `.json` files:
 - `dev_tasks.json`: triples in validation set and validation relations
 - `test_tasks.json`: triples in testing set and testing relations (i.e., unseen relations)
 
-&ensp;&ensp; In each json file, `keys` correspond to relations in the set, `values` correspond to the triples of this relation.
+&ensp;&ensp; Each json file contains a dict, where `keys` are relations in the set, `values` are a list of triples of this relation.
+
+#### Ontological Schemas
+
+Each ontological schema is saved in two formats:
+- the original ontology file ended with `.owl`
+- the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
+OWL to RDF graph mapping
 
 
 ## Build KGs or Ontological Schemas Yourself
