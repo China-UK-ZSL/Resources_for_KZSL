@@ -39,5 +39,7 @@ For each dataset, we run the following scripts to construct KG:
     - `disjointness_classes.py`: disjointness between different classes, output `disjoint_cls_cls_triples.txt`
     - `disjointness_cls_atts.py`: disjointness between classes and attributes, output `disjoint_cls_att_triples.txt`
 
-7. save to CSV file: `output2CSV.py`
-    - Note we provide different parameters to output KGs with different
+7. save to CSV file: `output2CSV.py`. Note we provide different parameters to output KGs with different semantic settings. Taking AwA as an illustration.
+    - KG with all semantics: `python output2CSV.py --dataset AwA --all`
+    - KG with semantics of class hierarchy: `python output2CSV.py --dataset AwA --cls_hie`
+    - KG with semantics of class hierarchy and attribute hierarchy: `python output2CSV.py --dataset AwA --cls_hie --att_hie`

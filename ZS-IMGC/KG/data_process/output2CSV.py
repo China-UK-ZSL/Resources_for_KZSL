@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
     parser.add_argument("--dataset", type=str, default='AwA', help='AwA, ImNet_A, ImNet_O')
 
-    parser.add_argument("--full", action='store_true', default=False)
+    parser.add_argument("--all", action='store_true', default=False)
 
     parser.add_argument("--cls_hie", action='store_true', default=False)
     parser.add_argument("--att_hie", action='store_true', default=False)
@@ -86,34 +86,23 @@ if __name__ == '__main__':
     print(len(set(all_ents)))
 
 
-    if args.full or args.cls_hie:
+    if args.all or args.cls_hie:
         All_triples.extend(hie_cls_triples)
 
-    if args.full or args.att_hie:
+    if args.all or args.att_hie:
         All_triples.extend(hie_att_triples)
 
-    if args.full or args.att:
+    if args.all or args.att:
         All_triples.extend(att_triples)
 
-    if args.full or args.literal:
+    if args.all or args.literal:
         All_triples.extend(literal_triples)
 
-    if args.full:
+    if args.all:
         All_triples.extend(sameAs_triples)
 
-    if args.full or args.cn:
+    if args.all or args.cn:
         All_triples.extend(conp_triples)
-
-    # if args.cls_hie:
-    #     All_triples.extend(hie_cls_triples)
-    # if args.att_hie:
-    #     All_triples.extend(hie_att_triples)
-    # if args.att:
-    #     All_triples.extend(att_triples)
-    # if args.literal:
-    #     All_triples.extend(hie_cls_triples)
-    # if args.cn:
-    #     All_triples.extend(conp_triples)
 
     if args.dataset == 'AwA':
         dis_cls_file = os.path.join('output_data', args.dataset, 'disjoint_cls_cls_triples.txt')
@@ -121,7 +110,7 @@ if __name__ == '__main__':
         _, _, dis_cls_triples = readTriples(dis_cls_file)
         _, _, dis_cls_att_triples = readTriples(dis_cls_att_file)
 
-        if args.full or args.disjoint:
+        if args.all or args.disjoint:
             All_triples.extend(dis_cls_triples)
             All_triples.extend(dis_cls_att_triples)
 
@@ -131,20 +120,11 @@ if __name__ == '__main__':
     if args.dataset == 'ImNet_A' or args.dataset == 'ImNet_O':
         args.dataset = args.dataset.replace('_', '-')
 
-    if args.full:
+    if args.all:
         filename = '../KG-' + args.dataset + '.csv'
-    if args.cls_hie:
-        filename = '../KG-' + args.dataset + '-cls-hie.csv'
-    if args.att_hie:
-        filename = '../KG-' + args.dataset + '-att-hie.csv'
-    if args.att:
-        filename = '../KG-' + args.dataset + '-att.csv'
-    if args.cn:
-        filename = '../KG-' + args.dataset + '-cn.csv'
-    if args.literal:
-        filename = '../KG-' + args.dataset + '-literal.csv'
-    if args.disjoint:
-        filename = '../KG-' + args.dataset + '-disjoint.csv'
+    else:
+        filename = '../KG-' + args.dataset + '-subset.csv'
+
 
     with open(filename, "w") as csvfile:
         writer = csv.writer(csvfile, delimiter='\t')
