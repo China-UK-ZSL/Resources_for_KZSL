@@ -94,7 +94,7 @@ We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-I
 
 <br>
 
-Besides, we have provided temporary output files in our repository, you also can run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
+Besides, we have provided temporary output files in our repository, you can also run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
 For example, you can run the following command to output the AwA's KG with only class hierarchy semantics (`KG-AwA-cls-hie.csv`).
 
 ``
