@@ -85,6 +85,9 @@ Each ontological schema is saved in two formats:
 - the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
 OWL to RDF graph mapping
 
+We have provided these files in our repository. You can browse them in the folder `ZS-KGC/Ontological_Schema/` or download from here.
+
+
 
 ## Build KGs or Ontological Schemas Yourself
 
