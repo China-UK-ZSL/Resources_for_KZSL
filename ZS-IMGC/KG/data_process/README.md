@@ -40,3 +40,4 @@ For each dataset, we run the following scripts to construct KG:
     - `disjointness_cls_atts.py`: disjointness between classes and attributes, output `disjoint_cls_att_triples.txt`
 
 7. save to CSV file: `output2CSV.py`
+    - Note we provide different parameters to output KGs with different
