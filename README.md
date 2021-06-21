@@ -80,7 +80,7 @@ Each dataset contains three `.json` files:
 #### Ontological Schemas
 
 Each ontological schema is saved in two formats:
-- the original ontology file ended with `.owl`
+- the original ontology file ended with `.owl`, it can be directly viewed using ontology editors such as Protege.
 - the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
 OWL to RDF graph mapping.
 
