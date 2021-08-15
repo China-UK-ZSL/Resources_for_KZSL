@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction
-This repository includes resources for our CIKM resource track submission entitled "**[K-ZSL: Resources for Knowledge-driven Zero-shot Learning](https://github.com/China-UK-ZSL/Resources_for_KZSL/blob/master/Paper%20Draft.pdf)**".
+This repository includes resources and detailed construction procedures for paper "**[K-ZSL: Resources for Knowledge-driven Zero-shot Learning](https://arxiv.org/abs/2106.15047)**".
 In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
 including **5 ZSL datasets and their corresponding KGs**,
 with the goal of providing standard benchmarks and ranging semantics settings for studying and comparing different KG-based ZSL methods.
