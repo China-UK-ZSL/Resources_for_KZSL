@@ -2,12 +2,12 @@
 
 
 ## 1. Introduction
-This repository includes resources for our CIKM resource track submission entitled "**[K-ZSL: Resources for Knowledge-driven Zero-shot Learning](https://github.com/China-UK-ZSL/Resources_for_KZSL/blob/master/Paper%20Draft.pdf)**".
-In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
-including **5 ZSL datasets and their corresponding KGs**,
+This repository includes resources for our submission entitled "**[Benchmarking Knowledge-driven Zero-shot Learning](JOWS-S.pdf.pdf)**".
+In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**), zero-shot relation extraction (**ZS-RE**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
+including **6 ZSL datasets and their corresponding KGs**,
 with the goal of providing standard benchmarks and ranging semantics settings for studying and comparing different KG-based ZSL methods.
-At the same time, these resources can be used to develop more robust ZSL methods as well as semantic embedding techniques such as multi-relational graph embedding, ontology embedding and multi-modal KG embedding.
-
+The benchmarking study presented in the paper shows the effectiveness and great potential usage of our proposed resources.
+In the future, we hope this resource can serve as an important cornerstone to promote more advanced ZSL methods and more effective solutions for applying KGs for augmenting machine learning, and build a solid neural-symbolic paradigm for advancing the development of artificial intelligence.
 
 ## 2. Zero-shot Image Classification (ZS-IMGC)
 *ZS-IMGC aims to predict images with new classes that have no labeled training images.*
@@ -42,9 +42,34 @@ Each KG is composed of RDF triples and stored in a CSV file with three columns c
 We have provided these KGs in our repository. You can browse them in the folder `ZS-IMGC/KG/` or download from [here](https://drive.google.com/drive/folders/1IUOkon-RjvkAO3ZF4-eu959aYBbNNmhA?usp=sharing).
 **Note the CSV file is saved with delimiter '\t'.**
 
+## 3. Zero-shot Relation Extraction (ZS-RE)
+*ZS-RE aims to predict/extract the unseen relations between two given entity mentions by a sentence.*
+Here, we construct a ZS-RE dataset named **ZeroRel** that supports more ZSL settings, and contribute a KG equipped with logic rules as the external knowledge of relation labels.
 
 
-## 3. Zero-shot Knowledge Graph Completion (ZS-KGC)
+### Statistics
+
+|Dataset| # Relations (Total/Seen/Unseen) | # Sentences (Total/Training/Testing) |
+|:------:|:------:|:------:|
+|**ZeroRel**|100 / 70 / 30| 85 | 104,646 / 84,000 / 20,646 |
+
+Statistically, the constructed KG contains 20,982,733 entities, 594 relations and 68,904,773 triples in total.
+And we contribute 50 length-1 rules and 122 length-2 rules in total for the relations in the dataset.
+
+### Usage
+
+#### ZSL Dataset (Relation Splits and Original Text)
+
+- Relation split files have been provided in the folder `ZS-RE/ZeroRel/` with `seen70.json` and `unseen30.json`.
+- Download the data with original text from [here](https://drive.google.com/drive/folders/1Uc-fmsYSALR0nHuQGr6dcerF2Wu6p5JJ?usp=sharing), and put it into the folder `ZS-RE/ZeroRel/`
+
+The dataset contains 3 CSV files of training samples (`train.csv`), seen testing samples (`test_seen.csv`) and unseen testing samples (`test_unseen.csv`), in which each row is a sample including the sentence text, the relation label, the entity mention pairs and their indexes in the sentence.
+
+#### KGs and Logic Rules
+- The KG is stored in a CSV file with three columns corresponding to subjects, relations and objects. You can download it from [here]() and put it in the folder `ZS-RE/External_Knowledge/`.
+- The logic rules are stored in a JSON files with “head”, “body” and “pcaconf” properties specifying the head, body and PCA confidence score of a rule. It has been provided in the folder `ZS-RE/External_Knowledge/`
+
+## 4. Zero-shot Knowledge Graph Completion (ZS-KGC)
 *ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
 In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wikidata-ZS** extracted from NELL and Wikidata, respectively.
 For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS, such as relation and concept hierarchy, relation domain and range,
