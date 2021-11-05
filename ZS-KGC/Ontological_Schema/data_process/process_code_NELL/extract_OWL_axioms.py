@@ -157,8 +157,8 @@ def extract_inverse_triples(triples, relations):
             continue
         else:
             # print(A, B)
-            if A in dataset_rels and B in dataset_rels:
-                inverse_triples_filter.append((A, 'inverseOf', B))
+            # if A in dataset_rels and B in dataset_rels:
+            inverse_triples_filter.append((A, 'inverseOf', B))
     print(len(inverse_triples_filter))
 
     return inverse_triples_filter
@@ -194,11 +194,11 @@ if __name__ == '__main__':
 
     rel_domain, rel_range, relations = extract_domain_range(triples)
 
-
+    print(len(relations))
     # '''
     # extract inverse triples
     # '''
-    # inverse_triples = extract_inverse_triples(triples, relations)
+    inverse_triples = extract_inverse_triples(triples, relations)
 
     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
