@@ -61,7 +61,7 @@ And we contribute 50 length-1 rules and 122 length-2 rules in total for the rela
 #### ZSL Dataset (Relation Splits and Original Text)
 
 - Relation split files have been provided in the folder `ZS-RE/ZeroRel/` with `seen70.json` and `unseen30.json`.
-- Download the data with original text from [here](https://drive.google.com/drive/folders/1Uc-fmsYSALR0nHuQGr6dcerF2Wu6p5JJ?usp=sharing), and put it into the folder `ZS-RE/ZeroRel/`.
+- Download the dataset with original text from [here](https://drive.google.com/drive/folders/1Uc-fmsYSALR0nHuQGr6dcerF2Wu6p5JJ?usp=sharing), and put it into the folder `ZS-RE/ZeroRel/`.
 
 The dataset contains 3 CSV files of training samples (`train.csv`), seen testing samples (`test_seen.csv`) and unseen testing samples (`test_unseen.csv`), in which each row is a sample including the sentence text, the relation label, the entity mention pairs and their indexes in the sentence.
 
@@ -109,12 +109,12 @@ Each ontological schema is saved in two formats:
 - the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
 OWL to RDF graph mapping.
 
-We have provided these files in our repository. You can browse them in the folder `ZS-KGC/Ontological_Schema/`.
+These files have been provided in the folder `ZS-KGC/Ontological_Schema/`.
 
 
 
 ## 4. Build KGs or Ontological Schemas Yourself
-We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
+We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), [ZS-RE/External_Knowledge/data_process](ZS-RE/External_Knowledge/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
 
 <br>
 
