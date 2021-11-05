@@ -66,8 +66,8 @@ And we contribute 50 length-1 rules and 122 length-2 rules in total for the rela
 The dataset contains 3 CSV files of training samples (`train.csv`), seen testing samples (`test_seen.csv`) and unseen testing samples (`test_unseen.csv`), in which each row is a sample including the sentence text, the relation label, the entity mention pairs and their indexes in the sentence.
 
 #### KGs and Logic Rules
-- The KG is stored in a CSV file with three columns corresponding to subjects, relations and objects. You can download it from [here]() and put it in the folder `ZS-RE/External_Knowledge/`.
-- The logic rules are stored in a JSON files with “head”, “body” and “pcaconf” properties specifying the head, body and PCA confidence score of a rule. It has been provided in the folder `ZS-RE/External_Knowledge/`
+- The KG is stored in a CSV file with three columns corresponding to subjects, relations and objects. You can download it from [here](https://drive.google.com/file/d/1POTWoW0XGBp0dgkS2mBTafHzY1tsYPZS/view?usp=sharing) and put it in the folder `ZS-RE/External_Knowledge/`.
+- The logic rules are stored in a JSON files with “head”, “body” and “pcaconf” properties specifying the head, body and PCA confidence score of a rule. It has been provided in the folder `ZS-RE/External_Knowledge/`.
 
 ## 4. Zero-shot Knowledge Graph Completion (ZS-KGC)
 *ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
@@ -116,7 +116,6 @@ These files have been provided in the folder `ZS-KGC/Ontological_Schema/`.
 ## 4. Build KGs or Ontological Schemas Yourself
 We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), [ZS-RE/External_Knowledge/data_process](ZS-RE/External_Knowledge/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
 
-<br>
 
 Besides, we have provided temporary output files in our repository, you can also run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
 For example, you can run the following command to output AwA's KG with only class hierarchy semantics.

@@ -1,6 +1,4 @@
-
 import csv
-
 
 
 
@@ -19,12 +17,6 @@ def readIDFile(file_name):
     return id2name
 
 
-
-
-
-# entity2id_file = '/Users/geng/Downloads/Wikidata/knowledge graphs/entity2id.txt'
-# rel2id_file = '/Users/geng/Downloads/Wikidata/knowledge graphs/relation2id.txt'
-# triple2id_file = '/Users/geng/Downloads/Wikidata/knowledge graphs/triple2id.txt'
 
 if __name__ == '__main__':
 
