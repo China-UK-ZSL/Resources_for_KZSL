@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="README update">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$test.coverage" NAME="test Coverage Results" MODIFIED="1623855902200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$conceptnet_alignment_extraction.coverage" NAME="conceptnet_alignment_extraction Coverage Results" MODIFIED="1623829039469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$attribute_hierarchy.coverage" NAME="attribute_hierarchy Coverage Results" MODIFIED="1623822566900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$class_attribute_awa.coverage" NAME="class_attribute_awa Coverage Results" MODIFIED="1623823064791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$extract_OWL_composition__1_.coverage" NAME="extract_OWL_composition (1) Coverage Results" MODIFIED="1624267245702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$output2CSV.coverage" NAME="output2CSV Coverage Results" MODIFIED="1636105161125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-RE/External_Knowledge/KGs" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$count.coverage" NAME="count Coverage Results" MODIFIED="1635405500724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$literals.coverage" NAME="literals Coverage Results" MODIFIED="1623825241945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$conceptnet_repeat_check.coverage" NAME="conceptnet_repeat_check Coverage Results" MODIFIED="1623829132630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$extract_OWL_axioms.coverage" NAME="extract_OWL_axioms Coverage Results" MODIFIED="1630226448742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$conceptnet_entity_alignment.coverage" NAME="conceptnet_entity_alignment Coverage Results" MODIFIED="1623829089741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$parse_rels_info.coverage" NAME="parse_rels_info Coverage Results" MODIFIED="1623897638893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$extract_OWL_composition.coverage" NAME="extract_OWL_composition Coverage Results" MODIFIED="1623898764717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$lookup_sc_triples.coverage" NAME="lookup_sc_triples Coverage Results" MODIFIED="1623854724385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$conceptnet_en_subgraph.coverage" NAME="conceptnet_en_subgraph Coverage Results" MODIFIED="1623823986432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$disjointness_cls_atts.coverage" NAME="disjointness_cls_atts Coverage Results" MODIFIED="1623829674387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$lookup_literals.coverage" NAME="lookup_literals Coverage Results" MODIFIED="1623897980284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$extract_OWL_composition__2_.coverage" NAME="extract_OWL_composition (2) Coverage Results" MODIFIED="1624286459468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$extract_RDFS_literals.coverage" NAME="extract_RDFS_literals Coverage Results" MODIFIED="1624253492575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$disjointness_classes.coverage" NAME="disjointness_classes Coverage Results" MODIFIED="1623829667427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$re_origanization.coverage" NAME="re-origanization Coverage Results" MODIFIED="1636103706400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-RE/External_Knowledge/Rules" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$class_attribute_imagenet.coverage" NAME="class_attribute_imagenet Coverage Results" MODIFIED="1623823262609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$output2CSV__1_.coverage" NAME="output2CSV (1) Coverage Results" MODIFIED="1623900303587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$class_hierarchy.coverage" NAME="class_hierarchy Coverage Results" MODIFIED="1623821388375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    <SUITE FILE_PATH="coverage/Resources_for_KZSL$parse_rels_info_owl.coverage" NAME="parse_rels_info_owl Coverage Results" MODIFIED="1623898229258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="10659750">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="16" />
+          <entry key="md" value="15179" />
+          <entry key="py" value="8286" />
+          <entry key="txt" value="81" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="15276" />
+          <entry key="Python" value="8286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="json" value="1" />
+          <entry key="md" value="23" />
+          <entry key="py" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="67" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3026">
+              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output2CSV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_composition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/output2CSV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="11" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2CSV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>readTxtTwoColumns</find>
+      <find>loaf_of_bread</find>
+      <find>readTxtSingleColumn</find>
+      <find>readTxtThreeColumns</find>
+      <find>replace</find>
+      <find>dataset_rels</find>
+      <find>P2852</find>
+      <find>P2872</find>
+      <find>Q739</find>
+      <find>Q739'</find>
+      <find>DATA_DIR</find>
+      <find>sp_triples</find>
+      <find>ent2name</find>
+      <find>readLiterals</find>
+      <find>y20</find>
+      <find>full</find>
+      <find>extract_inverse_triples</find>
+      <find>namespace</find>
+      <find>country of citizenship</find>
+      <find>part of</find>
+      <find>part of the seriespart of the series</find>
+      <find>concept:jobposition</find>
+      <find>inter</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ZS-KGC.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/utils.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/class_hierarchy.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/attribute_hierarchy.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/class_attribute_awa.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/class_attribute_imagenet.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_en_subgraph.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_subgraph_extraction.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/literals.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/test.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_sameAs.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/concept_repeat_check.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_alignment_extraction.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_entity_alignment.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_repeat_check.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/output_data/disjointness_cls_atts.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/disjointness_cls_atts.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/disjointness_classes.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_NELL/extract_RDFS_axioms.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_NELL/extract_RDFS_literals.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_NELL/extract_OWL_axioms.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_NELL/extract_OWL_composition.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/lookup_sc_triples.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/test.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/output2CSV.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/parse_rels_info.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/lookup_rels_info.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/lookup_literals.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/parse_rels_info_owl.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/extract_OWL_composition.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/data_process/output2CSV.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/KG/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output2CSV.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output2CSV.py" />
+        <option value="$PROJECT_DIR$/ZS-IMGC/KG/data_process/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/README.md" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_RDFS_literals.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_composition.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/count.py" />
+        <option value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py" />
+        <option value="$PROJECT_DIR$/ZS-RE/External_Knowledge/Rules/re-origanization.py" />
+        <option value="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/README.md" />
+        <option value="$PROJECT_DIR$/ZS-RE/External_Knowledge/KGs/output2CSV.py" />
+        <option value="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2CSV.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1379" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-IMGC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="KG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
+              <item name="Ontological_Schema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
+              <item name="Ontological_Schema" type="462c0819:PsiDirectoryNode" />
+              <item name="data_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-KGC" type="462c0819:PsiDirectoryNode" />
+              <item name="Ontological_Schema" type="462c0819:PsiDirectoryNode" />
+              <item name="data_process" type="462c0819:PsiDirectoryNode" />
+              <item name="process_code_NELL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-RE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-RE" type="462c0819:PsiDirectoryNode" />
+              <item name="External_Knowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-RE" type="462c0819:PsiDirectoryNode" />
+              <item name="External_Knowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="data_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS-RE" type="462c0819:PsiDirectoryNode" />
+              <item name="ZeroRel" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process" />
+      <recent name="$PROJECT_DIR$/ZS-KGC/Ontological_Schema" />
+      <recent name="$PROJECT_DIR$/ZS-IMGC/KG" />
+      <recent name="$PROJECT_DIR$/ZS-KGC/data_process" />
+      <recent name="$PROJECT_DIR$/ZS-IMGC/data_process" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.output2CSV">
+    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Resources_for_KZSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract_OWL_axioms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Resources_for_KZSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract_OWL_composition (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Resources_for_KZSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="output2CSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Resources_for_KZSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZS-RE/External_Knowledge/KGs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2CSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="re-origanization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Resources_for_KZSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZS-RE/External_Knowledge/Rules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZS-RE/External_Knowledge/Rules/re-origanization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.extract_OWL_composition (2)" />
+      <item itemvalue="Python.extract_OWL_axioms" />
+      <item itemvalue="Python.re-origanization" />
+      <item itemvalue="Python.count" />
+      <item itemvalue="Python.output2CSV" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.output2CSV" />
+        <item itemvalue="Python.re-origanization" />
+        <item itemvalue="Python.count" />
+        <item itemvalue="Python.extract_OWL_axioms" />
+        <item itemvalue="Python.extract_OWL_composition (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="" />
+      <created>1623819340999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623819340999</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1623820405618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623820405618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="IMGC">
+      <created>1623831596684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831596684</updated>
+    </task>
+    <task id="LOCAL-00006" summary="KGs and Schemas update">
+      <created>1623902779737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623902779737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ReadMe update">
+      <created>1623904170017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623904170017</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ReadMe update">
+      <created>1623904191783</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623904191783</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ReadMe update">
+      <created>1623904208158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623904208158</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ReadMe update">
+      <created>1623904496571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623904496571</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ReadMe update">
+      <created>1623905005835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623905005835</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ZSL datasets update">
+      <created>1623905821667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623905821667</updated>
+    </task>
+    <task id="LOCAL-00013" summary="README update">
+      <created>1623905913299</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623905913299</updated>
+    </task>
+    <task id="LOCAL-00014" summary="README update">
+      <created>1624024233317</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624024233317</updated>
+    </task>
+    <task id="LOCAL-00015" summary="README update">
+      <created>1624025034481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624025034481</updated>
+    </task>
+    <task id="LOCAL-00016" summary="README update">
+      <created>1624025244820</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624025244820</updated>
+    </task>
+    <task id="LOCAL-00017" summary="README update">
+      <created>1624025852539</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624025852539</updated>
+    </task>
+    <task id="LOCAL-00018" summary="README update">
+      <created>1624027312727</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624027312727</updated>
+    </task>
+    <task id="LOCAL-00019" summary="README update">
+      <created>1624028883453</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624028883453</updated>
+    </task>
+    <task id="LOCAL-00020" summary="README update">
+      <created>1624028992971</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624028992971</updated>
+    </task>
+    <task id="LOCAL-00021" summary="README update">
+      <created>1624118367696</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624118367696</updated>
+    </task>
+    <task id="LOCAL-00022" summary="README update">
+      <created>1624118494847</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624118494847</updated>
+    </task>
+    <task id="LOCAL-00023" summary="README update">
+      <created>1624118766480</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624118766480</updated>
+    </task>
+    <task id="LOCAL-00024" summary="README update">
+      <created>1624118969311</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624118969311</updated>
+    </task>
+    <task id="LOCAL-00025" summary="README update">
+      <created>1624119160586</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1624119160586</updated>
+    </task>
+    <task id="LOCAL-00026" summary="README update">
+      <created>1624119239300</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1624119239300</updated>
+    </task>
+    <task id="LOCAL-00027" summary="README update">
+      <created>1624119348403</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1624119348403</updated>
+    </task>
+    <task id="LOCAL-00028" summary="README update">
+      <created>1624119493557</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624119493557</updated>
+    </task>
+    <task id="LOCAL-00029" summary="README update">
+      <created>1624119553793</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1624119553793</updated>
+    </task>
+    <task id="LOCAL-00030" summary="README update">
+      <created>1624178725307</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1624178725307</updated>
+    </task>
+    <task id="LOCAL-00031" summary="README update">
+      <created>1624181521268</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1624181521268</updated>
+    </task>
+    <task id="LOCAL-00032" summary="README update">
+      <created>1624183200470</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1624183200470</updated>
+    </task>
+    <task id="LOCAL-00033" summary="README update">
+      <created>1624183530517</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624183530517</updated>
+    </task>
+    <task id="LOCAL-00034" summary="README update">
+      <created>1624184207840</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1624184207840</updated>
+    </task>
+    <task id="LOCAL-00035" summary="README update">
+      <created>1624185875012</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1624185875012</updated>
+    </task>
+    <task id="LOCAL-00036" summary="README update">
+      <created>1624185894613</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1624185894613</updated>
+    </task>
+    <task id="LOCAL-00037" summary="README update">
+      <created>1624186067604</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1624186067604</updated>
+    </task>
+    <task id="LOCAL-00038" summary="README update">
+      <created>1624186427449</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1624186427449</updated>
+    </task>
+    <task id="LOCAL-00039" summary="README update">
+      <created>1624190252379</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1624190252379</updated>
+    </task>
+    <task id="LOCAL-00040" summary="README update">
+      <created>1624190445390</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1624190445390</updated>
+    </task>
+    <task id="LOCAL-00041" summary="README update">
+      <created>1624191565863</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1624191565863</updated>
+    </task>
+    <task id="LOCAL-00042" summary="README update">
+      <created>1624191739857</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1624191739857</updated>
+    </task>
+    <task id="LOCAL-00043" summary="README update">
+      <created>1624192592204</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1624192592206</updated>
+    </task>
+    <task id="LOCAL-00044" summary="README update">
+      <created>1624286977586</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1624286977586</updated>
+    </task>
+    <task id="LOCAL-00045" summary="README update">
+      <created>1624287054706</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1624287054706</updated>
+    </task>
+    <task id="LOCAL-00046" summary="ZS-RE data update">
+      <created>1636081461908</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1636081461909</updated>
+    </task>
+    <task id="LOCAL-00047" summary="README update">
+      <created>1636100615426</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1636100615426</updated>
+    </task>
+    <task id="LOCAL-00048" summary="README update">
+      <created>1636101033060</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101033060</updated>
+    </task>
+    <task id="LOCAL-00049" summary="README update">
+      <created>1636101232544</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101232544</updated>
+    </task>
+    <task id="LOCAL-00050" summary="README update">
+      <created>1636103315692</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1636103315692</updated>
+    </task>
+    <task id="LOCAL-00051" summary="README update">
+      <created>1636106324377</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1636106324377</updated>
+    </task>
+    <task id="LOCAL-00052" summary="README update">
+      <created>1636114213984</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1636114213984</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1379" height="875" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20568436" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962604" weight="0.35941646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50112194" side_tool="true" weight="0.32891247" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="IMGC" />
+    <MESSAGE value="KGs and Schemas update" />
+    <MESSAGE value="ReadMe update" />
+    <MESSAGE value="ZSL datasets update" />
+    <MESSAGE value="ZS-RE data update" />
+    <MESSAGE value="README update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ZS-KGC.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/attribute_hierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/data_process/test.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_repeat_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/disjointness_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/disjointness_cls_atts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/data_process/utils.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_alignment_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_hierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_entity_alignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki/test.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_attribute_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_sc_triples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info_owl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/README.md" />
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/README.md" />
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/README.md" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/KG222-AwA.csv" />
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_en_subgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_literals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="62" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_rels_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/690644531/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="4940" column="8" selection-start-line="4940" selection-start-column="8" selection-end-line="4940" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/literals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_attribute_awa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/count.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_RDFS_literals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/rules.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/Rules/re-origanization.py" />
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output2CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_composition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-IMGC/KG/data_process/output2CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="11" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

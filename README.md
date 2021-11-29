@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction
-This repository includes resources for our submission entitled "**[Benchmarking Knowledge-driven Zero-shot Learning](JOWS-S.pdf.pdf)**".
+This repository includes resources for our submission entitled "**[Benchmarking Knowledge-driven Zero-shot Learning](https://arxiv.org/pdf/2106.15047.pdf)**".
 In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**), zero-shot relation extraction (**ZS-RE**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
 including **6 ZSL datasets and their corresponding KGs**,
 with the goal of providing standard benchmarks and ranging semantics settings for studying and comparing different KG-based ZSL methods.
