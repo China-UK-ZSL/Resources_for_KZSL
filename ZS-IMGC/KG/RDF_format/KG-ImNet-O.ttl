@@ -1,0 +1,6549 @@
+@prefix cn: <http://www.semanticweb.org/ontologies/ConceptNet#> .
+@prefix imnet-o: <http://www.semanticweb.org/ontologies/ImNet-O#> .
+@prefix ns1: <http://www.semanticweb.org/ontologies/ConceptNet#dbpedia/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cn:abgoosht rdfs:subClassOf cn:food .
+
+cn:absinthe rdfs:subClassOf cn:green .
+
+cn:achene rdfs:subClassOf cn:fruit .
+
+cn:achromatic_color rdfs:subClassOf cn:color .
+
+cn:acid rdfs:subClassOf cn:liquid .
+
+cn:acini_di_pepe rdfs:subClassOf cn:food .
+
+cn:acorn rdfs:subClassOf cn:fruit .
+
+cn:adams_pearmain_apple rdfs:subClassOf cn:fruit .
+
+cn:additive rdfs:subClassOf cn:substance .
+
+cn:administrative_county_of_england rdfs:subClassOf cn:state .
+
+cn:adobo rdfs:subClassOf cn:dish .
+
+cn:aerobic_thing rdfs:subClassOf cn:living_thing .
+
+cn:affogato rdfs:subClassOf cn:food .
+
+cn:afghanistan rdfs:subClassOf cn:state .
+
+cn:afikoman cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:african_oil_palm_fruit rdfs:subClassOf cn:fruit .
+
+cn:agaricaceae rdfs:subClassOf cn:fungus .
+
+cn:agaricales rdfs:subClassOf cn:fungus .
+
+cn:agaricomycetes rdfs:subClassOf cn:fungus .
+
+cn:agaricus rdfs:subClassOf cn:fungus .
+
+cn:agaricus_arvensis rdfs:subClassOf cn:fungus .
+
+cn:agaricus_campestris rdfs:subClassOf cn:fungus .
+
+cn:agnolotti rdfs:subClassOf cn:food .
+
+cn:ajika rdfs:subClassOf cn:food .
+
+cn:ajvar rdfs:subClassOf cn:food .
+
+cn:akutaq cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:alabama rdfs:subClassOf cn:state .
+
+cn:alaska rdfs:subClassOf cn:state .
+
+cn:albatrellus_ovinus rdfs:subClassOf cn:fungus .
+
+cn:alcohol rdfs:subClassOf cn:liquid .
+
+cn:all_beverages cn:hasProperty cn:liquid .
+
+cn:alligator_pear rdfs:subClassOf cn:fruit,
+        cn:living_thing .
+
+cn:alloclavaria rdfs:subClassOf cn:fungus .
+
+cn:ally rdfs:subClassOf cn:state .
+
+cn:almond rdfs:subClassOf cn:fruit .
+
+cn:almost_all_metals cn:hasProperty cn:solid .
+
+cn:aloo_gobi rdfs:subClassOf cn:food .
+
+cn:alphabet_soup rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:amanita rdfs:subClassOf cn:fungus .
+
+cn:amanita_caesarea rdfs:subClassOf cn:fungus .
+
+cn:amanita_phalloides rdfs:subClassOf cn:fungus .
+
+cn:amanita_verna rdfs:subClassOf cn:fungus .
+
+cn:amber rdfs:subClassOf cn:yellow .
+
+cn:ambrosia rdfs:subClassOf cn:dessert .
+
+cn:ambrosia_apple rdfs:subClassOf cn:fruit .
+
+cn:american_parasol rdfs:subClassOf cn:lepiota .
+
+cn:american_state rdfs:subClassOf cn:state .
+
+cn:amok rdfs:subClassOf cn:food .
+
+cn:amplexicaul_leaf rdfs:subClassOf cn:leaf .
+
+cn:anadama_bread rdfs:subClassOf cn:bread .
+
+cn:anaerobic_thing rdfs:subClassOf cn:living_thing .
+
+cn:anchovy_pizza rdfs:subClassOf cn:pizza .
+
+cn:andouille cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food .
+
+cn:anellini rdfs:subClassOf cn:food .
+
+cn:angel_food_cake rdfs:subClassOf cn:food .
+
+cn:angel_wings rdfs:subClassOf cn:food .
+
+cn:angola rdfs:subClassOf cn:state .
+
+cn:angularity rdfs:subClassOf cn:shape .
+
+cn:animal cn:hasA cn:meat ;
+    cn:usedFor cn:food ;
+    rdfs:subClassOf cn:organism .
+
+cn:animal_or_body_part rdfs:subClassOf cn:living_thing .
+
+cn:animals rdfs:subClassOf cn:food .
+
+cn:annin_tofu rdfs:subClassOf cn:food .
+
+cn:another_way_to_say_fruit rdfs:subClassOf cn:fruit .
+
+cn:antidoron cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:antigua_and_barbuda rdfs:subClassOf cn:state .
+
+cn:antipasto rdfs:subClassOf cn:food .
+
+cn:aphanomyces_invadans rdfs:subClassOf cn:fungus .
+
+cn:appenzeller_cheese rdfs:subClassOf cn:cheese .
+
+cn:appetizer rdfs:subClassOf cn:course .
+
+cn:apple cn:hasProperty cn:green ;
+    cn:usedFor cn:dessert ;
+    rdfs:subClassOf cn:fruit .
+
+cn:apple_butter rdfs:subClassOf cn:food .
+
+cn:apple_strudel rdfs:subClassOf cn:food .
+
+cn:apples cn:hasProperty cn:green,
+        cn:yellow .
+
+cn:apples_and_bananas rdfs:subClassOf cn:fruit .
+
+cn:apples_and_lizards cn:hasProperty cn:yellow .
+
+cn:applesauce rdfs:subClassOf cn:dish .
+
+cn:apricot rdfs:subClassOf cn:fruit .
+
+cn:aqua rdfs:subClassOf cn:color .
+
+cn:arepa rdfs:subClassOf cn:food .
+
+cn:argentina rdfs:subClassOf cn:state .
+
+cn:arizona rdfs:subClassOf cn:state .
+
+cn:arkansas rdfs:subClassOf cn:state .
+
+cn:arm_extended_position rdfs:subClassOf cn:living_thing .
+
+cn:armillaria rdfs:subClassOf cn:fungus .
+
+cn:armillaria_caligata rdfs:subClassOf cn:agaric .
+
+cn:armillaria_ponderosa rdfs:subClassOf cn:agaric .
+
+cn:armillaria_zelleri rdfs:subClassOf cn:agaric .
+
+cn:arroz_con_pollo rdfs:subClassOf cn:food .
+
+cn:artichoke rdfs:subClassOf cn:vegetable .
+
+cn:artichoke_heart rdfs:subClassOf cn:vegetable .
+
+cn:artichokes cn:hasProperty cn:green .
+
+cn:ascochyta rdfs:subClassOf cn:fungus .
+
+cn:ascomycete rdfs:subClassOf cn:fungus .
+
+cn:ascomycota rdfs:subClassOf cn:fungus .
+
+cn:asexual_organism rdfs:subClassOf cn:living_thing .
+
+cn:asparagus rdfs:subClassOf cn:vegetable .
+
+cn:asparagus_stalk rdfs:subClassOf cn:vegetable .
+
+cn:aspergillus rdfs:subClassOf cn:fungus .
+
+cn:aspergillus_fumigatus rdfs:subClassOf cn:fungus .
+
+cn:asymptomatic_thing rdfs:subClassOf cn:living_thing .
+
+cn:at_body_temperature_water cn:hasProperty cn:liquid .
+
+cn:at_risk rdfs:subClassOf cn:living_thing .
+
+cn:aubergine rdfs:subClassOf cn:color,
+        cn:fruit .
+
+cn:aureolin_thing rdfs:subClassOf cn:yellow .
+
+cn:auriculariales rdfs:subClassOf cn:fungus .
+
+cn:auriscalpiaceae rdfs:subClassOf cn:fungus .
+
+cn:auriscalpium rdfs:subClassOf cn:fungus .
+
+cn:australian_state rdfs:subClassOf cn:state .
+
+cn:austrian_state rdfs:subClassOf cn:state .
+
+cn:autonomous_community rdfs:subClassOf cn:state .
+
+cn:azure rdfs:subClassOf cn:color .
+
+cn:ba_wan rdfs:subClassOf cn:food .
+
+cn:babka rdfs:subClassOf cn:food .
+
+cn:bacon_and_eggs rdfs:subClassOf cn:dish .
+
+cn:bacon_lettuce_tomato_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:bacteria rdfs:subClassOf cn:organism .
+
+cn:bagel rdfs:subClassOf cn:bread,
+        cn:food,
+        cn:roll .
+
+cn:bagna_càuda rdfs:subClassOf cn:food .
+
+cn:baguette cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food,
+        cn:loaf_of_bread .
+
+cn:bahamas rdfs:subClassOf cn:state .
+
+cn:baked_alaska cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:bakewell_tart rdfs:subClassOf cn:food .
+
+cn:baking_cake cn:usedFor cn:dessert .
+
+cn:baking_oven cn:usedFor cn:bread,
+        cn:pizza .
+
+cn:baklava rdfs:subClassOf cn:food .
+
+cn:bakso rdfs:subClassOf cn:food .
+
+cn:balalaika cn:hasProperty cn:triangular .
+
+cn:ball cn:capableOf cn:roll ;
+    cn:hasProperty cn:circular .
+
+cn:balloon cn:usedFor cn:decoration .
+
+cn:balsamic_vinegar rdfs:subClassOf cn:food .
+
+cn:bamboo rdfs:subClassOf cn:solid .
+
+cn:bamboo_shoot rdfs:subClassOf cn:vegetable .
+
+cn:bamiyeh rdfs:subClassOf cn:food .
+
+cn:banana cn:hasProperty cn:yellow ;
+    cn:instanceOf cn:fruit ;
+    rdfs:subClassOf cn:dessert,
+        cn:food,
+        cn:yellow .
+
+cn:banana_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:banana_peels cn:hasProperty cn:yellow .
+
+cn:banana_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:banana_split cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:bananas cn:hasProperty cn:yellow .
+
+cn:banbury_cake rdfs:subClassOf cn:food .
+
+cn:banchan rdfs:subClassOf cn:food .
+
+cn:bangladesh rdfs:subClassOf cn:state .
+
+cn:banku rdfs:subClassOf cn:food .
+
+cn:bannana rdfs:subClassOf cn:fruit .
+
+cn:bannock rdfs:subClassOf cn:food .
+
+cn:bap rdfs:subClassOf cn:bread .
+
+cn:barbados rdfs:subClassOf cn:state .
+
+cn:barbecue rdfs:subClassOf cn:dish .
+
+cn:barbecued_spareribs rdfs:subClassOf cn:dish .
+
+cn:barbecued_wing rdfs:subClassOf cn:dish .
+
+cn:barmbrack rdfs:subClassOf cn:bread .
+
+cn:baseball_cap rdfs:subClassOf cn:cap .
+
+cn:baseball_field cn:hasProperty cn:green .
+
+cn:basic_tenets_of_global_warming cn:hasProperty cn:solid .
+
+cn:basidiocarp cn:partOf cn:basidiomycete .
+
+cn:basidiomycota rdfs:subClassOf cn:fungus .
+
+cn:basket_with_handle cn:usedFor cn:decoration .
+
+cn:bathing_cap rdfs:subClassOf cn:cap .
+
+cn:battenberg_cake rdfs:subClassOf cn:food .
+
+cn:bavarian_cream cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:bavette rdfs:subClassOf cn:food .
+
+cn:bay_leaf rdfs:subClassOf cn:leaf .
+
+cn:bay_window cn:usedFor cn:decoration .
+
+cn:bbq rdfs:subClassOf cn:food .
+
+cn:beach_strawberry rdfs:subClassOf cn:strawberry .
+
+cn:bean rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:bean_pod rdfs:subClassOf cn:vegetable .
+
+cn:beanbag_chair cn:usedFor cn:decoration .
+
+cn:beanie_baby cn:usedFor cn:decoration .
+
+cn:bear_claw rdfs:subClassOf cn:food .
+
+cn:beard_skinny rdfs:subClassOf cn:living_thing .
+
+cn:beef rdfs:subClassOf cn:food,
+        cn:meat .
+
+cn:beef_bourguignonne rdfs:subClassOf cn:dish .
+
+cn:beef_burrito rdfs:subClassOf cn:burrito .
+
+cn:beef_stroganoff rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:beef_wellington rdfs:subClassOf cn:dish .
+
+cn:beer cn:hasProperty cn:liquid .
+
+cn:beer_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:beet rdfs:subClassOf cn:vegetable .
+
+cn:beets cn:hasProperty cn:purple .
+
+cn:beignet rdfs:subClassOf cn:food .
+
+cn:belarusian_state rdfs:subClassOf cn:state .
+
+cn:belgium rdfs:subClassOf cn:state .
+
+cn:believe_time cn:hasProperty cn:circular .
+
+cn:bell_peppers rdfs:subClassOf cn:vegetables .
+
+cn:beret rdfs:subClassOf cn:cap .
+
+cn:berliner rdfs:subClassOf cn:food .
+
+cn:betel_leaf rdfs:subClassOf cn:leaf .
+
+cn:bhajji rdfs:subClassOf cn:food .
+
+cn:biangbiang_noodles rdfs:subClassOf cn:food .
+
+cn:bigoli rdfs:subClassOf cn:food .
+
+cn:bigos rdfs:subClassOf cn:food .
+
+cn:billibi rdfs:subClassOf cn:soup .
+
+cn:biologically_viable_thing rdfs:subClassOf cn:living_thing .
+
+cn:bird rdfs:subClassOf cn:meat .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#bird's_nest_fungus> rdfs:subClassOf cn:fungus .
+
+cn:biriani rdfs:subClassOf cn:dish .
+
+cn:biryani rdfs:subClassOf cn:food .
+
+cn:biscotti rdfs:subClassOf cn:food .
+
+cn:biscuit rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:bisque cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:bitok rdfs:subClassOf cn:dish .
+
+cn:bitter_chocolate rdfs:subClassOf cn:chocolate .
+
+cn:bittersweet_chocolate rdfs:subClassOf cn:chocolate .
+
+cn:black rdfs:subClassOf cn:color .
+
+cn:black_currant rdfs:subClassOf cn:living_thing .
+
+cn:black_forest_cake rdfs:subClassOf cn:food .
+
+cn:black_peppercorn rdfs:subClassOf cn:fruit .
+
+cn:black_root_rot_fungus rdfs:subClassOf cn:fungus .
+
+cn:black_rot rdfs:subClassOf cn:fungus .
+
+cn:black_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:blackberry rdfs:subClassOf cn:fruit .
+
+cn:blade rdfs:subClassOf cn:leaf .
+
+cn:blancmange cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:blasiphalia rdfs:subClassOf cn:fungus .
+
+cn:blastocladiomycota rdfs:subClassOf cn:fungus .
+
+cn:blastomycete rdfs:subClassOf cn:fungus .
+
+cn:bleu rdfs:subClassOf cn:cheese .
+
+cn:blintz rdfs:subClassOf cn:food .
+
+cn:blood cn:hasProperty cn:liquid ;
+    rdfs:subClassOf cn:liquid .
+
+cn:blood_sausage rdfs:subClassOf cn:food,
+        cn:sausage .
+
+cn:blt rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:blue rdfs:subClassOf cn:color .
+
+cn:blue_cheese rdfs:subClassOf cn:cheese .
+
+cn:blueberries rdfs:subClassOf cn:food .
+
+cn:blueberry rdfs:subClassOf cn:fruit .
+
+cn:bluish_green rdfs:subClassOf cn:green .
+
+cn:blusher rdfs:subClassOf cn:fungus .
+
+cn:blushing_mushroom rdfs:subClassOf cn:agaric .
+
+cn:bobotie rdfs:subClassOf cn:food .
+
+cn:bockwurst rdfs:subClassOf cn:food .
+
+cn:body cn:usedFor cn:food .
+
+cn:boiled_dinner rdfs:subClassOf cn:dish .
+
+cn:boiled_egg rdfs:subClassOf cn:dish .
+
+cn:bok_choy rdfs:subClassOf cn:cabbage .
+
+cn:boletaceae rdfs:subClassOf cn:fungus .
+
+cn:bolete rdfs:subClassOf cn:fungus .
+
+cn:boletus rdfs:subClassOf cn:fungus .
+
+cn:boletus_edulis rdfs:subClassOf cn:fungus .
+
+cn:bologna rdfs:subClassOf cn:sausage .
+
+cn:bomb rdfs:subClassOf cn:object .
+
+cn:bomber rdfs:subClassOf cn:sandwich .
+
+cn:book rdfs:subClassOf cn:object .
+
+cn:book_end cn:usedFor cn:decoration .
+
+cn:borani rdfs:subClassOf cn:food .
+
+cn:border rdfs:subClassOf cn:part .
+
+cn:borsch rdfs:subClassOf cn:soup .
+
+cn:borscht cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:bosintang rdfs:subClassOf cn:food .
+
+cn:bosna cn:instanceOf cn:sandwich ;
+    rdfs:subClassOf cn:food .
+
+cn:boston_baked_beans rdfs:subClassOf cn:dish .
+
+cn:boston_cream_pie cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:botargo rdfs:subClassOf cn:food .
+
+cn:both cn:usedFor cn:color .
+
+cn:both_cabbage_and_tomatoes rdfs:subClassOf cn:food .
+
+cn:both_muffins_and_celery rdfs:subClassOf cn:food .
+
+cn:both_radishes_and_peas rdfs:subClassOf cn:vegetables .
+
+cn:both_salad_and_pizza rdfs:subClassOf cn:food .
+
+cn:botswana rdfs:subClassOf cn:state .
+
+cn:bottle cn:hasA cn:liquid .
+
+cn:bottle_green rdfs:subClassOf cn:green .
+
+cn:bottom_rot_fungus rdfs:subClassOf cn:fungus .
+
+cn:bouillabaisse rdfs:subClassOf cn:food .
+
+cn:boule cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:bourbon_biscuit rdfs:subClassOf cn:food .
+
+cn:bovine_calf_flesh rdfs:subClassOf cn:meat .
+
+cn:bovine_calf_meat rdfs:subClassOf cn:meat .
+
+cn:bovine_flesh rdfs:subClassOf cn:meat .
+
+cn:bovine_meat rdfs:subClassOf cn:meat .
+
+cn:bowl cn:usedFor cn:soup .
+
+cn:braeburn_apple rdfs:subClassOf cn:fruit .
+
+cn:bratwurst cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food .
+
+cn:braunschweiger cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food .
+
+cn:brazilian_state rdfs:subClassOf cn:state .
+
+cn:bread_crumb rdfs:subClassOf cn:bread .
+
+cn:bread_crumbs rdfs:subClassOf cn:food .
+
+cn:bread_mold rdfs:subClassOf cn:fungus .
+
+cn:bread_pudding rdfs:subClassOf cn:food .
+
+cn:bread_roll cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:breadstick cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:breadstuff rdfs:subClassOf cn:foodstuff .
+
+cn:breakfast_food rdfs:subClassOf cn:food .
+
+cn:breakfast_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:brettanomyces_bruxellensis rdfs:subClassOf cn:fungus .
+
+cn:brewed_coffee rdfs:subClassOf cn:liquid .
+
+cn:brick_cheese rdfs:subClassOf cn:cheese .
+
+cn:brie rdfs:subClassOf cn:cheese .
+
+cn:brie_cheese rdfs:subClassOf cn:cheese .
+
+cn:bright_color rdfs:subClassOf cn:color .
+
+cn:brioche cn:instanceOf cn:bread,
+        cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:brittle rdfs:subClassOf cn:food .
+
+cn:broccoli cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:cruciferous_vegetable .
+
+cn:broccoli_and_beans rdfs:subClassOf cn:food .
+
+cn:broccoli_foodstuff rdfs:subClassOf cn:vegetable .
+
+cn:broccoli_rabe rdfs:subClassOf cn:cruciferous_vegetable,
+        cn:vegetable .
+
+cn:brocolli rdfs:subClassOf cn:vegetable .
+
+cn:bromine rdfs:subClassOf cn:liquid .
+
+cn:bronze_yellow rdfs:subClassOf cn:yellow .
+
+cn:broth rdfs:subClassOf cn:soup .
+
+cn:brown_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:brown_root_rot_fungus rdfs:subClassOf cn:fungus .
+
+cn:brownish_yellow rdfs:subClassOf cn:yellow .
+
+cn:brunei rdfs:subClassOf cn:state .
+
+cn:brunost rdfs:subClassOf cn:food .
+
+cn:brunswick_stew rdfs:subClassOf cn:food .
+
+cn:bruschetta rdfs:subClassOf cn:food .
+
+cn:brussel_sprout rdfs:subClassOf cn:vegetable .
+
+cn:brussels_sprout rdfs:subClassOf cn:cruciferous_vegetable .
+
+cn:brussels_sprouts rdfs:subClassOf cn:vegetables .
+
+cn:bubble_and_squeak rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:bubble_tea rdfs:subClassOf cn:food .
+
+cn:bucatini rdfs:subClassOf cn:food .
+
+cn:buckthorn_berry rdfs:subClassOf cn:fruit .
+
+cn:buffalo_nut rdfs:subClassOf cn:fruit .
+
+cn:buffalo_wing rdfs:subClassOf cn:dish .
+
+cn:buffet cn:usedFor cn:dessert,
+        cn:food .
+
+cn:buildings cn:hasProperty cn:solid .
+
+cn:buldak rdfs:subClassOf cn:food .
+
+cn:bulgaria rdfs:subClassOf cn:state .
+
+cn:bun rdfs:subClassOf cn:bread,
+        cn:roll .
+
+cn:burmese_state rdfs:subClassOf cn:state .
+
+cn:butter cn:hasProperty cn:yellow ;
+    rdfs:subClassOf cn:food,
+        cn:yellow .
+
+cn:butter_chicken rdfs:subClassOf cn:food .
+
+cn:butter_tea rdfs:subClassOf cn:food .
+
+cn:butterhead_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:buttermilk rdfs:subClassOf cn:yellow .
+
+cn:button_pink rdfs:subClassOf cn:pink .
+
+cn:butty rdfs:subClassOf cn:sandwich .
+
+cn:buying_fresh_fruits_and_vegetables cn:usedFor cn:food .
+
+cn:bánh_mì cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:bánh_xèo rdfs:subClassOf cn:food .
+
+cn:béarnaise_sauce rdfs:subClassOf cn:food .
+
+cn:béchamel_sauce rdfs:subClassOf cn:food .
+
+cn:cabécou rdfs:subClassOf cn:cheese .
+
+cn:caerphilly rdfs:subClassOf cn:cheese .
+
+cn:caesar_salad rdfs:subClassOf cn:food .
+
+cn:café_au_lait rdfs:subClassOf cn:food .
+
+cn:cajun rdfs:subClassOf cn:food .
+
+cn:cake cn:instanceOf cn:dessert ;
+    cn:usedFor cn:dessert ;
+    rdfs:subClassOf cn:baked_goods,
+        cn:dessert,
+        cn:food .
+
+cn:california rdfs:subClassOf cn:state .
+
+cn:calvatia_gigantea rdfs:subClassOf cn:fungus .
+
+cn:camembert rdfs:subClassOf cn:cheese .
+
+cn:camembert_cheese rdfs:subClassOf cn:cheese .
+
+cn:cameroon rdfs:subClassOf cn:state .
+
+cn:campbell_soup rdfs:subClassOf cn:soup .
+
+cn:can cn:usedFor cn:food .
+
+cn:can_of_soda rdfs:subClassOf cn:food .
+
+cn:canada rdfs:subClassOf cn:state .
+
+cn:canadian_province rdfs:subClassOf cn:state .
+
+cn:canary_yellow rdfs:subClassOf cn:yellow .
+
+cn:candida rdfs:subClassOf cn:fungus .
+
+cn:candida_albicans rdfs:subClassOf cn:fungus .
+
+cn:candida_glabrata rdfs:subClassOf cn:fungus .
+
+cn:candida_krusei rdfs:subClassOf cn:fungus .
+
+cn:candida_parapsilosis rdfs:subClassOf cn:fungus .
+
+cn:candida_tropicalis rdfs:subClassOf cn:fungus .
+
+cn:candle cn:usedFor cn:decoration .
+
+cn:candy_cap rdfs:subClassOf cn:fungus .
+
+cn:canned_food rdfs:subClassOf cn:foodstuff .
+
+cn:cannelloni rdfs:subClassOf cn:food .
+
+cn:cannoli rdfs:subClassOf cn:food .
+
+cn:cantharellopsis rdfs:subClassOf cn:fungus .
+
+cn:canton_swiss rdfs:subClassOf cn:state .
+
+cn:capellini rdfs:subClassOf cn:food .
+
+cn:capirotada rdfs:subClassOf cn:food .
+
+cn:car cn:hasProperty cn:green .
+
+cn:car_part rdfs:subClassOf cn:part .
+
+cn:caramel cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:caraway_seed_bread rdfs:subClassOf cn:bread .
+
+cn:carbonado rdfs:subClassOf cn:meat .
+
+cn:carbonara rdfs:subClassOf cn:food .
+
+cn:carbonnade_flamande rdfs:subClassOf cn:dish .
+
+cn:cardoon rdfs:subClassOf cn:vegetable .
+
+cn:carnation rdfs:subClassOf cn:pink .
+
+cn:carpaccio rdfs:subClassOf cn:food .
+
+cn:carpet cn:usedFor cn:decoration .
+
+cn:carpeting cn:usedFor cn:decoration .
+
+cn:carrot rdfs:subClassOf cn:vegetable .
+
+cn:carrot_cake rdfs:subClassOf cn:food .
+
+cn:carrots cn:hasProperty cn:vegetables ;
+    rdfs:subClassOf cn:food .
+
+cn:cassava rdfs:subClassOf cn:vegetable .
+
+cn:casserole rdfs:subClassOf cn:dish .
+
+cn:cassoulet rdfs:subClassOf cn:food .
+
+cn:castella rdfs:subClassOf cn:food .
+
+cn:castello_toscana rdfs:subClassOf cn:cheese .
+
+cn:cat cn:desires cn:food ;
+    cn:hasPrerequisite cn:meat .
+
+cn:cat_tongue cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:cataphyll rdfs:subClassOf cn:leaf .
+
+cn:catfish_flesh rdfs:subClassOf cn:meat .
+
+cn:caul_fat rdfs:subClassOf cn:food .
+
+cn:cavatelli rdfs:subClassOf cn:food .
+
+cn:cd cn:hasProperty cn:solid .
+
+cn:celebrating cn:hasPrerequisite cn:food .
+
+cn:celery rdfs:subClassOf cn:vegetable .
+
+cn:cell cn:partOf cn:organism ;
+    rdfs:subClassOf cn:living_thing .
+
+cn:cellophane_noodles rdfs:subClassOf cn:food .
+
+cn:celtuce rdfs:subClassOf cn:lettuce .
+
+cn:cendol cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:cepelinai rdfs:subClassOf cn:food .
+
+cn:cereal_bowl rdfs:subClassOf cn:dish .
+
+cn:cereal_grain rdfs:subClassOf cn:fruit .
+
+cn:cetraria rdfs:subClassOf cn:fungus .
+
+cn:chaat rdfs:subClassOf cn:food .
+
+cn:chain cn:usedFor cn:decoration .
+
+cn:challah cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:champignon_cheese rdfs:subClassOf cn:cheese .
+
+cn:chapati rdfs:subClassOf cn:food .
+
+cn:characterization rdfs:subClassOf cn:living_thing .
+
+cn:chard rdfs:subClassOf cn:vegetable .
+
+cn:charlotte cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:chartreuse rdfs:subClassOf cn:color .
+
+cn:cheddar rdfs:subClassOf cn:cheese .
+
+cn:cheddar_cheese rdfs:subClassOf cn:cheese .
+
+cn:cheddar_pink rdfs:subClassOf cn:pink .
+
+cn:cheese_on_toast rdfs:subClassOf cn:food .
+
+cn:cheese_rind cn:partOf cn:cheese .
+
+cn:cheese_slice rdfs:subClassOf cn:cheese .
+
+cn:cheese_spread rdfs:subClassOf cn:cheese .
+
+cn:cheesecake cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:chef_salad rdfs:subClassOf cn:food .
+
+cn:cherry rdfs:subClassOf cn:fruit .
+
+cn:cherry_tomato rdfs:subClassOf cn:fruit .
+
+cn:cheshire_cheese rdfs:subClassOf cn:cheese .
+
+cn:chestnut rdfs:subClassOf cn:fruit .
+
+cn:chewing_gum rdfs:subClassOf cn:food .
+
+cn:chicago_deep_dish_pizza rdfs:subClassOf cn:pizza .
+
+cn:chicken cn:capableOf cn:food ;
+    rdfs:subClassOf cn:food,
+        cn:meat .
+
+cn:chicken_and_rice rdfs:subClassOf cn:dish .
+
+cn:chicken_cordon_bleu rdfs:subClassOf cn:dish .
+
+cn:chicken_feet rdfs:subClassOf cn:food .
+
+cn:chicken_kiev rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:chicken_marengo rdfs:subClassOf cn:dish .
+
+cn:chicken_meat rdfs:subClassOf cn:meat .
+
+cn:chicken_paprika rdfs:subClassOf cn:dish .
+
+cn:chicken_provencale rdfs:subClassOf cn:dish .
+
+cn:chicken_sandwich rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:chicken_soup rdfs:subClassOf cn:soup .
+
+cn:child cn:desires cn:ice_cream .
+
+cn:chili rdfs:subClassOf cn:dish .
+
+cn:chili_con_carne rdfs:subClassOf cn:food .
+
+cn:chili_relleno rdfs:subClassOf cn:course .
+
+cn:chilled_sweet_corn_soup rdfs:subClassOf cn:soup .
+
+cn:chilli_crab rdfs:subClassOf cn:food .
+
+cn:china_pink rdfs:subClassOf cn:pink .
+
+cn:chinese_cabbage rdfs:subClassOf cn:cabbage .
+
+cn:chinese_food_often cn:hasA cn:meat .
+
+cn:chinese_restaurant cn:usedFor cn:food .
+
+cn:chip rdfs:subClassOf cn:snack_food .
+
+cn:chip_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:chipolata rdfs:subClassOf cn:sausage .
+
+cn:chips rdfs:subClassOf cn:food .
+
+cn:chistorra rdfs:subClassOf cn:food .
+
+cn:chlorophyllum_molybdites rdfs:subClassOf cn:agaric,
+        cn:fungus .
+
+cn:choc_ice rdfs:subClassOf cn:chocolate_ice_cream .
+
+cn:chocolate_brownie rdfs:subClassOf cn:food .
+
+cn:chocolate_cake rdfs:subClassOf cn:food .
+
+cn:chocolate_candy rdfs:subClassOf cn:chocolate .
+
+cn:chocolate_liquor rdfs:subClassOf cn:chocolate .
+
+cn:chocolate_syrup rdfs:subClassOf cn:food .
+
+cn:chokecherry rdfs:subClassOf cn:fruit .
+
+cn:choker cn:usedFor cn:decoration .
+
+cn:chop_suey rdfs:subClassOf cn:dish .
+
+cn:chorizo cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food,
+        cn:sausage .
+
+cn:choux_pastry rdfs:subClassOf cn:food .
+
+cn:chow_mein rdfs:subClassOf cn:dish .
+
+cn:chowder rdfs:subClassOf cn:soup .
+
+cn:christmas_cake rdfs:subClassOf cn:food .
+
+cn:christmas_pudding rdfs:subClassOf cn:food .
+
+cn:chrome_green rdfs:subClassOf cn:green .
+
+cn:chronic rdfs:subClassOf cn:living_thing .
+
+cn:churro rdfs:subClassOf cn:food .
+
+cn:chutney rdfs:subClassOf cn:food .
+
+cn:chytridiomycota_division rdfs:subClassOf cn:fungus .
+
+cn:ciabatta rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:cinnabar_chanterelle rdfs:subClassOf cn:agaric .
+
+cn:cinnamon_bread rdfs:subClassOf cn:bread .
+
+cn:cinnamon_roll rdfs:subClassOf cn:food .
+
+cn:circle rdfs:subClassOf cn:oval,
+        cn:shape .
+
+cn:circumscribiption rdfs:subClassOf cn:state .
+
+cn:city_state rdfs:subClassOf cn:state .
+
+cn:cladonia rdfs:subClassOf cn:fungus .
+
+cn:cladonia_rangiferina rdfs:subClassOf cn:fungus .
+
+cn:class rdfs:subClassOf cn:course .
+
+cn:clathrus rdfs:subClassOf cn:fungus .
+
+cn:clavariaceae rdfs:subClassOf cn:fungus .
+
+cn:claviceps_purpurea rdfs:subClassOf cn:fungus .
+
+cn:clavicipitaceae rdfs:subClassOf cn:fungus .
+
+cn:clitocybe rdfs:subClassOf cn:fungus .
+
+cn:clitocybe_clavipes rdfs:subClassOf cn:agaric .
+
+cn:clitocybe_dealbata rdfs:subClassOf cn:agaric .
+
+cn:clitocybe_inornata rdfs:subClassOf cn:agaric .
+
+cn:clitocybe_irina rdfs:subClassOf cn:agaric .
+
+cn:clitocybe_nuda rdfs:subClassOf cn:fungus .
+
+cn:clitocybe_robusta rdfs:subClassOf cn:agaric .
+
+cn:clitocybe_subconnexa rdfs:subClassOf cn:agaric .
+
+cn:clock cn:usedFor cn:decoration .
+
+cn:cloth_linen cn:usedFor cn:decoration .
+
+cn:clothes cn:hasProperty cn:purple .
+
+cn:clover cn:hasProperty cn:green .
+
+cn:club_fungus rdfs:subClassOf cn:fungus .
+
+cn:club_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:clubroot_fungus rdfs:subClassOf cn:fungus .
+
+cn:cobbler rdfs:subClassOf cn:food .
+
+cn:cobnut rdfs:subClassOf cn:fruit .
+
+cn:coca_plant_leaf rdfs:subClassOf cn:leaf .
+
+cn:coccidioides_immitis rdfs:subClassOf cn:fungus .
+
+cn:coccidioides_posadasii rdfs:subClassOf cn:fungus .
+
+cn:cock_leekie rdfs:subClassOf cn:soup .
+
+cn:cocoa rdfs:subClassOf cn:foodstuff .
+
+cn:cocoa_butter rdfs:subClassOf cn:chocolate .
+
+cn:cocoa_pod rdfs:subClassOf cn:fruit .
+
+cn:cocoa_powder rdfs:subClassOf cn:chocolate .
+
+cn:coconut rdfs:subClassOf cn:food,
+        cn:fruit,
+        cn:living_thing .
+
+cn:coconut_milk rdfs:subClassOf cn:food .
+
+cn:coffee rdfs:subClassOf cn:liquid .
+
+cn:coffee_cake rdfs:subClassOf cn:food .
+
+cn:coffee_cherry rdfs:subClassOf cn:fruit .
+
+cn:coffee_fungus rdfs:subClassOf cn:fungus .
+
+cn:coil rdfs:subClassOf cn:shape .
+
+cn:cold_cuts rdfs:subClassOf cn:meat .
+
+cn:coleslaw rdfs:subClassOf cn:food .
+
+cn:collard_greens rdfs:subClassOf cn:vegetable,
+        cn:vegetables .
+
+cn:color_of_grass cn:hasProperty cn:green .
+
+cn:colorado rdfs:subClassOf cn:state .
+
+cn:coloration rdfs:subClassOf cn:color .
+
+cn:colour_of_hay cn:hasProperty cn:yellow .
+
+cn:colour_of_lawns cn:hasProperty cn:green .
+
+cn:column cn:usedFor cn:decoration .
+
+cn:comfit rdfs:subClassOf cn:food .
+
+cn:commodity rdfs:subClassOf cn:object .
+
+cn:common_marker_color cn:hasProperty cn:yellow .
+
+cn:commonwealth cn:similarTo cn:state ;
+    rdfs:subClassOf cn:state .
+
+cn:commonwealth_country rdfs:subClassOf cn:state .
+
+cn:commune rdfs:subClassOf cn:state .
+
+cn:communion_wafer rdfs:subClassOf cn:bread .
+
+cn:complexion rdfs:subClassOf cn:color .
+
+cn:compote cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:compound_fruit rdfs:subClassOf cn:fruit .
+
+cn:compound_leaf rdfs:subClassOf cn:leaf .
+
+cn:concavity rdfs:subClassOf cn:shape .
+
+cn:concentrate rdfs:subClassOf cn:foodstuff .
+
+cn:conchiglie rdfs:subClassOf cn:food .
+
+cn:concoction rdfs:subClassOf cn:foodstuff .
+
+cn:cone rdfs:subClassOf cn:shape .
+
+cn:congee rdfs:subClassOf cn:food .
+
+cn:congenital_thing rdfs:subClassOf cn:living_thing .
+
+cn:connecticut rdfs:subClassOf cn:state .
+
+cn:contest_shape rdfs:subClassOf cn:shape .
+
+cn:contortionion rdfs:subClassOf cn:living_thing .
+
+cn:contumyces rdfs:subClassOf cn:fungus .
+
+cn:convenience_food rdfs:subClassOf cn:food .
+
+cn:convexity rdfs:subClassOf cn:shape .
+
+cn:cook_meal cn:motivatedByGoal cn:food .
+
+cn:cookie rdfs:subClassOf cn:food .
+
+cn:cookies_and_pies rdfs:subClassOf cn:food .
+
+cn:cooking_dinner cn:hasPrerequisite cn:food .
+
+cn:cooking_meal cn:hasPrerequisite cn:food ;
+    cn:usedFor cn:food .
+
+cn:cooking_oil rdfs:subClassOf cn:yellow .
+
+cn:coprinus rdfs:subClassOf cn:fungus .
+
+cn:coprinus_comatus rdfs:subClassOf cn:fungus .
+
+cn:coq_au_vin rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:coquille rdfs:subClassOf cn:dish .
+
+cn:coquilles_saint_jacques rdfs:subClassOf cn:dish .
+
+cn:coral rdfs:subClassOf cn:pink .
+
+cn:coral_fungus rdfs:subClassOf cn:fungus .
+
+cn:cordon_bleu rdfs:subClassOf cn:food .
+
+cn:cordyceps rdfs:subClassOf cn:fungus .
+
+cn:corn rdfs:subClassOf cn:food,
+        cn:vegetable .
+
+cn:corn_borer cn:hasProperty cn:pink .
+
+cn:corn_bread rdfs:subClassOf cn:bread .
+
+cn:corn_chip rdfs:subClassOf cn:snack_food .
+
+cn:corn_flakes rdfs:subClassOf cn:food .
+
+cn:cornbread rdfs:subClassOf cn:food .
+
+cn:corncob cn:hasProperty cn:yellow .
+
+cn:coronation_chicken rdfs:subClassOf cn:food .
+
+cn:cortinarius rdfs:subClassOf cn:fungus .
+
+cn:cortinarius_armillatus rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_atkinsonianus rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_corrugatus rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_gentilis rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_mutabilis rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_semisanguineus rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_subfoetidus rdfs:subClassOf cn:agaric .
+
+cn:cortinarius_violaceus rdfs:subClassOf cn:agaric,
+        cn:fungus .
+
+cn:cos rdfs:subClassOf cn:lettuce .
+
+cn:cos_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:cottage_cheese rdfs:subClassOf cn:cheese .
+
+cn:cottage_pie rdfs:subClassOf cn:dish .
+
+cn:cottage_pink rdfs:subClassOf cn:pink .
+
+cn:cotton_boll rdfs:subClassOf cn:fruit .
+
+cn:cotton_candy rdfs:subClassOf cn:food .
+
+cn:cotylidia rdfs:subClassOf cn:fungus .
+
+cn:county cn:partOf cn:state ;
+    rdfs:subClassOf cn:state .
+
+cn:couscous rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:couverture rdfs:subClassOf cn:chocolate .
+
+cn:crabmeat rdfs:subClassOf cn:meat .
+
+cn:cracked_wheat_bread rdfs:subClassOf cn:bread .
+
+cn:cracker rdfs:subClassOf cn:bread,
+        cn:food,
+        cn:snack_food .
+
+cn:cranberries cn:hasProperty cn:purple .
+
+cn:cranberry rdfs:subClassOf cn:fruit .
+
+cn:cream rdfs:subClassOf cn:foodstuff .
+
+cn:cream_cheese rdfs:subClassOf cn:cheese .
+
+cn:creating_art cn:usedFor cn:decoration .
+
+cn:creature rdfs:subClassOf cn:living_thing .
+
+cn:crenate_leaf rdfs:subClassOf cn:leaf .
+
+cn:cretons rdfs:subClassOf cn:food .
+
+cn:crispbread rdfs:subClassOf cn:food .
+
+cn:crisphead_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:croissant rdfs:subClassOf cn:food .
+
+cn:crookedness rdfs:subClassOf cn:shape .
+
+cn:crop rdfs:subClassOf cn:living_thing .
+
+cn:crops rdfs:subClassOf cn:vegetables .
+
+cn:croque_monsieur cn:instanceOf cn:sandwich ;
+    rdfs:subClassOf cn:food .
+
+cn:croquembouche cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:croquette rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:cross_sections_of_cylinders cn:hasProperty cn:circular .
+
+cn:crouton rdfs:subClassOf cn:bread .
+
+cn:crumb cn:partOf cn:baked_goods .
+
+cn:cryptococcus rdfs:subClassOf cn:fungus .
+
+cn:cryptococcus_neoformans rdfs:subClassOf cn:fungus .
+
+cn:crème_brûlée cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:crème_caramel cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:crêpe rdfs:subClassOf cn:food .
+
+cn:cube rdfs:subClassOf cn:shape .
+
+cn:cubeb rdfs:subClassOf cn:fruit .
+
+cn:cucmber rdfs:subClassOf cn:vegetable .
+
+cn:cucumbers rdfs:subClassOf cn:vegetables .
+
+cn:cullen_skink cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:cumquat rdfs:subClassOf cn:fruit .
+
+cn:cup cn:hasA cn:liquid .
+
+cn:cupcake rdfs:subClassOf cn:food .
+
+cn:curd rdfs:subClassOf cn:foodstuff .
+
+cn:curry rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:curry_puff rdfs:subClassOf cn:food .
+
+cn:currywurst rdfs:subClassOf cn:food .
+
+cn:curvature rdfs:subClassOf cn:shape .
+
+cn:custard cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:cut rdfs:subClassOf cn:meat .
+
+cn:cyan rdfs:subClassOf cn:color .
+
+cn:cylinder rdfs:subClassOf cn:shape .
+
+cn:cyphellostereum rdfs:subClassOf cn:fungus .
+
+cn:cyprus rdfs:subClassOf cn:state .
+
+cn:czech_republic rdfs:subClassOf cn:state .
+
+cn:dacquoise cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:daffodils_flowers cn:hasProperty cn:yellow .
+
+cn:dainty rdfs:subClassOf cn:nutriment .
+
+cn:daisies cn:hasProperty cn:yellow .
+
+cn:damper rdfs:subClassOf cn:food .
+
+cn:dandelion_flower rdfs:subClassOf cn:yellow .
+
+cn:dandelion_green rdfs:subClassOf cn:leaf .
+
+cn:dango rdfs:subClassOf cn:food .
+
+cn:dark_bread rdfs:subClassOf cn:bread .
+
+cn:dark_color rdfs:subClassOf cn:color .
+
+cn:dark_meat rdfs:subClassOf cn:meat .
+
+cn:dart rdfs:subClassOf cn:object .
+
+cn:dartboard rdfs:subClassOf cn:object .
+
+cn:dashi cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:daube rdfs:subClassOf cn:food .
+
+cn:dave cn:desires cn:food .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#dead_man's_fingers> rdfs:subClassOf cn:fungus .
+
+cn:debrecener rdfs:subClassOf cn:food .
+
+cn:decoy rdfs:subClassOf cn:object .
+
+cn:deer_flesh rdfs:subClassOf cn:meat .
+
+cn:deer_mushroom rdfs:subClassOf cn:agaric .
+
+cn:dehydrated_food rdfs:subClassOf cn:foodstuff .
+
+cn:delaware rdfs:subClassOf cn:state .
+
+cn:deleware rdfs:subClassOf cn:state .
+
+cn:deli_slice rdfs:subClassOf cn:meat .
+
+cn:democrat cn:similarTo cn:green .
+
+cn:dentate_leaf rdfs:subClassOf cn:leaf .
+
+cn:deodorant rdfs:subClassOf cn:substance .
+
+cn:department rdfs:subClassOf cn:state .
+
+cn:dependency_inversion_principle rdfs:subClassOf cn:solid .
+
+cn:destroying_angel rdfs:subClassOf cn:agaric .
+
+cn:deuteromycota rdfs:subClassOf cn:fungus .
+
+cn:developing_country rdfs:subClassOf cn:state .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#devil's_food_cake> rdfs:subClassOf cn:food .
+
+cn:deviled_egg rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:dhokla rdfs:subClassOf cn:food .
+
+cn:diamond cn:usedFor cn:decoration .
+
+cn:dika_bread rdfs:subClassOf cn:food .
+
+cn:dikarya rdfs:subClassOf cn:fungus .
+
+cn:diminishing_own_hunger cn:hasPrerequisite cn:food .
+
+cn:disk cn:hasProperty cn:circular .
+
+cn:district rdfs:subClassOf cn:state .
+
+cn:division rdfs:subClassOf cn:state .
+
+cn:dobos_torte rdfs:subClassOf cn:food .
+
+cn:dodecahedron rdfs:subClassOf cn:solid .
+
+cn:dog cn:desires cn:food,
+        cn:meat .
+
+cn:dog_food rdfs:subClassOf cn:food .
+
+cn:doll cn:usedFor cn:decoration .
+
+cn:dolma rdfs:subClassOf cn:food .
+
+cn:dolmas rdfs:subClassOf cn:dish .
+
+cn:domestic_sheep_flesh rdfs:subClassOf cn:meat .
+
+cn:domesticated_pig_flesh rdfs:subClassOf cn:meat .
+
+cn:dominica rdfs:subClassOf cn:state .
+
+cn:dominion rdfs:subClassOf cn:state .
+
+cn:doner_kebab rdfs:subClassOf cn:food .
+
+cn:door cn:hasProperty cn:solid .
+
+cn:doormat cn:usedFor cn:decoration .
+
+cn:dosa rdfs:subClassOf cn:food .
+
+cn:double_gloucester rdfs:subClassOf cn:cheese .
+
+cn:doughnut rdfs:subClassOf cn:food .
+
+cn:douhua rdfs:subClassOf cn:food .
+
+cn:dry_rot rdfs:subClassOf cn:fungus .
+
+cn:duck rdfs:subClassOf cn:meat .
+
+cn:duck_meat rdfs:subClassOf cn:meat .
+
+cn:dulce_de_leche rdfs:subClassOf cn:food .
+
+cn:dullness rdfs:subClassOf cn:shape .
+
+cn:dumpling rdfs:subClassOf cn:dessert .
+
+cn:dundee_cake rdfs:subClassOf cn:food .
+
+cn:dushbara rdfs:subClassOf cn:food .
+
+cn:dutch_elm_fungus rdfs:subClassOf cn:fungus .
+
+cn:ear rdfs:subClassOf cn:fruit .
+
+cn:earn_living cn:motivatedByGoal cn:food .
+
+cn:earring cn:usedFor cn:decoration .
+
+cn:earthball rdfs:subClassOf cn:fungus .
+
+cn:earthstar rdfs:subClassOf cn:fungus .
+
+cn:earthtongue rdfs:subClassOf cn:fungus .
+
+cn:eat_dinner cn:motivatedByGoal cn:food .
+
+cn:eat_hamburger cn:motivatedByGoal cn:food,
+        cn:meat .
+
+cn:eat_in_restaurant cn:motivatedByGoal cn:food .
+
+cn:eat_on_tables rdfs:subClassOf cn:food .
+
+cn:eater rdfs:subClassOf cn:produce .
+
+cn:eating_breakfast cn:hasPrerequisite cn:food .
+
+cn:eating_breakfast_in_bed cn:hasPrerequisite cn:food .
+
+cn:eating_dinner cn:hasPrerequisite cn:food .
+
+cn:eating_hamburger cn:hasPrerequisite cn:hamburger .
+
+cn:eating_healthily cn:hasPrerequisite cn:fruit .
+
+cn:eating_ice_cream cn:usedFor cn:dessert,
+        cn:food .
+
+cn:eating_in_restaurant cn:hasPrerequisite cn:food .
+
+cn:eating_lunch cn:hasPrerequisite cn:food .
+
+cn:eating_quickly cn:hasPrerequisite cn:soup .
+
+cn:eating_vegetables cn:hasPrerequisite cn:vegetables ;
+    cn:usedFor cn:food .
+
+cn:edam rdfs:subClassOf cn:cheese .
+
+cn:edam_cheese rdfs:subClassOf cn:cheese .
+
+cn:edamame rdfs:subClassOf cn:course .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#edible_bird's_nest> rdfs:subClassOf cn:food .
+
+cn:edible_mushroom_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:edible_olive rdfs:subClassOf cn:vegetable .
+
+cn:eel rdfs:subClassOf cn:meat .
+
+cn:egg cn:usedFor cn:food ;
+    rdfs:subClassOf cn:food,
+        cn:foodstuff .
+
+cn:egg_roll rdfs:subClassOf cn:dish .
+
+cn:egg_salad rdfs:subClassOf cn:food .
+
+cn:egg_tart cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:egg_waffle rdfs:subClassOf cn:food .
+
+cn:egg_white rdfs:subClassOf cn:ingredient .
+
+cn:egg_yolk rdfs:subClassOf cn:ingredient .
+
+cn:eggdrop_soup rdfs:subClassOf cn:soup .
+
+cn:eggplant cn:hasProperty cn:purple ;
+    rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:eggs rdfs:subClassOf cn:food .
+
+cn:eggs_benedict rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:element rdfs:subClassOf cn:substance .
+
+cn:emarginate_leaf rdfs:subClassOf cn:leaf .
+
+cn:embryo rdfs:subClassOf cn:living_thing,
+        cn:organism .
+
+cn:emerald cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:green .
+
+cn:emirate rdfs:subClassOf cn:state .
+
+cn:empanada rdfs:subClassOf cn:food .
+
+cn:empedocles ns1:knownFor cn:matter .
+
+cn:emping rdfs:subClassOf cn:food .
+
+cn:enchilada rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:english_muffin cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:enokitake rdfs:subClassOf cn:fungus .
+
+cn:entertaining_people cn:hasPrerequisite cn:food .
+
+cn:entire_leaf rdfs:subClassOf cn:leaf .
+
+cn:entities cn:hasA cn:shape .
+
+cn:entoloma rdfs:subClassOf cn:fungus .
+
+cn:entoloma_aprile rdfs:subClassOf cn:agaric .
+
+cn:entoloma_lividum rdfs:subClassOf cn:agaric .
+
+cn:entolomataceae rdfs:subClassOf cn:fungus .
+
+cn:entree rdfs:subClassOf cn:course .
+
+cn:eparchy rdfs:subClassOf cn:state .
+
+cn:equatorial_guinea rdfs:subClassOf cn:state .
+
+cn:ergot rdfs:subClassOf cn:fungus .
+
+cn:erioderma_pedicellatum rdfs:subClassOf cn:fungus .
+
+cn:eritrea rdfs:subClassOf cn:state .
+
+cn:erose_leaf rdfs:subClassOf cn:leaf .
+
+cn:escalope_de_veau_orloff rdfs:subClassOf cn:dish .
+
+cn:escargot rdfs:subClassOf cn:meat .
+
+cn:estate cn:partOf cn:state .
+
+cn:esterházy_torte rdfs:subClassOf cn:food .
+
+cn:ethiopia rdfs:subClassOf cn:state .
+
+cn:euascomycetes rdfs:subClassOf cn:fungus .
+
+cn:eukaryote rdfs:subClassOf cn:organism .
+
+cn:eukaryoyte rdfs:subClassOf cn:organism .
+
+cn:eurotiales rdfs:subClassOf cn:fungus .
+
+cn:every_part rdfs:subClassOf cn:whole .
+
+cn:everything cn:madeOf cn:matter .
+
+cn:extended rdfs:subClassOf cn:living_thing .
+
+cn:eye_color rdfs:subClassOf cn:color .
+
+cn:eyes cn:hasProperty cn:green .
+
+cn:fabada_asturiana rdfs:subClassOf cn:food .
+
+cn:fairy_bread rdfs:subClassOf cn:food .
+
+cn:fairy_ring_mushroom rdfs:subClassOf cn:agaric .
+
+cn:fajita rdfs:subClassOf cn:food .
+
+cn:falafel rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:false_deathcap rdfs:subClassOf cn:agaric .
+
+cn:false_morel rdfs:subClassOf cn:fungus .
+
+cn:false_truffle rdfs:subClassOf cn:fungus .
+
+cn:farfalle rdfs:subClassOf cn:food .
+
+cn:farmland cn:partOf cn:state .
+
+cn:feather cn:usedFor cn:decoration .
+
+cn:feeding_family cn:hasPrerequisite cn:food .
+
+cn:feijoada rdfs:subClassOf cn:food .
+
+cn:felt_fungus rdfs:subClassOf cn:fungus .
+
+cn:fennel rdfs:subClassOf cn:vegetable .
+
+cn:feta_cheese rdfs:subClassOf cn:cheese .
+
+cn:fettuccine rdfs:subClassOf cn:food .
+
+cn:fig rdfs:subClassOf cn:fruit .
+
+cn:fig_leaf rdfs:subClassOf cn:leaf .
+
+cn:fiji rdfs:subClassOf cn:state .
+
+cn:file cn:usedFor cn:shape .
+
+cn:filet_mignon rdfs:subClassOf cn:food .
+
+cn:fillet rdfs:subClassOf cn:meat .
+
+cn:financier rdfs:subClassOf cn:food .
+
+cn:find_underground rdfs:subClassOf cn:fungus .
+
+cn:fireplace cn:usedFor cn:decoration .
+
+cn:fish cn:desires cn:food ;
+    rdfs:subClassOf cn:food,
+        cn:meat .
+
+cn:fish_and_chips rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:fish_stick rdfs:subClassOf cn:dish .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#fisherman's_soup> cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:fistulina_hepatica rdfs:subClassOf cn:fungus .
+
+cn:fistulinaceae rdfs:subClassOf cn:fungus .
+
+cn:flan rdfs:subClassOf cn:dessert .
+
+cn:flask cn:hasA cn:liquid .
+
+cn:flavorer rdfs:subClassOf cn:ingredient .
+
+cn:flax_fruit rdfs:subClassOf cn:fruit .
+
+cn:flexion rdfs:subClassOf cn:living_thing .
+
+cn:floating_island cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:floccose_chanterelle rdfs:subClassOf cn:agaric .
+
+cn:floral_leaf rdfs:subClassOf cn:leaf .
+
+cn:florida rdfs:subClassOf cn:state .
+
+cn:flour rdfs:subClassOf cn:foodstuff .
+
+cn:flower_of_hypericum_perforatum rdfs:subClassOf cn:yellow .
+
+cn:fluid rdfs:subClassOf cn:substance .
+
+cn:flute cn:hasProperty cn:solid .
+
+cn:fly_agaric rdfs:subClassOf cn:agaric,
+        cn:toadstool .
+
+cn:focaccia rdfs:subClassOf cn:food .
+
+cn:foie_gras rdfs:subClassOf cn:food .
+
+cn:following_recipe cn:causes cn:dish .
+
+cn:fondue rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:fontina_cheese rdfs:subClassOf cn:cheese .
+
+cn:foreign_country rdfs:subClassOf cn:state .
+
+cn:fortune_cookie rdfs:subClassOf cn:food .
+
+cn:fountain cn:usedFor cn:decoration .
+
+cn:fourth_of_july_tomato rdfs:subClassOf cn:fruit .
+
+cn:fraction cn:partOf cn:whole .
+
+cn:frangipane rdfs:subClassOf cn:food .
+
+cn:frank cn:partOf cn:hotdog ;
+    rdfs:subClassOf cn:sausage .
+
+cn:frankfurter_bun cn:partOf cn:hotdog .
+
+cn:freekeh rdfs:subClassOf cn:food .
+
+cn:fregula rdfs:subClassOf cn:food .
+
+cn:french_fries cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:french_loaf rdfs:subClassOf cn:loaf_of_bread .
+
+cn:french_onion_soup rdfs:subClassOf cn:food .
+
+cn:french_region rdfs:subClassOf cn:state .
+
+cn:french_toast rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:fresh_food rdfs:subClassOf cn:food .
+
+cn:fresh_vegetables cn:hasProperty cn:green .
+
+cn:fried_egg rdfs:subClassOf cn:dish .
+
+cn:fried_rice rdfs:subClassOf cn:dish .
+
+cn:frikadeller rdfs:subClassOf cn:food .
+
+cn:fringed_pink rdfs:subClassOf cn:pink .
+
+cn:frittata rdfs:subClassOf cn:dish .
+
+cn:fritter rdfs:subClassOf cn:food .
+
+cn:frog cn:hasProperty cn:green .
+
+cn:frog_legs rdfs:subClassOf cn:dish .
+
+cn:frogs cn:hasProperty cn:green .
+
+cn:frond rdfs:subClassOf cn:leaf .
+
+cn:front_garden cn:usedFor cn:decoration .
+
+cn:frozen_carbon_dioxide cn:hasProperty cn:solid .
+
+cn:frozen_custard rdfs:subClassOf cn:food,
+        cn:frozen_dessert .
+
+cn:frozen_liquid rdfs:subClassOf cn:solid .
+
+cn:frozen_pudding rdfs:subClassOf cn:frozen_dessert .
+
+cn:frozen_water cn:hasProperty cn:solid .
+
+cn:frozen_yogurt rdfs:subClassOf cn:food,
+        cn:frozen_dessert .
+
+cn:fruit_salad cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:fruitcake rdfs:subClassOf cn:food .
+
+cn:fruitlet rdfs:subClassOf cn:fruit .
+
+cn:frumenty rdfs:subClassOf cn:food .
+
+cn:fucker rdfs:subClassOf cn:object .
+
+cn:fudge rdfs:subClassOf cn:food .
+
+cn:fufu rdfs:subClassOf cn:food .
+
+cn:funeral_potatoes rdfs:subClassOf cn:food .
+
+cn:fungal_agent rdfs:subClassOf cn:fungus .
+
+cn:fungi_imperfecti rdfs:subClassOf cn:fungus .
+
+cn:funnel_cake rdfs:subClassOf cn:food .
+
+cn:furniture_secretary cn:usedFor cn:decoration .
+
+cn:fusarium rdfs:subClassOf cn:fungus .
+
+cn:fusilli rdfs:subClassOf cn:food .
+
+cn:fårikål rdfs:subClassOf cn:food .
+
+cn:gala_apple rdfs:subClassOf cn:fruit .
+
+cn:galantine rdfs:subClassOf cn:dish .
+
+cn:galette rdfs:subClassOf cn:food .
+
+cn:gambia rdfs:subClassOf cn:state .
+
+cn:gamboge rdfs:subClassOf cn:yellow .
+
+cn:game rdfs:subClassOf cn:meat .
+
+cn:garden cn:usedFor cn:decoration .
+
+cn:garlic rdfs:subClassOf cn:ingredient .
+
+cn:garlic_bread rdfs:subClassOf cn:bread .
+
+cn:gasoline rdfs:subClassOf cn:liquid .
+
+cn:gasperone_cheese rdfs:subClassOf cn:cheese .
+
+cn:gasteromycete rdfs:subClassOf cn:fungus .
+
+cn:gastroboletus_scabrosus rdfs:subClassOf cn:fungus .
+
+cn:gastroboletus_turbinatus rdfs:subClassOf cn:fungus .
+
+cn:gastrocybe_lateritia rdfs:subClassOf cn:fungus .
+
+cn:gazpacho rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:geastrum rdfs:subClassOf cn:fungus .
+
+cn:gefilte_fish rdfs:subClassOf cn:dish .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#general_tso's_chicken> rdfs:subClassOf cn:food .
+
+cn:genetically_engineered_organism rdfs:subClassOf cn:living_thing .
+
+cn:georgia rdfs:subClassOf cn:state .
+
+cn:german_chocolate_cake rdfs:subClassOf cn:food .
+
+cn:german_state rdfs:subClassOf cn:state .
+
+cn:gerronema rdfs:subClassOf cn:fungus .
+
+cn:get cn:hasPrerequisite cn:produce .
+
+cn:getting_wet cn:hasPrerequisite cn:liquid .
+
+cn:ghana rdfs:subClassOf cn:state .
+
+cn:gift rdfs:subClassOf cn:object .
+
+cn:gill_fungus rdfs:subClassOf cn:basidiomycete .
+
+cn:gingerbread rdfs:subClassOf cn:food .
+
+cn:gland_swollen rdfs:subClassOf cn:living_thing .
+
+cn:glass cn:hasProperty cn:green,
+        cn:solid ;
+    rdfs:subClassOf cn:solid .
+
+cn:glasses_case cn:usedFor cn:decoration .
+
+cn:gloeophyllaceae rdfs:subClassOf cn:fungus .
+
+cn:gloeophyllales rdfs:subClassOf cn:fungus .
+
+cn:gloeophyllum rdfs:subClassOf cn:fungus .
+
+cn:gloeophyllum_sepiarium rdfs:subClassOf cn:fungus .
+
+cn:glomeromycota rdfs:subClassOf cn:fungus .
+
+cn:glomus rdfs:subClassOf cn:fungus .
+
+cn:glue rdfs:subClassOf cn:substance .
+
+cn:gluten_bread rdfs:subClassOf cn:bread .
+
+cn:gnocchi rdfs:subClassOf cn:food .
+
+cn:go_to_pub cn:motivatedByGoal cn:food .
+
+cn:go_to_restaurant cn:motivatedByGoal cn:hamburger .
+
+cn:go_to_store cn:motivatedByGoal cn:ice_cream .
+
+cn:goat cn:desires cn:food .
+
+cn:goat_cheese rdfs:subClassOf cn:cheese .
+
+cn:gochujang rdfs:subClassOf cn:food .
+
+cn:gold cn:usedFor cn:decoration .
+
+cn:golden_delicious_apple rdfs:subClassOf cn:fruit .
+
+cn:goose rdfs:subClassOf cn:meat .
+
+cn:goose_meat rdfs:subClassOf cn:meat .
+
+cn:gouda rdfs:subClassOf cn:cheese .
+
+cn:gouda_cheese rdfs:subClassOf cn:cheese .
+
+cn:gougère rdfs:subClassOf cn:food .
+
+cn:goulash cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:gourd rdfs:subClassOf cn:fruit .
+
+cn:governorate rdfs:subClassOf cn:state .
+
+cn:graham_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:grain rdfs:subClassOf cn:foodstuff .
+
+cn:granita cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:granny_smith_apple rdfs:subClassOf cn:fruit .
+
+cn:grape cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:living_thing .
+
+cn:grapes cn:hasProperty cn:green .
+
+cn:grass rdfs:subClassOf cn:living_thing .
+
+cn:grass_broccoli_and_many_other_plants cn:hasProperty cn:green .
+
+cn:grass_jelly rdfs:subClassOf cn:food .
+
+cn:grass_leaf rdfs:subClassOf cn:leaf .
+
+cn:grated_cheese rdfs:subClassOf cn:cheese .
+
+cn:gravlax rdfs:subClassOf cn:food .
+
+cn:gravy_bowl rdfs:subClassOf cn:dish .
+
+cn:great_britain rdfs:subClassOf cn:state .
+
+cn:greek_salad rdfs:subClassOf cn:food .
+
+cn:green_bean rdfs:subClassOf cn:vegetable .
+
+cn:green_light rdfs:subClassOf cn:green .
+
+cn:green_pea_soup rdfs:subClassOf cn:soup .
+
+cn:green_peppers rdfs:subClassOf cn:vegetables .
+
+cn:green_smut_fungus rdfs:subClassOf cn:fungus .
+
+cn:green_tomato rdfs:subClassOf cn:green .
+
+cn:greenery rdfs:subClassOf cn:leaf .
+
+cn:greenish_yellow rdfs:subClassOf cn:yellow .
+
+cn:greenishness rdfs:subClassOf cn:green .
+
+cn:greens rdfs:subClassOf cn:vegetable .
+
+cn:grenada rdfs:subClassOf cn:state .
+
+cn:grey rdfs:subClassOf cn:color .
+
+cn:grit rdfs:subClassOf cn:food .
+
+cn:grizzled rdfs:subClassOf cn:color .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#groom's_cake> cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:ground_beef cn:partOf cn:hamburger .
+
+cn:growing_vegetables cn:causes cn:vegetables .
+
+cn:grub rdfs:subClassOf cn:living_thing .
+
+cn:gruel rdfs:subClassOf cn:food .
+
+cn:guacamole rdfs:subClassOf cn:food,
+        cn:green .
+
+cn:gugelhupf rdfs:subClassOf cn:food .
+
+cn:gumbo rdfs:subClassOf cn:soup,
+        cn:vegetable .
+
+cn:gummy_bear rdfs:subClassOf cn:food .
+
+cn:guyana rdfs:subClassOf cn:state .
+
+cn:gymnopilus_spectabilis rdfs:subClassOf cn:agaric .
+
+cn:gymnopilus_validipes rdfs:subClassOf cn:agaric .
+
+cn:gymnopilus_ventricosus rdfs:subClassOf cn:agaric .
+
+cn:gyro cn:instanceOf cn:meat,
+        cn:sandwich ;
+    rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:gyroflexus rdfs:subClassOf cn:fungus .
+
+cn:gyromitra rdfs:subClassOf cn:fungus .
+
+cn:gyromitra_esculenta rdfs:subClassOf cn:fungus .
+
+cn:gyromitra_fastigiata rdfs:subClassOf cn:fungus .
+
+cn:hagberry rdfs:subClassOf cn:fruit .
+
+cn:hair_clip cn:usedFor cn:decoration .
+
+cn:hair_color rdfs:subClassOf cn:color .
+
+cn:halal rdfs:subClassOf cn:meat .
+
+cn:half cn:partOf cn:whole .
+
+cn:halva rdfs:subClassOf cn:food .
+
+cn:ham rdfs:subClassOf cn:food .
+
+cn:ham_and_eggs rdfs:subClassOf cn:dish .
+
+cn:ham_hock rdfs:subClassOf cn:food .
+
+cn:ham_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:hamburgers rdfs:subClassOf cn:meat .
+
+cn:hand_cheese rdfs:subClassOf cn:cheese .
+
+cn:handle cn:partOf cn:object .
+
+cn:hanger_steak rdfs:subClassOf cn:food .
+
+cn:har_gow rdfs:subClassOf cn:food .
+
+cn:hard_sauce cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:hardtack rdfs:subClassOf cn:food .
+
+cn:harp cn:hasProperty cn:solid .
+
+cn:hasenpfeffer rdfs:subClassOf cn:food .
+
+cn:hash rdfs:subClassOf cn:dish .
+
+cn:hat cn:usedFor cn:decoration .
+
+cn:having_food cn:hasPrerequisite cn:food .
+
+cn:having_lunch cn:hasPrerequisite cn:food .
+
+cn:having_party cn:hasPrerequisite cn:food .
+
+cn:hawaii rdfs:subClassOf cn:state .
+
+cn:hawaiian_pizza rdfs:subClassOf cn:pizza .
+
+cn:hazelnut rdfs:subClassOf cn:fruit .
+
+cn:head_cabbage rdfs:subClassOf cn:cabbage .
+
+cn:head_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:headcheese rdfs:subClassOf cn:sausage .
+
+cn:health_food rdfs:subClassOf cn:food .
+
+cn:healthy_dinner cn:hasA cn:vegetables .
+
+cn:healthy_grass cn:hasProperty cn:green .
+
+cn:heart rdfs:subClassOf cn:shape .
+
+cn:hearts_of_romaine_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:heather_mixture rdfs:subClassOf cn:color .
+
+cn:heel cn:partOf cn:loaf_of_bread .
+
+cn:heliocybe rdfs:subClassOf cn:fungus .
+
+cn:helium_balloon cn:usedFor cn:decoration .
+
+cn:helotiales rdfs:subClassOf cn:fungus .
+
+cn:hen_of_woods rdfs:subClassOf cn:fungus .
+
+cn:hereditary_ailment rdfs:subClassOf cn:living_thing .
+
+cn:hericium_erinaceus rdfs:subClassOf cn:fungus .
+
+cn:highlighter_pen cn:hasProperty cn:yellow .
+
+cn:hip rdfs:subClassOf cn:fruit .
+
+cn:histoplasma_capsulatum rdfs:subClassOf cn:fungus .
+
+cn:historic_british_county rdfs:subClassOf cn:state .
+
+cn:historic_english_county rdfs:subClassOf cn:state .
+
+cn:historic_scottish_county rdfs:subClassOf cn:state .
+
+cn:historic_welsh_county rdfs:subClassOf cn:state .
+
+cn:hoe rdfs:subClassOf cn:food .
+
+cn:hollandaise_sauce rdfs:subClassOf cn:food .
+
+cn:home_fries rdfs:subClassOf cn:food .
+
+cn:honey rdfs:subClassOf cn:food .
+
+cn:honey_mushroom rdfs:subClassOf cn:agaric .
+
+cn:horse_flesh rdfs:subClassOf cn:meat .
+
+cn:horse_mushroom rdfs:subClassOf cn:agaric .
+
+cn:horsemeat rdfs:subClassOf cn:meat .
+
+cn:host rdfs:subClassOf cn:bread .
+
+cn:hot_and_sour_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:hot_chicken rdfs:subClassOf cn:food .
+
+cn:hot_dog rdfs:subClassOf cn:food,
+        cn:sausage .
+
+cn:hot_pot rdfs:subClassOf cn:food .
+
+cn:hot_table cn:usedFor cn:food .
+
+cn:hummus rdfs:subClassOf cn:food .
+
+cn:hungry_person cn:desires cn:food .
+
+cn:hydnum rdfs:subClassOf cn:fungus .
+
+cn:hydractinian rdfs:subClassOf cn:organism .
+
+cn:hygrocybe rdfs:subClassOf cn:fungus .
+
+cn:hygrophoraceae rdfs:subClassOf cn:fungus .
+
+cn:hygrophorus rdfs:subClassOf cn:fungus .
+
+cn:hygrophorus_marzuolus rdfs:subClassOf cn:fungus .
+
+cn:hygrophorus_purpurascens rdfs:subClassOf cn:fungus .
+
+cn:hymenium cn:partOf cn:fungus .
+
+cn:hymenomycete rdfs:subClassOf cn:fungus .
+
+cn:hypocreales rdfs:subClassOf cn:fungus .
+
+cn:ice cn:hasProperty cn:solid ;
+    rdfs:subClassOf cn:frozen_dessert,
+        cn:solid .
+
+cn:ice_cream_cake rdfs:subClassOf cn:frozen_dessert .
+
+cn:ice_cream_cone rdfs:subClassOf cn:frozen_dessert .
+
+cn:ice_cream_float rdfs:subClassOf cn:food .
+
+cn:ice_cream_sandwich cn:instanceOf cn:ice_cream ;
+    rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:ice_cream_sundae rdfs:subClassOf cn:frozen_dessert .
+
+cn:ice_lolly rdfs:subClassOf cn:frozen_dessert .
+
+cn:ice_milk cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food,
+        cn:frozen_dessert .
+
+cn:ice_pop cn:instanceOf cn:frozen_dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:iceland_moss rdfs:subClassOf cn:fungus .
+
+cn:icosahedron rdfs:subClassOf cn:solid .
+
+cn:idaho rdfs:subClassOf cn:state .
+
+cn:idli rdfs:subClassOf cn:food .
+
+cn:illinois rdfs:subClassOf cn:state .
+
+cn:immune_thing rdfs:subClassOf cn:living_thing .
+
+cn:in_remission_thing rdfs:subClassOf cn:living_thing .
+
+cn:india rdfs:subClassOf cn:state .
+
+cn:indian_state rdfs:subClassOf cn:state .
+
+cn:indiana rdfs:subClassOf cn:state .
+
+cn:indigo rdfs:subClassOf cn:color .
+
+cn:ingesta rdfs:subClassOf cn:nutriment .
+
+cn:injera rdfs:subClassOf cn:food .
+
+cn:ink rdfs:subClassOf cn:liquid .
+
+cn:ink_in_pens cn:hasProperty cn:green .
+
+cn:inky_cap rdfs:subClassOf cn:agaric .
+
+cn:insects cn:hasProperty cn:green .
+
+cn:interface_segregation_principle rdfs:subClassOf cn:solid .
+
+cn:ion ns1:product cn:chocolate .
+
+cn:iowa rdfs:subClassOf cn:state .
+
+cn:ireland rdfs:subClassOf cn:state .
+
+cn:irish_county rdfs:subClassOf cn:state .
+
+cn:irish_stew rdfs:subClassOf cn:food .
+
+cn:island rdfs:subClassOf cn:state .
+
+cn:island_group rdfs:subClassOf cn:state .
+
+cn:italian_ice cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:italian_region rdfs:subClassOf cn:state .
+
+cn:jack_o_lantern_fungus rdfs:subClassOf cn:agaric .
+
+cn:jade cn:hasProperty cn:green .
+
+cn:jade_green rdfs:subClassOf cn:green .
+
+cn:jaffa_cakes rdfs:subClassOf cn:food .
+
+cn:jalebi rdfs:subClassOf cn:food .
+
+cn:jamaica rdfs:subClassOf cn:state .
+
+cn:jambalaya rdfs:subClassOf cn:dish .
+
+cn:japchae rdfs:subClassOf cn:food .
+
+cn:jau_gok rdfs:subClassOf cn:food .
+
+cn:jazz_apple rdfs:subClassOf cn:fruit .
+
+cn:jelly_fungus rdfs:subClassOf cn:fungus .
+
+cn:jeon rdfs:subClassOf cn:food .
+
+cn:jerky rdfs:subClassOf cn:meat .
+
+cn:jersey rdfs:subClassOf cn:state .
+
+cn:jesse rdfs:subClassOf cn:living_thing .
+
+cn:jewelry cn:usedFor cn:decoration .
+
+cn:jiaozi rdfs:subClassOf cn:food .
+
+cn:jicama rdfs:subClassOf cn:vegetable .
+
+cn:johnnycake rdfs:subClassOf cn:food .
+
+cn:jollof_rice rdfs:subClassOf cn:food .
+
+cn:jonathan rdfs:subClassOf cn:fruit .
+
+cn:josef_albers ns1:field cn:color .
+
+cn:juice cn:hasProperty cn:liquid ;
+    rdfs:subClassOf cn:foodstuff .
+
+cn:julienne rdfs:subClassOf cn:soup .
+
+cn:julienne_vegetable rdfs:subClassOf cn:vegetable .
+
+cn:juniper_berry rdfs:subClassOf cn:fruit .
+
+cn:junket rdfs:subClassOf cn:dessert .
+
+cn:kabob rdfs:subClassOf cn:dish .
+
+cn:kaiser_roll rdfs:subClassOf cn:food .
+
+cn:kalakukko rdfs:subClassOf cn:food .
+
+cn:kale rdfs:subClassOf cn:cabbage,
+        cn:vegetable .
+
+cn:kanafeh rdfs:subClassOf cn:food .
+
+cn:kansas rdfs:subClassOf cn:state .
+
+cn:karelian_pasty rdfs:subClassOf cn:food .
+
+cn:karl_tries_to_drink rdfs:subClassOf cn:soup .
+
+cn:kaymak cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:kazakh_state rdfs:subClassOf cn:state .
+
+cn:kebab rdfs:subClassOf cn:food .
+
+cn:kedgeree rdfs:subClassOf cn:dish .
+
+cn:kefir rdfs:subClassOf cn:food .
+
+cn:kentucky rdfs:subClassOf cn:state .
+
+cn:kenya rdfs:subClassOf cn:state .
+
+cn:ketchup rdfs:subClassOf cn:food .
+
+cn:key_chain cn:usedFor cn:decoration .
+
+cn:khachapuri rdfs:subClassOf cn:food .
+
+cn:kheer rdfs:subClassOf cn:food .
+
+cn:khinkali rdfs:subClassOf cn:food .
+
+cn:kho rdfs:subClassOf cn:food .
+
+cn:kidney_pie rdfs:subClassOf cn:meat_pie .
+
+cn:kig_ha_farz rdfs:subClassOf cn:food .
+
+cn:king_cake rdfs:subClassOf cn:food .
+
+cn:kiribati rdfs:subClassOf cn:state .
+
+cn:kissel cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:kitchen_utensil rdfs:subClassOf cn:object .
+
+cn:kiwi rdfs:subClassOf cn:fruit .
+
+cn:kiwifruit rdfs:subClassOf cn:fruit .
+
+cn:knackwurst rdfs:subClassOf cn:sausage .
+
+cn:koeksister rdfs:subClassOf cn:food .
+
+cn:kohlrabi rdfs:subClassOf cn:cruciferous_vegetable,
+        cn:vegetable .
+
+cn:kokoretsi rdfs:subClassOf cn:food .
+
+cn:korean_cuisine rdfs:subClassOf cn:food .
+
+cn:korma rdfs:subClassOf cn:dish .
+
+cn:kosher rdfs:subClassOf cn:nutriment .
+
+cn:kosher_deli cn:usedFor cn:sandwich .
+
+cn:kosher_deli_might cn:hasA cn:food .
+
+cn:kroppkaka rdfs:subClassOf cn:food .
+
+cn:krumkake rdfs:subClassOf cn:food .
+
+cn:krupuk rdfs:subClassOf cn:food .
+
+cn:krystal ns1:product cn:hamburger .
+
+cn:kulcha rdfs:subClassOf cn:food .
+
+cn:kumis rdfs:subClassOf cn:food .
+
+cn:lactarius rdfs:subClassOf cn:fungus .
+
+cn:ladyfinger rdfs:subClassOf cn:food .
+
+cn:laksa rdfs:subClassOf cn:food .
+
+cn:lamb rdfs:subClassOf cn:meat .
+
+cn:lamb_flesh rdfs:subClassOf cn:meat .
+
+cn:lamb_meat rdfs:subClassOf cn:meat .
+
+cn:lamington rdfs:subClassOf cn:food .
+
+cn:lantern cn:usedFor cn:decoration .
+
+cn:lasagne rdfs:subClassOf cn:food .
+
+cn:lassi rdfs:subClassOf cn:food .
+
+cn:lavash rdfs:subClassOf cn:food .
+
+cn:lavender rdfs:subClassOf cn:purple .
+
+cn:lawn cn:hasProperty cn:green .
+
+cn:leaf_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:leaf_shape cn:partOf cn:leaf .
+
+cn:leaf_tea rdfs:subClassOf cn:living_thing .
+
+cn:leaflet rdfs:subClassOf cn:leaf .
+
+cn:leafs cn:hasProperty cn:green .
+
+cn:leather cn:hasProperty cn:solid .
+
+cn:leaves cn:hasProperty cn:purple .
+
+cn:leblebi cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:lecanora rdfs:subClassOf cn:fungus .
+
+cn:lecanoraceae rdfs:subClassOf cn:fungus .
+
+cn:leccinum rdfs:subClassOf cn:fungus .
+
+cn:leek rdfs:subClassOf cn:vegetable .
+
+cn:leeks rdfs:subClassOf cn:vegetables .
+
+cn:lefse rdfs:subClassOf cn:food .
+
+cn:leftovers rdfs:subClassOf cn:food .
+
+cn:legume rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:lekvar rdfs:subClassOf cn:food .
+
+cn:lemon rdfs:subClassOf cn:fruit,
+        cn:living_thing,
+        cn:yellow .
+
+cn:lentil_soup rdfs:subClassOf cn:soup .
+
+cn:lentinellus rdfs:subClassOf cn:fungus .
+
+cn:leonidas ns1:product cn:chocolate .
+
+cn:lepiota_clypeolaria rdfs:subClassOf cn:fungus,
+        cn:lepiota .
+
+cn:lepiota_naucina rdfs:subClassOf cn:lepiota .
+
+cn:lepiota_rhacodes rdfs:subClassOf cn:lepiota .
+
+cn:lepiota_rubrotincta rdfs:subClassOf cn:lepiota .
+
+cn:lesotho rdfs:subClassOf cn:state .
+
+cn:lettuce_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:lichen rdfs:subClassOf cn:fungus .
+
+cn:lichenomphalia rdfs:subClassOf cn:fungus .
+
+cn:liederkranz rdfs:subClassOf cn:cheese .
+
+cn:life_form cn:desires cn:food .
+
+cn:light_color rdfs:subClassOf cn:color .
+
+cn:limburger rdfs:subClassOf cn:cheese .
+
+cn:lime rdfs:subClassOf cn:living_thing .
+
+cn:limes cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:fruit .
+
+cn:linguine rdfs:subClassOf cn:food .
+
+cn:liptauer rdfs:subClassOf cn:food .
+
+cn:liquorice rdfs:subClassOf cn:food .
+
+cn:liskov_substitution_principle rdfs:subClassOf cn:solid .
+
+cn:lithuanian_state rdfs:subClassOf cn:state .
+
+cn:liver_pudding rdfs:subClassOf cn:sausage .
+
+cn:living cn:hasPrerequisite cn:food .
+
+cn:living_life cn:hasPrerequisite cn:food .
+
+cn:living_organism rdfs:subClassOf cn:living_thing .
+
+cn:loaf rdfs:subClassOf cn:food .
+
+cn:lobe cn:partOf cn:leaf .
+
+cn:lobed_leaf rdfs:subClassOf cn:leaf .
+
+cn:lobster rdfs:subClassOf cn:food .
+
+cn:lobster_meat rdfs:subClassOf cn:meat .
+
+cn:lobster_roll rdfs:subClassOf cn:sandwich .
+
+cn:lobster_thermidor rdfs:subClassOf cn:dish .
+
+cn:lobularity rdfs:subClassOf cn:shape .
+
+cn:lollipop rdfs:subClassOf cn:food .
+
+cn:loose_meat_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:lorchel rdfs:subClassOf cn:fungus .
+
+cn:loreleia rdfs:subClassOf cn:fungus .
+
+cn:lot_of_plants cn:hasProperty cn:green .
+
+cn:louisana rdfs:subClassOf cn:state .
+
+cn:louisiana rdfs:subClassOf cn:state .
+
+cn:love_seat cn:usedFor cn:decoration .
+
+cn:lunch_meat rdfs:subClassOf cn:food .
+
+cn:lutefisk rdfs:subClassOf cn:dish .
+
+cn:lychee rdfs:subClassOf cn:fruit .
+
+cn:macadamia_nut rdfs:subClassOf cn:fruit .
+
+cn:macaron rdfs:subClassOf cn:food .
+
+cn:macaroni rdfs:subClassOf cn:food .
+
+cn:macaroni_and_cheese rdfs:subClassOf cn:food .
+
+cn:macedoine rdfs:subClassOf cn:dish .
+
+cn:macowanites_americanus rdfs:subClassOf cn:fungus .
+
+cn:madeleine rdfs:subClassOf cn:food .
+
+cn:madrilene rdfs:subClassOf cn:consomme .
+
+cn:mafaldine rdfs:subClassOf cn:food .
+
+cn:magiritsa cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:maiden_pink rdfs:subClassOf cn:pink .
+
+cn:maine rdfs:subClassOf cn:state .
+
+cn:make_shopping_list cn:motivatedByGoal cn:food .
+
+cn:making_bread cn:causes cn:bread .
+
+cn:malabar rdfs:subClassOf cn:food .
+
+cn:malawi rdfs:subClassOf cn:state .
+
+cn:malaysia rdfs:subClassOf cn:state .
+
+cn:malaysian_state rdfs:subClassOf cn:state .
+
+cn:maldives rdfs:subClassOf cn:state .
+
+cn:male rdfs:subClassOf cn:living_thing .
+
+cn:malidzano rdfs:subClassOf cn:food .
+
+cn:malta rdfs:subClassOf cn:state .
+
+cn:malted_milk rdfs:subClassOf cn:ingredient .
+
+cn:mammal_meat rdfs:subClassOf cn:meat .
+
+cn:man_made_object cn:capableOf cn:color .
+
+cn:man_on_horse rdfs:subClassOf cn:agaric .
+
+cn:mandu rdfs:subClassOf cn:food .
+
+cn:mango rdfs:subClassOf cn:fruit .
+
+cn:manna cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:manouri rdfs:subClassOf cn:cheese .
+
+cn:manti rdfs:subClassOf cn:food .
+
+cn:many_vegetables cn:hasProperty cn:green .
+
+cn:maple_sugar rdfs:subClassOf cn:food .
+
+cn:maple_syrup rdfs:subClassOf cn:food .
+
+cn:marasca rdfs:subClassOf cn:fruit .
+
+cn:marasmius_oreades rdfs:subClassOf cn:fungus .
+
+cn:marble_cake rdfs:subClassOf cn:food .
+
+cn:margarine rdfs:subClassOf cn:food,
+        cn:yellow .
+
+cn:marmite rdfs:subClassOf cn:soup .
+
+cn:mars rdfs:subClassOf cn:food .
+
+cn:marshmallow rdfs:subClassOf cn:food .
+
+cn:maryland rdfs:subClassOf cn:state .
+
+cn:maryland_chicken rdfs:subClassOf cn:dish .
+
+cn:marzipan rdfs:subClassOf cn:food .
+
+cn:masala_chai rdfs:subClassOf cn:food .
+
+cn:mashed_potato rdfs:subClassOf cn:food .
+
+cn:massachusetts rdfs:subClassOf cn:state .
+
+cn:mastigomycotina rdfs:subClassOf cn:fungus .
+
+cn:matsutake rdfs:subClassOf cn:fungus .
+
+cn:matzah_ball rdfs:subClassOf cn:food .
+
+cn:matzo rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:mauritius rdfs:subClassOf cn:state .
+
+cn:mauve rdfs:subClassOf cn:color,
+        cn:purple .
+
+cn:may_apple rdfs:subClassOf cn:fruit .
+
+cn:mcintosh_apple rdfs:subClassOf cn:fruit .
+
+cn:meadow_mushroom rdfs:subClassOf cn:agaric .
+
+cn:meatball rdfs:subClassOf cn:dish .
+
+cn:melampsora rdfs:subClassOf cn:fungus .
+
+cn:melba_toast rdfs:subClassOf cn:food .
+
+cn:melted_solid rdfs:subClassOf cn:liquid .
+
+cn:mercator ns1:product cn:food .
+
+cn:mercury rdfs:subClassOf cn:liquid .
+
+cn:meringue cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:mess rdfs:subClassOf cn:nutriment .
+
+cn:metallic_color rdfs:subClassOf cn:color .
+
+cn:metals cn:hasProperty cn:solid .
+
+cn:methanogen rdfs:subClassOf cn:organism .
+
+cn:mexican_restaurant cn:usedFor cn:food .
+
+cn:mexican_state rdfs:subClassOf cn:state .
+
+cn:meze rdfs:subClassOf cn:food .
+
+cn:michigan rdfs:subClassOf cn:state .
+
+cn:microsporum rdfs:subClassOf cn:fungus .
+
+cn:migas rdfs:subClassOf cn:food .
+
+cn:mildew rdfs:subClassOf cn:fungus .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#military_officer's_cap> rdfs:subClassOf cn:cap .
+
+cn:milk_chocolate rdfs:subClassOf cn:chocolate .
+
+cn:milk_of_echidna rdfs:subClassOf cn:pink .
+
+cn:milkcap rdfs:subClassOf cn:agaric .
+
+cn:milkshake rdfs:subClassOf cn:food .
+
+cn:mille_feuille rdfs:subClassOf cn:food .
+
+cn:mince rdfs:subClassOf cn:nutriment .
+
+cn:mineral rdfs:subClassOf cn:matter,
+        cn:solid .
+
+cn:minestrone cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:minibar cn:hasA cn:food .
+
+cn:minnesota rdfs:subClassOf cn:state .
+
+cn:mint rdfs:subClassOf cn:leaf .
+
+cn:miso_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:mississippi rdfs:subClassOf cn:state .
+
+cn:mititei rdfs:subClassOf cn:food .
+
+cn:mock_turtle_soup rdfs:subClassOf cn:soup .
+
+cn:mofongo rdfs:subClassOf cn:food .
+
+cn:mold rdfs:subClassOf cn:fungus .
+
+cn:moldovan_state rdfs:subClassOf cn:state .
+
+cn:molten_metal rdfs:subClassOf cn:liquid .
+
+cn:momo rdfs:subClassOf cn:food .
+
+cn:monilia rdfs:subClassOf cn:fungus .
+
+cn:monkey_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:montana rdfs:subClassOf cn:state .
+
+cn:montanna rdfs:subClassOf cn:state .
+
+cn:monterey_jack rdfs:subClassOf cn:cheese .
+
+cn:monument cn:usedFor cn:decoration .
+
+cn:moo_goo_gai_pan rdfs:subClassOf cn:dish .
+
+cn:mooncake rdfs:subClassOf cn:food .
+
+cn:morbier_cheese rdfs:subClassOf cn:cheese .
+
+cn:morchellaceae rdfs:subClassOf cn:fungus .
+
+cn:mortarboard rdfs:subClassOf cn:cap .
+
+cn:most_grass cn:hasProperty cn:green .
+
+cn:most_leaves cn:hasProperty cn:green .
+
+cn:most_plant_foliage cn:hasProperty cn:green .
+
+cn:most_televisions_sold_today cn:hasProperty cn:color .
+
+cn:mottle rdfs:subClassOf cn:color .
+
+cn:mould rdfs:subClassOf cn:dessert,
+        cn:dish .
+
+cn:moussaka rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:mousse rdfs:subClassOf cn:dessert,
+        cn:dish,
+        cn:food .
+
+cn:mouton rdfs:subClassOf cn:meat .
+
+cn:mozambique rdfs:subClassOf cn:state .
+
+cn:mozartkugel rdfs:subClassOf cn:food .
+
+cn:mozzarella rdfs:subClassOf cn:cheese .
+
+cn:mozzarella_cheese rdfs:subClassOf cn:cheese .
+
+cn:mucor rdfs:subClassOf cn:fungus .
+
+cn:muenster rdfs:subClassOf cn:cheese .
+
+cn:muffin rdfs:subClassOf cn:food .
+
+cn:muffuletta rdfs:subClassOf cn:food .
+
+cn:mug rdfs:subClassOf cn:dish .
+
+cn:mulligatawny rdfs:subClassOf cn:soup .
+
+cn:mung_beans rdfs:subClassOf cn:vegetables .
+
+cn:municipality rdfs:subClassOf cn:state .
+
+cn:musakhan rdfs:subClassOf cn:food .
+
+cn:mushrooms_and_tomatoes rdfs:subClassOf cn:vegetables .
+
+cn:mustard cn:hasProperty cn:yellow ;
+    rdfs:subClassOf cn:cruciferous_vegetable .
+
+cn:mustard_greens rdfs:subClassOf cn:vegetables .
+
+cn:mutton rdfs:subClassOf cn:meat .
+
+cn:mycelium cn:partOf cn:fungus .
+
+cn:naan cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:nachos rdfs:subClassOf cn:food .
+
+cn:naengmyeon cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:namibia rdfs:subClassOf cn:state .
+
+cn:nan rdfs:subClassOf cn:bread .
+
+cn:narrowing rdfs:subClassOf cn:shape .
+
+cn:nasi_goreng rdfs:subClassOf cn:food .
+
+cn:nauru rdfs:subClassOf cn:state .
+
+cn:nebraska rdfs:subClassOf cn:state .
+
+cn:necklace cn:usedFor cn:decoration .
+
+cn:nectarine rdfs:subClassOf cn:fruit .
+
+cn:neocallimastigomycota rdfs:subClassOf cn:fungus .
+
+cn:neolentinus rdfs:subClassOf cn:fungus .
+
+cn:nepeta_cataria_leaf rdfs:subClassOf cn:leaf .
+
+cn:nephroma rdfs:subClassOf cn:fungus .
+
+cn:neurospora rdfs:subClassOf cn:fungus .
+
+cn:nevada rdfs:subClassOf cn:state .
+
+cn:new_mexico rdfs:subClassOf cn:state .
+
+cn:new_york rdfs:subClassOf cn:state .
+
+cn:new_york_style_pizza rdfs:subClassOf cn:pizza .
+
+cn:nidulariaceae rdfs:subClassOf cn:fungus .
+
+cn:nigeria rdfs:subClassOf cn:state .
+
+cn:nigerian_state rdfs:subClassOf cn:state .
+
+cn:nikujaga cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:non_spectral_color rdfs:subClassOf cn:color .
+
+cn:nonpareils rdfs:subClassOf cn:food .
+
+cn:nonsolid_color rdfs:subClassOf cn:color .
+
+cn:noodle rdfs:subClassOf cn:food .
+
+cn:nori rdfs:subClassOf cn:green .
+
+cn:north_carolina rdfs:subClassOf cn:state .
+
+cn:north_dakota rdfs:subClassOf cn:state .
+
+cn:nougat rdfs:subClassOf cn:food .
+
+cn:nut rdfs:subClassOf cn:fruit .
+
+cn:nutella rdfs:subClassOf cn:food .
+
+cn:nutmeg_fruit rdfs:subClassOf cn:fruit .
+
+cn:nuts rdfs:subClassOf cn:foodstuff .
+
+cn:obatzda rdfs:subClassOf cn:cheese .
+
+cn:ocean cn:hasProperty cn:liquid ;
+    rdfs:subClassOf cn:liquid .
+
+cn:octagon rdfs:subClassOf cn:shape .
+
+cn:octahedron rdfs:subClassOf cn:solid .
+
+cn:octopus_consists_of_physically rdfs:subClassOf cn:meat .
+
+cn:oden cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:offspring rdfs:subClassOf cn:living_thing .
+
+cn:ohio rdfs:subClassOf cn:state .
+
+cn:oil cn:hasProperty cn:liquid ;
+    rdfs:subClassOf cn:liquid .
+
+cn:oklahoma rdfs:subClassOf cn:state .
+
+cn:okonomiyaki rdfs:subClassOf cn:food .
+
+cn:okra rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:okroshka cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:old_gold rdfs:subClassOf cn:yellow .
+
+cn:oliebol rdfs:subClassOf cn:food .
+
+cn:oligoporus rdfs:subClassOf cn:fungus .
+
+cn:olive rdfs:subClassOf cn:color,
+        cn:fruit .
+
+cn:olive_green rdfs:subClassOf cn:green .
+
+cn:olive_tree_agaric rdfs:subClassOf cn:agaric .
+
+cn:olivier_salad rdfs:subClassOf cn:food .
+
+cn:omelet rdfs:subClassOf cn:dish .
+
+cn:omelette rdfs:subClassOf cn:food .
+
+cn:omphalina rdfs:subClassOf cn:fungus .
+
+cn:one_apple rdfs:subClassOf cn:object .
+
+cn:one_cost_of_college rdfs:subClassOf cn:food .
+
+cn:one_flavor_of_cake cn:hasProperty cn:chocolate .
+
+cn:one_possible_product_of_gardening cn:capableOf cn:vegetables .
+
+cn:one_type_of_bread rdfs:subClassOf cn:tortilla .
+
+cn:one_unhealthy_food cn:hasProperty cn:chocolate .
+
+cn:onion rdfs:subClassOf cn:vegetable .
+
+cn:onion_and_celery rdfs:subClassOf cn:vegetables .
+
+cn:onion_bread rdfs:subClassOf cn:bread .
+
+cn:onion_bulb rdfs:subClassOf cn:living_thing .
+
+cn:onion_ring rdfs:subClassOf cn:food .
+
+cn:onion_stem rdfs:subClassOf cn:lepiota .
+
+cn:onions cn:hasProperty cn:green .
+
+cn:onygenales rdfs:subClassOf cn:fungus .
+
+cn:oomycota_division rdfs:subClassOf cn:fungus .
+
+cn:open_bag_of_chips cn:motivatedByGoal cn:food .
+
+cn:open_closed_principle rdfs:subClassOf cn:solid .
+
+cn:open_face_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:orange_juice rdfs:subClassOf cn:liquid .
+
+cn:orange_yellow rdfs:subClassOf cn:yellow .
+
+cn:oranges_and_apples rdfs:subClassOf cn:fruit .
+
+cn:orchids cn:hasProperty cn:purple,
+        cn:yellow .
+
+cn:orecchiette rdfs:subClassOf cn:food .
+
+cn:oregon rdfs:subClassOf cn:state .
+
+cn:organic_chicken rdfs:subClassOf cn:course .
+
+cn:organism_part rdfs:subClassOf cn:living_thing .
+
+cn:organs cn:partOf cn:organism .
+
+cn:ornatifilum rdfs:subClassOf cn:fungus .
+
+cn:osso_buco rdfs:subClassOf cn:dish .
+
+cn:ottoman cn:usedFor cn:decoration .
+
+cn:oxtail_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:oyster_cracker rdfs:subClassOf cn:food .
+
+cn:oyster_mushroom rdfs:subClassOf cn:agaric .
+
+cn:pad rdfs:subClassOf cn:leaf .
+
+cn:pad_thai rdfs:subClassOf cn:food .
+
+cn:paecilomyces rdfs:subClassOf cn:fungus .
+
+cn:paella rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:painting cn:causes cn:color ;
+    cn:usedFor cn:decoration .
+
+cn:pajeon rdfs:subClassOf cn:food .
+
+cn:pakistan rdfs:subClassOf cn:state .
+
+cn:pale_yellow rdfs:subClassOf cn:yellow .
+
+cn:pancetta rdfs:subClassOf cn:food .
+
+cn:panettone rdfs:subClassOf cn:food .
+
+cn:panko_fried_green_tomato rdfs:subClassOf cn:course .
+
+cn:panna_cotta rdfs:subClassOf cn:food .
+
+cn:pannekoek rdfs:subClassOf cn:food .
+
+cn:panuchos rdfs:subClassOf cn:course .
+
+cn:papadum rdfs:subClassOf cn:food .
+
+cn:papaya rdfs:subClassOf cn:fruit .
+
+cn:paper rdfs:subClassOf cn:solid .
+
+cn:pappardelle rdfs:subClassOf cn:food .
+
+cn:papua_new_guinea rdfs:subClassOf cn:state .
+
+cn:parakeets cn:hasProperty cn:green .
+
+cn:parallel_veined_leaf rdfs:subClassOf cn:leaf .
+
+cn:parasol_mushroom rdfs:subClassOf cn:agaric .
+
+cn:paratha rdfs:subClassOf cn:food .
+
+cn:parfait rdfs:subClassOf cn:food,
+        cn:frozen_dessert .
+
+cn:parish rdfs:subClassOf cn:state .
+
+cn:parmelia rdfs:subClassOf cn:fungus .
+
+cn:parmesan rdfs:subClassOf cn:cheese .
+
+cn:parmesan_cheese rdfs:subClassOf cn:cheese .
+
+cn:parmigiana rdfs:subClassOf cn:food .
+
+cn:parsley_leaf rdfs:subClassOf cn:leaf .
+
+cn:parsnips rdfs:subClassOf cn:vegetables .
+
+cn:parted_leaf rdfs:subClassOf cn:leaf .
+
+cn:paska cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:pasta rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:pasta_bowl rdfs:subClassOf cn:dish .
+
+cn:pastiera rdfs:subClassOf cn:food .
+
+cn:pastilla rdfs:subClassOf cn:food .
+
+cn:pastry rdfs:subClassOf cn:baked_goods,
+        cn:dessert,
+        cn:food .
+
+cn:pasty rdfs:subClassOf cn:food,
+        cn:meat_pie .
+
+cn:patty rdfs:subClassOf cn:dish .
+
+cn:patty_melt rdfs:subClassOf cn:sandwich .
+
+cn:pavlova rdfs:subClassOf cn:dessert .
+
+cn:paxillus rdfs:subClassOf cn:fungus .
+
+cn:pea rdfs:subClassOf cn:vegetable .
+
+cn:pea_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:peach_melba rdfs:subClassOf cn:dessert .
+
+cn:peaches rdfs:subClassOf cn:fruit .
+
+cn:peanut_butter rdfs:subClassOf cn:food .
+
+cn:peanut_butter_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:pear cn:hasProperty cn:solid ;
+    rdfs:subClassOf cn:fruit .
+
+cn:pears cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:food .
+
+cn:peas cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:food,
+        cn:vegetables .
+
+cn:peas_and_onions rdfs:subClassOf cn:food,
+        cn:vegetables .
+
+cn:pease_pudding rdfs:subClassOf cn:food .
+
+cn:pecorino_cheese rdfs:subClassOf cn:cheese .
+
+cn:pemmican rdfs:subClassOf cn:meat .
+
+cn:pen cn:hasProperty cn:solid ;
+    rdfs:subClassOf cn:object .
+
+cn:penicillium rdfs:subClassOf cn:fungus .
+
+cn:penicillium_chrysogenum rdfs:subClassOf cn:fungus .
+
+cn:pennsylvania rdfs:subClassOf cn:state .
+
+cn:pepernoot cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:pepper rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:pepper_pot rdfs:subClassOf cn:soup .
+
+cn:pepper_steak rdfs:subClassOf cn:dish .
+
+cn:peppers cn:hasProperty cn:green .
+
+cn:peppers_and_peas rdfs:subClassOf cn:vegetables .
+
+cn:perishables rdfs:subClassOf cn:foodstuff .
+
+cn:petit_four cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:petite_marmite rdfs:subClassOf cn:soup .
+
+cn:petrol rdfs:subClassOf cn:liquid .
+
+cn:pezizales rdfs:subClassOf cn:fungus .
+
+cn:phallaceae rdfs:subClassOf cn:fungus .
+
+cn:phallales rdfs:subClassOf cn:fungus .
+
+cn:phallus_impudicus rdfs:subClassOf cn:fungus .
+
+cn:pheasant_under_glass rdfs:subClassOf cn:dish .
+
+cn:pho rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:pholiota rdfs:subClassOf cn:fungus .
+
+cn:pholiota_astragalina rdfs:subClassOf cn:agaric .
+
+cn:pholiota_aurea rdfs:subClassOf cn:agaric .
+
+cn:pholiota_destruens rdfs:subClassOf cn:agaric .
+
+cn:pholiota_flammans rdfs:subClassOf cn:agaric .
+
+cn:pholiota_flavida rdfs:subClassOf cn:agaric .
+
+cn:pholiota_nameko rdfs:subClassOf cn:fungus .
+
+cn:pholiota_squarrosa rdfs:subClassOf cn:agaric .
+
+cn:pholiota_squarrosa_adiposa rdfs:subClassOf cn:agaric .
+
+cn:pholiota_squarrosoides rdfs:subClassOf cn:agaric .
+
+cn:physcia_stellaris rdfs:subClassOf cn:fungus .
+
+cn:phytophthora_citrophthora rdfs:subClassOf cn:fungus .
+
+cn:phytophthora_infestans rdfs:subClassOf cn:fungus .
+
+cn:piano cn:hasProperty cn:solid ;
+    cn:usedFor cn:decoration .
+
+cn:pichia rdfs:subClassOf cn:fungus .
+
+cn:pichia_pastoris rdfs:subClassOf cn:fungus .
+
+cn:piece cn:partOf cn:whole .
+
+cn:piece_de_resistance rdfs:subClassOf cn:dish .
+
+cn:piece_of_coal cn:usedFor cn:decoration .
+
+cn:pieplant rdfs:subClassOf cn:vegetable .
+
+cn:pierogi rdfs:subClassOf cn:food .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#pig's_ears> rdfs:subClassOf cn:agaric .
+
+cn:pigs_in_blankets rdfs:subClassOf cn:food .
+
+cn:pilaf rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:pillow_case cn:usedFor cn:decoration .
+
+cn:pillowcase cn:usedFor cn:decoration .
+
+cn:pineapple rdfs:subClassOf cn:fruit,
+        cn:living_thing .
+
+cn:pineapple_cake cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:pink_cloud rdfs:subClassOf cn:pink .
+
+cn:pink_disease_fungus rdfs:subClassOf cn:fungus .
+
+cn:pinkness rdfs:subClassOf cn:pink .
+
+cn:pirog rdfs:subClassOf cn:food .
+
+cn:pistachio rdfs:subClassOf cn:living_thing .
+
+cn:pistou rdfs:subClassOf cn:food .
+
+cn:pita rdfs:subClassOf cn:food .
+
+cn:pitcher rdfs:subClassOf cn:leaf .
+
+cn:pizza_crust rdfs:subClassOf cn:bread .
+
+cn:pizza_hut ns1:product cn:pizza .
+
+cn:pizza_sauce cn:partOf cn:pizza .
+
+cn:pizza_toppings cn:partOf cn:pizza .
+
+cn:pizzeria_sells_pizza_which rdfs:subClassOf cn:food .
+
+cn:pla_ra rdfs:subClassOf cn:food .
+
+cn:plantain rdfs:subClassOf cn:vegetable .
+
+cn:plastic cn:hasProperty cn:solid .
+
+cn:platter rdfs:subClassOf cn:dish .
+
+cn:pleurotus rdfs:subClassOf cn:fungus .
+
+cn:pleurotus_ostreatus rdfs:subClassOf cn:fungus .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#ploughman's_lunch> rdfs:subClassOf cn:food .
+
+cn:plum rdfs:subClassOf cn:fruit .
+
+cn:plum_tomato rdfs:subClassOf cn:fruit .
+
+cn:plums rdfs:subClassOf cn:fruit .
+
+cn:plural_of_vegetable rdfs:subClassOf cn:vegetables .
+
+cn:pluteus_aurantiorugosus rdfs:subClassOf cn:agaric .
+
+cn:pluteus_cervinus rdfs:subClassOf cn:fungus .
+
+cn:pluteus_magnus rdfs:subClassOf cn:agaric .
+
+cn:poached_egg rdfs:subClassOf cn:dish .
+
+cn:pod rdfs:subClassOf cn:fruit .
+
+cn:poffertjes rdfs:subClassOf cn:food .
+
+cn:poi rdfs:subClassOf cn:dish .
+
+cn:poisonous_parasol rdfs:subClassOf cn:lepiota .
+
+cn:polenta rdfs:subClassOf cn:food .
+
+cn:polyporaceae rdfs:subClassOf cn:fungus .
+
+cn:polypore rdfs:subClassOf cn:basidiomycete .
+
+cn:polyporus_squamosus rdfs:subClassOf cn:fungus .
+
+cn:pome rdfs:subClassOf cn:fruit .
+
+cn:pomegranate rdfs:subClassOf cn:fruit .
+
+cn:pond_scum_parasite rdfs:subClassOf cn:fungus .
+
+cn:popularity rdfs:subClassOf cn:state .
+
+cn:pork rdfs:subClassOf cn:meat .
+
+cn:pork_and_beans rdfs:subClassOf cn:dish .
+
+cn:pork_pie rdfs:subClassOf cn:meat_pie .
+
+cn:pork_sausage rdfs:subClassOf cn:sausage .
+
+cn:porridge rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:pot_au_feu rdfs:subClassOf cn:food .
+
+cn:potage rdfs:subClassOf cn:soup .
+
+cn:potato rdfs:subClassOf cn:food,
+        cn:starches,
+        cn:vegetable .
+
+cn:potato_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:potato_chip rdfs:subClassOf cn:food .
+
+cn:potato_fungus rdfs:subClassOf cn:fungus .
+
+cn:potato_pancake rdfs:subClassOf cn:food .
+
+cn:potato_salad rdfs:subClassOf cn:food .
+
+cn:potato_skin rdfs:subClassOf cn:snack_food .
+
+cn:potato_wart_fungus rdfs:subClassOf cn:fungus .
+
+cn:potatoes rdfs:subClassOf cn:food,
+        cn:vegetable,
+        cn:vegetables .
+
+cn:potatoes_and_chicken rdfs:subClassOf cn:food .
+
+cn:potherb rdfs:subClassOf cn:vegetable .
+
+cn:potoato rdfs:subClassOf cn:food .
+
+cn:potpie rdfs:subClassOf cn:dish .
+
+cn:poultry rdfs:subClassOf cn:meat .
+
+cn:pound_cake rdfs:subClassOf cn:food .
+
+cn:poutine rdfs:subClassOf cn:food .
+
+cn:pozole cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:prairie_gourd rdfs:subClassOf cn:fruit .
+
+cn:praline rdfs:subClassOf cn:food .
+
+cn:prefecture rdfs:subClassOf cn:state .
+
+cn:pregnant_woman rdfs:subClassOf cn:living_thing .
+
+cn:pretzel cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food,
+        cn:snack_food .
+
+cn:prickly_edged_leaf rdfs:subClassOf cn:leaf .
+
+cn:pringles cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:prinzregententorte rdfs:subClassOf cn:food .
+
+cn:process_cheese rdfs:subClassOf cn:cheese .
+
+cn:products rdfs:subClassOf cn:food .
+
+cn:projectile rdfs:subClassOf cn:object .
+
+cn:prototaxites rdfs:subClassOf cn:fungus .
+
+cn:province rdfs:subClassOf cn:state .
+
+cn:provolone_cheese rdfs:subClassOf cn:cheese .
+
+cn:prune rdfs:subClassOf cn:living_thing .
+
+cn:pseudallescheria rdfs:subClassOf cn:fungus .
+
+cn:pseudevernia_furfuracea rdfs:subClassOf cn:fungus .
+
+cn:psilocybe rdfs:subClassOf cn:fungus .
+
+cn:puccinia rdfs:subClassOf cn:fungus .
+
+cn:puff_pastry rdfs:subClassOf cn:food .
+
+cn:puffball rdfs:subClassOf cn:fungus .
+
+cn:pumpernickel rdfs:subClassOf cn:food .
+
+cn:pumpkin rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:pumpkin_pie rdfs:subClassOf cn:dessert .
+
+cn:pupusa rdfs:subClassOf cn:food .
+
+cn:puree rdfs:subClassOf cn:nutriment .
+
+cn:pythium rdfs:subClassOf cn:fungus .
+
+cn:pyxidium rdfs:subClassOf cn:fruit .
+
+cn:pâté rdfs:subClassOf cn:food .
+
+cn:quandong rdfs:subClassOf cn:fruit .
+
+cn:quark_cheese rdfs:subClassOf cn:cheese .
+
+cn:quarter rdfs:subClassOf cn:state .
+
+cn:quarter_pounder rdfs:subClassOf cn:hamburger .
+
+cn:queensland rdfs:subClassOf cn:state .
+
+cn:quiche rdfs:subClassOf cn:food .
+
+cn:quick_bread rdfs:subClassOf cn:bread .
+
+cn:quince_cheese rdfs:subClassOf cn:food .
+
+cn:rabbit cn:desires cn:lettuce ;
+    rdfs:subClassOf cn:meat .
+
+cn:raclette_cheese rdfs:subClassOf cn:cheese .
+
+cn:radiigera_fuscogleba rdfs:subClassOf cn:fungus .
+
+cn:radish rdfs:subClassOf cn:cruciferous_vegetable,
+        cn:vegetable .
+
+cn:ragout rdfs:subClassOf cn:food .
+
+cn:raisin_bread rdfs:subClassOf cn:bread .
+
+cn:raisins rdfs:subClassOf cn:fruit .
+
+cn:ramalina rdfs:subClassOf cn:fungus .
+
+cn:ramekin rdfs:subClassOf cn:dish .
+
+cn:ramen rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:ranch_dressing rdfs:subClassOf cn:food .
+
+cn:raptorial_bird_flesh rdfs:subClassOf cn:meat .
+
+cn:raspberry rdfs:subClassOf cn:fruit .
+
+cn:ratatouille rdfs:subClassOf cn:food .
+
+cn:ravioli rdfs:subClassOf cn:food .
+
+cn:raw_bananas cn:hasProperty cn:green .
+
+cn:raw_foodism rdfs:subClassOf cn:food .
+
+cn:raw_meat rdfs:subClassOf cn:meat .
+
+cn:raw_vegetable rdfs:subClassOf cn:vegetable .
+
+cn:ray_flesh rdfs:subClassOf cn:meat .
+
+cn:recovered_thing rdfs:subClassOf cn:living_thing .
+
+cn:rectangle rdfs:subClassOf cn:shape .
+
+cn:rectangular rdfs:subClassOf cn:shape .
+
+cn:red rdfs:subClassOf cn:color .
+
+cn:red_currant rdfs:subClassOf cn:living_thing .
+
+cn:red_delicious_apple rdfs:subClassOf cn:fruit .
+
+cn:red_meat rdfs:subClassOf cn:meat .
+
+cn:red_peppers rdfs:subClassOf cn:vegetables .
+
+cn:reddish_purple rdfs:subClassOf cn:purple .
+
+cn:refried_beans rdfs:subClassOf cn:dish .
+
+cn:region rdfs:subClassOf cn:state .
+
+cn:region_of_england rdfs:subClassOf cn:state .
+
+cn:reich rdfs:subClassOf cn:state .
+
+cn:religieuse cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:republican cn:similarTo cn:green .
+
+cn:restaurant_and_theatre cn:hasA cn:food .
+
+cn:result_of_cooking rdfs:subClassOf cn:food .
+
+cn:reuben rdfs:subClassOf cn:sandwich .
+
+cn:rhizoctinia rdfs:subClassOf cn:fungus .
+
+cn:rhizopogon rdfs:subClassOf cn:fungus .
+
+cn:rhizopus rdfs:subClassOf cn:fungus .
+
+cn:rhode_island rdfs:subClassOf cn:state .
+
+cn:rhodotorula rdfs:subClassOf cn:fungus .
+
+cn:ribbon cn:capableOf cn:color ;
+    rdfs:subClassOf cn:decoration .
+
+cn:rice rdfs:subClassOf cn:starches .
+
+cn:rice_and_pasta rdfs:subClassOf cn:food .
+
+cn:rice_pudding rdfs:subClassOf cn:food .
+
+cn:rickenella rdfs:subClassOf cn:fungus .
+
+cn:ricotta rdfs:subClassOf cn:cheese .
+
+cn:rigatoni rdfs:subClassOf cn:food .
+
+cn:rijsttaffel rdfs:subClassOf cn:dish .
+
+cn:ring cn:usedFor cn:decoration .
+
+cn:ringworm rdfs:subClassOf cn:fungus .
+
+cn:rio_de_janeiro rdfs:subClassOf cn:state .
+
+cn:ripe_bananas cn:hasProperty cn:yellow .
+
+cn:ripe_fruit rdfs:subClassOf cn:fruit .
+
+cn:risotto rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:rissole rdfs:subClassOf cn:dish .
+
+cn:roast_beef rdfs:subClassOf cn:food .
+
+cn:rock cn:usedFor cn:decoration .
+
+cn:rock_candy rdfs:subClassOf cn:food .
+
+cn:rocks cn:hasProperty cn:solid .
+
+cn:rodent rdfs:subClassOf cn:meat .
+
+cn:rogue_state rdfs:subClassOf cn:state .
+
+cn:rojak rdfs:subClassOf cn:food .
+
+cn:roma_tomato rdfs:subClassOf cn:fruit .
+
+cn:romano_cheese rdfs:subClassOf cn:cheese .
+
+cn:romesco rdfs:subClassOf cn:food .
+
+cn:root_vegetable rdfs:subClassOf cn:vegetable .
+
+cn:rose rdfs:subClassOf cn:pink .
+
+cn:rose_wine cn:hasProperty cn:pink .
+
+cn:rosette rdfs:subClassOf cn:leaf .
+
+cn:rotelle rdfs:subClassOf cn:food .
+
+cn:roughage rdfs:subClassOf cn:foodstuff .
+
+cn:roulade rdfs:subClassOf cn:dish .
+
+cn:roundness rdfs:subClassOf cn:shape .
+
+cn:rowanberry rdfs:subClassOf cn:fruit .
+
+cn:royal_agaric rdfs:subClassOf cn:agaric .
+
+cn:royal_icing rdfs:subClassOf cn:food .
+
+cn:rug cn:usedFor cn:decoration .
+
+cn:rum_baba rdfs:subClassOf cn:food .
+
+cn:rum_ball cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:ruminant_flesh rdfs:subClassOf cn:meat .
+
+cn:runcinate_leaf rdfs:subClassOf cn:leaf .
+
+cn:russian_state rdfs:subClassOf cn:state .
+
+cn:russula rdfs:subClassOf cn:fungus .
+
+cn:russulaceae rdfs:subClassOf cn:fungus .
+
+cn:russulales rdfs:subClassOf cn:fungus .
+
+cn:rust rdfs:subClassOf cn:fungus .
+
+cn:rutabagas rdfs:subClassOf cn:vegetables .
+
+cn:rwanda rdfs:subClassOf cn:state .
+
+cn:rye_bread rdfs:subClassOf cn:bread .
+
+cn:rösti rdfs:subClassOf cn:food .
+
+cn:sac_fungus rdfs:subClassOf cn:fungus .
+
+cn:saccharomyces rdfs:subClassOf cn:fungus .
+
+cn:saccharomyces_boulardii rdfs:subClassOf cn:fungus .
+
+cn:saccharomyces_cerevisiae rdfs:subClassOf cn:fungus .
+
+cn:saccharomyces_pastorianus rdfs:subClassOf cn:fungus .
+
+cn:sachertorte rdfs:subClassOf cn:food .
+
+cn:sage_green rdfs:subClassOf cn:green .
+
+cn:sailor_cap rdfs:subClassOf cn:cap .
+
+cn:salad_bowl rdfs:subClassOf cn:dish .
+
+cn:salad_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:salisbury_steak rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:salmon rdfs:subClassOf cn:food .
+
+cn:salmon_flesh rdfs:subClassOf cn:meat .
+
+cn:salmon_loaf rdfs:subClassOf cn:fish_loaf .
+
+cn:salsa rdfs:subClassOf cn:food .
+
+cn:salt cn:usedFor cn:food .
+
+cn:salt_rising_bread rdfs:subClassOf cn:bread .
+
+cn:sambar rdfs:subClassOf cn:food .
+
+cn:samosa rdfs:subClassOf cn:food .
+
+cn:sand rdfs:subClassOf cn:color .
+
+cn:sandwich_plate rdfs:subClassOf cn:dish .
+
+cn:sandwich_wrap rdfs:subClassOf cn:sandwich .
+
+cn:sandwitch rdfs:subClassOf cn:food .
+
+cn:sandy_mushroom rdfs:subClassOf cn:agaric .
+
+cn:santa_hat rdfs:subClassOf cn:cap .
+
+cn:sarcoscypha_coccinea rdfs:subClassOf cn:fungus .
+
+cn:sarcosomataceae rdfs:subClassOf cn:fungus .
+
+cn:sashimi rdfs:subClassOf cn:dish .
+
+cn:satay rdfs:subClassOf cn:food .
+
+cn:sate_hunger cn:motivatedByGoal cn:food .
+
+cn:sating_hunger cn:hasPrerequisite cn:food .
+
+cn:satisfy_appetites_with_minimum_effort cn:hasPrerequisite cn:food .
+
+cn:satisfying_appetites_with_minimum_effort cn:hasPrerequisite cn:food ;
+    cn:usedFor cn:soup .
+
+cn:sauce cn:partOf cn:dish,
+        cn:pizza ;
+    rdfs:subClassOf cn:substance .
+
+cn:saucer rdfs:subClassOf cn:dish .
+
+cn:sauerbraten rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:sauerkraut rdfs:subClassOf cn:cabbage,
+        cn:dish .
+
+cn:sausage_meat rdfs:subClassOf cn:meat .
+
+cn:saute rdfs:subClassOf cn:dish .
+
+cn:scale rdfs:subClassOf cn:leaf .
+
+cn:scallion_pancake rdfs:subClassOf cn:food .
+
+cn:scallopine rdfs:subClassOf cn:dish .
+
+cn:scaly_lentinus rdfs:subClassOf cn:fungus .
+
+cn:scampi rdfs:subClassOf cn:dish .
+
+cn:schizocarp rdfs:subClassOf cn:fruit .
+
+cn:schnitzel rdfs:subClassOf cn:dish .
+
+cn:schoolbuses cn:hasProperty cn:yellow .
+
+cn:sclerotinia rdfs:subClassOf cn:fungus .
+
+cn:scone rdfs:subClassOf cn:food .
+
+cn:scotch_broth rdfs:subClassOf cn:soup .
+
+cn:scotch_egg rdfs:subClassOf cn:dish .
+
+cn:scotch_woodcock rdfs:subClassOf cn:dish .
+
+cn:scrambled_egg rdfs:subClassOf cn:dish .
+
+cn:scrapple rdfs:subClassOf cn:dish .
+
+cn:scutiger rdfs:subClassOf cn:fungus .
+
+cn:scutula rdfs:subClassOf cn:fungus .
+
+cn:sea_green rdfs:subClassOf cn:green .
+
+cn:sea_power rdfs:subClassOf cn:state .
+
+cn:seafood rdfs:subClassOf cn:food,
+        cn:meat .
+
+cn:seafood_newburg rdfs:subClassOf cn:dish .
+
+cn:seed rdfs:subClassOf cn:fruit,
+        cn:object .
+
+cn:seed_leaf rdfs:subClassOf cn:leaf .
+
+cn:semicircular rdfs:subClassOf cn:circular .
+
+cn:semolina_pudding rdfs:subClassOf cn:food .
+
+cn:sentience rdfs:subClassOf cn:state .
+
+cn:septoria rdfs:subClassOf cn:fungus .
+
+cn:serrate_leaf rdfs:subClassOf cn:leaf .
+
+cn:sesame_fruit rdfs:subClassOf cn:fruit .
+
+cn:sfogliatella rdfs:subClassOf cn:food .
+
+cn:shaggymane rdfs:subClassOf cn:agaric .
+
+cn:shark_fin_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:sharpness rdfs:subClassOf cn:shape .
+
+cn:shashlik rdfs:subClassOf cn:food .
+
+cn:shchi cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:sheep_flesh rdfs:subClassOf cn:meat .
+
+cn:sheet_cake rdfs:subClassOf cn:food .
+
+cn:shellfish_flesh rdfs:subClassOf cn:meat .
+
+<http://www.semanticweb.org/ontologies/ConceptNet#shepherd's_pie> rdfs:subClassOf cn:meat_pie .
+
+cn:sherbet rdfs:subClassOf cn:frozen_dessert .
+
+cn:shiitake rdfs:subClassOf cn:fungus .
+
+cn:shirred_egg rdfs:subClassOf cn:dish .
+
+cn:shkedei_marak rdfs:subClassOf cn:food .
+
+cn:shoelace rdfs:subClassOf cn:object .
+
+cn:shoestring_fungus rdfs:subClassOf cn:agaric .
+
+cn:shortbread rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:shrimp_flesh rdfs:subClassOf cn:meat .
+
+cn:shrimp_toast rdfs:subClassOf cn:food .
+
+cn:sicilian_pizza rdfs:subClassOf cn:pizza .
+
+cn:sick_thing rdfs:subClassOf cn:living_thing .
+
+cn:side_dish rdfs:subClassOf cn:dish .
+
+cn:sikhye rdfs:subClassOf cn:food .
+
+cn:simit cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:simnel rdfs:subClassOf cn:bread .
+
+cn:simple_leaf rdfs:subClassOf cn:leaf .
+
+cn:single_responsibility_principle rdfs:subClassOf cn:solid .
+
+cn:sinseollo rdfs:subClassOf cn:food .
+
+cn:sisal_leaf rdfs:subClassOf cn:leaf .
+
+cn:sisig rdfs:subClassOf cn:food .
+
+cn:siu_mei rdfs:subClassOf cn:food .
+
+cn:skilandis rdfs:subClassOf cn:food .
+
+cn:skin_color rdfs:subClassOf cn:color .
+
+cn:skin_of_bananas cn:hasProperty cn:yellow .
+
+cn:skirt_steak rdfs:subClassOf cn:food .
+
+cn:skullcap rdfs:subClassOf cn:cap .
+
+cn:slatko cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:slice_of_bread rdfs:subClassOf cn:bread .
+
+cn:sliced_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:slider rdfs:subClassOf cn:hamburger .
+
+cn:slime_mold rdfs:subClassOf cn:fungus .
+
+cn:slop rdfs:subClassOf cn:food .
+
+cn:sloppy_joe rdfs:subClassOf cn:sandwich .
+
+cn:slug rdfs:subClassOf cn:food .
+
+cn:slush rdfs:subClassOf cn:food .
+
+cn:small_children cn:desires cn:color .
+
+cn:smut rdfs:subClassOf cn:fungus .
+
+cn:snail rdfs:subClassOf cn:meat .
+
+cn:snails_shells cn:hasProperty cn:circular .
+
+cn:snow_cone rdfs:subClassOf cn:food .
+
+cn:snowball rdfs:subClassOf cn:frozen_dessert .
+
+cn:snowflake cn:usedFor cn:decoration .
+
+cn:soap cn:capableOf cn:liquid ;
+    rdfs:subClassOf cn:object,
+        cn:solid .
+
+cn:soap_dish rdfs:subClassOf cn:dish .
+
+cn:soba rdfs:subClassOf cn:food .
+
+cn:sobrassada cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food .
+
+cn:soccer_field cn:hasProperty cn:green .
+
+cn:solanaceous_vegetable rdfs:subClassOf cn:vegetable .
+
+cn:solferino rdfs:subClassOf cn:pink .
+
+cn:solomon_gundy rdfs:subClassOf cn:food .
+
+cn:solyanka cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:sopaipilla rdfs:subClassOf cn:food .
+
+cn:sorbet cn:instanceOf cn:frozen_dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:sordariomycetes rdfs:subClassOf cn:fungus .
+
+cn:souffle rdfs:subClassOf cn:dish .
+
+cn:soufflé rdfs:subClassOf cn:food .
+
+cn:soup_du_jour rdfs:subClassOf cn:soup .
+
+cn:soup_stock rdfs:subClassOf cn:soup .
+
+cn:soupd rdfs:subClassOf cn:food .
+
+cn:sour_bread rdfs:subClassOf cn:bread .
+
+cn:sourdough rdfs:subClassOf cn:food .
+
+cn:sourdough_bread rdfs:subClassOf cn:bread .
+
+cn:souse rdfs:subClassOf cn:sausage .
+
+cn:south_carolina rdfs:subClassOf cn:state .
+
+cn:south_dakota rdfs:subClassOf cn:state .
+
+cn:soviet_socialist_republic rdfs:subClassOf cn:state .
+
+cn:soviets rdfs:subClassOf cn:state .
+
+cn:soy_milk rdfs:subClassOf cn:food .
+
+cn:soy_sauce rdfs:subClassOf cn:liquid .
+
+cn:soybean rdfs:subClassOf cn:vegetable .
+
+cn:spaghetti rdfs:subClassOf cn:food .
+
+cn:spaghetti_and_meatballs rdfs:subClassOf cn:dish .
+
+cn:spaghetti_squash rdfs:subClassOf cn:vegetables .
+
+cn:spam rdfs:subClassOf cn:food .
+
+cn:spanish_omelette rdfs:subClassOf cn:food .
+
+cn:spanish_rice rdfs:subClassOf cn:dish .
+
+cn:spare_part rdfs:subClassOf cn:part .
+
+cn:special rdfs:subClassOf cn:dish .
+
+cn:species rdfs:subClassOf cn:living_thing .
+
+cn:spectral_color rdfs:subClassOf cn:color .
+
+cn:speculoos rdfs:subClassOf cn:food .
+
+cn:sphere rdfs:subClassOf cn:object .
+
+cn:spinach rdfs:subClassOf cn:vegetable .
+
+cn:spirit rdfs:subClassOf cn:liquid .
+
+cn:spizellomycetales rdfs:subClassOf cn:fungus .
+
+cn:split rdfs:subClassOf cn:frozen_dessert .
+
+cn:split_pea_soup rdfs:subClassOf cn:soup .
+
+cn:sporophyll rdfs:subClassOf cn:leaf .
+
+cn:spotted_dick rdfs:subClassOf cn:food .
+
+cn:spring_roll rdfs:subClassOf cn:food .
+
+cn:sprinkles rdfs:subClassOf cn:food .
+
+cn:sprout rdfs:subClassOf cn:vegetable .
+
+cn:square rdfs:subClassOf cn:shape .
+
+cn:squash rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:squash_bug cn:hasProperty cn:triangular .
+
+cn:ssamjang rdfs:subClassOf cn:food .
+
+cn:st_andre_cheese rdfs:subClassOf cn:cheese .
+
+cn:stalked_puffball rdfs:subClassOf cn:fungus .
+
+cn:standing_rib_roast rdfs:subClassOf cn:food .
+
+cn:staphylococcus rdfs:subClassOf cn:living_thing .
+
+cn:star rdfs:subClassOf cn:shape .
+
+cn:star_of_bethlehem rdfs:subClassOf cn:object .
+
+cn:starving_man cn:desires cn:food .
+
+cn:state_in_liberia rdfs:subClassOf cn:state .
+
+cn:staying_healthy cn:hasPrerequisite cn:food .
+
+cn:steak rdfs:subClassOf cn:food,
+        cn:meat .
+
+cn:steak_and_kidney_pie rdfs:subClassOf cn:food,
+        cn:meat_pie .
+
+cn:steak_and_tortillas rdfs:subClassOf cn:food .
+
+cn:steak_au_poivre rdfs:subClassOf cn:dish .
+
+cn:steak_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:steak_tartare rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:stew rdfs:subClassOf cn:dish,
+        cn:soup .
+
+cn:stew_meat rdfs:subClassOf cn:meat .
+
+cn:stick_of_butter cn:hasProperty cn:yellow .
+
+cn:stile cn:partOf cn:leaf .
+
+cn:stilton rdfs:subClassOf cn:cheese .
+
+cn:stinkhorn rdfs:subClassOf cn:fungus .
+
+cn:stinky_tofu rdfs:subClassOf cn:food .
+
+cn:stocking_cap rdfs:subClassOf cn:cap .
+
+cn:stodge rdfs:subClassOf cn:nutriment .
+
+cn:stoemp rdfs:subClassOf cn:food .
+
+cn:stollen rdfs:subClassOf cn:food .
+
+cn:storage_furniture cn:usedFor cn:decoration .
+
+cn:stracchino rdfs:subClassOf cn:cheese .
+
+cn:straightness rdfs:subClassOf cn:shape .
+
+cn:stratification rdfs:subClassOf cn:shape .
+
+cn:straw_mushroom rdfs:subClassOf cn:agaric .
+
+cn:streuselkuchen rdfs:subClassOf cn:food .
+
+cn:string_cheese rdfs:subClassOf cn:cheese .
+
+cn:stroopwafel rdfs:subClassOf cn:food .
+
+cn:stropharia_ambigua rdfs:subClassOf cn:agaric .
+
+cn:stropharia_hornemannii rdfs:subClassOf cn:agaric,
+        cn:fungus .
+
+cn:stropharia_rugoso_annulata rdfs:subClassOf cn:agaric .
+
+cn:strudel rdfs:subClassOf cn:food .
+
+cn:stuffed_cabbage rdfs:subClassOf cn:dish .
+
+cn:stuffed_peppers rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:stuffed_tomato rdfs:subClassOf cn:dish .
+
+cn:sub rdfs:subClassOf cn:sandwich .
+
+cn:submarine_sandwich rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:subway ns1:product cn:pizza .
+
+cn:succotash rdfs:subClassOf cn:dish .
+
+cn:sudanese_state rdfs:subClassOf cn:state .
+
+cn:suguaros cn:hasProperty cn:green .
+
+cn:sukiyaki cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:summer_in_basket_where cn:definedAs cn:green .
+
+cn:summer_pudding cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:sundae cn:instanceOf cn:dessert,
+        cn:ice_cream ;
+    cn:madeOf cn:ice_cream ;
+    rdfs:subClassOf cn:food .
+
+cn:sunflowers cn:hasProperty cn:yellow .
+
+cn:supplì cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:suprême_sauce rdfs:subClassOf cn:food .
+
+cn:survivor rdfs:subClassOf cn:living_thing .
+
+cn:sushi rdfs:subClassOf cn:course,
+        cn:dish .
+
+cn:sushi_bento rdfs:subClassOf cn:course .
+
+cn:suzerain rdfs:subClassOf cn:state .
+
+cn:swedes_carrots_potatoes_and_aubergines rdfs:subClassOf cn:vegetables .
+
+cn:sweet_potato rdfs:subClassOf cn:vegetable .
+
+cn:sweet_william rdfs:subClassOf cn:pink .
+
+cn:sweetheart_cake rdfs:subClassOf cn:food .
+
+cn:swiss_cheese rdfs:subClassOf cn:cheese .
+
+cn:swiss_roll rdfs:subClassOf cn:food .
+
+cn:swiss_steak rdfs:subClassOf cn:dish .
+
+cn:swollen_thing rdfs:subClassOf cn:living_thing .
+
+cn:syllabub rdfs:subClassOf cn:dessert .
+
+cn:synchytrium_endobioticum rdfs:subClassOf cn:fungus .
+
+cn:syncytium rdfs:subClassOf cn:living_thing .
+
+cn:são_paulo rdfs:subClassOf cn:state .
+
+cn:t_bone_steak rdfs:subClassOf cn:food .
+
+cn:tabbouleh rdfs:subClassOf cn:food .
+
+cn:tablecloth cn:usedFor cn:decoration .
+
+cn:tables cn:hasProperty cn:oval .
+
+cn:taco rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:taco_bell ns1:product cn:burrito .
+
+cn:tagliatelle rdfs:subClassOf cn:food .
+
+cn:tahini rdfs:subClassOf cn:food .
+
+cn:taiyaki rdfs:subClassOf cn:food .
+
+cn:tajine rdfs:subClassOf cn:food .
+
+cn:takoyaki rdfs:subClassOf cn:food .
+
+cn:taleggio_cheese rdfs:subClassOf cn:cheese .
+
+cn:tamagoyaki rdfs:subClassOf cn:food .
+
+cn:tamale rdfs:subClassOf cn:dish .
+
+cn:tamale_pie rdfs:subClassOf cn:dish .
+
+cn:tangyuan rdfs:subClassOf cn:food .
+
+cn:tanning_lotion cn:hasProperty cn:liquid .
+
+cn:tapas rdfs:subClassOf cn:food .
+
+cn:tapenade rdfs:subClassOf cn:food .
+
+cn:tapioca rdfs:subClassOf cn:foodstuff .
+
+cn:tapioca_pudding rdfs:subClassOf cn:food .
+
+cn:tar rdfs:subClassOf cn:substance .
+
+cn:tarator cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:target rdfs:subClassOf cn:object .
+
+cn:tartar_sauce rdfs:subClassOf cn:food .
+
+cn:tarte_flambée rdfs:subClassOf cn:food .
+
+cn:tasting_sweet cn:hasPrerequisite cn:food ;
+    cn:usedFor cn:dessert .
+
+cn:tea_leaf rdfs:subClassOf cn:leaf .
+
+cn:teacake rdfs:subClassOf cn:food .
+
+cn:teacup rdfs:subClassOf cn:dish .
+
+cn:tempura rdfs:subClassOf cn:dish .
+
+cn:tennessee rdfs:subClassOf cn:state .
+
+cn:teriyaki rdfs:subClassOf cn:dish .
+
+cn:terrace cn:usedFor cn:decoration .
+
+cn:terrace_railing cn:usedFor cn:decoration .
+
+cn:terrine rdfs:subClassOf cn:dish .
+
+cn:terrorist_who_female rdfs:subClassOf cn:living_thing .
+
+cn:terrorist_who_male rdfs:subClassOf cn:living_thing .
+
+cn:tetrazzini rdfs:subClassOf cn:dish .
+
+cn:texas rdfs:subClassOf cn:state .
+
+cn:thick_pizza rdfs:subClassOf cn:pizza .
+
+cn:thin_pizza rdfs:subClassOf cn:pizza .
+
+cn:things_with_holes rdfs:subClassOf cn:food .
+
+cn:three_sisiters_tomato rdfs:subClassOf cn:fruit .
+
+cn:thukpa cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food .
+
+cn:thuringian_sausage cn:instanceOf cn:sausage ;
+    rdfs:subClassOf cn:food .
+
+cn:tiger_bread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:food .
+
+cn:tile cn:usedFor cn:decoration .
+
+cn:tilletia rdfs:subClassOf cn:fungus .
+
+cn:timbale rdfs:subClassOf cn:dish .
+
+cn:timbits rdfs:subClassOf cn:food .
+
+cn:tiramisu cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:dessert,
+        cn:food .
+
+cn:tires cn:hasProperty cn:circular .
+
+cn:tissue rdfs:subClassOf cn:living_thing .
+
+cn:tnt rdfs:subClassOf cn:yellow .
+
+cn:toast cn:instanceOf cn:bread ;
+    cn:madeOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:toast_hawaii rdfs:subClassOf cn:food .
+
+cn:tobacco_leaf rdfs:subClassOf cn:leaf .
+
+cn:toffee rdfs:subClassOf cn:food .
+
+cn:tomato rdfs:subClassOf cn:fruit,
+        cn:vegetable .
+
+cn:tomato_and_lettuce_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:tomato_paste rdfs:subClassOf cn:ingredient .
+
+cn:tomatoes rdfs:subClassOf cn:food,
+        cn:vegetable,
+        cn:vegetables .
+
+cn:tool rdfs:subClassOf cn:object .
+
+cn:tooth_fungus rdfs:subClassOf cn:fungus .
+
+cn:topography rdfs:subClassOf cn:shape .
+
+cn:topping cn:partOf cn:dish .
+
+cn:torte rdfs:subClassOf cn:food .
+
+cn:tortellini rdfs:subClassOf cn:food .
+
+cn:tortelloni rdfs:subClassOf cn:food .
+
+cn:tortilla_chip cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:tortillas cn:hasProperty cn:circular .
+
+cn:tortillas_and_bread rdfs:subClassOf cn:food .
+
+cn:torulaspora_delbrueckii rdfs:subClassOf cn:fungus .
+
+cn:torus rdfs:subClassOf cn:object .
+
+cn:tostada rdfs:subClassOf cn:dish,
+        cn:tortilla .
+
+cn:tourtiere rdfs:subClassOf cn:meat_pie .
+
+cn:traffic_light cn:hasProperty cn:green .
+
+cn:trail_mix cn:instanceOf cn:snack_food ;
+    rdfs:subClassOf cn:food .
+
+cn:trapezoid rdfs:subClassOf cn:shape .
+
+cn:trash rdfs:subClassOf cn:object .
+
+cn:treccione_cheese rdfs:subClassOf cn:cheese .
+
+cn:tremella rdfs:subClassOf cn:fungus .
+
+cn:tremella_foliacea rdfs:subClassOf cn:fungus .
+
+cn:tremellaceae rdfs:subClassOf cn:fungus .
+
+cn:tremellales rdfs:subClassOf cn:fungus .
+
+cn:trenette rdfs:subClassOf cn:food .
+
+cn:triangle rdfs:subClassOf cn:shape .
+
+cn:trichocomaceae rdfs:subClassOf cn:fungus .
+
+cn:tricholoma rdfs:subClassOf cn:fungus .
+
+cn:tricholoma_aurantium rdfs:subClassOf cn:agaric,
+        cn:fungus .
+
+cn:tricholoma_pardinum rdfs:subClassOf cn:agaric .
+
+cn:tricholoma_pessundatum rdfs:subClassOf cn:agaric .
+
+cn:tricholoma_sejunctum rdfs:subClassOf cn:agaric .
+
+cn:tricholoma_vaccinum rdfs:subClassOf cn:agaric .
+
+cn:tricholoma_venenata rdfs:subClassOf cn:agaric .
+
+cn:trichophyton rdfs:subClassOf cn:fungus .
+
+cn:trifle cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:triple_cream rdfs:subClassOf cn:cheese .
+
+cn:true_fungus rdfs:subClassOf cn:fungus .
+
+cn:truffle rdfs:subClassOf cn:fungus,
+        cn:vegetable .
+
+cn:trumpet cn:hasProperty cn:solid .
+
+cn:tteok rdfs:subClassOf cn:food .
+
+cn:tulostoma rdfs:subClassOf cn:fungus .
+
+cn:tulumba rdfs:subClassOf cn:food .
+
+cn:tuna rdfs:subClassOf cn:meat .
+
+cn:tunaburger rdfs:subClassOf cn:sandwich .
+
+cn:turkey rdfs:subClassOf cn:food .
+
+cn:turkey_flesh rdfs:subClassOf cn:meat .
+
+cn:turkey_meat rdfs:subClassOf cn:meat .
+
+cn:turkish_delight cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:turn_signals cn:hasProperty cn:yellow .
+
+cn:turnip rdfs:subClassOf cn:cruciferous_vegetable,
+        cn:vegetable .
+
+cn:turnip_green rdfs:subClassOf cn:vegetable .
+
+cn:turnips rdfs:subClassOf cn:vegetables .
+
+cn:turnover rdfs:subClassOf cn:dish .
+
+cn:turrón rdfs:subClassOf cn:food .
+
+cn:turtle_soup cn:instanceOf cn:soup ;
+    rdfs:subClassOf cn:food,
+        cn:soup .
+
+cn:tutti_frutti rdfs:subClassOf cn:ice_cream .
+
+cn:tv_sets cn:hasProperty cn:solid .
+
+cn:twinkie rdfs:subClassOf cn:food .
+
+cn:tzatziki rdfs:subClassOf cn:food .
+
+cn:u.s_state rdfs:subClassOf cn:state .
+
+cn:udon rdfs:subClassOf cn:food .
+
+cn:umbrella cn:capableOf cn:color .
+
+cn:united_kingdom rdfs:subClassOf cn:state .
+
+cn:united_kingdom_of_great_britain_and_northern_ireland rdfs:subClassOf cn:state .
+
+cn:united_states_of_america rdfs:subClassOf cn:state .
+
+cn:unripe_banana_peels cn:hasProperty cn:green .
+
+cn:unripe_oranges cn:hasProperty cn:green .
+
+cn:unsweetened_baking_chocolate rdfs:subClassOf cn:chocolate .
+
+cn:urinating cn:hasPrerequisite cn:liquid .
+
+cn:urine rdfs:subClassOf cn:yellow .
+
+cn:usnea rdfs:subClassOf cn:fungus .
+
+cn:ustilaginales rdfs:subClassOf cn:fungus .
+
+cn:utah rdfs:subClassOf cn:state .
+
+cn:uttapam rdfs:subClassOf cn:food .
+
+cn:uzbek_state rdfs:subClassOf cn:state .
+
+cn:vanilla_bean rdfs:subClassOf cn:fruit .
+
+cn:varenye cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:varieties_of_apples cn:hasProperty cn:green .
+
+cn:variety_meat rdfs:subClassOf cn:meat .
+
+cn:vasco_idiazabal rdfs:subClassOf cn:cheese .
+
+cn:vatrushka rdfs:subClassOf cn:food .
+
+cn:veal rdfs:subClassOf cn:meat .
+
+cn:veal_cordon_bleu rdfs:subClassOf cn:dish .
+
+cn:veal_parmesan rdfs:subClassOf cn:dish .
+
+cn:vegan_grilled_cheese_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:vegetarian_sausage rdfs:subClassOf cn:sausage .
+
+cn:veluticeps rdfs:subClassOf cn:fungus .
+
+cn:velveeta rdfs:subClassOf cn:cheese .
+
+cn:venation cn:partOf cn:leaf .
+
+cn:venezuelan_state rdfs:subClassOf cn:state .
+
+cn:venison rdfs:subClassOf cn:meat .
+
+cn:venturia rdfs:subClassOf cn:fungus .
+
+cn:vermicelli rdfs:subClassOf cn:food .
+
+cn:vermont rdfs:subClassOf cn:state .
+
+cn:verticillium rdfs:subClassOf cn:fungus .
+
+cn:vetkoek rdfs:subClassOf cn:food .
+
+cn:viand rdfs:subClassOf cn:dish .
+
+cn:vichyssoise rdfs:subClassOf cn:soup .
+
+cn:vinaigrette rdfs:subClassOf cn:food .
+
+cn:vinegar rdfs:subClassOf cn:liquid .
+
+cn:vinyl cn:usedFor cn:produce .
+
+cn:virginia rdfs:subClassOf cn:state .
+
+cn:virginia_strawberry rdfs:subClassOf cn:strawberry .
+
+cn:viridian_thing rdfs:subClassOf cn:green .
+
+cn:virus rdfs:subClassOf cn:organism .
+
+cn:visor rdfs:subClassOf cn:cap .
+
+cn:vitamin rdfs:subClassOf cn:nutriment .
+
+cn:vla rdfs:subClassOf cn:food .
+
+cn:vodka cn:hasProperty cn:liquid .
+
+cn:vol_au_vent rdfs:subClassOf cn:food .
+
+cn:volva cn:partOf cn:fungus .
+
+cn:volvaria_bombycina rdfs:subClassOf cn:fungus .
+
+cn:volvariella_bombycina rdfs:subClassOf cn:agaric .
+
+cn:volvariella_volvacea rdfs:subClassOf cn:fungus .
+
+cn:wafer rdfs:subClassOf cn:bread .
+
+cn:waffle rdfs:subClassOf cn:food .
+
+cn:wait_on_line cn:motivatedByGoal cn:hamburger .
+
+cn:waiting_on_tables cn:usedFor cn:food .
+
+cn:waldorf_salad rdfs:subClassOf cn:food .
+
+cn:walnut rdfs:subClassOf cn:fruit .
+
+cn:washington rdfs:subClassOf cn:state .
+
+cn:watch cn:hasProperty cn:solid .
+
+cn:watches cn:hasProperty cn:solid .
+
+cn:watermelon rdfs:subClassOf cn:fruit .
+
+cn:waterzooi rdfs:subClassOf cn:food .
+
+cn:waxycap rdfs:subClassOf cn:agaric .
+
+cn:we cn:capableOf cn:state .
+
+cn:wedding_cake rdfs:subClassOf cn:food .
+
+cn:weeds cn:hasProperty cn:green .
+
+cn:welfare_state rdfs:subClassOf cn:state .
+
+cn:welsh_rarebit rdfs:subClassOf cn:dish .
+
+cn:west_virginia rdfs:subClassOf cn:state .
+
+cn:western rdfs:subClassOf cn:sandwich .
+
+cn:wheat_bread rdfs:subClassOf cn:bread .
+
+cn:wheat_germ rdfs:subClassOf cn:nutriment .
+
+cn:wheat_leaf_rust rdfs:subClassOf cn:fungus .
+
+cn:wheel cn:hasProperty cn:circular ;
+    rdfs:subClassOf cn:object .
+
+cn:wheeled_vehicle cn:capableOf cn:roll .
+
+cn:when_unripe_bananas cn:hasProperty cn:green .
+
+cn:whip rdfs:subClassOf cn:dessert .
+
+cn:whipped_cream rdfs:subClassOf cn:food .
+
+cn:white_bread rdfs:subClassOf cn:bread .
+
+cn:white_castello_cheese rdfs:subClassOf cn:cheese .
+
+cn:white_chocolate cn:instanceOf cn:chocolate ;
+    rdfs:subClassOf cn:chocolate,
+        cn:food .
+
+cn:white_currant rdfs:subClassOf cn:living_thing .
+
+cn:white_fungus rdfs:subClassOf cn:fungus .
+
+cn:white_grape rdfs:subClassOf cn:fruit .
+
+cn:white_rust rdfs:subClassOf cn:fungus .
+
+cn:whole_body rdfs:subClassOf cn:living_thing .
+
+cn:wholemeal_bread rdfs:subClassOf cn:bread .
+
+cn:wild_cherry rdfs:subClassOf cn:fruit .
+
+cn:wild_strawberry rdfs:subClassOf cn:strawberry .
+
+cn:wine cn:madeOf cn:fruit ;
+    rdfs:subClassOf cn:food .
+
+cn:wine_glass rdfs:subClassOf cn:dish .
+
+cn:winter_mushroom rdfs:subClassOf cn:agaric .
+
+cn:winter_salami rdfs:subClassOf cn:food .
+
+cn:wisconsin rdfs:subClassOf cn:state .
+
+cn:wok rdfs:subClassOf cn:dish .
+
+cn:won_ton rdfs:subClassOf cn:soup .
+
+cn:wonton rdfs:subClassOf cn:food .
+
+cn:wood cn:hasProperty cn:solid ;
+    rdfs:subClassOf cn:solid .
+
+cn:wood_decay_fungus rdfs:subClassOf cn:fungus .
+
+cn:working cn:causes cn:produce .
+
+cn:world_power rdfs:subClassOf cn:state .
+
+cn:worthless_object rdfs:subClassOf cn:object .
+
+cn:wynnea_americana rdfs:subClassOf cn:fungus .
+
+cn:wynnea_sparassoides rdfs:subClassOf cn:fungus .
+
+cn:wyoming rdfs:subClassOf cn:state .
+
+cn:xanthoria_parietina rdfs:subClassOf cn:fungus .
+
+cn:xiaolongbao rdfs:subClassOf cn:food .
+
+cn:xylaria_polymorpha rdfs:subClassOf cn:fungus .
+
+cn:yakitori rdfs:subClassOf cn:dish .
+
+cn:yam rdfs:subClassOf cn:vegetable .
+
+cn:yassa rdfs:subClassOf cn:food .
+
+cn:yellow_green rdfs:subClassOf cn:green .
+
+cn:yellow_light rdfs:subClassOf cn:yellow .
+
+cn:yellow_mustard rdfs:subClassOf cn:yellow .
+
+cn:yellow_peppers rdfs:subClassOf cn:vegetables .
+
+cn:yellow_road_sign rdfs:subClassOf cn:yellow .
+
+cn:yellow_spot_fungus rdfs:subClassOf cn:fungus .
+
+cn:yellow_stop_sign rdfs:subClassOf cn:yellow .
+
+cn:yellow_submarine rdfs:subClassOf cn:yellow .
+
+cn:yellowish_pink rdfs:subClassOf cn:pink .
+
+cn:yogurt rdfs:subClassOf cn:food .
+
+cn:yolk cn:hasProperty cn:yellow ;
+    rdfs:subClassOf cn:yellow .
+
+cn:yorkshire_pudding rdfs:subClassOf cn:food .
+
+cn:youtiao rdfs:subClassOf cn:food .
+
+cn:yule_log cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:zabaglione rdfs:subClassOf cn:dessert .
+
+cn:zabaione cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:zakuski rdfs:subClassOf cn:food .
+
+cn:zeppole rdfs:subClassOf cn:food .
+
+cn:zone rdfs:subClassOf cn:state .
+
+cn:zongzi rdfs:subClassOf cn:food .
+
+cn:zrazy rdfs:subClassOf cn:food .
+
+cn:zucchini rdfs:subClassOf cn:vegetable .
+
+cn:zwieback rdfs:subClassOf cn:bread .
+
+cn:éclair rdfs:subClassOf cn:food .
+
+imnet-o:n07584110 rdfs:label "consomme"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a001,
+        imnet-o:a002 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    imnet-o:hasState imnet-o:a025 ;
+    rdfs:subClassOf imnet-o:n07583197 ;
+    owl:sameAs cn:consomme .
+
+imnet-o:n07614825 rdfs:label "chocolate_ice_cream"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a029 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07614500 ;
+    owl:sameAs cn:chocolate_ice_cream .
+
+imnet-o:n07615052 rdfs:label "Neapolitan_ice_cream"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a004,
+        imnet-o:a007 ;
+    imnet-o:hasIngredient imnet-o:a029 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07614500 ;
+    owl:sameAs cn:neapolitan_ice_cream .
+
+imnet-o:n07615190 rdfs:label "peach_ice_cream"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a002,
+        imnet-o:a007 ;
+    imnet-o:hasIngredient imnet-o:a037 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07614500 ;
+    owl:sameAs cn:peach_ice_cream .
+
+imnet-o:n07615460 rdfs:label "strawberry_ice_cream"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a004 ;
+    imnet-o:hasIngredient imnet-o:a036 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07614500 ;
+    owl:sameAs cn:strawberry_ice_cream .
+
+imnet-o:n07615671 rdfs:label "vanilla_ice_cream"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a007 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07614500 ;
+    owl:sameAs cn:vanilla_ice_cream .
+
+imnet-o:n07697313 rdfs:label "cheeseburger"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a026,
+        imnet-o:a027,
+        imnet-o:a032,
+        imnet-o:a034 ;
+    imnet-o:hasShape imnet-o:a011 ;
+    rdfs:subClassOf imnet-o:n07697100 ;
+    owl:sameAs cn:cheeseburger .
+
+imnet-o:n07713895 rdfs:label "cabbage, chou"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a003 ;
+    imnet-o:hasPart imnet-o:a021,
+        imnet-o:a022 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07713395 ;
+    owl:sameAs cn:cabbage .
+
+imnet-o:n07715103 rdfs:label "cauliflower"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a007 ;
+    imnet-o:hasPart imnet-o:a021 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07713395 ;
+    owl:sameAs cn:cauliflower .
+
+imnet-o:n07718671 rdfs:label "gherkin"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a003,
+        imnet-o:a005 ;
+    imnet-o:hasShape imnet-o:a014 ;
+    rdfs:subClassOf imnet-o:n07718472 ;
+    owl:sameAs cn:gherkin .
+
+imnet-o:n07865105 rdfs:label "chili_dog"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a027,
+        imnet-o:a035,
+        imnet-o:a038 ;
+    imnet-o:hasShape imnet-o:a014 ;
+    rdfs:subClassOf imnet-o:n07697537 ;
+    owl:sameAs cn:chili_dog .
+
+imnet-o:n07874063 rdfs:label "sausage_pizza"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a039 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    rdfs:subClassOf imnet-o:n07873807 ;
+    owl:sameAs cn:sausage_pizza .
+
+imnet-o:n07874159 rdfs:label "pepperoni_pizza"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a039,
+        imnet-o:a040 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    rdfs:subClassOf imnet-o:n07873807 ;
+    owl:sameAs cn:pepperoni_pizza .
+
+imnet-o:n07874259 rdfs:label "cheese_pizza"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a026 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    rdfs:subClassOf imnet-o:n07873807 ;
+    owl:sameAs cn:cheese_pizza .
+
+imnet-o:n07875693 rdfs:label "fish_loaf"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a007 ;
+    imnet-o:hasShape imnet-o:a008,
+        imnet-o:a013 ;
+    rdfs:subClassOf imnet-o:n07871810 ;
+    owl:sameAs cn:fish_loaf .
+
+imnet-o:n07881205 rdfs:label "quesadilla"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a030,
+        imnet-o:a031,
+        imnet-o:a033 ;
+    imnet-o:hasShape imnet-o:a010 ;
+    rdfs:subClassOf imnet-o:n07880968 ;
+    owl:sameAs cn:quesadilla .
+
+imnet-o:n13001206 rdfs:label "toadstool"^^xsd:string ;
+    imnet-o:hasDecoration imnet-o:a023 ;
+    imnet-o:hasPart imnet-o:a016,
+        imnet-o:a017,
+        imnet-o:a018 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:toadstool .
+
+imnet-o:n13003254 rdfs:label "death_cap, death_cup, death_angel, destroying_angel, Amanita_phalloides"^^xsd:string ;
+    imnet-o:hasPart imnet-o:a016,
+        imnet-o:a018,
+        imnet-o:a019 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:death_cap .
+
+imnet-o:n13004423 rdfs:label "chanterelle, chantarelle, Cantharellus_cibarius"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a002 ;
+    imnet-o:hasPart imnet-o:a018 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:chanterelle .
+
+imnet-o:n13009085 rdfs:label "nameko, viscid_mushroom, Pholiota_nameko"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a001 ;
+    imnet-o:hasPart imnet-o:a016,
+        imnet-o:a018,
+        imnet-o:a020 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:nameko .
+
+imnet-o:n13013534 rdfs:label "lepiota"^^xsd:string ;
+    imnet-o:hasDecoration imnet-o:a024 ;
+    imnet-o:hasPart imnet-o:a016,
+        imnet-o:a018 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:lepiota .
+
+imnet-o:n13017102 rdfs:label "blewits, Clitocybe_nuda"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a006 ;
+    imnet-o:hasPart imnet-o:a018 ;
+    rdfs:subClassOf imnet-o:n12998815 ;
+    owl:sameAs cn:blewits .
+
+cn:accessory_fruit rdfs:subClassOf cn:fruit .
+
+cn:aggregate_fruit rdfs:subClassOf cn:fruit .
+
+cn:angular cn:similarTo cn:triangular .
+
+cn:b_roll cn:similarTo cn:roll .
+
+cn:berry rdfs:subClassOf cn:fruit .
+
+cn:brown rdfs:subClassOf cn:color .
+
+cn:burger rdfs:subClassOf cn:food,
+        cn:sandwich .
+
+cn:candy rdfs:subClassOf cn:food .
+
+cn:cantharellus rdfs:subClassOf cn:fungus .
+
+cn:carob rdfs:subClassOf cn:foodstuff .
+
+cn:cereal rdfs:subClassOf cn:food .
+
+cn:chanterelle ns1:genus cn:cantharellus ;
+    rdfs:subClassOf cn:edible_mushroom,
+        cn:fungus,
+        cn:spatial_thing .
+
+cn:cheese_pizza cn:madeOf cn:tomato_sauce_kneaded_dough_and_cheese .
+
+cn:cheese_sandwich rdfs:subClassOf cn:sandwich .
+
+cn:cheeseburger cn:instanceOf cn:main_course ;
+    rdfs:subClassOf cn:cheese_sandwich,
+        cn:food .
+
+cn:chlorophyll rdfs:subClassOf cn:green .
+
+cn:coloring rdfs:subClassOf cn:foodstuff .
+
+cn:crust cn:partOf cn:pizza .
+
+cn:cuboid rdfs:subClassOf cn:parallelepiped .
+
+cn:dishonorable cn:similarTo cn:yellow .
+
+cn:disposable cn:similarTo cn:liquid .
+
+cn:drink rdfs:subClassOf cn:liquid .
+
+cn:drupe rdfs:subClassOf cn:fruit .
+
+cn:euphonious cn:similarTo cn:golden .
+
+cn:fast_food rdfs:subClassOf cn:nutriment .
+
+cn:flesh rdfs:subClassOf cn:color .
+
+cn:flower cn:hasProperty cn:solid,
+        cn:yellow ;
+    rdfs:subClassOf cn:living_thing .
+
+cn:flowers cn:hasProperty cn:green,
+        cn:pink,
+        cn:purple,
+        cn:yellow .
+
+cn:frozen_food rdfs:subClassOf cn:foodstuff .
+
+cn:garden_lettuce rdfs:subClassOf cn:lettuce .
+
+cn:garden_strawberry rdfs:subClassOf cn:strawberry .
+
+cn:gherkin rdfs:subClassOf cn:pickle .
+
+cn:ground_meat rdfs:subClassOf cn:meat .
+
+cn:haggis rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:hair cn:usedFor cn:decoration .
+
+cn:ill cn:similarTo cn:green .
+
+cn:junk_food rdfs:subClassOf cn:food .
+
+cn:kishke rdfs:subClassOf cn:dish .
+
+cn:liquefiable cn:similarTo cn:liquid .
+
+cn:liquified cn:similarTo cn:liquid .
+
+cn:meat_loaf rdfs:subClassOf cn:person .
+
+cn:meat_sausage rdfs:subClassOf cn:meat,
+        cn:sausage .
+
+cn:melon rdfs:subClassOf cn:fruit .
+
+cn:mexican rdfs:subClassOf cn:food .
+
+cn:muscle cn:madeOf cn:meat ;
+    rdfs:subClassOf cn:meat .
+
+cn:mushroom rdfs:subClassOf cn:agaric,
+        cn:basidiomycete,
+        cn:fungus,
+        cn:living_thing,
+        cn:vegetable .
+
+cn:musical cn:similarTo cn:liquid .
+
+cn:neapolitan_ice_cream rdfs:subClassOf cn:food .
+
+cn:orange cn:partOf cn:fruit ;
+    rdfs:subClassOf cn:color,
+        cn:food,
+        cn:fruit .
+
+cn:pancake rdfs:subClassOf cn:food .
+
+cn:pepperoni rdfs:subClassOf cn:food,
+        cn:meat_sausage,
+        cn:salami .
+
+cn:person cn:desires cn:hamburger,
+        cn:ice_cream .
+
+cn:pickle rdfs:subClassOf cn:cucumber,
+        cn:food,
+        cn:vegetable .
+
+cn:pit cn:partOf cn:peach .
+
+cn:primary_colour rdfs:subClassOf cn:color .
+
+cn:quesadilla rdfs:subClassOf cn:food .
+
+cn:round rdfs:subClassOf cn:shape .
+
+cn:runny cn:similarTo cn:liquid .
+
+cn:salami rdfs:subClassOf cn:sausage .
+
+cn:semiliquid cn:similarTo cn:liquid .
+
+cn:shade rdfs:subClassOf cn:color .
+
+cn:slice cn:partOf cn:golf_game,
+        cn:orange .
+
+cn:small_cap rdfs:subClassOf cn:corporation .
+
+cn:tomato_sauce cn:similarTo cn:meat_sauce .
+
+cn:unaged cn:similarTo cn:green .
+
+cn:united_states rdfs:subClassOf cn:state .
+
+cn:unleavened_bread rdfs:subClassOf cn:bread .
+
+cn:violet cn:similarTo cn:purple ;
+    rdfs:subClassOf cn:color,
+        cn:purple .
+
+cn:watery cn:similarTo cn:liquid .
+
+cn:wrap rdfs:subClassOf cn:sandwich .
+
+cn:yeast rdfs:subClassOf cn:fungus .
+
+imnet-o:a005 rdfs:label "dark_green"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 .
+
+imnet-o:a006 rdfs:label "purple"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:purple .
+
+imnet-o:a009 rdfs:label "roll"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:roll .
+
+imnet-o:a019 rdfs:label "buff_cap"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a041 .
+
+imnet-o:a020 rdfs:label "small_cap"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a041 ;
+    owl:sameAs cn:small_cap .
+
+imnet-o:a022 rdfs:label "curly_leaf"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a046 .
+
+imnet-o:a024 rdfs:label "mottled"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a043 .
+
+imnet-o:a035 rdfs:label "meat_sauce"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a028 ;
+    owl:sameAs cn:meat_sauce .
+
+imnet-o:a036 rdfs:label "strawberry"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a044 ;
+    owl:sameAs cn:strawberry .
+
+imnet-o:a037 rdfs:label "peach"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a044 ;
+    owl:sameAs cn:peach .
+
+imnet-o:a040 rdfs:label "pepperoni"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a049 ;
+    owl:sameAs cn:pepperoni .
+
+imnet-o:a051 rdfs:label "state"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a047 ;
+    owl:sameAs cn:state .
+
+imnet-o:n00001740 rdfs:label "entity"^^xsd:string .
+
+imnet-o:n00002684 rdfs:label "object, physical_object"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00001930 ;
+    owl:sameAs cn:object .
+
+imnet-o:n00003553 rdfs:label "whole, unit"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00002684 ;
+    owl:sameAs cn:whole .
+
+imnet-o:n00004258 rdfs:label "living_thing, animate_thing"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00003553 ;
+    owl:sameAs cn:living_thing .
+
+imnet-o:n00004475 rdfs:label "organism, being"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00004258 ;
+    owl:sameAs cn:organism .
+
+imnet-o:n00020090 rdfs:label "substance"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00020827 ;
+    owl:sameAs cn:substance .
+
+imnet-o:n07556970 rdfs:label "course"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07570720 ;
+    owl:sameAs cn:course .
+
+imnet-o:n07566340 rdfs:label "foodstuff, food_product"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00021265 ;
+    owl:sameAs cn:foodstuff .
+
+imnet-o:n07566863 rdfs:label "starches"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07566340 ;
+    owl:sameAs cn:starches .
+
+imnet-o:n07583197 rdfs:label "soup"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a031,
+        imnet-o:a033 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    imnet-o:hasState imnet-o:a025 ;
+    rdfs:subClassOf imnet-o:n07557434 ;
+    owl:sameAs cn:soup .
+
+imnet-o:n07609840 rdfs:label "dessert, sweet, afters"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07556970 ;
+    owl:sameAs cn:dessert .
+
+imnet-o:n07611358 rdfs:label "frozen_dessert"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07609840 ;
+    owl:sameAs cn:frozen_dessert .
+
+imnet-o:n07622061 rdfs:label "baked_goods"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07555863 ;
+    owl:sameAs cn:baked_goods .
+
+imnet-o:n07679356 rdfs:label "bread, breadstuff, staff_of_life"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07566863,
+        imnet-o:n07622061 ;
+    owl:sameAs cn:bread .
+
+imnet-o:n07683786 rdfs:label "loaf_of_bread, loaf"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a027 ;
+    imnet-o:hasShape imnet-o:a008,
+        imnet-o:a013 ;
+    rdfs:subClassOf imnet-o:n07679356 ;
+    owl:sameAs cn:loaf_of_bread .
+
+imnet-o:n07697100 rdfs:label "hamburger, beefburger, burger"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a027,
+        imnet-o:a032,
+        imnet-o:a034 ;
+    imnet-o:hasShape imnet-o:a011 ;
+    rdfs:subClassOf imnet-o:n07695965 ;
+    owl:sameAs cn:hamburger .
+
+imnet-o:n07697537 rdfs:label "hotdog, hot_dog, red_hot"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a027,
+        imnet-o:a038 ;
+    imnet-o:hasShape imnet-o:a014 ;
+    rdfs:subClassOf imnet-o:n07695965 ;
+    owl:sameAs cn:hotdog .
+
+imnet-o:n07705711 rdfs:label "produce, green_goods, green_groceries, garden_truck"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07555863 ;
+    owl:sameAs cn:produce .
+
+imnet-o:n07712382 rdfs:label "snack_food"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07557434 ;
+    owl:sameAs cn:snack_food .
+
+imnet-o:n07718472 rdfs:label "cucumber, cuke"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a003 ;
+    imnet-o:hasShape imnet-o:a014 ;
+    rdfs:subClassOf imnet-o:n07707451 ;
+    owl:sameAs cn:cucumber .
+
+imnet-o:n07871810 rdfs:label "meat_loaf, meatloaf"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a034 ;
+    imnet-o:hasShape imnet-o:a008,
+        imnet-o:a013 ;
+    rdfs:subClassOf imnet-o:n07557434,
+        imnet-o:n07683786 ;
+    owl:sameAs cn:meat_loaf .
+
+imnet-o:n07880968 rdfs:label "burrito"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a030,
+        imnet-o:a031,
+        imnet-o:a033 ;
+    imnet-o:hasShape imnet-o:a009 ;
+    rdfs:subClassOf imnet-o:n07557434 ;
+    owl:sameAs cn:burrito .
+
+imnet-o:n12992868 rdfs:label "fungus"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00004475 ;
+    owl:sameAs cn:fungus .
+
+imnet-o:n12997654 rdfs:label "basidiomycete, basidiomycetous_fungi"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n12992868 ;
+    owl:sameAs cn:basidiomycete .
+
+imnet-o:n15046900 rdfs:label "solid"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00020827 ;
+    owl:sameAs cn:solid .
+
+cn:buff cn:similarTo cn:chromatic ;
+    rdfs:subClassOf cn:skin .
+
+cn:cauliflower cn:hasProperty cn:eaten_cooked_or_raw,
+        cn:white ;
+    cn:partOf cn:cauliflower ;
+    rdfs:subClassOf cn:crucifer,
+        cn:cultivated_variety,
+        cn:vegetable .
+
+cn:chocolate_ice_cream cn:hasProperty cn:delicious .
+
+cn:chromatic cn:similarTo cn:buff .
+
+cn:cooking cn:causes cn:food ;
+    cn:hasPrerequisite cn:food .
+
+cn:dairy_product rdfs:subClassOf cn:foodstuff .
+
+cn:flatbread cn:instanceOf cn:bread ;
+    rdfs:subClassOf cn:bread,
+        cn:food .
+
+cn:gas rdfs:subClassOf cn:substance .
+
+cn:golden cn:similarTo cn:euphonious .
+
+cn:meat_sauce cn:similarTo cn:tomato_sauce ;
+    rdfs:subClassOf cn:pasta_sauce .
+
+cn:milk rdfs:subClassOf cn:foodstuff,
+        cn:liquid,
+        cn:nutriment .
+
+cn:plate cn:usedFor cn:decoration ;
+    rdfs:subClassOf cn:dish .
+
+cn:pudding rdfs:subClassOf cn:dessert,
+        cn:dish,
+        cn:food .
+
+cn:salad cn:hasProperty cn:green ;
+    rdfs:subClassOf cn:dish,
+        cn:food .
+
+cn:taste_sweet cn:motivatedByGoal cn:chocolate .
+
+cn:thing rdfs:subClassOf cn:object,
+        cn:substance .
+
+cn:toadstool rdfs:subClassOf cn:edible_or_inedible_mushroom,
+        cn:mushroom,
+        cn:toxic_substance .
+
+cn:tree cn:usedFor cn:decoration,
+        cn:fruit ;
+    rdfs:subClassOf cn:living_thing .
+
+cn:wheat cn:usedFor cn:food .
+
+cn:white rdfs:subClassOf cn:color .
+
+imnet-o:a001 rdfs:label "golden"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:golden .
+
+imnet-o:a010 rdfs:label "triangular"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:triangular .
+
+imnet-o:a011 rdfs:label "oval"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:oval .
+
+imnet-o:a017 rdfs:label "red_cap"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a041 .
+
+imnet-o:a021 rdfs:label "green_leaf"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a046 .
+
+imnet-o:a023 rdfs:label "white_spot"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a043 .
+
+imnet-o:a025 rdfs:label "liquid"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a051 ;
+    owl:sameAs cn:liquid .
+
+imnet-o:a026 rdfs:label "cheese"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:cheese .
+
+imnet-o:a030 rdfs:label "tortilla"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:tortilla .
+
+imnet-o:a038 rdfs:label "tubular_sausage"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a049 .
+
+imnet-o:a043 rdfs:label "decoration"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a047 ;
+    owl:sameAs cn:decoration .
+
+imnet-o:a044 rdfs:label "fruit"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:fruit .
+
+imnet-o:a046 rdfs:label "leaf"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a048 ;
+    owl:sameAs cn:leaf .
+
+imnet-o:a052 rdfs:label "vegetables"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:vegetable .
+
+imnet-o:n00001930 rdfs:label "physical_entity"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00001740 .
+
+imnet-o:n00020827 rdfs:label "matter"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00001930 ;
+    owl:sameAs cn:matter .
+
+imnet-o:n00021265 rdfs:label "food, nutrient"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00020090 ;
+    owl:sameAs cn:food .
+
+imnet-o:n07555863 rdfs:label "food, solid_food"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n15046900 ;
+    owl:sameAs cn:food .
+
+imnet-o:n07570720 rdfs:label "nutriment, nourishment, nutrition, sustenance, aliment, alimentation, victuals"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n00021265 ;
+    owl:sameAs cn:nutriment .
+
+imnet-o:n07695965 rdfs:label "sandwich"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a027,
+        imnet-o:a028,
+        imnet-o:a032 ;
+    imnet-o:hasShape imnet-o:a010 ;
+    rdfs:subClassOf imnet-o:n07712382 ;
+    owl:sameAs cn:sandwich .
+
+imnet-o:n07707451 rdfs:label "vegetable, veggie, veg"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a003 ;
+    rdfs:subClassOf imnet-o:n07705711 ;
+    owl:sameAs cn:vegetable .
+
+imnet-o:n07713395 rdfs:label "cruciferous_vegetable"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a003 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07707451 ;
+    owl:sameAs cn:cruciferous_vegetable .
+
+cn:burrito rdfs:subClassOf cn:assembled_food,
+        cn:food,
+        cn:prepared_solid_food,
+        cn:ready_to_eat_food .
+
+cn:cucumber ns1:genus cn:cucumis ;
+    cn:partOf cn:cucumber ;
+    rdfs:subClassOf cn:cool_crisp_vegetable,
+        cn:crisp_vegetable,
+        cn:edible_fruit,
+        cn:fruit,
+        cn:melon,
+        cn:plant,
+        cn:vegetable .
+
+cn:edible_fruit rdfs:subClassOf cn:fruit,
+        cn:produce .
+
+cn:finger_food rdfs:subClassOf cn:nutriment .
+
+cn:main_course rdfs:subClassOf cn:course .
+
+cn:oval cn:hasProperty cn:round ;
+    cn:receivesAction cn:curved ;
+    rdfs:subClassOf cn:figure,
+        cn:geometrical_plane_figure,
+        cn:manifold,
+        cn:round_thing .
+
+cn:peach ns1:genus cn:prunus ;
+    cn:hasA cn:pit ;
+    cn:partOf cn:orchard,
+        cn:peach ;
+    rdfs:subClassOf cn:drupe,
+        cn:edible_fruit,
+        cn:fruit_tree,
+        cn:living_thing,
+        cn:plant,
+        cn:stone_fruit .
+
+cn:tortilla cn:definedAs cn:substrate_for_tostada ;
+    cn:instanceOf cn:flatbread ;
+    cn:madeOf cn:corn_or_flour ;
+    cn:partOf cn:wrap ;
+    cn:usedFor cn:make_taco,
+        cn:making_taco ;
+    rdfs:subClassOf cn:food,
+        cn:pancake,
+        cn:structural_element_in_taco,
+        cn:structural_element_in_tostada,
+        cn:unleavened_bread .
+
+cn:water cn:hasProperty cn:liquid ;
+    rdfs:subClassOf cn:liquid .
+
+imnet-o:a002 rdfs:label "yellow"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:yellow .
+
+imnet-o:a004 rdfs:label "pink"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:pink .
+
+imnet-o:a008 rdfs:label "cuboid"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:cuboid .
+
+imnet-o:a013 rdfs:label "slice"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:slice .
+
+imnet-o:a029 rdfs:label "chocolate"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:chocolate .
+
+imnet-o:a031 rdfs:label "diced_vegetables"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a052 .
+
+imnet-o:a032 rdfs:label "lettuce"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a052 ;
+    owl:sameAs cn:lettuce .
+
+imnet-o:a033 rdfs:label "diced_meat"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a028 .
+
+imnet-o:a034 rdfs:label "meat_pie"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a028 ;
+    owl:sameAs cn:meat_pie .
+
+imnet-o:a039 rdfs:label "sliced_sausage"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a049 .
+
+imnet-o:a048 rdfs:label "part"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a047 ;
+    owl:sameAs cn:part .
+
+imnet-o:a049 rdfs:label "sausage"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:sausage .
+
+imnet-o:n07873807 rdfs:label "pizza, pizza_pie"^^xsd:string ;
+    imnet-o:hasIngredient imnet-o:a039 ;
+    imnet-o:hasShape imnet-o:a012 ;
+    rdfs:subClassOf imnet-o:n07557434 ;
+    owl:sameAs cn:pizza .
+
+cn:chromatic_color rdfs:subClassOf cn:color .
+
+cn:colour cn:hasProperty cn:color .
+
+cn:loaf_of_bread rdfs:subClassOf cn:ready_to_eat_food,
+        cn:tangible_thing .
+
+cn:matter cn:capableOf cn:exert_force_on_other_matter ;
+    cn:hasA cn:mass,
+        cn:no_electrical_charge,
+        cn:three_states ;
+    cn:hasProperty cn:gaseous,
+        cn:liquid,
+        cn:solid ;
+    cn:madeOf cn:elements,
+        cn:molecules,
+        cn:particles ;
+    cn:receivesAction cn:affected_by_electrical_charge,
+        cn:converted_into_energy,
+        cn:converted_to_energy ;
+    rdfs:subClassOf cn:anything,
+        cn:energy,
+        cn:tangible_thing .
+
+cn:meal rdfs:subClassOf cn:foodstuff,
+        cn:nutriment .
+
+cn:part cn:partOf cn:hair,
+        cn:whole ;
+    rdfs:subClassOf cn:concept,
+        cn:line .
+
+cn:starches rdfs:subClassOf cn:polymers_of_glucose .
+
+cn:triangular cn:similarTo cn:angular .
+
+imnet-o:a014 rdfs:label "long_strip"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 .
+
+imnet-o:a028 rdfs:label "meat"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:meat .
+
+imnet-o:a041 rdfs:label "cap"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a048 ;
+    owl:sameAs cn:cap .
+
+cn:baked_goods rdfs:subClassOf cn:food .
+
+cn:eat cn:motivatedByGoal cn:food .
+
+cn:strawberry ns1:genus cn:fragaria ;
+    cn:hasProperty cn:rich_in_vitamin_c ;
+    cn:partOf cn:garden_strawberry ;
+    rdfs:subClassOf cn:accessory_fruit,
+        cn:aggregate_fruit,
+        cn:berry,
+        cn:birthmark,
+        cn:edible_fruit,
+        cn:herb,
+        cn:plant,
+        cn:sweet_red_fruit .
+
+imnet-o:a003 rdfs:label "green"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:green .
+
+imnet-o:a016 rdfs:label "white_gill"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a048 .
+
+imnet-o:a047 rdfs:label "outlook"^^xsd:string .
+
+imnet-o:n07557434 rdfs:label "dish"^^xsd:string ;
+    rdfs:subClassOf imnet-o:n07570720 ;
+    owl:sameAs cn:dish .
+
+imnet-o:n07614500 rdfs:label "ice_cream, icecream"^^xsd:string ;
+    imnet-o:hasColor imnet-o:a004,
+        imnet-o:a007 ;
+    imnet-o:hasIngredient imnet-o:a029 ;
+    imnet-o:hasShape imnet-o:a015 ;
+    rdfs:subClassOf imnet-o:n07611358 ;
+    owl:sameAs cn:ice_cream .
+
+cn:eating cn:hasPrerequisite cn:food .
+
+cn:roll cn:similarTo cn:b_roll ;
+    rdfs:subClassOf cn:bread,
+        cn:piece_of_baked_dough,
+        cn:small_piece_of_baked_dough .
+
+cn:whole cn:madeOf cn:parts ;
+    cn:receivesAction cn:made_up_of_parts ;
+    rdfs:subClassOf cn:concept .
+
+imnet-o:a007 rdfs:label "buff"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a042 ;
+    owl:sameAs cn:buff .
+
+imnet-o:a012 rdfs:label "circular"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 ;
+    owl:sameAs cn:circular .
+
+imnet-o:a027 rdfs:label "bread"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a045 ;
+    owl:sameAs cn:bread .
+
+imnet-o:n12998815 rdfs:label "agaric"^^xsd:string ;
+    imnet-o:hasDecoration imnet-o:a023 ;
+    imnet-o:hasPart imnet-o:a016,
+        imnet-o:a017,
+        imnet-o:a018 ;
+    rdfs:subClassOf imnet-o:n12997654 ;
+    owl:sameAs cn:agaric .
+
+cn:cabbage cn:capableOf cn:help_fight_cancer ;
+    cn:causes cn:gas ;
+    cn:partOf cn:cabbage ;
+    rdfs:subClassOf cn:crucifer,
+        cn:cultivated_variety,
+        cn:plant,
+        cn:vegetable .
+
+cn:ingredient cn:partOf cn:dish,
+        cn:mixture ;
+    rdfs:subClassOf cn:foodstuff .
+
+cn:meat_pie rdfs:subClassOf cn:pie .
+
+cn:plant rdfs:subClassOf cn:organism .
+
+cn:produce rdfs:subClassOf cn:food,
+        cn:output,
+        cn:produce_market_category,
+        cn:raw_edibles .
+
+imnet-o:a018 rdfs:label "umbrella-like_cap"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a041 .
+
+imnet-o:a042 rdfs:label "color"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a047 ;
+    owl:sameAs cn:color .
+
+cn:cruciferous_vegetable cn:partOf cn:crucifer ;
+    rdfs:subClassOf cn:vegetable .
+
+cn:ice_cream cn:capableOf cn:delight_child,
+        cn:melt,
+        cn:taste_sweet ;
+    cn:hasA cn:calcium,
+        cn:sugar_which_sweet ;
+    cn:hasPrerequisite cn:milk ;
+    cn:hasProperty cn:cold_and_sweet,
+        cn:cold_creamy_and_sweet,
+        cn:frozen_sugary_cream,
+        cn:good,
+        cn:high_in_calories,
+        cn:served_cold ;
+    cn:receivesAction cn:considered_treat ;
+    rdfs:subClassOf cn:cold_dessert,
+        cn:colder_than_human_ambient_temperature,
+        cn:dairy_product,
+        cn:dessert,
+        cn:food,
+        cn:food_composite,
+        cn:frozen_dairy_treat,
+        cn:frozen_food,
+        cn:good_dessert_item,
+        cn:mixture,
+        cn:popular_desert_topping,
+        cn:solid_food,
+        cn:tasty_food,
+        cn:tasty_treat .
+
+imnet-o:a045 rdfs:label "ingredient"^^xsd:string ;
+    owl:sameAs cn:ingredient .
+
+imnet-o:a050 rdfs:label "shape"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a047 ;
+    owl:sameAs cn:shape .
+
+cn:hamburger cn:capableOf cn:containe_ketchup ;
+    cn:hasProperty cn:well_over_300_caleries ;
+    cn:instanceOf cn:main_course ;
+    cn:madeOf cn:wheat ;
+    cn:receivesAction cn:bought_at_fastfood_joint,
+        cn:ground_up_beef,
+        cn:ground_up_dead_cows,
+        cn:made_from_animal_flesh,
+        cn:made_from_beef ;
+    cn:similarTo cn:chicken_burger,
+        cn:fish_burger,
+        cn:lamb_burger,
+        cn:pork_burger,
+        cn:soyburger,
+        cn:vegeburger ;
+    rdfs:subClassOf cn:burger,
+        cn:food,
+        cn:ground_meat,
+        cn:hot_food_or_drink,
+        cn:junk_food,
+        cn:meat_has,
+        cn:meat_on_bun,
+        cn:not_seafood,
+        cn:very_fatty_food .
+
+imnet-o:a015 rdfs:label "globular"^^xsd:string ;
+    rdfs:subClassOf imnet-o:a050 .
+
+cn:cap cn:partOf cn:fungus ;
+    cn:receivesAction cn:worn_on_head ;
+    rdfs:subClassOf cn:headgear,
+        cn:plant_part .
+
+cn:lettuce ns1:genus cn:lactuca ;
+    cn:madeOf cn:water ;
+    cn:partOf cn:garden_lettuce,
+        cn:salad ;
+    cn:usedFor cn:make_salad ;
+    rdfs:subClassOf cn:food,
+        cn:herb,
+        cn:leafy_vegetable,
+        cn:plant,
+        cn:raw_thing,
+        cn:salad,
+        cn:salad_green .
+
+cn:organism cn:capableOf cn:need ;
+    cn:desires cn:live ;
+    cn:madeOf cn:cells ;
+    cn:partOf cn:ecosystem .
+
+cn:snack_food rdfs:subClassOf cn:food_item .
+
+cn:course cn:partOf cn:meal ;
+    rdfs:subClassOf cn:ready_to_eat_food .
+
+cn:purple cn:hasA cn:shorter_wavelength_than_red ;
+    rdfs:subClassOf cn:chromatic_color,
+        cn:colour,
+        cn:mic_of_red_and_blue,
+        cn:mix_of_red_and_blue,
+        cn:secondary_colour,
+        cn:violet .
+
+cn:frozen_dessert cn:instanceOf cn:dessert ;
+    rdfs:subClassOf cn:food .
+
+cn:pizza cn:causesDesire cn:drink ;
+    cn:createdBy cn:pizza_store ;
+    cn:hasA cn:cheese_on,
+        cn:mostly_dough_cheese_and_tomato ;
+    cn:hasProperty cn:baked_in_oven,
+        cn:popular ;
+    cn:instanceOf cn:flatbread ;
+    cn:receivesAction cn:meant_to_cheap_food ;
+    rdfs:subClassOf cn:disc_shaped_food_item,
+        cn:fast_food,
+        cn:favorite_food_of_many,
+        cn:finger_food,
+        cn:food,
+        cn:food_composite,
+        cn:form_of_food,
+        cn:good_food,
+        cn:hot_food_or_drink,
+        cn:main_course,
+        cn:popular_food .
+
+cn:chocolate cn:capableOf cn:coat_cherries,
+        cn:coat_nut,
+        cn:delight_child,
+        cn:make_happy,
+        cn:melt,
+        cn:melts,
+        cn:sweet_or_slightly_bitter ;
+    cn:createdBy cn:mixing_sugar_cocoa_butter_and_cocoa_liquor ;
+    cn:hasA cn:lot_of_fat,
+        cn:sweet_taste_and_fragrance ;
+    cn:hasProperty cn:good,
+        cn:yummy ;
+    cn:partOf cn:cacao,
+        cn:cocoa_bean ;
+    cn:receivesAction cn:eaten,
+        cn:made_from_cocoa_beans,
+        cn:melted ;
+    cn:similarTo cn:carob ;
+    cn:usedFor cn:eating,
+        cn:improve_mood ;
+    rdfs:subClassOf cn:brown,
+        cn:candy,
+        cn:composite_edible_substance,
+        cn:dessert,
+        cn:favorite_food_of_people,
+        cn:flavour_for_food,
+        cn:food,
+        cn:food_composite,
+        cn:high_fat_food .
+
+cn:pink rdfs:subClassOf cn:chromatic_color,
+        cn:colored_thing,
+        cn:colour,
+        cn:colour_commonly,
+        cn:flower,
+        cn:pastel_color,
+        cn:pinkish_thing,
+        cn:terrible_color_for_interior_decor,
+        cn:very_light_red .
+
+cn:sausage cn:madeOf cn:meat ;
+    cn:receivesAction cn:eaten,
+        cn:made_from_snakes ;
+    cn:similarTo cn:allantois,
+        cn:haggis,
+        cn:kishka,
+        cn:kishke,
+        cn:pudding,
+        cn:toad_in_hole ;
+    cn:usedFor cn:cooking_and_eating,
+        cn:food ;
+    rdfs:subClassOf cn:edible_thing,
+        cn:food,
+        cn:foodstuff,
+        cn:meat,
+        cn:prepared_solid_food .
+
+cn:object cn:capableOf cn:become_broken,
+        cn:belong_to_person,
+        cn:disappear_from_sight,
+        cn:doing_verb,
+        cn:fall_inside_or_outside_frame,
+        cn:fall_into_hole,
+        cn:gain_speed,
+        cn:sound_well ;
+    cn:hasA cn:surface ;
+    cn:hasProperty cn:rolled_up_if_floppy ;
+    cn:partOf cn:sentence ;
+    cn:receivesAction cn:moved_in_downward_direction ;
+    rdfs:subClassOf cn:composite_type,
+        cn:thing .
+
+cn:vegetables cn:capableOf cn:cook_for_too_long,
+        cn:cost_more_in_winter ;
+    cn:hasProperty cn:cultivated_in_yard,
+        cn:eaten_raw_or_cooked,
+        cn:edible,
+        cn:fresh_frozen_or_canned,
+        cn:good_for,
+        cn:good_for_health,
+        cn:green,
+        cn:very_good_for ;
+    cn:receivesAction cn:cooked,
+        cn:eaten,
+        cn:eaten_without_cooking,
+        cn:grown_in_garden,
+        cn:grown_in_gardens,
+        cn:grown_in_own_garden,
+        cn:grown_to_use_for_food,
+        cn:marinated,
+        cn:served_at_most_restaurants,
+        cn:served_in_dishes,
+        cn:steamed,
+        cn:used_in_many_foods_including_soup ;
+    rdfs:subClassOf cn:commonly,
+        cn:food,
+        cn:living_things,
+        cn:plant_matter,
+        cn:plants,
+        cn:tubers .
+
+cn:shape rdfs:subClassOf cn:geometric_figure,
+        cn:spatial_property .
+
+cn:sandwich cn:partOf cn:meal ;
+    cn:receivesAction cn:found_in_deli ;
+    rdfs:subClassOf cn:assembled_food,
+        cn:finger_food,
+        cn:food,
+        cn:meal_commonly,
+        cn:prepared_solid_food,
+        cn:ready_to_eat_food .
+
+cn:leaf cn:capableOf cn:fall_from_tree,
+        cn:fall_from_tree_in_autumn,
+        cn:float_down_stream,
+        cn:photosynthesizing,
+        cn:turn_different_colors ;
+    cn:definedAs cn:singular_form_of_leaves ;
+    cn:locatedNear cn:tree ;
+    cn:madeOf cn:chlorophyll ;
+    cn:partOf cn:flowers,
+        cn:plant,
+        cn:tree ;
+    cn:receivesAction cn:used_by_plant_for_photosynthesis ;
+    cn:usedFor cn:budding_in_spring,
+        cn:capturing_sunlight_and_plant_respiration,
+        cn:collecting_nutrients_for_plant,
+        cn:converting_carbon_dioxide_to_oxygen,
+        cn:cover_up,
+        cn:decomposing_and_making_soil,
+        cn:eat_if_leaf_eatable,
+        cn:feed_to_worms,
+        cn:generating_energy_for_plants,
+        cn:herbivore_consumption,
+        cn:making_food_for_tree,
+        cn:making_oxygen_from_carbon_dioxide,
+        cn:paint_with,
+        cn:photosynthesis,
+        cn:play_adam_or_eve,
+        cn:shade,
+        cn:start_new_plant,
+        cn:turning_colour_in_autumn ;
+    rdfs:subClassOf cn:device_for_absorbing_light,
+        cn:external_anatomical_part,
+        cn:part_of_tree,
+        cn:plant_organ,
+        cn:small_part_of_tree .
+
+cn:solid cn:hasA cn:strong_internal_forces ;
+    rdfs:subClassOf cn:state_of_matter .
+
+cn:liquid cn:capableOf cn:become_solid_by_cooling,
+        cn:boil,
+        cn:flow ;
+    cn:createdBy cn:melting_solid ;
+    cn:hasA cn:weaker_internal_forces_than_solid ;
+    cn:hasProperty cn:clear,
+        cn:necessary_for_swimming,
+        cn:subject_to_law_of_gravity ;
+    cn:similarTo cn:disposable,
+        cn:gas,
+        cn:liquefiable,
+        cn:liquified,
+        cn:musical,
+        cn:runny,
+        cn:semiliquid,
+        cn:solid,
+        cn:watery ;
+    rdfs:subClassOf cn:more_common_word_than_fluid,
+        cn:not_gas,
+        cn:state_of_mater,
+        cn:state_of_matter,
+        cn:substance .
+
+cn:color cn:capableOf cn:marry_another_color ;
+    cn:createdBy cn:neurological_processes ;
+    cn:definedAs cn:american_spelling_of_colour ;
+    cn:hasA cn:different_temperatures,
+        cn:wave_lengths ;
+    cn:hasProperty cn:dark,
+        cn:important_to_who_painting,
+        cn:more_colorful_with_low_value_contrast ;
+    cn:usedFor cn:attraction ;
+    rdfs:subClassOf cn:appearance,
+        cn:attribute_of_objects,
+        cn:cause_by_reflection_of_light,
+        cn:color_perception_category,
+        cn:greeks,
+        cn:interest,
+        cn:property_of_wallpaper,
+        cn:timbre,
+        cn:visible_feature,
+        cn:visual_property .
+
+cn:yellow cn:definedAs cn:colour_of_cowardice,
+        cn:most_common_color_for_highlighter ;
+    cn:similarTo cn:dishonorable ;
+    rdfs:subClassOf cn:chromatic,
+        cn:chromatic_color,
+        cn:color_assosiated_with_cowardice,
+        cn:colored_thing,
+        cn:coloring,
+        cn:colour,
+        cn:ore,
+        cn:primary_color,
+        cn:yellowish_thing .
+
+cn:cheese cn:capableOf cn:age_to_get_better,
+        cn:age_to_liking,
+        cn:age_well,
+        cn:have_pungent_smell,
+        cn:salad_dressing,
+        cn:smell_badly ;
+    cn:hasA cn:benign_bacteria,
+        cn:flavor,
+        cn:lot_of_fat,
+        cn:strong_odor ;
+    cn:hasProperty cn:good_when_people_like ;
+    cn:madeOf cn:fermented_milk_and_bacteria,
+        cn:milk ;
+    cn:partOf cn:pizza ;
+    cn:receivesAction cn:bought_at_grocery,
+        cn:bought_in_store,
+        cn:eaten,
+        cn:found_in_store,
+        cn:made_from_milk ;
+    rdfs:subClassOf cn:aged_milk,
+        cn:dairy_product,
+        cn:dairy_product_from_cows,
+        cn:food,
+        cn:food_and_cook_food,
+        cn:food_and_recipes_use_food,
+        cn:good_protein_food,
+        cn:ingredient_in_nachos,
+        cn:magazine,
+        cn:mixture,
+        cn:noun,
+        cn:pizza_topping,
+        cn:popular_topping_for_potato,
+        cn:solid_food,
+        cn:tangible_thing,
+        cn:thing .
+
+cn:living_thing cn:capableOf cn:experience_pain ;
+    rdfs:subClassOf cn:finite_spatial_thing,
+        cn:fixed_functional_system,
+        cn:living_or_fictional_thing,
+        cn:naturally_occurring_tangible_substance,
+        cn:opaque_thing,
+        cn:open_system,
+        cn:organic_matter,
+        cn:spatially_bounded_thing,
+        cn:tangible_thing .
+
+cn:soup cn:madeOf cn:water ;
+    cn:partOf cn:meal ;
+    cn:receivesAction cn:eaten_out_of_bowl,
+        cn:prepared_in_kitchen,
+        cn:served_in_bowl ;
+    rdfs:subClassOf cn:commonly,
+        cn:course,
+        cn:food,
+        cn:food_composite,
+        cn:food_item,
+        cn:good_food,
+        cn:light_meal .
+
+cn:vegetable cn:hasProperty cn:one_kind_of_plant ;
+    cn:partOf cn:herb ;
+    rdfs:subClassOf cn:food,
+        cn:grocery,
+        cn:herb,
+        cn:produce .
+
+cn:green cn:definedAs cn:colour_of_envy ;
+    cn:hasProperty cn:yellow ;
+    cn:madeOf cn:blue_and_yello ;
+    cn:partOf cn:golf_course ;
+    cn:similarTo cn:ill,
+        cn:unaged ;
+    rdfs:subClassOf cn:acolor,
+        cn:chromatic_color,
+        cn:colored_thing,
+        cn:colour,
+        cn:colour_of_rainbow,
+        cn:greenish_thing,
+        cn:left_libertarian,
+        cn:political_perspective,
+        cn:primary_colour,
+        cn:secondary_colour,
+        cn:site .
+
+cn:agaric rdfs:subClassOf cn:fungus .
+
+cn:bread cn:capableOf cn:get_stale,
+        cn:raise_while_cooks,
+        cn:rise_in_oven,
+        cn:rise_overnight,
+        cn:rise_slowly,
+        cn:rise_until_doubles_in_volume,
+        cn:turn_into_toast ;
+    cn:createdBy cn:baker ;
+    cn:definedAs cn:substrate_for_sandwich ;
+    cn:hasA cn:crust,
+        cn:yeast ;
+    cn:hasProperty cn:baked_at_bakery,
+        cn:baked_in_oven,
+        cn:high_in_carbohydrates,
+        cn:nice_to_eat,
+        cn:rising_while_bakes,
+        cn:white ;
+    cn:madeOf cn:dough,
+        cn:wheat ;
+    cn:partOf cn:sandwich ;
+    cn:receivesAction cn:cooked,
+        cn:cut_with_knife,
+        cn:eaten,
+        cn:eaten_with_gravy,
+        cn:eaten_with_jam,
+        cn:made_from_flour,
+        cn:made_from_grain,
+        cn:purchased_with_credit_card,
+        cn:toasted_in_toaster ;
+    cn:usedFor cn:baking,
+        cn:buttering,
+        cn:consumption,
+        cn:drying_to_make_stuffing,
+        cn:eating,
+        cn:feeding_to_birds,
+        cn:making_bread_and_butter_pudding_with,
+        cn:making_toast,
+        cn:nutrition,
+        cn:pudding,
+        cn:sandwiches,
+        cn:satiating_hunger,
+        cn:spreading_with_butter,
+        cn:tearing,
+        cn:toasting ;
+    rdfs:subClassOf cn:baked_food,
+        cn:baked_goods,
+        cn:cereal,
+        cn:commonly,
+        cn:diet_staple,
+        cn:finger_food,
+        cn:food,
+        cn:spongy_thing,
+        cn:staple_for_meal,
+        cn:starch,
+        cn:starches,
+        cn:structural_element_in_sandwich,
+        cn:usually_on_menu .
+
+cn:dessert cn:capableOf cn:follow_dinner ;
+    rdfs:subClassOf cn:food,
+        cn:pleasant_snack_between_meals .
+
+cn:meat cn:capableOf cn:brown_in_pan ;
+    cn:definedAs cn:flesh_of_animal,
+        cn:muscle_tissue_of_animals ;
+    cn:hasA cn:fat,
+        cn:protein ;
+    cn:hasProperty cn:shaped_as_cubes,
+        cn:unable_to_eaten_by_rabbits ;
+    cn:receivesAction cn:cooked_on_grill,
+        cn:cooked_to_kill_bacteria_in,
+        cn:found_in_animals,
+        cn:found_in_steak_hous,
+        cn:put_into_cold_storage,
+        cn:served_at_restaurants,
+        cn:served_at_steakhouse,
+        cn:sold_by_butcher,
+        cn:stored_in_freezer,
+        cn:taken_from_freshly_killed_animals,
+        cn:used_in_many_recipes ;
+    cn:usedFor cn:abstaining_from,
+        cn:animals_to_eat,
+        cn:baiting_traps,
+        cn:butchering,
+        cn:butchers_to_sell,
+        cn:buying,
+        cn:chefs_to_cook,
+        cn:clothing,
+        cn:eat,
+        cn:eating,
+        cn:eating_protein,
+        cn:feed_dog,
+        cn:food,
+        cn:fuel,
+        cn:getting_protein_in_diet,
+        cn:make_meal,
+        cn:marinating,
+        cn:meals,
+        cn:nourishment,
+        cn:people_to_eat,
+        cn:protein,
+        cn:protein_nutrients,
+        cn:sale,
+        cn:waiters_to_serve ;
+    rdfs:subClassOf cn:animal_flesh,
+        cn:animal_muscles,
+        cn:commonly,
+        cn:dead_flesh_of_animal,
+        cn:edible_thing,
+        cn:flesh,
+        cn:food,
+        cn:form_of_food,
+        cn:form_of_protein,
+        cn:in_chinese_food,
+        cn:inanimate_object,
+        cn:meat_or_legume_food,
+        cn:muscle,
+        cn:not_bone,
+        cn:what_get_from_lobster .
+
+cn:fruit cn:capableOf cn:become_ripe,
+        cn:decay,
+        cn:go_off,
+        cn:grow_mold,
+        cn:keep_fresh,
+        cn:taste_sweet ;
+    cn:createdBy cn:plant,
+        cn:plants,
+        cn:trees ;
+    cn:definedAs cn:milk_of_mother_earth,
+        cn:ovary_of_angiosperm ;
+    cn:hasA cn:antioxidants,
+        cn:pleasant_taste,
+        cn:seeds,
+        cn:sugar,
+        cn:vitamins,
+        cn:water ;
+    cn:hasProperty cn:colorful,
+        cn:good_for,
+        cn:good_for_health,
+        cn:opaque,
+        cn:rare_and_expensive_in_japan,
+        cn:sour,
+        cn:very_good_for_health,
+        cn:very_healthy_to_eat ;
+    cn:receivesAction cn:composed_of_sections,
+        cn:considered_healthy_food,
+        cn:eaten,
+        cn:made_into_jams,
+        cn:made_into_jellies ;
+    cn:usedFor cn:allowing_trees_to_reproduce,
+        cn:consumption,
+        cn:cooking,
+        cn:decoration,
+        cn:eat,
+        cn:eating,
+        cn:garnish,
+        cn:make_jelly,
+        cn:make_wine,
+        cn:making_into_juice_drink,
+        cn:making_juice,
+        cn:making_pie,
+        cn:painting_in_still_life,
+        cn:paring,
+        cn:producing_juice,
+        cn:reproducing_plant_came_from,
+        cn:spreading_seeds ;
+    rdfs:subClassOf cn:also,
+        cn:another_name_for_homosexual,
+        cn:best_when_ripe,
+        cn:better_snack_than_candy,
+        cn:excellent_source_of_dietary_fibre,
+        cn:external_anatomical_part,
+        cn:gay_man,
+        cn:good_snack,
+        cn:good_source_of_vitamins,
+        cn:healthy_food,
+        cn:healthy_source_of_food,
+        cn:important_food_group,
+        cn:important_food_source,
+        cn:living_thing,
+        cn:part_of_plant,
+        cn:plant_part,
+        cn:portable_object,
+        cn:rarely,
+        cn:reproductive_structure,
+        cn:rigid_portable_object,
+        cn:solid_object,
+        cn:source_of_vitamin_c .
+
+cn:dish cn:createdBy cn:chef ;
+    cn:partOf cn:meal ;
+    cn:receivesAction cn:served ;
+    cn:usedFor cn:carrying_food,
+        cn:cooking,
+        cn:displaying_food,
+        cn:eat,
+        cn:eat_food_with,
+        cn:eat_pudding,
+        cn:eat_things_off_of,
+        cn:eating,
+        cn:eating_food,
+        cn:eating_food_off_of,
+        cn:eating_from,
+        cn:eating_off,
+        cn:food,
+        cn:having_dinner,
+        cn:hold_food,
+        cn:letching_at,
+        cn:serve_food_on,
+        cn:serving_food,
+        cn:serving_food_in,
+        cn:serving_liquid,
+        cn:transporting_food ;
+    rdfs:subClassOf cn:food_vessel,
+        cn:household_furnishings,
+        cn:non_powered_device,
+        cn:plate,
+        cn:plate_of_food .
+
+cn:state cn:capableOf cn:levy_taxes ;
+    cn:definedAs cn:singular_form_of_plural_states ;
+    cn:hasA cn:political_leaders ;
+    cn:madeOf cn:counties ;
+    cn:partOf cn:united_states ;
+    rdfs:subClassOf cn:administrative_district,
+        cn:first_order_administrative_division,
+        cn:government,
+        cn:point_within_system,
+        cn:political_entity,
+        cn:political_unit,
+        cn:position_within_system,
+        cn:unnatural_thing .
+
+cn:fungus cn:capableOf cn:grow_on_food,
+        cn:grows_on_dead_trees ;
+    cn:hasProperty cn:almost_as_unpleasant_as_paying_taxes ;
+    rdfs:subClassOf cn:eukaryotic_organism,
+        cn:fungus,
+        cn:heterotroph .
+
+cn:food cn:capableOf cn:become_moldy,
+        cn:cake_on_pans,
+        cn:cooked_or_uncooked,
+        cn:cost_lot,
+        cn:cost_money,
+        <http://www.semanticweb.org/ontologies/ConceptNet#elevate_one's_mood>,
+        cn:feed_animals,
+        cn:give_nourishment_to_hungry_people,
+        cn:go_rotten,
+        cn:grow_moldy,
+        cn:increase_in_price,
+        cn:matter_more_than_sex,
+        cn:mean_which_one_feeds_on,
+        cn:please_hungry,
+        cn:please_hungry_person,
+        cn:prevent_starvation,
+        cn:provide_comfort,
+        cn:rots_with_age,
+        cn:spilt_on_tablecloth,
+        cn:taste_salty,
+        cn:tastes_better_with_salt ;
+    cn:causesDesire cn:eat ;
+    cn:definedAs cn:priority_industry ;
+    cn:hasA cn:effect_of_suppressing_hunger ;
+    cn:hasProperty cn:edible,
+        cn:fried_in_wok,
+        cn:important_to_health,
+        cn:mexican,
+        cn:necessary_for_survival,
+        cn:necessary_to_live,
+        cn:necessary_to_sustain_life,
+        cn:nice_to_eat,
+        cn:nourishing,
+        cn:solid_or_liquid,
+        cn:spicy,
+        cn:spicy_hot,
+        cn:unhealthy,
+        cn:very_pleasurable,
+        cn:very_tasteful ;
+    cn:locatedNear cn:plate ;
+    cn:madeOf cn:carbon ;
+    cn:partOf cn:food ;
+    cn:receivesAction cn:bought_at_grocery,
+        cn:bought_at_grocery_store,
+        cn:bought_at_market,
+        cn:bought_in_grocery_store,
+        cn:bought_in_mall,
+        cn:bought_with_currency,
+        cn:built_of_carbon,
+        cn:consumed,
+        cn:cooked_in_kitchen,
+        cn:cooked_in_pan,
+        cn:cooked_on_grill,
+        cn:eaten,
+        cn:eaten_by_people,
+        cn:eaten_for_nourishment,
+        cn:eaten_from_dish,
+        cn:eaten_from_plates,
+        cn:eatin,
+        cn:edible,
+        cn:found_in_mall,
+        cn:found_in_oven,
+        cn:found_in_restaurants,
+        cn:grown_in_rural_areas,
+        cn:made_from_animals_or_plants,
+        cn:passed_over_fast_food_counter,
+        cn:placed_on_serving_cart,
+        cn:placed_on_top_of_plate,
+        cn:purchased_at_grocer_shop,
+        cn:purchased_at_mall,
+        cn:purchased_in_pizzeria,
+        cn:served_in_restaurant,
+        cn:served_on_plate,
+        cn:sold_at_grocery_store,
+        cn:stored_in_fridge,
+        cn:stored_in_kitchen,
+        cn:stored_in_pantry,
+        cn:stored_in_tupperware ;
+    cn:usedFor cn:eat,
+        cn:eating,
+        cn:energy,
+        cn:enhance_sex,
+        cn:have_fight,
+        cn:hunger,
+        cn:nourishment,
+        cn:pleasure,
+        cn:sustenance ;
+    rdfs:subClassOf cn:foundation_for_health,
+        cn:fuel,
+        cn:fuel_for_people,
+        cn:good,
+        cn:grocery,
+        cn:human_fuel,
+        cn:not,
+        cn:not_sex,
+        cn:nourishment,
+        cn:often_selected,
+        <http://www.semanticweb.org/ontologies/ConceptNet#part_of_nation's_culture>,
+        cn:smaller_than_animal_eating,
+        cn:solid,
+        cn:what_people_eat .
+
