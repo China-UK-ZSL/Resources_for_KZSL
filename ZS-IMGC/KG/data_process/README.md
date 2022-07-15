@@ -43,3 +43,5 @@ For each dataset, we run the following scripts to construct KG:
     - generate KG with all semantics by running `python output2CSV.py --dataset AwA --all`
     - generate KG with semantics of class hierarchy by running `python output2CSV.py --dataset AwA --cls_hie`
     - generate KG with semantics of class hierarchy and attribute hierarchy by running `python output2CSV.py --dataset AwA --cls_hie --att_hie`
+
+8. Run `output2RDF.py` to save KGs with Turtle and XML files.

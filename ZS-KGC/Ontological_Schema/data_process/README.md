@@ -46,3 +46,4 @@ We run the following scripts to construct ontological schemas for NELL-ZS and Wi
     - generate schema graph with semantics in RDFS by running `python output2CSV.py --dataset NELL --rdfs`
     - generate schema graph with semantics in RDFS and text by running `python output2CSV.py --dataset NELL --rdfs --literal`
 
+8. Run `output2RDF.py` to save KGs with Turtle and XML files.
