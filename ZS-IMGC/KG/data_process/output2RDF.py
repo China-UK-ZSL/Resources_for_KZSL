@@ -150,8 +150,8 @@ if __name__ == '__main__':
 
     print(g.serialize(format='turtle').decode('UTF-8'))
 
-    savename1 = '../RDF_format/KG-' + dataset + '.ttl'
-    savename2 = '../RDF_format/KG-' + dataset + '.rdf'
+    savename1 = '../KG-' + dataset + '.ttl'
+    savename2 = '../KG-' + dataset + '.rdf'
     g.serialize(savename1, format='turtle')
     g.serialize(savename2, format='xml')
 

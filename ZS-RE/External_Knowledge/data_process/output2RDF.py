@@ -63,7 +63,7 @@ if __name__ == '__main__':
         writer.writerows(all_triples)
 
     g.bind("wikidata", namespace)
-    savename1 = '../RDF_format/KG-ZeroRel.ttl'
-    savename2 = '../RDF_format/KG-ZeroRel.rdf'
+    savename1 = '../KG-ZeroRel.ttl'
+    savename2 = '../KG-ZeroRel.rdf'
     g.serialize(savename1, format='turtle')
     g.serialize(savename2, format='xml')

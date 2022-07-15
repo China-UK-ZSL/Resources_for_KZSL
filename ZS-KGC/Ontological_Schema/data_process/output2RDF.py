@@ -164,8 +164,8 @@ if __name__ == '__main__':
         g.bind('wikidata', namespace)
     print(g.serialize(format='turtle').decode('UTF-8'))
 
-    savename1 = '../RDF_format/Schema-' + dataset + '.ttl'
-    savename2 = '../RDF_format/Schema-' + dataset + '.rdf'
+    savename1 = '../Schema-' + dataset + '.ttl'
+    savename2 = '../Schema-' + dataset + '.rdf'
     g.serialize(savename1, format='turtle')
     g.serialize(savename2, format='xml')
 
