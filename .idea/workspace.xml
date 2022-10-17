@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="" />
+    <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/data_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_cls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/classifier_cls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_pretrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/classifier_pretrain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/run_mse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/spectral_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/spectral_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/__init__.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +117,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="md" value="15436" />
+          <entry key="md" value="15442" />
           <entry key="py" value="10803" />
           <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15554" />
+          <entry key="PLAIN_TEXT" value="15560" />
           <entry key="Python" value="10803" />
         </counts>
       </usages-collector>
@@ -120,7 +154,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py">
+        <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/modules.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
@@ -129,34 +163,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md">
+        <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="3" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md">
+        <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md">
+        <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -164,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="133" column="37" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+            <state relative-caret-position="310">
+              <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -202,7 +236,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>readLiterals</find>
       <find>y20</find>
       <find>full</find>
       <find>extract_inverse_triples</find>
@@ -232,6 +265,7 @@
       <find>owl:</find>
       <find>S_</find>
       <find>S-</find>
+      <find>AwA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -287,11 +321,11 @@
         <option value="$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py" />
         <option value="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py" />
         <option value="$PROJECT_DIR$/ZS_IMGC/ZSL_data/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" />
         <option value="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md" />
         <option value="$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md" />
         <option value="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md" />
+        <option value="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -331,59 +365,33 @@
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DeViSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="OntoZSL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
               <item name="ZSL_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
+              <item name="ZSL_models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="ZSL_models" type="462c0819:PsiDirectoryNode" />
               <item name="DeViSE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="ZSL_models" type="462c0819:PsiDirectoryNode" />
               <item name="OntoZSL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
-              <item name="ZS_KGC" type="462c0819:PsiDirectoryNode" />
-              <item name="ZSL_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1161,7 +1169,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/run.py">
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="237" selection-start-line="237" selection-end-line="237" />
@@ -1171,7 +1179,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py">
+    <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/run_mse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="287" column="61" selection-start-line="287" selection-start-column="61" selection-end-line="287" selection-end-column="61" />
@@ -1181,7 +1189,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py">
+    <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="625" column="61" selection-start-line="625" selection-start-column="61" selection-end-line="625" selection-end-column="61" />
@@ -1191,7 +1199,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/DeViSE/run.py">
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="127" column="7" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
@@ -1201,7 +1209,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py">
+    <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/modules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
@@ -1222,38 +1230,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="133" column="37" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md">
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md">
+    <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="3" />
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md">
+    <entry file="file://$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="310">
+          <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
         </state>
       </provider>
     </entry>

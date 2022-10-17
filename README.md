@@ -11,7 +11,7 @@ The benchmarking study presented in the paper shows the effectiveness and great 
 
 ## 2. Zero-shot Image Classification (ZS-IMGC)
 *ZS-IMGC aims to predict images with new classes that have no labeled training images.*
-Here, we provide three standard ZS-IMGC datasets, including **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA**.
+Here, we provide three standard ZS-IMGC datasets, including **ImNet-A** and **ImNet-O** constructed by ourselves, and one widely-used benchmark named **AwA2**.
 For each dataset, we construct a KG to represent its different kinds of class semantics, including class attribute, text and hierarchy, as well as common sense knowledge from ConceptNet and logical relationships between classes (e.g., disjointness).
 
 ### Statistics
@@ -27,13 +27,13 @@ For each dataset, we construct a KG to represent its different kinds of class se
 |:------:|:------:|:------:|:------:|
 |**ImNet-A**|8,920| 41 | 10,461 |
 |**ImNet-O**|3,148| 31 | 3,990 |
-|**AwA**|9,195| 42 | 14,112 |
+|**AwA2**|9,195| 42 | 14,112 |
 
 ### Usage
 
 #### ZSL Datasets (Class Splits and Image Features)
 - ImNet-A/O: the class split files have been provided in the folder `ZS_IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`, the image features of these classes are saved in `.mat` files.
-- AwA: the dataset split file and image feature file are both presented in `.mat` file.
+- AwA2: the dataset split file and image feature file are both presented in `.mat` file.
 
 &ensp;&ensp; See detailed introductions for these files [here](ZS_IMGC/ZSL_Dataset/README.md).
 
@@ -118,10 +118,10 @@ We also provided detailed construction process in [ZS_IMGC/KG/data_process](ZS_I
 
 
 Besides, we have provided temporary output files in our repository, you can also run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
-For example, you can run the following command to output AwA's KG with only class hierarchy semantics.
+For example, you can run the following command to output AwA2's KG with only class hierarchy semantics.
 
 ``
-python output2CSV.py --dataset AwA --cls_hie
+python output2CSV.py --dataset AwA2 --cls_hie
 ``
 
 See more details [here](ZS_IMGC/KG/data_process).
