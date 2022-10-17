@@ -20,7 +20,7 @@ For each dataset, we construct a KG to represent its different kinds of class se
 |:------:|:------:|:------:|:------:|
 |**ImNet-A**|80 / 28 / 52| 85 |77,323|
 |**ImNet-O**|35 / 10 / 25| 40 |39,361|
-|**AwA**|50 / 40 / 10| 85 |37,322|
+|**AwA2**|50 / 40 / 10| 85 |37,322|
 
 
 |KG| # Entities | # Relations | # Triples |
@@ -81,13 +81,13 @@ relation semantics expressed by OWL, including relation characteristics (e.g., s
 |Dataset| # Entities | # Relations (Train/Val/Test) | # Triples (Train/Val/Test) |
 |:------:|:------:|:------:|:------:|
 |**NELL-ZS**|65,567| 139 / 10 / 32 | 181,053 / 1,856 / 5,483 |
-|**Wikidata-ZS**|605,812| 469 / 20 / 48 | 701,977 / 7,241 / 15,710 |
+|**Wiki-ZS**|605,812| 469 / 20 / 48 | 701,977 / 7,241 / 15,710 |
 
 
 |Ontological Schema| # Relations | # Concepts | # Literals | # Meta-relations | # RDFS axioms | # OWL axioms |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |**NELL-ZS**| 894 | 292 | 1,063 | 9 | 3,055 | 134 |
-|**Wikidata-ZS**| 560 | 1,344 | 3,808 | 11 | 4,821 | 113 |
+|**Wiki-ZS**| 560 | 1,344 | 3,808 | 11 | 4,821 | 113 |
 - concept means entity type/class; RDFS axioms refer to axioms expressed by RDFS vocabularies; OWL axioms refer to axioms expressed by OWL vocabularies.
 
 ### Usage

@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/data_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/DeViSE/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_cls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/classifier_cls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_pretrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/classifier_pretrain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/OntoZSL/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/networks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/DeViSE/run_mse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/modules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/networks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/spectral_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/OntoZSL/spectral_norm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS_KGC/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_models/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,14 +85,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="md" value="15442" />
+          <entry key="md" value="15443" />
           <entry key="py" value="10803" />
           <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15560" />
+          <entry key="PLAIN_TEXT" value="15561" />
           <entry key="Python" value="10803" />
         </counts>
       </usages-collector>
@@ -201,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+            <state relative-caret-position="311">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -924,7 +892,7 @@
     <frame x="-480" y="-1055" width="1920" height="1055" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -938,7 +906,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32869378" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50112194" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.26552463" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.26552463" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1260,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+        <state relative-caret-position="311">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
