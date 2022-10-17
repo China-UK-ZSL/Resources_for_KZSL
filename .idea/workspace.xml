@@ -1,214 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="add ZSL models">
-      <change afterPath="$PROJECT_DIR$/JOWS.v2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/class_attribute_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/class_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/conceptnet_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/conceptnet_triples_filter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/disjoint_cls_att_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/disjoint_cls_cls_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/literals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/sameAs_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/class_attribute_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/class_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/conceptnet_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/conceptnet_triples_filter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/literals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/sameAs_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/class_attribute_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/class_hierarchy_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/conceptnet_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/conceptnet_triples_filter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/literals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/sameAs_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/data_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_cls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/classifier_pretrain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/Wiki/rdfs_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/NELL/literals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/NELL/owl1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/NELL/owl2_composition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/NELL/rdfs_triples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/literals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/owl1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/owl2_composition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/networks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/networks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/spectral_norm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_KGC/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_RE/ZeroRel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZS_RE/__init__.py" afterDir="false" />
+    <list default="true" id="0cbd6522-4e5e-4238-a0a1-bf3c670729ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JOWS-S.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/JOWS.v1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-AwA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-AwA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-AwA.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-AwA.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-AwA.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-AwA.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-A.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-A.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-A.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-A.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-A.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-A.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-O.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-O.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-O.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-O.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/KG-ImNet-O.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/KG-ImNet-O.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/attribute_hierarchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/attribute_hierarchy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_attribute_awa.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/class_attribute_awa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_attribute_imagenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/class_attribute_imagenet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/class_hierarchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/class_hierarchy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_alignment_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/conceptnet_alignment_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_en_subgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/conceptnet_en_subgraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_entity_alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/conceptnet_entity_alignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/conceptnet_repeat_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/conceptnet_repeat_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/disjointness_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/disjointness_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/disjointness_cls_atts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/disjointness_cls_atts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/literals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/literals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/att_splits.mat" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/att_splits.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/attribute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/attribute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/attribute_group.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/attribute_group.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/attribute_hierarchy.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/attribute_hierarchy.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/binaryAtt_splits.mat" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/binaryAtt_splits.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/AwA/class.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/AwA/class.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/attribute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/attribute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/attribute_group.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/attribute_group.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/attribute_hierarchy.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/attribute_hierarchy.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/class-attributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/class-attributes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_A/class.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_A/class.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/attribute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/attribute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/attribute_group.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/attribute_group.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/attribute_hierarchy.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/attribute_hierarchy.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/class-attributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/class-attributes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/ImNet_O/class.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/ImNet_O/class.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/ori_data/conceptnet_stop_relations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/ori_data/conceptnet_stop_relations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output2CSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output2CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output2RDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output2RDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/AwA/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/attribute_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/class_attribute_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/class_attribute_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/class_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/class_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/conceptnet_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/conceptnet_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/conceptnet_triples_filter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/conceptnet_triples_filter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/disjoint_cls_att_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/disjoint_cls_att_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/disjoint_cls_cls_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/disjoint_cls_cls_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/literals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/AwA/sameAs_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/AwA/sameAs_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_A/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/attribute_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/class_attribute_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/class_attribute_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/class_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/class_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/conceptnet_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/conceptnet_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/conceptnet_triples_filter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/conceptnet_triples_filter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/literals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_A/sameAs_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_A/sameAs_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/ImNet_O/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/attribute_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/attribute_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/class_attribute_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/class_attribute_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/class_hierarchy_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/class_hierarchy_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/conceptnet_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/conceptnet_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/conceptnet_triples_filter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/conceptnet_triples_filter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/literals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/ImNet_O/sameAs_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/KG_triples/ImNet_O/sameAs_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/KG/data_process/output_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/KG/data_process/output_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/AwA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/AwA2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_A/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_A/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_A/seen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_A/seen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_A/unseen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_A/unseen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_O/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_O/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_O/seen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_O/seen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/ImNet_O/unseen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/ImNet_O/unseen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/Res101_Features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/Res101_Features/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/ImageNet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/ImageNet/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/ZSL_Dataset/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/ZSL_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-IMGC/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Onto-NELL.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Onto-NELL.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Onto-Wiki.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Onto-Wiki.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-NELL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-NELL.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-NELL.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-NELL.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-NELL.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-NELL.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-Wiki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-Wiki.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-Wiki.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-Wiki.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/Schema-Wiki.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/Schema-Wiki.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/models/DeViSE/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/NELL.dev_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/NELL.dev_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/NELL.test_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/NELL.test_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/NELL.train_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/NELL.train_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/Wiki.dev_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/Wiki.dev_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/Wiki.relation2ids_1" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/Wiki.relation2ids_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/Wiki.test_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/Wiki.test_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/Wiki.train_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/Wiki.train_tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/ori_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output2CSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output2CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output2RDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output2RDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/NELL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/NELL/literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/NELL/literals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/NELL/owl1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/NELL/owl1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/NELL/owl2_composition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/NELL/owl2_composition.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/NELL/rdfs_triples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/NELL/rdfs_triples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/Wiki/literals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/mined_rules.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/mined_rules.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/owl1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/Wiki/owl1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/owl2_composition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/Onto_triples/Wiki/owl2_composition.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/rdfs_triples_sc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/rdfs_triples_sc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/rdfs_triples_sp_domain_range.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/rdfs_triples_sp_domain_range.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/Wiki/wiki_triples.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/wiki_triples.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/output_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/ori_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/NELL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_axioms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_composition.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_NELL/extract_OWL_composition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_NELL/extract_RDFS_literals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_NELL/extract_RDFS_literals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/extract_OWL_composition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_literals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_literals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_rels_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_rels_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_sc_triples.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_sc_triples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info_owl.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info_owl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/NELL-ZS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/Wikidata-ZS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_NELL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/ZSL_Dataset/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-KGC/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_data/NELL/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/External_Knowledge/data_process/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2CSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/External_Knowledge/data_process/output2CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/External_Knowledge/data_process/output2RDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/External_Knowledge/data_process/output2RDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/External_Knowledge/rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/External_Knowledge/rules.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/ZeroRel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_data/Wiki/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/ZeroRel/seen70.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/ZeroRel/seen70.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/ZeroRel/unseen30.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_RE/ZeroRel/unseen30.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZS-RE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_KGC/ZSL_data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,14 +86,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="md" value="15363" />
+          <entry key="md" value="15382" />
           <entry key="py" value="10803" />
           <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15481" />
+          <entry key="PLAIN_TEXT" value="15500" />
           <entry key="Python" value="10803" />
         </counts>
       </usages-collector>
@@ -306,7 +101,7 @@
         <counts>
           <entry key="csv" value="4" />
           <entry key="json" value="1" />
-          <entry key="md" value="27" />
+          <entry key="md" value="29" />
           <entry key="nt" value="1" />
           <entry key="py" value="92" />
           <entry key="rdf" value="2" />
@@ -318,7 +113,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Python" value="92" />
           <entry key="XML" value="2" />
         </counts>
@@ -327,11 +122,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZS_KGC/models/OntoZSL/modules.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZS_IMGC/KG/data_process/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -386,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ZS-IMGC/data_process/test.py" />
         <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_sameAs.py" />
         <option value="$PROJECT_DIR$/ZS-IMGC/data_process/concept_repeat_check.py" />
         <option value="$PROJECT_DIR$/ZS-IMGC/data_process/conceptnet_alignment_extraction.py" />
@@ -437,6 +249,7 @@
         <option value="$PROJECT_DIR$/ZS-IMGC/models/DeViSE/run.py" />
         <option value="$PROJECT_DIR$/ZS_KGC/models/DeViSE/run_mse.py" />
         <option value="$PROJECT_DIR$/ZS_KGC/models/OntoZSL/run.py" />
+        <option value="$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md" />
       </list>
     </option>
   </component>
@@ -472,6 +285,19 @@
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
               <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources_for_KZSL" type="462c0819:PsiDirectoryNode" />
+              <item name="ZS_IMGC" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="OntoZSL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Resources_for_KZSL" type="b2602c69:ProjectViewProjectNode" />
@@ -674,13 +500,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623819340999</updated>
-    </task>
-    <task id="LOCAL-00005" summary="IMGC">
-      <created>1623831596684</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1623831596684</updated>
     </task>
     <task id="LOCAL-00006" summary="KGs and Schemas update">
       <created>1623902779737</created>
@@ -1018,11 +837,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657862002601</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add ZSL models">
+      <created>1665992505940</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1665992505941</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-480" y="-1055" width="1920" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1033,12 +869,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891247" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32869378" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50112194" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" weight="0.26552463" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.26552463" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1069,13 +905,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add ZSL models" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/parse_rels_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/process_code_Wiki/lookup_sc_triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -1281,13 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZS_IMGC/KG/data_process/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZS_KGC/Ontological_Schema/data_process/output_data/Wiki/mined_rules.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1356,6 +1178,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/KG/data_process/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZS_IMGC/models/OntoZSL/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
