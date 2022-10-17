@@ -4,7 +4,7 @@
 
 For each dataset, we prepare the following original data:
 
-1. class file `class.json`: the seen and unseen class information in each dataset, including wordnet ID and literal name;
+1. class file `class.json`: the seen and unseen class information in each dataset, including WordNet ID and literal name;
 
 2. attribute file
     - `attribute.txt`: attribute information, including custom ID and literal name;

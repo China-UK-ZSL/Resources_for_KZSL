@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction
-This repository includes resources for our submission entitled "**[Benchmarking Knowledge-driven Zero-shot Learning](https://arxiv.org/pdf/2106.15047.pdf)**".
+This repository includes resources for benchmarking paper "**[Benchmarking Knowledge-driven Zero-shot Learning](https://doi.org/10.1016/j.websem.2022.100757)**".
 In this work, we created systemic resources for KG-based ZSL research on zero-shot image classification (**ZS-IMGC**), zero-shot relation extraction (**ZS-RE**) and zero-shot knowledge graph (KG) completion (**ZS-KGC**),
 including **6 ZSL datasets and their corresponding KGs**,
 with the goal of providing standard benchmarks and ranging semantics settings for studying and comparing different KG-based ZSL methods.
@@ -129,7 +129,7 @@ See more details [here](ZS-IMGC/KG/data_process).
 
 ## 5. Related References
 
-1. Geng, Yuxia, Jiaoyan Chen, Xiang Zhuang, Zhuo Chen, Jeff Z. Pan, Juan Li, Zonggang Yuan, and Huajun Chen. "[Benchmarking Knowledge-driven Zero-shot Learning](JOWS-S.pdf.pdf)" (submitted to Journal of Web Semantics)
+1. Geng, Yuxia, Jiaoyan Chen, Xiang Zhuang, Zhuo Chen, Jeff Z. Pan, Juan Li, Zonggang Yuan, and Huajun Chen. "[Benchmarking Knowledge-driven Zero-shot Learning](https://doi.org/10.1016/j.websem.2022.100757)" (Journal of Web Semantics, In Press)
 2. Geng, Yuxia, Jiaoyan Chen, Zhuo Chen, Jeff Z. Pan, Zhiquan Ye, Zonggang Yuan, Yantao Jia, and Huajun Chen. "[OntoZSL: Ontology-enhanced Zero-shot Learning](https://dl.acm.org/doi/abs/10.1145/3442381.3450042)." In Proceedings of the Web Conference 2021, pp. 3325-3336. 2021.
 3. Chen, Jiaoyan, Yuxia Geng, Zhuo Chen, Ian Horrocks, Jeff Z. Pan, and Huajun Chen. "[Knowledge-aware Zero-Shot Learning: Survey and Perspective](https://arxiv.org/abs/2103.00070)." IJCAI Survey Track, 2021.
 4. Geng, Yuxia, Jiaoyan Chen, Zhiquan Ye, Wei Zhang, and Huajun Chen. "[Explainable zero-shot learning via attentive graph convolutional network and knowledge graphs](https://content.iospress.com/articles/semantic-web/sw210435)." Semantic Web Journal, vol. 12, no. 5, pp. 741-765, 2021.
