@@ -32,14 +32,14 @@ For each dataset, we construct a KG to represent its different kinds of class se
 ### Usage
 
 #### ZSL Datasets (Class Splits and Image Features)
-- ImNet-A/O: the class split files have been provided in the folder `ZS-IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`, the image features of these classes are saved in `.mat` files.
+- ImNet-A/O: the class split files have been provided in the folder `ZS_IMGC/ZSL_Dataset/ImageNet/` with `seen.txt` and `unseen.txt`, the image features of these classes are saved in `.mat` files.
 - AwA: the dataset split file and image feature file are both presented in `.mat` file.
 
-&ensp;&ensp; See detailed introductions for these files [here](ZS-IMGC/ZSL_Dataset/README.md).
+&ensp;&ensp; See detailed introductions for these files [here](ZS_IMGC/ZSL_Dataset/README.md).
 
 #### KGs
 Each KG is composed of RDF triples and stored in a CSV file with three columns corresponding to subjects, relations and objects.
-We have provided these KGs in our repository. You can browse them in the folder `ZS-IMGC/KG/`.
+We have provided these KGs in our repository. You can browse them in the folder `ZS_IMGC/KG/`.
 **Note the CSV file is saved with delimiter '\t'.**
 
 ## 3. Zero-shot Relation Extraction (ZS-RE)
@@ -60,8 +60,8 @@ And we contribute 50 length-1 rules and 122 length-2 rules in total for the rela
 
 #### ZSL Dataset (Relation Splits and Original Text)
 
-- Relation split files have been provided in the folder `ZS-RE/ZeroRel/` with `seen70.json` and `unseen30.json`.
-- Download the dataset with original text from [here](https://drive.google.com/drive/folders/1Uc-fmsYSALR0nHuQGr6dcerF2Wu6p5JJ?usp=sharing), and put it into the folder `ZS-RE/ZeroRel/`.
+- Relation split files have been provided in the folder `ZS_RE/ZeroRel/` with `seen70.json` and `unseen30.json`.
+- Download the dataset with original text from [here](https://drive.google.com/drive/folders/1Uc-fmsYSALR0nHuQGr6dcerF2Wu6p5JJ?usp=sharing), and put it into the folder `ZS_RE/ZeroRel/`.
 
 The dataset contains 3 CSV files of training samples (`train.csv`), seen testing samples (`test_seen.csv`) and unseen testing samples (`test_unseen.csv`), in which each row is a sample including the sentence text, the relation label, the entity mention pairs and their indexes in the sentence.
 
@@ -71,7 +71,7 @@ The dataset contains 3 CSV files of training samples (`train.csv`), seen testing
 
 ## 4. Zero-shot Knowledge Graph Completion (ZS-KGC)
 *ZS-KGC here refers to predicting (completing) KG facts with relations that have never appeared in the training facts.*
-In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wikidata-ZS** extracted from NELL and Wikidata, respectively.
+In our resources, we employ two standard ZS-KGC benchmarks **NELL-ZS** and **Wiki-ZS** extracted from NELL and Wikidata, respectively.
 For each benchmark, we build an ontological schema as external knowledge, including relation semantics expressed by RDFS, such as relation and concept hierarchy, relation domain and range,
 relation semantics expressed by OWL, including relation characteristics (e.g., symmetry) and inter-relation relationships (e.g., composition), and textual meta data of relations and concepts.
 
@@ -93,7 +93,7 @@ relation semantics expressed by OWL, including relation characteristics (e.g., s
 ### Usage
 
 #### ZSL Datasets
-Download [NELL-ZS](https://drive.google.com/file/d/1fng-IxtweEb516vScwlrkzgEP6EYQv-g/view?usp=sharing) and [Wikidata-ZS](https://drive.google.com/file/d/1xGB3n0ioRfl838JSpk3CzB7h7mE9kKYj/view?usp=sharing), and put them into `ZS-KGC/ZSL_Dataset/`.
+Download [NELL-ZS](https://drive.google.com/file/d/1fng-IxtweEb516vScwlrkzgEP6EYQv-g/view?usp=sharing) and [Wiki-ZS](https://drive.google.com/file/d/1xGB3n0ioRfl838JSpk3CzB7h7mE9kKYj/view?usp=sharing), and put them into `ZS_KGC/ZSL_Dataset/`.
 
 Each dataset contains three `.json` files:
 - `train_tasks.json`: triples in training set and training relations
@@ -106,15 +106,15 @@ Each dataset contains three `.json` files:
 
 Each ontological schema is saved in two formats:
 - the original ontology file ended with `.owl`, it can be directly viewed using ontology editors such as Protege.
-- the RDF triples saved in CSV files as in ZS-IMGC, the triples are transformed from the ontology according to W3C
+- the RDF triples saved in CSV files as in ZS_IMGC, the triples are transformed from the ontology according to W3C
 OWL to RDF graph mapping.
 
-These files have been provided in the folder `ZS-KGC/Ontological_Schema/`.
+These files have been provided in the folder `ZS_KGC/Ontological_Schema/`.
 
 
 
 ## 4. Build KGs or Ontological Schemas Yourself
-We also provided detailed construction process in [ZS-IMGC/KG/data_process](ZS-IMGC/KG/data_process), [ZS-RE/External_Knowledge/data_process](ZS-RE/External_Knowledge/data_process) and [ZS-KGC/Ontological_Schema/data_process](ZS-KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
+We also provided detailed construction process in [ZS_IMGC/KG/data_process](ZS_IMGC/KG/data_process), [ZS_RE/External_Knowledge/data_process](ZS_RE/External_Knowledge/data_process) and [ZS_KGC/Ontological_Schema/data_process](ZS_KGC/Ontological_Schema/data_process), you can run the scripts to build KGs or ontological schemas yourself.
 
 
 Besides, we have provided temporary output files in our repository, you can also run the script `output2CSV.py` with different parameters to get KGs or ontological schemas with different semantic settings.
@@ -124,7 +124,7 @@ For example, you can run the following command to output AwA's KG with only clas
 python output2CSV.py --dataset AwA --cls_hie
 ``
 
-See more details [here](ZS-IMGC/KG/data_process).
+See more details [here](ZS_IMGC/KG/data_process).
 
 
 ## 5. Related References

@@ -25,8 +25,8 @@ Download image features and class splits of ImageNet classes from [here](https:/
     - rest: all the rest classes in ImageNet 2011 21K after removing the 2/3-hops classes
     - no_w2v_index: the classes with no pre-trained word vectors
 
-### AwA
-Download public image features and dataset split for [AwA](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), uncompress it and put the files in **AWA2** folder to our folder `AwA/`.
+### AwA2
+Download public image features and dataset split for [AwA2](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), uncompress it and put the files in **AWA2** folder to our folder `AwA2/`.
 
 1. The class splits consist of:
     - allclasses.txt: list of names of all classes in the dataset
