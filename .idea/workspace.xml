@@ -39,33 +39,11 @@
     <SUITE FILE_PATH="coverage/Resources_for_KZSL$class_hierarchy.coverage" NAME="class_hierarchy Coverage Results" MODIFIED="1623821388375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-IMGC/data_process" />
     <SUITE FILE_PATH="coverage/Resources_for_KZSL$parse_rels_info_owl.coverage" NAME="parse_rels_info_owl Coverage Results" MODIFIED="1623898229258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZS-KGC/data_process/process_code_Wiki" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/ZS_IMGC/KG/data_process/output2RDF.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="577">
-                    <caret line="146" selection-start-line="146" selection-end-line="148" selection-end-column="38" />
-                    <folding>
-                      <element signature="e#0#31#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="10659750">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="11" />
           <entry key="project.open.time.11" value="1" />
@@ -301,11 +279,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-480" />
-    <option name="y" value="-1055" />
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1394" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -887,10 +864,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-480" y="-1055" width="1920" height="1055" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1394" height="875" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2285503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -904,7 +880,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32869378" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50112194" side_tool="true" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.26552463" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4988781" visible="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
