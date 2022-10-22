@@ -1,0 +1,1063 @@
+NELL:everypromotedthing	rdfs:comment	every promoted category instance in KB
+NELL:location	rdfs:comment	The Location type is used for any topic with a fixed location on the planet Earth. It includes geographic features such as oceans and mountains political entities like cities and man-made objects like buildings
+NELL:attraction	rdfs:comment	sight or feature that you might visit as a tourist. Examples include monuments parks museums and the like. This type includes Location which means it is usually used for things which are themselves locations (like those described above
+NELL:aquarium	rdfs:comment	the aquatic counterpart of a zoo housing living aquatic species for viewing
+NELL:zoo	rdfs:comment	facility in which animals are confined within enclosures displayed to the public and in which they may also be bred.
+NELL:park	rdfs:comment	Public local/state/national parks as well as amusement parks and other privately-run attractions.
+NELL:skiarea	rdfs:comment	A place to ski
+NELL:monument	rdfs:comment	An architectural structure (usually public) which is erected to commemorate a person place event or group.
+NELL:port	rdfs:comment	a location on a coast or shore containing one or more harbors where ships can dock and transfer people or cargo to or from land. Port locations are selected to optimize access to land and navigable water for commercial demand and for shelter from wind and waves. Ports with deeper water are rarer but can handle larger more economical ships. Since ports throughout history handled every kind of traffic support and storage facilities vary widely may extend for miles and dominate the local economy. Some ports have an important perhaps exclusively military role.
+NELL:museum	rdfs:comment	A museum is a "permanent institution in the service of society and of its development open to the public which acquires conserves researches communicates and exhibits the tangible and intangible heritage of humanity and its environment for the purposes of education study and enjoyment" as defined by the International Council of Museums.
+NELL:transportation	rdfs:comment	a mode of travel such as rail transport or automobile. It is a category defining a means of moving from one location to another.
+NELL:stadiumoreventvenue	rdfs:comment	A building where large spectator events (usually sporting events) take place.
+NELL:beach	rdfs:comment	geological landform along the shoreline of an ocean sea or lake. It usually consists of loose particles which are often composed of rock such as sand gravel shingle pebbles waves or cobblestones
+NELL:room	rdfs:comment	A conceptually-distinct subspace within a building. The entire space within a building could be considered to be a room in the case of say a one-room schoolhouse.
+NELL:officebuildingroom	rdfs:comment	A room designation such as would be used for rooms in an office building
+NELL:geopoliticallocation	rdfs:comment	Those geopolitical entities that are location
+NELL:island	rdfs:comment	any piece of land surrounded entirely by water
+NELL:country	rdfs:comment	The type "country" in Freebase can and should be used with a variety of topics. The most common will be probably be current and former independent nations potentially including composite entities such as empires. It can also be used for autonomous entities within such a composite such as the four current constituent countries (England Northern Ireland Scotland and Wales) of the United Kingdom.  Anything having an ISO country code qualifies as a country including contested countries like Taiwan and including territories of minor or no population.
+NELL:stateorprovince	rdfs:comment	In general the top-level administrative or political subdivision within a country.
+NELL:continent	rdfs:comment	A continent is a large land mass defined mostly by conventional use but closely related to tectonic plates within the earth's crust.
+NELL:city	rdfs:comment	City/town/village refers to all named inhabited places at the most locally recognized level but above the level of neighborhood. It is the most local region where there is a form of government or self-organization.   Cities/towns/villages are larger than neighborhoods and are typically contained within a larger administrative division such as a county department province etc. It should be noted however that large or significant cities may themselves also function as higher-level administrative divisions.   For more information please see the Freebase wiki page on City/Town/Village.
+NELL:county	rdfs:comment	Intermediate administrative region between state/province and local munincipal. This category also encompasses customary abberations such as the boroughs of the City of Greater New York being treated as logically equivalent to counties.
+NELL:street	rdfs:comment	A route of travel that has a single name indicating its entirety and that could have a street address (as distinct from trail which may not feature addresses)
+NELL:cave	rdfs:comment	An underground space humans or animals can enter - a cave.
+NELL:zipcode	rdfs:comment	US ZIP codes. Other postal codes are not allowed
+NELL:planet	rdfs:comment	is a celestial body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity is not massive enough to cause thermonuclear fusion and has cleared its neighbouring region of planetesimals
+NELL:lake	rdfs:comment	A lake is a body of water surrounded entirely by land. For the purposes of this schema any such body regardless of size should be considered a lake. This includes ponds but excludes such bodies as marshes bogs fens etc.
+NELL:trail	rdfs:comment	Trails for hiking walking biking or even driving.  Routes with street addresses cannot be trails.
+NELL:highway	rdfs:comment	is a public road especially a major road connecting two or more destinations.
+NELL:river	rdfs:comment	A river is a natural waterway usually formed by water derived from either precipitation or glacial meltwater and flows from higher ground to lower ground. Most commonly rivers flow on the surface but there are many examples of underground rivers. In some areas of highly variable rainfall some rivers carry water only occasionally and may be dry for several years at a time. Such waterways of all sizes including streams and creeks can be listed under this type.
+NELL:website	rdfs:comment	A Website or (Web site) is a collection of web pages typically common to a particular domain name or subdomain on the World Wide Web on the Internet. A web page is a document typically written in HTML that is almost always accessible via HTTP a protocol that transfers information from the website's server to display in the user's Web browser.
+NELL:blog	rdfs:comment	A blog (or weblog) is a user-generated website where entries are made in journal style and displayed in a reverse chronological order. Blogs often provide commentary or news on a particular subject such as food politics or local news; some function as more personal online diaries.
+NELL:politicsblog	rdfs:comment	A blog substantially and charactarizably but not exclusively devoted to politics or political issues.  A general current-events blog such as might be equated with a general newspaper should not be classified as a politicsBlog although an identifyable subsection or the blog of a particular staff member could be.
+NELL:url	rdfs:comment	A URL
+NELL:landscapefeatures	rdfs:comment	This type captures geographical features of the Earth including landforms bodies of water underwater landforms caves and similar locations.
+NELL:farm	rdfs:comment	an area of land including various structures devoted primarily to the practice of producing and managing food (produce grains or livestock) fibres and increasingly fuel.
+NELL:mountain	rdfs:comment	A mountain is a landform that extends above the surrounding terrain in a limited area. A mountain is generally steeper than a hill but there is considerable overlap and usage often depends on local custom.
+NELL:mountainrange	rdfs:comment	A mountain range is a group of mountains bordered by lowlands or separated from other mountain ranges by passes or rivers.
+NELL:building	rdfs:comment	A building is a man-made structure designed for shelter or for continuous or periodic occupancy. All buildings are structures and therefore typed "Structure" which imparts other basic properties (see /architecture/structure). If something is not a structure it can't be typed as a building.  This category does not include complexes of individual buildings.
+NELL:hospital	rdfs:comment	A hospital is an institution for health care often but not always providing for longer-term patient stays.  All varieties of hospitals -- private public military etc. -- are included.
+NELL:skyscraper	rdfs:comment	A very tall building
+NELL:restaurant	rdfs:comment	The restaurant type represents single restaurants as well as restaurant chains.
+NELL:bridge	rdfs:comment	A bridge is a structure across water valleys railway cuts areas of low elevation or other features which are difficult to cross.
+NELL:hotel	rdfs:comment	This type is intended to be used for hotels bed and breakfasts backpacker hostels or any other such place you might stay while travelling
+NELL:airport	rdfs:comment	A place where airplanes helicopters or other flying vehicles land and take off
+NELL:placeofworship	rdfs:comment	A place of worship is a building which is used by members of a religion for worship.
+NELL:shoppingmall	rdfs:comment	A shopping mall is a building or group of buildings containing many stores restaurants and businesses.
+NELL:trainstation	rdfs:comment	railway station (mainly British Commonwealth) or railroad station (mainly US)) is a railway facility where trains regularly stop to load or unload passengers or freight (goods). It generally consists of a platform next to the tracks and a building (depot) providing related services such as ticket sales and waiting rooms.
+NELL:retailstore	rdfs:comment	Brick & mortar retail stores and franchises. Retail means selling goods not services (e.g. prepared food)
+NELL:agent	rdfs:comment	a person or business authorized to act on another's behalf; a person or thing that acts or has the power to act; a natural force or object producing or used for obtaining specific results 
+NELL:animal	rdfs:comment	A collection of common-sense animals more understandable to children than biologists.  It's OK to include both general kinds of animals such as bird but also common varieties of birds such as finch and robin. (FreeBase)  As with plant any mortal action upon an animal or action on a dead animal that results in something with a new name (e.g. milking shearing slaughtering or cooking it) results in something that is no longer an animal.
+NELL:invertebrate	rdfs:comment	An animal which does not have a back bone
+NELL:mollusk	rdfs:comment	invertebrate having a soft unsegmented body usually enclosed in a shell
+NELL:arthropod	rdfs:comment	Arthropods are members of the phylum Arthropoda.
+NELL:insect	rdfs:comment	class within the arthropods that have a chitinous exoskeleton a three-part body (head thorax and abdomen) three pairs of jointed legs compound eyes and two antennae
+NELL:arachnid	rdfs:comment	air-breathing arthropods characterized by simple eyes and four pairs of legs
+NELL:crustacean	rdfs:comment	form a very large group of arthropods usually treated as a subphylum which includes such familiar animals as crabs lobsters crayfish shrimp krill and barnacles. Like other arthropods crustaceans have an exoskeleton which they moult to grow. They are distinguished from other groups of arthropods such as insects myriapods and chelicerates by the possession of biramous (two-parted) limbs and by the nauplius form of the larvae.
+NELL:vertebrate	rdfs:comment	An animal which has a back bone
+NELL:reptile	rdfs:comment	Reptiles are animals in the (Linnaean) class Reptilia. They are characterized by breathing air laying tough-shelled amniotic eggs and having skin covered in scales and/or scutes.
+NELL:bird	rdfs:comment	Birds (class Aves) are winged bipedal endothermic (warm-blooded) egg-laying vertebrate animals.
+NELL:fish	rdfs:comment	A fish is any aquatic vertebrate animal that is covered with scales and equipped with two sets of paired fins and several unpaired fins. Most fish are "cold-blooded" or ectothermic allowing their body temperatures to vary as ambient temperatures change.
+NELL:mammal	rdfs:comment	Mammals (formally Mammalia) are a class of vertebrate air-breathing animals whose females are characterized by the possession of mammary glands while both males and females are characterized by hair and/or fur three middle ear bones used in hearing and a neocortex region in the brain.
+NELL:amphibian	rdfs:comment	Amphibians (class Amphibia from Amphi- meaning "on both sides" and -bios meaning "life") such as frogs salamanders and caecilians are ectothermic (or cold-blooded) animals that metamorphose from a juvenile water-breathing form either to an adult air-breathing form or to a paedomorph that retains some juvenile characteristics.
+NELL:humanagent	rdfs:comment	Those things to which we can ascribe agency that are composed of one or more humans
+NELL:person	rdfs:comment	A person is a human being (man woman or child) known to have actually existed. Living persons celebrities and politicians are persons as are deceased persons.
+NELL:criminal	rdfs:comment	a person who commits a crime
+NELL:architect	rdfs:comment	a person who designs buildings or other structures
+NELL:politician	rdfs:comment	Any person who has held or sought a position in a government. The term "politician" may not be strictly accurate for some positions such as kings but we have to call it something!
+NELL:politicianus	rdfs:comment	Politicians of the U.S.A
+NELL:athlete	rdfs:comment	An athlete is a person who plays a sport competitively.
+NELL:male	rdfs:comment	This category includes all male human beings.
+NELL:writer	rdfs:comment	A writer is a person who produces written work. This category includes book authors poets and playwrights.
+NELL:professor	rdfs:comment	A faculty member at a university or college
+NELL:director	rdfs:comment	Movie directors.
+NELL:personbylocation	rdfs:comment	Parent category to break up people by regional/national location which exists as a way to constrain some of the political predicates to the U.S.  For simplicity of decision-making we use "citizenship" as the rule for belongingness in these categories; this is probably "good enough" for what we want to do with the political predicates.
+NELL:personaustralia	rdfs:comment	citizens of Australia
+NELL:personasia	rdfs:comment	citizens of countries in Asia
+NELL:personnorthamerica	rdfs:comment	citizens of countries in North America
+NELL:personus	rdfs:comment	citizens of the U.S.A.
+NELL:personmexico	rdfs:comment	citizens of Mexico
+NELL:personcanada	rdfs:comment	citizens of Canada
+NELL:personeurope	rdfs:comment	citizens of countries in Europe
+NELL:personafrica	rdfs:comment	citizens of countries in Africa
+NELL:personsouthamerica	rdfs:comment	citizens of countries in South America
+NELL:personantarctica	rdfs:comment	Placeholder in case we change the definition of personByLocation categories such that there would be anyone to put here (there are no countries in Antarctica of which to be a citizen).
+NELL:model	rdfs:comment	a person who is paid to be a fashion model
+NELL:astronaut	rdfs:comment	An astronaut is a person that has flown in outer space. Not used for animals sent to space experimentally.
+NELL:celebrity	rdfs:comment	A celebrity is a person who is frequently featured in the media and is recognizable by the general public.
+NELL:actor	rdfs:comment	An actor is a person who performs in movies television plays or other forms of entertainment.
+NELL:chef	rdfs:comment	A chef is a professional cook.
+NELL:comedian	rdfs:comment	a person who makes a living by making you laugh
+NELL:mlauthor	rdfs:comment	A machine learning author is a person who has published research in the field of machine learning.
+NELL:scientist	rdfs:comment	A scientist is a professional who performs research to discover the rules which govern the natural world. This category includes mathematicians even though math isn't really a science.
+NELL:visualartist	rdfs:comment	A visual artist creates artistic works which are mainly experienced by sight. This category includes painters sculptors and architects but excludes authors.
+NELL:coach	rdfs:comment	A coach is a trainer for a sports team. He leads the team in exercises and manages the team during gameplay. This category includes assistant coaches and other trainers.
+NELL:judge	rdfs:comment	a judge in a court of law
+NELL:monarch	rdfs:comment	A monarch is a person who heads a monarchy such as a king or queen
+NELL:female	rdfs:comment	This category includes all female human beings.
+NELL:musician	rdfs:comment	A musician is a person who sings or plays a musical instrument as part of a musical act.
+NELL:ceo	rdfs:comment	A CEO is the chief executive officer of a company.
+NELL:journalist	rdfs:comment	Journalists are professionals who work in journalism. They collect and report news.
+NELL:organization	rdfs:comment	An organization is an organized body of members or people with a particular purpose; in the Freebase context a organization doesn't have a business association like a company.  Companies have their own type in the business domain located here.  In addition many types of organizations have their own more specialized co-types that give them additional properties.
+NELL:nonprofitorganization	rdfs:comment	A non-profit organization is a legally-constituted organization that does not make a profit from its operations.
+NELL:musicartist	rdfs:comment	An individual or a group that performs or makes music. Musical artists should typically have performed in front of an audience on a regular basis or have recorded musical tracks or musical albums. (FreeBase)
+NELL:tradeunion	rdfs:comment	A trade union (aka labor union) is an organization which represents workers in a certain industry or profession.
+NELL:sportsteam	rdfs:comment	A sports team is a group of athletes who play a sport together competitively
+NELL:professionalorganization	rdfs:comment	A professional organization is an organization of people who work in a particular field.
+NELL:school	rdfs:comment	A school is an organization whose primary function is education. This category includes universities K-12 schools and trade schools.
+NELL:university	rdfs:comment	A university is a post-high school educational institution. This category includes colleges and technical schools.
+NELL:highschool	rdfs:comment	Schools whose graduates would go directly on to universities vocational schools or other higher education.  No particular limit on age of incoming students.
+NELL:geopoliticalorganization	rdfs:comment	Those geopolitical entities that are organizations
+NELL:politicsgroup	rdfs:comment	Organizations which may or may not be part of the government that act in the arenas of politics or government.
+NELL:governmentorganization	rdfs:comment	A government is the organization or agency through which a political unit exercises its authority 
+NELL:nongovorganization	rdfs:comment	Politically-active or governmentally-active organizations that are not part of the government including but not limited to some NGOs
+NELL:politicalparty	rdfs:comment	organized political group that primarily aims for the attainment of political power and public office for its designated members.
+NELL:terroristorganization	rdfs:comment	an organization that is involved in terrorist activities.
+NELL:sportsleague	rdfs:comment	A sports league is an association of teams that compete with each other in a sport. Sports leagues include conferences and divisions of other sports leagues.
+NELL:company	rdfs:comment	A company is an organization whose goal is to make money
+NELL:automobilemaker	rdfs:comment	A company that manufactures motor-powered vehicles (eg. cars motorcycles buses trucks and motorized bikes)
+NELL:winery	rdfs:comment	Companies that produce and sell wines
+NELL:biotechcompany	rdfs:comment	A company in a biotechnology field including pharmaceutical companies.
+NELL:petroleumrefiningcompany	rdfs:comment	a company in the petroleum sector
+NELL:mediacompany	rdfs:comment	Any company that deals in the production or marketing of media goods (film audio literature journalistic etc.)
+NELL:magazine	rdfs:comment	A magazine is a periodical bound typically published less frequently than daily. This includes electronic magazines. For lack of a better definitional boundary this therefore includes any periodical that is not instead a newspaper.
+NELL:newspaper	rdfs:comment	A newspaper is a periodical which is printed in a specific format (i.e. on newsprint) describes recent events and is typically published daily.
+NELL:televisionstation	rdfs:comment	A television station is a broadcaster which transmits television (audio & video).
+NELL:recordlabel	rdfs:comment	A record label is a company that releases music albums.
+NELL:televisionnetwork	rdfs:comment	Category for different types of TV networks (currently closed-world limited to major American networks)
+NELL:radiostation	rdfs:comment	A radio station is a broadcaster which transmits audio. This category includes broadcast radio satellite radio and internet radio stations.
+NELL:bank	rdfs:comment	Umbrella category for all kinds of banks
+NELL:creditunion	rdfs:comment	Banks that are credit unions
+NELL:oilgasfield	rdfs:comment	An field from which oil or natural gas are extracted.
+NELL:item	rdfs:comment	Any tangible thing that does not have the power to act (agency)
+NELL:weapon	rdfs:comment	A weapon is any tool used for fighting
+NELL:fungus	rdfs:comment	Member of kingom fungi.
+NELL:tool	rdfs:comment	none
+NELL:product	rdfs:comment	none
+NELL:automobileengine	rdfs:comment	The engine type is to be used to classify specific powerplants used in an automobile. These may be year-specific but more frequently they often span multiple years models makes and generations.
+NELL:drug	rdfs:comment	A drug is a chemical substance that has or is reputed to have a phyisological effect on an organism. Medicinal herbal and illegal drugs can be included in this type.
+NELL:personalcareitem	rdfs:comment	Items used by people to care for their bodies or to maintain a certain appearance. Could also be called toiletries.
+NELL:vehicle	rdfs:comment	Any vessel or other conveyance machine used for purposes of travel. Apparel and other personal affects e.g. shoes or walking sticks do not count.
+NELL:automobilemodel	rdfs:comment	A model is a specific car carried under a make.
+NELL:software	rdfs:comment	software that runs on a computer.
+NELL:videogame	rdfs:comment	A video game is a piece of interactive software used primarily for entertainment including computer games console games arcade games and hand-held games. However this category excludes video game consoles.
+NELL:mlsoftware	rdfs:comment	A software package that offers machine learning functionality
+NELL:clothing	rdfs:comment	This type is for kinds of garments or clothing. For lack of a meaningful way to constrain this category through definition or existent sibling categories particularly when it comes to adorning the body for purposes of fashion (e.g. jewlery colored contact lenses costumery) or of utility (e.g. armor kneepads or other sports equipment corrective lenses) this will include anything wearable.
+NELL:food	rdfs:comment	A food is any edible substance with nutritional value whether it's a basic foodstuff like rice or apples or a commercial product like Poptarts or I Can't Believe It's Not Butter.  "Nutritional value" encompasses anything useful for growth or life such as water so long as the organism gets it through ingestion.
+NELL:meat	rdfs:comment	A type of animal flesh that is used as food. (Wikipedia)
+NELL:condiment	rdfs:comment	A sauce or seasoning added to food to impart a particular flavor or to complement the dish. (Wikipedia)
+NELL:fruit	rdfs:comment	A structure of a plant that contains its seeds. This is closer to the botanical definition than the cullinary / colloquial definition but is technically niether.
+NELL:nut	rdfs:comment	hard-shelled fruit of some plants having an indehiscent seed.
+NELL:legume	rdfs:comment	plant in the family Fabaceae (or Leguminosae) or a fruit of these specific plants. A legume fruit is a simple dry fruit that develops from a simple carpel and usually dehisces (opens along a seam) on two sides.
+NELL:grain	rdfs:comment	dry seed-like fruit produced by the cereal grasses: e.g. wheat barley Indian corn
+NELL:candy	rdfs:comment	A food which is made primarily of sugar and generally sold for wide distribution. This would include many dessert items like pie and cake that might not be strictly "candy" per se.
+NELL:vegetable	rdfs:comment	An edible plant or part of a plant other than a sweet fruit or seed. This usually means the leaf stem or root of a plant.  This is meant to dovetail with the more botanical definition we have of fruit and to not allow cullinary / colloquial vegetables that qualify for membership in our fruit category.  Mushrooms are not vegetables.
+NELL:beverage	rdfs:comment	A liquid meant for human consumption
+NELL:wine	rdfs:comment	Types of wines or specific vintanges of particular wineries
+NELL:bakedgood	rdfs:comment	A food which is made through baking in an oven
+NELL:cheese	rdfs:comment	Any cheese
+NELL:plant	rdfs:comment	Member of kingdom plantae. A seed is considered to be a plant because it has been fertilized although the larger structure of a fruit which merely contains a seed is not itself a plant.  A picked flower such as a product sold as such is not a plant because it is something that has a new name as a result of a mortal action on a plant.
+NELL:refineryproduct	rdfs:comment	a product derived from a petroleum refinery
+NELL:sportsequipment	rdfs:comment	Anything which is used to play a sport
+NELL:musicinstrument	rdfs:comment	A Musical instrument is a device constructed or modified with the purpose of making music. In principle anything that produces sound and can somehow be controlled by a musician can serve as a musical instrument. (See e.g. the hardart.)
+NELL:consumerelectronicitem	rdfs:comment	An item intended for ordinary people that runs on electricity excluding appliances. This category includes accessories for consumer electronic items such as video games and DVDs.
+NELL:videogamesystem	rdfs:comment	includes any form of electronic game device from handheld units as small as a phone to large powerful computer systems and even arcade coin-operated systems.
+NELL:bodypart	rdfs:comment	Refers to any part of the human body. It can be either visible to the naked eye (gross anatomical structure) or microscopic.
+NELL:muscle	rdfs:comment	A muscle is a contractile form of tissue which animals use to effect movement.
+NELL:vein	rdfs:comment	A vein is a blood vessel that carries blood toward the heart.
+NELL:bone	rdfs:comment	a bone or bone structure in a vertebrate
+NELL:nerve	rdfs:comment	a single nerve cell or bundle of nerve cells
+NELL:artery	rdfs:comment	Arteries are muscular blood vessels that carry blood away from the heart.
+NELL:lymphnode	rdfs:comment	a lymph node in the body
+NELL:braintissue	rdfs:comment	any subregion of the brain but not including single nerves
+NELL:officeitem	rdfs:comment	Items usually found in an office that are used for clerical or intellectual work.
+NELL:agriculturalproduct	rdfs:comment	a living thing (or something derived therefrom) which is specifically cultivated and produced to sustain or enrich life
+NELL:householditem	rdfs:comment	Any item that could reasonably be found in or about a residence.
+NELL:furniture	rdfs:comment	Any functional or decorative mobile object with which a dwelling might be said to be "furnished" or any immobile variant of the same (such as an oven built into a wall).
+NELL:flooritem	rdfs:comment	Any item that is commonly found on the floor
+NELL:bathroomitem	rdfs:comment	Any item that is commonly found in a bathroom or restroom.
+NELL:hallwayitem	rdfs:comment	Any item that is commonly found in a hallway.
+NELL:bedroomitem	rdfs:comment	Any item that is commonly found in a bedroom.
+NELL:tableitem	rdfs:comment	Any item that is commonly found on a table.
+NELL:kitchenitem	rdfs:comment	Any item that might be found in a commercial or residential kitchen that is used for cullinary purposes or in pursuit of the same (e.g. a cupboard).
+NELL:wallitem	rdfs:comment	Any item that is commonly found on a wall
+NELL:mediatype	rdfs:comment	the means of communication as radio and television newspapers and magazines that reach or influence people widely 
+NELL:buildingfeature	rdfs:comment	Any physical property or physical attribute that a building might have.
+NELL:visualizablething	rdfs:comment	something which can be recognized visually
+NELL:visualizableattribute	rdfs:comment	a visual attribute (for NEIL)
+NELL:color	rdfs:comment	Color (or colour) is the visual perceptual property corresponding in humans to the categories called red yellow white etc.
+NELL:geometricshape	rdfs:comment	geometrical information that remains when location scale and rotational effects are filtered out from an object 
+NELL:visualizablescene	rdfs:comment	a visual scene (for NEIL's scene classifiers)
+NELL:visualizableobject	rdfs:comment	a visual object (for NEIL)
+NELL:abstractthing	rdfs:comment	thought quality characteristic apart from concrete realities specific objects or actual instances; theoretical not applied or practical 
+NELL:protein	rdfs:comment	Proteins are any complex organic compounds that consist of one or more chains of amino acids. Proteins are typically essential components of any living cell and indispensable to the proper functioning of all organisms.
+NELL:hobby	rdfs:comment	A hobby is an activity undertaken for pleasure in one's spare time. Some hobbies exist primarily as hobbies while others might be practiced professionally by some people but as hobbies by others.  This can include sport activities.
+NELL:time	rdfs:comment	a specific time
+NELL:species	rdfs:comment	is one of the basic units of biological classification and a taxonomic rank. A species is often defined as a group of organisms capable of interbreeding and producing fertile offspring.
+NELL:virus	rdfs:comment	A small infectious agent that replicates only inside the living cells of other organisms
+NELL:bacteria	rdfs:comment	single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission;
+NELL:archaea	rdfs:comment	single-celled organisms lacking nuclei formerly called archaebacteria but now known to differ fundamentally from bacteria
+NELL:profession	rdfs:comment	The career or job which a person performs for most of their working life or for which they are best known (FreeBase)
+NELL:jobposition	rdfs:comment	Positions are job titles or named roles within an organization. Examples include "CEO" "President" "mayor" "vice president for research" "sergeant" etc. They do not include generic activities or career terms like "pianist" "researcher" "scientist" etc.
+NELL:religion	rdfs:comment	Religious sects denominations and (meta-)organizations. NOT church buildings or individual chapters/institutions.
+NELL:chemical	rdfs:comment	A chemical compound is a molecular substance consisting of multiple atoms which are bonded together by a chemical reaction. This type can be used for compounds made of the same element (e.g. allotropes) or multiple different elements. Compounds are different from chemical mixtures because mixtures can be mixed and separated physically without a reaction; The elements of the periodic table
+NELL:date	rdfs:comment	a particular month day and year at which some event happened or will happen; the time or period to which any event or thing belongs; period in general 
+NELL:year	rdfs:comment	Four-digit years
+NELL:month	rdfs:comment	Twelve months of the year.
+NELL:dateliteral	rdfs:comment	represents a date.
+NELL:dayofweek	rdfs:comment	Seven named days of the week
+NELL:victim	rdfs:comment	a victim of an event could be a person or a group of person like childrens students soldiers drivers etc
+NELL:game	rdfs:comment	General parent category for more specific kinds of games
+NELL:sportsgame	rdfs:comment	A sports game is a particular instance of a sporting event where teams or athletes compete. This could be a series of matches if the competitors remain the same but this does not extend to something like a tournament or season where the series of matches draws on different combinations from a set of teams.
+NELL:traditionalgame	rdfs:comment	Includes all non-sports non-electronic games including board games parlor games and card games.
+NELL:boardgame	rdfs:comment	Games played with physical pieces on a board (electronic games not allowed)
+NELL:parlourgame	rdfs:comment	Parlour games drawing room games car games and similar passtimes that are not card games dice games board games etc.
+NELL:cardgame	rdfs:comment	Games that are played with only a physical deck of cards (electronic games not allowed)
+NELL:sport	rdfs:comment	A game which involves some form of physical prowess (i.e. athleticism as opposed to the physical prowess needed for a parlour game like Pin the Tail on the Donkey).  Note that this does not include non-game sports; those may be hobbies instead.
+NELL:emotion	rdfs:comment	Emotion is the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences 
+NELL:currency	rdfs:comment	A currency is money that is used (or has been used) as a medium of exchange
+NELL:recipe	rdfs:comment	A recipe is a method of preparing a dish. Dishes may have multiple recipes. For instance there may be many different recipes for chocolate chip cookies.
+NELL:event	rdfs:comment	An event is a topic that can be described by the time or date at which it happened. Long-lasting events may be described as occurring between two dates. It is sometimes appropriate to create abstract events as collections of other events
+NELL:conference	rdfs:comment	A conference is a regular or recurring meeting of people to "confer" about a topic. It may take many forms.
+NELL:mlconference	rdfs:comment	A conference in the area of machine learning
+NELL:election	rdfs:comment	An opportunity for constituents to vote for a political party or candidate for a governmental office or seat or the ability to run for a governmental office or seat (as is the case with primaries). (FreeBase)
+NELL:convention	rdfs:comment	a large meeting such as the Star Trek Convention
+NELL:meetingeventtype	rdfs:comment	A kind of meeting the name of a series of meetings or some other way to refer to a category of meeting
+NELL:crimeorcharge	rdfs:comment	A crime or other kind of offence or violation with which a person can be charged
+NELL:meetingeventtitle	rdfs:comment	The title of a meeting (such as a presentation)
+NELL:weatherphenomenon	rdfs:comment	Anything that happens naturally in the atmosphere
+NELL:filmfestival	rdfs:comment	Film festivals at which movies are shown.
+NELL:eventoutcome	rdfs:comment	a final product or end result; consequence; issue 
+NELL:militaryeventtype	rdfs:comment	A military event type is simply a sub-type (or sub-category) of the category military event.
+NELL:militaryconflict	rdfs:comment	A military conflict is any event that involves armed forces acting in hostility. This includes wars battles and guerilla actions.
+NELL:sportsevent	rdfs:comment	is when a sport is played or otherwise engaged in including but not limited to what would be termed a "sports game".  See child categories for examples.
+NELL:olympics	rdfs:comment	are a major international event featuring summer and winter sports in which thousands of athletes participate in a variety of competitions. The Games are currently held every two years with Summer and Winter Olympic Games alternating although they occur every four years within their respective seasonal games.
+NELL:race	rdfs:comment	A sport race is a competition of speed against an objective criterion usually a clock or to a specific point. The competitors in a race try to complete a given task in the shortest amount of time. Typically this involves traversing some distance but it can be any other task involving speed to reach a specific goal.
+NELL:grandprix	rdfs:comment	one of several international races.
+NELL:musicfestival	rdfs:comment	A Music Festival is a musical event where live music is played typically by multiple musical artists. A festival may be a singular event or a recurring one.
+NELL:language	rdfs:comment	Spoken human languages (and dialects).
+NELL:scientificterm	rdfs:comment	a scientific term for prerequisite detection (currently ML and AI focused)
+NELL:geopoliticalentity	rdfs:comment	That which would an object of geopolitical analysis including but not limited to countries administrative or de facto subdivisions thereof supernational groupings and organizations geographical regions and cultural groups.
+NELL:politicsbill	rdfs:comment	A legislative bill passed enacted or otherwise.
+NELL:sociopolitical	rdfs:comment	Any socio-political word (?!)
+NELL:mlalgorithm	rdfs:comment	Any algorithm or class of algorithms that is used at any stage of machine learning.
+NELL:researchproject	rdfs:comment	A specific research effort or a research center
+NELL:mlarea	rdfs:comment	A specific area of investigation within the sub-field of machine learning.
+NELL:perceptionevent	rdfs:comment	Something that can be perceived by someone.
+NELL:cognitiveactions	rdfs:comment	pertaining "to the action or process of knowing" 
+NELL:buildingmaterial	rdfs:comment	The construction material used for building
+NELL:physicsterm	rdfs:comment	Any word with a specific meaning in the physics domain
+NELL:mlmetric	rdfs:comment	A metric used to evaluate machine learning methods
+NELL:creativework	rdfs:comment	the product of any creative effort including movies paintings musical songs etc.
+NELL:movie	rdfs:comment	A release of a visual narrative composed of a series of moving images that is considered a complete presentation and is intended to be classified as a film. A film can be of any length of running time and presented in a theatrical television internet-streaming and direct-to-home-video presentation. (FreeBase)
+NELL:lyrics	rdfs:comment	Refernce to the lyrics of a song as distinct from a reference to the song itself
+NELL:poem	rdfs:comment	This type is for all kinds of poems from epics to doggerel.
+NELL:book	rdfs:comment	A book is a written work or a collection of written works in book form. "Book" represents the abstract notion of a particular book rather than a particular edition.
+NELL:televisionshow	rdfs:comment	Television shows or a television series that includes multiple episodes
+NELL:musicalbum	rdfs:comment	A collection of Musical Tracks (recordings of Songs) released in a common format such as Compact Disc or LP. An album is typically associated with a single Musical Artist unless it is a compilation which is a collection of tracks by various artists.  (FreeBase)
+NELL:musicsong	rdfs:comment	A song is any musical work including instrumentals as well as songs with lyrics.
+NELL:visualartform	rdfs:comment	A categorization of the visual arts. An art form is a specific form for artistic expression to take.An art form more or less corresponds to the tools or materials used to create an art work (FreeBase)
+NELL:celltype	rdfs:comment	A cell type is a distinct morphological or functional form of cell 
+NELL:politicsissue	rdfs:comment	An issue of political concern
+NELL:mldataset	rdfs:comment	A dataset used in machine learning
+NELL:economicsector	rdfs:comment	An economy may include several sectors (also called industries) 
+NELL:visualartmovement	rdfs:comment	A tendency or style in art with a specific common philosophy or goal followed by a group of artists during a restricted period of time or at least with the heyday of the movement more or less strictly so restricted (usually a few months years or decades) (FreeBase).  This does not include things that are merly genres such as "fantasy art" or "oceanic art".
+NELL:musicgenre	rdfs:comment	A style or classification of music (FreeBase)
+NELL:physicalcharacteristic	rdfs:comment	Features of a substance that are primarily sensory (physical) and generally measurable (businessdictionary.com)
+NELL:charactertrait	rdfs:comment	habitual patterns of behavior thought and emotion 
+NELL:medicalprocedure	rdfs:comment	The medical treatment type is used for any medical intervention designed to treat and cure human diseases and medical conditions. This type includes both curative and palliative treatments
+NELL:sportsteamposition	rdfs:comment	The name of a position on a sports team (e.g. quarterback)
+NELL:politicaloffice	rdfs:comment	This type is for the office title or position within a government.  It includes both single-person offices (prime minister emperor mayor) titles of members of a governing body (representative sentator MP) and titles of additional positions within a governing body (leader of the opposition speaker of the house).
+NELL:perceptionaction	rdfs:comment	An event that involves someone perceiving something
+NELL:physicalaction	rdfs:comment	An event that involves someone doing something with their physical body.
+NELL:awardtrophytournament	rdfs:comment	Sports award is a CVT which connects together the winner of a sports award the award they won the season for which they won the award and the team they represented (if applicable).
+NELL:physiologicalcondition	rdfs:comment	Most instances will be diseases or other abnormalities. However this category also includes conditions such as pregnancy or teething that are entirely normal and expected but which are nevertheless exception and can require extra care.
+NELL:disease	rdfs:comment	A disease is an abnormal condition of the human body that causes discomfort or impairs bodily functions. This type also includes medical conditions such as injuries disabilities disorders syndromes etc. that affect the normal functioning of a person whether physically or mentally.
+NELL:nondiseasecondition	rdfs:comment	Those physiologicalConditions that normal and expected parts of life (such as pregnancy or teething) that are not diseases but which do affect the normal functioning of the body.
+NELL:programminglanguage	rdfs:comment	A language used to give instructions to a computer
+NELL:academicfield	rdfs:comment	A field of study is the field area or discipline which is the focus of study of a student or academic or which is taught in a school.
+NELL:llcoordinate	rdfs:comment	Longitude is the angular distance of a point's meridian from the Prime (Greenwich) Meridian
+NELL:ethnicgroup	rdfs:comment	A group of individuals that share common characteristics such as ancestry country of origin language religion culture and physical appearance.
+NELL:relatedto	rdfs:comment	associated; connected 
+NELL:teamplayssport	rdfs:comment	The sport that a team plays.
+NELL:inverseofmusicalartisthadapetanimal	rdfs:comment	Describes the pet animals that musical artists have or had
+NELL:musicalartisthadapetanimal	rdfs:comment	Describes the pet animals that musical artists have or had
+NELL:mutualproxyfor	rdfs:comment	two things can be taken to refer to each other equally
+NELL:isoneoccurrenceof	rdfs:comment	Specifies the way in which a grouping of individual somethings can be referred to including but not limited to relating the plural form to the singular.
+NELL:ismultipleof	rdfs:comment	Specifies the way in which a grouping of individual somethings can be referred to including but not limited to relating the plural form to the singular.
+NELL:synonymfor	rdfs:comment	Two strings are synonyms if both of them frequently refer to the same real-world concept in text.
+NELL:personalsoknownas	rdfs:comment	this is another name for this person
+NELL:coachalsoknownas	rdfs:comment	this is another name for this coach
+NELL:athletealsoknownas	rdfs:comment	this is another name for this athlete
+NELL:organizationalsoknownas	rdfs:comment	this is another name for this organization
+NELL:companyalsoknownas	rdfs:comment	this is another name for this company
+NELL:organizationacronymhasname	rdfs:comment	this short name or acronym refers to this organization
+NELL:organizationnamehasacronym	rdfs:comment	this short name or acronym refers to this organization
+NELL:teamalsoknownas	rdfs:comment	this is another name for this team
+NELL:inverseofarthropodcalledarthropod	rdfs:comment	Describes the names an artery can be called
+NELL:arthropodcalledarthropod	rdfs:comment	Describes the names an artery can be called
+NELL:countryalsoknownas	rdfs:comment	this is another name for this country
+NELL:stadiumalsoknownas	rdfs:comment	this is another name for this stadium or event venue
+NELL:cityalsoknownas	rdfs:comment	this is another name for this city
+NELL:proxyfor	rdfs:comment	one thing can be taken to refer to another but the reverse is not necessarily or equally so
+NELL:personleadscountry	rdfs:comment	specifies that a particular person is the leader of a particular country
+NELL:citystadiums	rdfs:comment	The city where a stadium is located
+NELL:agentrepresentsorganization	rdfs:comment	Specialization of proxyFor for agent-to-organization relations. populate=false only because presumed to be uninteresting
+NELL:agentleadsorganization	rdfs:comment	General relation as with certain political positions we have an agent that controls the thing that he works for
+NELL:personleadsorganization	rdfs:comment	person leading an organization/company
+NELL:topmemberoforganization	rdfs:comment	Identifies people in high-level leading positions at organizations.  Applicable positions have authority over the entire organization (e.g. presidents VPs directors and C-level executives) not merely over departments or subsidiaries.
+NELL:ceoof	rdfs:comment	specifies that a particular CEO is the CEO of a particular company
+NELL:inverseofbankchiefexecutiveceo	rdfs:comment	Describes the CEOs of banks
+NELL:inverseofautomobilemakerchiefexecutiveceo	rdfs:comment	Describes the CEOs of automobile maker companies
+NELL:personleadsgeopoliticalorganization	rdfs:comment	specifies that a particular person plays a leading role in a particular geopolitical organization (which includes the governments of countries)
+NELL:personleadscity	rdfs:comment	specifies that a particular person is the leader (e.g. Mayor) of a particular city
+NELL:citycapitalofcountry	rdfs:comment	specifies that a particular city is the capital of a particular country
+NELL:citysportsteams	rdfs:comment	The home city of a sports team typically a location where the team frequently competes.
+NELL:citycapitalofstate	rdfs:comment	The capital city of a state where the main governing apparatus is located.
+NELL:proxyof	rdfs:comment	one thing can be taken to refer to another but the reverse is not necessarily or equally so
+NELL:countryleadbyperson	rdfs:comment	specifies that a particular person is the leader of a particular country
+NELL:stadiumlocatedincity	rdfs:comment	The city where a stadium is located
+NELL:teamplaysincity	rdfs:comment	The home city of a sports team typically a location where the team frequently competes.
+NELL:statehascapital	rdfs:comment	The capital city of a state where the main governing apparatus is located.
+NELL:organizationrepresentedbyagent	rdfs:comment	Specialization of proxyFor for agent-to-organization relations. populate=false only because presumed to be uninteresting
+NELL:organizationleadbyagent	rdfs:comment	General relation as with certain political positions we have an agent that controls the thing that he works for
+NELL:organizationleadbyperson	rdfs:comment	person leading an organization/company
+NELL:organizationhastopmember	rdfs:comment	Identifies people in high-level leading positions at organizations.  Applicable positions have authority over the entire organization (e.g. presidents VPs directors and C-level executives) not merely over departments or subsidiaries.
+NELL:companyceo	rdfs:comment	specifies that a particular CEO is the CEO of a particular company
+NELL:bankchiefexecutiveceo	rdfs:comment	Describes the CEOs of banks
+NELL:automobilemakerchiefexecutiveceo	rdfs:comment	Describes the CEOs of automobile maker companies
+NELL:geopoliticalorganizationleadbyperson	rdfs:comment	specifies that a particular person plays a leading role in a particular geopolitical organization (which includes the governments of countries)
+NELL:cityleadbyperson	rdfs:comment	specifies that a particular person is the leader (e.g. Mayor) of a particular city
+NELL:countrycapital	rdfs:comment	specifies that a particular city is the capital of a particular country
+NELL:personineconomicsector	rdfs:comment	People who work in a given economic sector
+NELL:musicsongisatrackofmusicalbum	rdfs:comment	Identifies a music song which is a track of a music album
+NELL:economicsectorhasperson	rdfs:comment	People who work in a given economic sector
+NELL:agriculturalproductcontainchemical	rdfs:comment	Describes the agricultural products that contain a chemical
+NELL:inverseofautomobilemakercardealersinstateorprovince	rdfs:comment	Describes the car dealers in a state or province
+NELL:inverseoffishservedwithfood	rdfs:comment	Describes the kind of food that are tipically serverd with a fish
+NELL:buildingfeaturebuiltabovelake	rdfs:comment	buildingfeature and lake are related
+NELL:clothingmadefromplant	rdfs:comment	Describes the clothing items made of a plant
+NELL:inverseofathleteinjuredhisbodypart	rdfs:comment	Describes the athletes that had injured any body part
+NELL:inverseofathletefracturedbone	rdfs:comment	Bone fracture that an athlete had
+NELL:inverseofplantrepresentemotion	rdfs:comment	Describes the emotions represented by a plant
+NELL:inverseofcompanyproducesvideogamesystem	rdfs:comment	company produces a video game system
+NELL:sportteam	rdfs:comment	The sport that a team plays.
+NELL:inverseofprofessionactsatthesameareaofpoliticissue	rdfs:comment	Describes professions that work at the area of a political issue
+NELL:sportfansincountry	rdfs:comment	Describes the sports that have fans living in a country
+NELL:visualartformartist	rdfs:comment	The type of visual art that a visualArtist produces. Also known as an artist's medium.
+NELL:inverseofagriculturalproductcutintogeometricshape	rdfs:comment	Describes the agricultural products that are usually cut into geometric shapes
+NELL:wineryatfarm	rdfs:comment	farm and winery are related
+NELL:isshorterthan	rdfs:comment	Indicates that arg1 has a greater height than arg2
+NELL:academicfieldusedinjobposition	rdfs:comment	Academic fields useful for job positions
+NELL:inverseofdiseasecausesphysiologicalcondition	rdfs:comment	Describes diseases that may cause a physiological condition
+NELL:arterycalledartery	rdfs:comment	Describes the names an artery can be called
+NELL:eventcausedbyevent	rdfs:comment	Any events that is caused by another event
+NELL:thinghasshape	rdfs:comment	Object has shape (NEIL)
+NELL:issueofpoliticsgroup	rdfs:comment	Issues that a political group has concern about
+NELL:birdmayconsumeprotein	rdfs:comment	Describes the proteins eaten by a bird
+NELL:jobpositionusesacademicfield	rdfs:comment	Academic fields useful for job positions
+NELL:inverseofathletebeatathlete	rdfs:comment	Describes the athletes whom beat other athletes
+NELL:inverseofarteryarisesfromartery	rdfs:comment	Describes the arteries that arises from other arteries
+NELL:sportsgamesport	rdfs:comment	Specifies the sport that was played in a particular sportsGame.
+NELL:politicsgroupconcernsissue	rdfs:comment	Issues that a political group has concern about
+NELL:foodcancausedisease	rdfs:comment	Describes the diseases that can be caused by a food
+NELL:publicationwritesabout	rdfs:comment	Specifies that a particular person has been written about in a particular publication
+NELL:awardtrophytournamentisthechampionshipgameofthenationalsport	rdfs:comment	Describes award trophy tournaments related to specific sports
+NELL:universityoperatesinlanguage	rdfs:comment	Language spoken at a college/university.
+NELL:agriculturalproductcookedwithagriculturalproduct	rdfs:comment	Describes the agricultural products that are usually cooked with another agricultural product
+NELL:personwrittenaboutinpublication	rdfs:comment	Specifies that a particular person has been written about in a particular publication
+NELL:inverseoflanguagespokenatisland	rdfs:comment	Describes languages spoken at islands
+NELL:athletewinsawardtrophytournament	rdfs:comment	Describes the athletes who won an award trophy tournament
+NELL:istallerthan	rdfs:comment	Indicates that arg1 has a greater height than arg2
+NELL:sportsteampositionforsport	rdfs:comment	The relation between a sport and team positions filled by athletes
+NELL:languageofcity	rdfs:comment	Typical language spoken in a city (official or otherwise)
+NELL:persondiedatage	rdfs:comment	the age at which this person died
+NELL:locatedat	rdfs:comment	assigns locations to things.
+NELL:mountainatgeopoliticallocation	rdfs:comment	geopoliticallocation and mountain are related
+NELL:inverseofawardtrophytournamentwasawardedonstadium	rdfs:comment	Stadium of event venue where a award trophy tournament was at least once awarded
+NELL:visualappearanceof	rdfs:comment	The NEIL-learned visual appearance of something
+NELL:locationinzipcode	rdfs:comment	Describes one or more locations to which a zipcode may correspond.
+NELL:wikipediaurlof	rdfs:comment	The Wikipedia page for a given category instance
+NELL:inverseofriveremptiesintoriver	rdfs:comment	Describes the tributaries of a river
+NELL:placeofworshippracticesreligion	rdfs:comment	The religion practied in a place of worship.
+NELL:locationofitemexistence	rdfs:comment	An item that is typically found in a particular place. While most any item could concievably exist at most any place the intent for this relation and its children is to capture "common knowledge" about what would be expected to be found where.
+NELL:inverseofvegetableisproducedatcountry	rdfs:comment	Describes the countries that are big produces of vegetables
+NELL:inverseofagriculturalproductgrowinginstateorprovince	rdfs:comment	Describes the agricultural products that are produced in a state or province
+NELL:inverseofagriculturalproductcamefromcountry	rdfs:comment	Describes the agricultural products that came from a country
+NELL:inverseofweaponmadeincountry	rdfs:comment	Describes the weapons produced by a country
+NELL:countryproducesproduct	rdfs:comment	Describes the products produced by a country
+NELL:inverseofvegetableproductioninstateorprovince	rdfs:comment	Describes the vegetables produced in a state or province
+NELL:farmproducesagriculturalproduct	rdfs:comment	the agricultural products produced by a farm
+NELL:roomcancontainitem	rdfs:comment	Relates items to rooms in which they are often found
+NELL:roomcancontainfurniture	rdfs:comment	Relates furniture to rooms in which it is often found
+NELL:locationofevent	rdfs:comment	the location that an event is happened at
+NELL:buildinghostsmeetingeventtitle	rdfs:comment	In which building a particular meeting will take place
+NELL:officebuildingroomhostsmeetingeventtitle	rdfs:comment	In which room a particular meeting will take place
+NELL:locationofitemuse	rdfs:comment	an item used in a specific place
+NELL:locationcontainslocation	rdfs:comment	a location that is a subpart of another location
+NELL:skyscrapercontainsrestaurant	rdfs:comment	Describes restaurants located in skyscrapers
+NELL:inverseofhotelwasbuiltatfarm	rdfs:comment	Describes hotels built at farms
+NELL:buildinghasofficebuildingroom	rdfs:comment	Which office-style building a particular room is found in
+NELL:geopoliticallocationcontainscountry	rdfs:comment	specifies that a particular country is located in a particular geopolitical entity
+NELL:geopoliticallocationcontainsstate	rdfs:comment	specifies that a particular state or province is located in a particular geopolitical location
+NELL:countrystates	rdfs:comment	The country which the state or province is a part of.
+NELL:geopoliticallocationcontainscity	rdfs:comment	specifies that a particular city is located in a particular geopolitical location
+NELL:statecontainscity	rdfs:comment	specifies that a particular city is located in a particular state or province
+NELL:countrycities	rdfs:comment	specifies that a particular city is located in a particular country
+NELL:countrycontainsfarm	rdfs:comment	The country a farm is located in
+NELL:statecontainsfarm	rdfs:comment	The state/province a farm is located in
+NELL:statehasmountain	rdfs:comment	State/province a mountain is located in.
+NELL:cityhastrainstation	rdfs:comment	The city a train station is in.
+NELL:statehaslake	rdfs:comment	The state/province a river is in.
+NELL:cityhasstreet	rdfs:comment	this street is at least partly inside this city
+NELL:cityattractions	rdfs:comment	The city that an attraction is located in
+NELL:cityhostsattraction	rdfs:comment	Attraction occurs in the city
+NELL:citymuseums	rdfs:comment	The city that a museum is located in
+NELL:cityhastransportation	rdfs:comment	City of a transportation system.
+NELL:cityaquariums	rdfs:comment	The city an aquarium is located in.
+NELL:cityparks	rdfs:comment	The city a park is located in.
+NELL:cityzoos	rdfs:comment	The city a zoo is located in
+NELL:citycontainsbuilding	rdfs:comment	specifies that a particular building is located in a particular city
+NELL:cityrestaurants	rdfs:comment	The city a restaurant is located in.
+NELL:cityhasshoppingmall	rdfs:comment	The city a shopping mall is located in.
+NELL:cityhasairport	rdfs:comment	The city an airport is located in.
+NELL:cityhashospital	rdfs:comment	The city a hostpital is located in.
+NELL:cityhotels	rdfs:comment	The city a hotel is located in.
+NELL:locationrelatedtoagent	rdfs:comment	Most general agent-to-location relation
+NELL:countryisthehomeofsportsteam	rdfs:comment	Describes the home country of sports teams
+NELL:inverseofcriminalarrestedincountry	rdfs:comment	Country where criminal was arrested
+NELL:websiteoperatedbyagent	rdfs:comment	The organization that operates a website
+NELL:officialwebsiteoforganization	rdfs:comment	An official top-level URL for an organization's website
+NELL:inverseofnewpaperhaswebsite	rdfs:comment	Present the oficial website of a newspaper
+NELL:locationrepresentedbypolitician	rdfs:comment	Describes the city state country or other location represented by a politician
+NELL:countryhascitizen	rdfs:comment	the citizenship of a person
+NELL:locationactedinbyagent	rdfs:comment	As with agentInteractsWithAgent we take existing at a location to be an action at that location.
+NELL:inverseofcoachworksincountry	rdfs:comment	Describes the country where a coach works
+NELL:locationofpersondeath	rdfs:comment	the location that a person died in
+NELL:cityofpersondeath	rdfs:comment	the city that a person died in
+NELL:countryofpersondeath	rdfs:comment	the country that a person died in
+NELL:stateorprovinceofpersondeath	rdfs:comment	the state or province that a person died in
+NELL:locationofpersonbirth	rdfs:comment	the location that a person is born in
+NELL:stateorprovinceofpersonbirth	rdfs:comment	the state or province that a person was born in
+NELL:countryofpersonbirth	rdfs:comment	the country that a person was born in
+NELL:cityofpersonbirth	rdfs:comment	the city that a person was born in
+NELL:inverseofwriterwasbornincity	rdfs:comment	Describes the city where a write was born in
+NELL:locationresidenceofperson	rdfs:comment	the location that person has residence in
+NELL:stateorprovinceresidenceofperson	rdfs:comment	the state or province that a person has residence in
+NELL:cityresidenceofperson	rdfs:comment	the city that a person has residence in
+NELL:countryresidenceofperson	rdfs:comment	the country that a person has residence in
+NELL:inverseofpersonmovedtostateorprovince	rdfs:comment	Describes the people that moved to live in a state or province
+NELL:inverseofmalemovedtostateorprovince	rdfs:comment	Describes the male people that moved to live in a state or province
+NELL:geopoliticallocationresidenceofpersion	rdfs:comment	the geopolitical location that person has residence in
+NELL:locationactedinbyorganization	rdfs:comment	location of an organization or company
+NELL:buildingbelongstoorganization	rdfs:comment	Which organization a building belongs to
+NELL:stateorprovinceoforganizationheadquarters	rdfs:comment	The state or province where a given organization is headquartered
+NELL:countryoforganizationheadquarters	rdfs:comment	The country where a given organization is headquartered
+NELL:cityoforganizationheadquarters	rdfs:comment	The city where a given organization is headquartered
+NELL:companiesheadquarteredhere	rdfs:comment	specifies that a particular company is headquartered in a particular city
+NELL:cityuniversities	rdfs:comment	The city a university is located in.
+NELL:stadiumhometeam	rdfs:comment	The stadium or other sporting venue which a team designates as its "home." Typically a large percentage of the team's games occur in this location.
+NELL:stadiumhometoleague	rdfs:comment	specifies that a particular league uses a particular venue for its games
+NELL:countryhascompanyoffice	rdfs:comment	specifies that a particular company has offices in a particular country
+NELL:inverseofbankbankincountry	rdfs:comment	Describes the banks in a country
+NELL:inverseofautomobilemakerdealersincountry	rdfs:comment	Describes the car dealers in a country
+NELL:cityhascompanyoffice	rdfs:comment	specifies that a particular company has offices in a particular city
+NELL:inverseofautomobilemakerdealersincity	rdfs:comment	Describes the car dealers in a city
+NELL:citytelevisionstation	rdfs:comment	The city where a TV station is located or broadcasts to.
+NELL:cityradiostation	rdfs:comment	Specifies that a particular radio station is headquarted in a particular city
+NELL:citynewspaper	rdfs:comment	Specifies the city in which a particular newspaper is headquartered
+NELL:stadiumhometoathlete	rdfs:comment	a sports arena usually oval or horseshoe-shaped with tiers of seats for spectators (which is home for an athlete) 
+NELL:riverflowsthroughcity	rdfs:comment	Rivers that flow or through or immediately adjacent to the city.
+NELL:inverseofbuildingfeaturebuiltabovelak	rdfs:comment	buildingfeature and lake are related
+NELL:latitudelongitude	rdfs:comment	the latitude and longitude of this location or the latitude and longitude typically associated with this thing
+NELL:agriculturalproductcomingfromvertebrate	rdfs:comment	Describes the agricultural products that come from a vertebrate
+NELL:sportsgamewinnerscore	rdfs:comment	Specifies the score with which the winning team in a particular sportsGame lost.
+NELL:professionactsatthesameareaofpoliticissue	rdfs:comment	Describes professions that work at the area of a political issue
+NELL:agentcontrols	rdfs:comment	to exercise restraint or direction over; dominate; command 
+NELL:organizationhasagent	rdfs:comment	to be in the relation of a member adherent inhabitant etc 
+NELL:superpartoforganization	rdfs:comment	one organization is a subpart of a larger controlling organization
+NELL:acquired	rdfs:comment	to come into possession or ownership of; get as one's own 
+NELL:bankboughtbank	rdfs:comment	Describes the banks that bought other banks
+NELL:televisioncompanyaffiliate	rdfs:comment	The network that a TV station gets its programming from
+NELL:leagueteams	rdfs:comment	The league that a team plays in.
+NELL:organizationhasperson	rdfs:comment	organization or company that person is belonged to
+NELL:inverseofathleteplayedforschool	rdfs:comment	The school that an athlete used to play for its team
+NELL:worker	rdfs:comment	to be employed esp. as a means of earning one's livelihood 
+NELL:organizationterminatedperson	rdfs:comment	This relation holds when the organization has teminated the employment relationship. This includes firings RIFs resignations and retirements. Normal ending of a contract does not constitute terminatedEmployment. A termination event (the endinf of the employment) must be mentioned for this relation to apply; if the text just says that Mary Smith used to work for IBM that is not enough to assert a terminatedEmployment relation.
+NELL:organizationhiredperson	rdfs:comment	This relation connects an organization to individuals that it hired. It does include people hired as contractors not just people hired as employees. It does not include elected officials. It does not include organizations that may be hired for some particular purpose. Typically hiring someone does involve paying them though that is seldom stated explicitly when the relation is mentioned. A hiring event (the actual initiation of the employment) must be mentioned for this relation to apply; if the text just says that Mary Smith works for IBM that is not enough to assert a hired relation.
+NELL:publicationjournalist	rdfs:comment	specifies that a particular journalist writes for a particular publication
+NELL:teamcoach	rdfs:comment	specifies that a particular coach coaches a particular team
+NELL:politicalgroupofpolitician	rdfs:comment	Specifies that a particular politician belongs to a particular
+NELL:politicalgroupofpoliticianus	rdfs:comment	U.S. Politician who is member of a political group
+NELL:schoolattendedbyperson	rdfs:comment	person has attended a school
+NELL:schoolgraduatedperson	rdfs:comment	This holds when the person has graduated from the educational institution at some time. This includes high schools say as well as universities. A division of an institution ("Yale Business School") will be scored as the same answer as the institution as a whole ("Yale").
+NELL:inverseofpersongraduatedfromuniversity	rdfs:comment	Describes the people graduated from a university
+NELL:musicartistmusician	rdfs:comment	Specifies that a particular musician has performed as particular musicArtist
+NELL:leaguecoaches	rdfs:comment	specifies that a particular coach coaches a team that plays in a particular league
+NELL:leagueplayers	rdfs:comment	a group of athletic teams organized to promote mutual interests and to compete chiefly among themselves 
+NELL:teammember	rdfs:comment	to join together in a team 
+NELL:inverseofathleteledsportsteam	rdfs:comment	Describes the athletes that lead/led a sports team
+NELL:coachesathlete	rdfs:comment	to give instruction or advice to in the capacity of a coach; instruct 
+NELL:countrycurrency	rdfs:comment	specifies that a particular country uses a particular currency
+NELL:agriculturalproducttoattractinsect	rdfs:comment	Describes the agricultural products that attract insects
+NELL:physiologicalconditionpossiblytreatedbydrug	rdfs:comment	relates a substance to a condition that it might treat. This relation includes conditions that the substance has been designed or approved to treat as well as conditions for which it is being investigated as a possible treatment.  Common folk remedies would also be eligible for this relation.  For example it would be reasonable to say that "chicken noodle soup" is a possible treatment for "colds".
+NELL:objectlookslikeobject	rdfs:comment	Object looks like (NEIL)
+NELL:ageofperson	rdfs:comment	the age of this person
+NELL:inverseofattractionmadeofbuildingmaterial	rdfs:comment	Describes the materials used to build attractions
+NELL:languageofcountry	rdfs:comment	Typical language spoken in a country (official or otherwise)
+NELL:coachstudiedatuniversity	rdfs:comment	Describes the university where the coach studied at
+NELL:visualartistartmovement	rdfs:comment	The art movements or styles that a visualArtist is associated with.
+NELL:academicfieldhasperson	rdfs:comment	People trained or active in a given academic field
+NELL:physiologicalconditionstudedbyperson	rdfs:comment	This predicate holds between a HumanAgent and a condition and means that the HumanAgent performs research related to condition.
+NELL:inverseofbacteriaisthecausativeagentofphysiologicalcondition	rdfs:comment	Describes the bacterias that causes physiological conditions
+NELL:inverseofinvertebrateturnintoinsect	rdfs:comment	Describes the metamorphosis of some invertebrates into another insects
+NELL:inverseofcolorassociatedwithvisualizableattribut	rdfs:comment	color and visualizableattribute are related
+NELL:ethnicgroupofperson	rdfs:comment	The ethnicity of a person
+NELL:winningscoreofsportsgame	rdfs:comment	Specifies the score with which the winning team in a particular sportsGame lost.
+NELL:athletepublishesinblog	rdfs:comment	The blog where an athlete publishes
+NELL:inverseofagriculturalproductgrowninlandscapefeature	rdfs:comment	Describes the agricultural products that are grown in landscape features
+NELL:beveragecansoftendisease	rdfs:comment	Describes beverages that can help soften the symptons of diseases
+NELL:concepthasprerequisite	rdfs:comment	Prerequisite relationship between scientific terms (currently biased towards ML and AI areas)
+NELL:inverseofsportfansincountry	rdfs:comment	Describes the sports that have fans living in a country
+NELL:politicsbillconcernsissue	rdfs:comment	Issues that a legislative billl is concerned with.
+NELL:meetingeventtypeincludesmeetingeventtitle	rdfs:comment	What series of meetings a particular meeting belongs to or what kind of a meeting it is
+NELL:inverseofmeatcomesfromanimal	rdfs:comment	Describes the animals and their meat cuts
+NELL:deathageofperson	rdfs:comment	the age at which this person died
+NELL:inverseofagriculturalproductcomingfromvertebrate	rdfs:comment	Describes the agricultural products that come from a vertebrate
+NELL:inverseofarthropodfeedoninsect	rdfs:comment	Describes the names an artery can be called
+NELL:inverseofarthropodlooklikeinsect	rdfs:comment	Describes the arthropod that look like specific insects
+NELL:languageschoolincity	rdfs:comment	Describes the language schools for specific languages in a city
+NELL:arthropodthatfeedoninsect	rdfs:comment	Describes the names an artery can be called
+NELL:inverseofemotionassocietedwithdisease	rdfs:comment	Describes the emotions associated with a disease
+NELL:clothmadeofplant	rdfs:comment	Plants that can be used to make cloths
+NELL:officeheldbypolitician	rdfs:comment	Specifies that a particular politician holds a particular office
+NELL:officeheldbypoliticianus	rdfs:comment	U.S. Politician who holds an office
+NELL:sportsgameloserscore	rdfs:comment	Specifies the score with which the loosing team in a particular sportsGame lost.
+NELL:inverseofagriculturalproductcookedwithagricultureproduct	rdfs:comment	Describes the agricultural products that are usually cooked with another agricultural product
+NELL:subjectconcernedbyacademicfield	rdfs:comment	Subjects of study within a given academic field
+NELL:subfieldofacademicfield	rdfs:comment	Subfields within a given academic field
+NELL:fishservedwithfood	rdfs:comment	Describes the kind of food that are tipically serverd with a fish
+NELL:hotelbuiltatpark	rdfs:comment	hotel and park are related
+NELL:inverseofhotelbuiltatpark	rdfs:comment	hotel and park are related
+NELL:inverseofbirdmayconsumeprotein	rdfs:comment	Describes the proteins eaten by a bird
+NELL:sportsteampositionathlete	rdfs:comment	The team position played by an athlete.
+NELL:countrylanguage	rdfs:comment	Typical language spoken in a country (official or otherwise)
+NELL:conceptprerequisiteof	rdfs:comment	Prerequisite relationship between scientific terms (currently biased towards ML and AI areas)
+NELL:drughassideeffect	rdfs:comment	This predicate indicates that the use of a drug has a physiologicalCondition as a side-effect. Uses of this predicate may include both very common side-effects and rare but reported side-effects.
+NELL:inverseofclothmadeofplant	rdfs:comment	Plants that can be used to make cloths
+NELL:citylanguage	rdfs:comment	Typical language spoken in a city (official or otherwise)
+NELL:invertebrateturnintoinsect	rdfs:comment	Describes the metamorphosis of some invertebrates into another insects
+NELL:inverseofbakegoodistypicalincountry	rdfs:comment	Describes the typicall bakegoods of the countries
+NELL:inverseofanimaldevelopdisease	rdfs:comment	Describes the diseases that can be developed by an animal
+NELL:inverseofbeveragemadefrombeverage	rdfs:comment	Describes the names an artery can be called
+NELL:arthropodbesometimesconfusewithinsect	rdfs:comment	Arthropodes that usually are confunded by insects
+NELL:sideeffectcausedbydrug	rdfs:comment	This predicate indicates that the use of a drug has a physiologicalCondition as a side-effect. Uses of this predicate may include both very common side-effects and rare but reported side-effects.
+NELL:inverseofpoliticianuswenttoschool	rdfs:comment	Describes the school where a US politician studied
+NELL:inverseoffoodcancausedisease	rdfs:comment	Describes the diseases that can be caused by a food
+NELL:inverseofclothingmadefromplant	rdfs:comment	Describes the clothing items made of a plant
+NELL:players	rdfs:comment	to engage in (a game pastime etc.) 
+NELL:companyeconomicsector	rdfs:comment	specifies that a particular company does business in a particular economic sector
+NELL:inverseofwineryatfarm	rdfs:comment	farm and winery are related
+NELL:specializationof	rdfs:comment	one thing is a more specific kind of another thing
+NELL:crustaceanisatypeofarthropod	rdfs:comment	Hyponym Relation
+NELL:inverseofmusicgenressuchasmusicgenres	rdfs:comment	Describes the musicgenre types that are generalizations of specific musicgenres
+NELL:inverseoftoolssuchastools	rdfs:comment	Describes the tools types that are generalizations of specific tools
+NELL:inverseofanimalssuchasmammals	rdfs:comment	Describes the animal types that are generalizations of mammals
+NELL:inverseofprofessionssuchasprofessions	rdfs:comment	Describes the professions types that are generalizations of specific professions
+NELL:inverseofcriminalssuchascriminals	rdfs:comment	Describes the criminals types that are generalizations of specific criminals
+NELL:inverseofconferencessuchasconferences	rdfs:comment	Describes the conferences types that are generalizations of specific conferences
+NELL:inverseofcountriessuchascountries	rdfs:comment	Describes the countries types that are generalizations of specific countries
+NELL:inverseofvideogamessuchasvideogames	rdfs:comment	Describes the videogame types that are generalizations of specific videogames
+NELL:inverseofreligionssuchasreligions	rdfs:comment	Describes the religions types that are generalizations of specific religions
+NELL:inverseofmusicfestivalssuchasmusicfestivals	rdfs:comment	Describes the musicfestivals types that are generalizations of specific musicfestivals
+NELL:inverseofmoviessuchasmovies	rdfs:comment	Describes the movies types that are generalizations of specific movies
+NELL:inverseofhobbiessuchashobbies	rdfs:comment	Describes the hobbies types that are generalizations of specific hobbies
+NELL:inverseofweaponssuchasweapons	rdfs:comment	Describes the weapons types that are generalizations of specific weapons
+NELL:inverseoftelevisionshowssuchastelevisionshows	rdfs:comment	Describes the televisionshows types that are generalizations of specific televisionshows
+NELL:inverseofmammalsuchasmammal	rdfs:comment	Describes the specific actors types that are generalizations of actors
+NELL:inverseofcelebritysuchascelebrity	rdfs:comment	Describes the specific celebrity types that are generalizations of celebrities
+NELL:inverseofbooksuchasbook	rdfs:comment	Describes the specific book types that are generalizations of actors
+NELL:inverseofautomobileenginesuchasautomobileengine	rdfs:comment	Describes the specific automobile Engine types that are generalizations of automobile Engines
+NELL:inverseoftouristattraction	rdfs:comment	Describes the specific tourist attraction types that are generalizations of tourist attractions
+NELL:inverseofathletesuchasathlete	rdfs:comment	Describes the specific athlete types that are generalizations of athletes
+NELL:inverseofastronautsuchasastronaut	rdfs:comment	Describes the specific astronaut types that are generalizations of astronauts
+NELL:inverseofarterysuchasartery	rdfs:comment	Describes the specific artery types that are generalizations of arteries
+NELL:inverseofarchitectssuchasarchitects	rdfs:comment	Describes the specific architect types that are generalizations of architects
+NELL:inverseofarchaeasuchasarchaea	rdfs:comment	Describes the specific archaea types that are generalizations of archaeas
+NELL:inverseofarachnidssuchasarachnides	rdfs:comment	Describes the specific arachnid types that are generalizations of arachnids
+NELL:inverseofaquariumsuchasaquarium	rdfs:comment	Describes the specific aquarium types that are generalizations of aquariums
+NELL:inverseofamphibiansuchasamphibian	rdfs:comment	Describes the amphibian types that are generalizations of specific amphibians
+NELL:inversoofairportsuchasairport	rdfs:comment	Describes the airport types that are generalizations of specific aiports
+NELL:inverseofactorsuchasactor	rdfs:comment	Describes the actor types that are generalizations of specific actors
+NELL:inverseofagriculturalproductincludingagriculturalproduct	rdfs:comment	Describes the agricultural products that are generalizations of other agriculture products
+NELL:inverseofacademicfieldsuchasacademicfield	rdfs:comment	Describes a specialization fo an Academic Field
+NELL:inverseofplantincludeplant	rdfs:comment	Describes the subcategories of a plant
+NELL:chemicalistypeofchemical	rdfs:comment	indicates that one chemical is special case of another chemical
+NELL:professionistypeofprofession	rdfs:comment	Type-specific generalization of professions.
+NELL:vehicleistypeofvehicle	rdfs:comment	Type-specific generalization of vehicles.
+NELL:animalistypeofanimal	rdfs:comment	Type-specific generalization of animals.
+NELL:inverseofanimalsuchasinvertebrate	rdfs:comment	Describes the invertebrate that are from a specific type of animals
+NELL:inverseofanimalsuchasmollusk	rdfs:comment	Describes the mollusk that are from a specific type of animals
+NELL:inverseofanimalsuchasinsect	rdfs:comment	Describes the insect that are from a specific type of animals
+NELL:inverseofanimalsuchasfish	rdfs:comment	Describes the fish that are from a specific type of animals
+NELL:arthropodandotherarthropod	rdfs:comment	Describes similar arthropods
+NELL:productinstanceof	rdfs:comment	Specifies that a particular product is a particular kind of thing
+NELL:plantrepresentemotion	rdfs:comment	Describes the emotions represented by a plant
+NELL:softwareisprogrammedinprogramminglanguage	rdfs:comment	Relates a software to its programming language
+NELL:inverseofbeveragecansoftendisease	rdfs:comment	Describes beverages that can help soften the symptons of diseases
+NELL:sportschoolincountry	rdfs:comment	Describes the sports practiced in a country
+NELL:itemusedwithitem	rdfs:comment	Most general item-to-item relation.
+NELL:inverseofvegetablecanbeservedwithgrain	rdfs:comment	Describes the vegetables that are usually served with a grain
+NELL:vegetablecanbeservedwithgrain	rdfs:comment	Describes the vegetables that are usually served with a grain
+NELL:inverseofbakedgoodservedwithbeverage	rdfs:comment	Describes the baked goods that are usually served with a beverage
+NELL:bakedgoodservedwithbeverage	rdfs:comment	Describes the baked goods that are usually served with a beverage
+NELL:clothingtogowithclothing	rdfs:comment	Describes clothing pieces that "should" (or can) be used with each other
+NELL:superpartof	rdfs:comment	a portion or division of a whole that is separate or distinct; piece fragment fraction or section; constituent 
+NELL:magazinecontainspublication	rdfs:comment	Magazine in which a publication was published in
+NELL:bodypartcontainsmuscle	rdfs:comment	Describes the muscles in body parts
+NELL:academicfieldhassubfield	rdfs:comment	Subfields within a given academic field
+NELL:bodypartcontainsbodypart	rdfs:comment	indicates that one body part is contained inside another
+NELL:eventsupereventof	rdfs:comment	event that is happened as a sub-event of another event
+NELL:eventinvolveditem	rdfs:comment	Umbrella relation for identifying items in events.
+NELL:eventhasparticipantagent	rdfs:comment	identifies participants in events
+NELL:inverseofuniversityledmusicfestival	rdfs:comment	identifies the university that led a Musical Festival
+NELL:meetingeventtitlehasspeakingperson	rdfs:comment	Who will be speaking at a particular meeting
+NELL:crimeorchargeofperson	rdfs:comment	Charges or crimes (alleged or convicted) of the given person
+NELL:sportsgameteam	rdfs:comment	Specifies the teams that played in a particular sports game
+NELL:sportsgamewinner	rdfs:comment	Specifies that a particular team that played in a particular sportsGame was the winner thereof.
+NELL:sportsgameloser	rdfs:comment	Specifies that a particular team that played in a particular sportsGame was the loser thereof.
+NELL:sportsgamehometeam	rdfs:comment	Specifies that a particular team is the home team in a particular sportsGame
+NELL:sportsgameawayteam	rdfs:comment	Specifies that a particular team is the away team in a particular sportsGame.
+NELL:personhasjobposition	rdfs:comment	This relation holds when the person has held the position at some point in some organization.
+NELL:athleteinjuredhisbodypart	rdfs:comment	Describes the athletes that had injured any body part
+NELL:athletefracturedbone	rdfs:comment	Bone fracture that an athlete had
+NELL:drugpossiblytreatsphysiologicalcondition	rdfs:comment	relates a substance to a condition that it might treat. This relation includes conditions that the substance has been designed or approved to treat as well as conditions for which it is being investigated as a possible treatment.  Common folk remedies would also be eligible for this relation.  For example it would be reasonable to say that "chicken noodle soup" is a possible treatment for "colds".
+NELL:inverseofinvertebratehascolor	rdfs:comment	Describes the color of invertebrates
+NELL:inverseofsoftwareprogrammedinprogramminglanguage	rdfs:comment	Relates a software to its programming language
+NELL:coachwontrophy	rdfs:comment	specifies that a particular coach coaches a team that won a particular award or trophy
+NELL:trophywonbycoaches	rdfs:comment	specifies that a particular coach coaches a team that won a particular award or trophy
+NELL:inverseofbuildingispartofuniversity	rdfs:comment	Describes buildings that universities might own
+NELL:academicfieldusedbyeconomicsector	rdfs:comment	Academic fields used by economic fields
+NELL:jobpositionheldbyperson	rdfs:comment	This relation holds when the person has held the position at some point in some organization.
+NELL:stadiumhometosport	rdfs:comment	Specifies that a particular sport is played in a particular venue
+NELL:stadiumoreventvenuedisclosescompany	rdfs:comment	Describes a stadium or event venue that discloses a company
+NELL:thinghascolor	rdfs:comment	Object has color (NEIL)
+NELL:diseasemaybecausedbydrug	rdfs:comment	Describes a disease that can be caused by a drug
+NELL:professionusestool	rdfs:comment	those who practice this profession use this tool
+NELL:inverseoffooddecreasestheriskofdisease	rdfs:comment	Describes the foods that can reduce the risks of having a disease
+NELL:visualartistartform	rdfs:comment	The type of visual art that a visualArtist produces. Also known as an artist's medium.
+NELL:invertebratehascolor	rdfs:comment	Describes the color of invertebrates
+NELL:inverseofmagazineisleadbyceo	rdfs:comment	Identifies the CEO of a Magazine
+NELL:arteryarisesfromartery	rdfs:comment	Describes the arteries that arises from other arteries
+NELL:colorofobject	rdfs:comment	Object has color (NEIL)
+NELL:generalizationof	rdfs:comment	one thing is a more specific kind of another thing
+NELL:arthropodsuchascrustacean	rdfs:comment	Hyponym Relation
+NELL:conferencessuchasconferences	rdfs:comment	Describes the conferences types that are generalizations of specific conferences
+NELL:televisionshowssuchastelevisionshows	rdfs:comment	Describes the televisionshows types that are generalizations of specific televisionshows
+NELL:videogamessuchasvideogames	rdfs:comment	Describes the videogame types that are generalizations of specific videogames
+NELL:hobbiessuchashobbies	rdfs:comment	Describes the hobbies types that are generalizations of specific hobbies
+NELL:criminalssuchascriminals	rdfs:comment	Describes the criminals types that are generalizations of specific criminals
+NELL:religionssuchasreligions	rdfs:comment	Describes the religions types that are generalizations of specific religions
+NELL:toolssuchastools	rdfs:comment	Describes the tools types that are generalizations of specific tools
+NELL:professionssuchasprofessions	rdfs:comment	Describes the professions types that are generalizations of specific professions
+NELL:weaponssuchasweapons	rdfs:comment	Describes the weapons types that are generalizations of specific weapons
+NELL:musicfestivalssuchasmusicfestivals	rdfs:comment	Describes the musicfestivals types that are generalizations of specific musicfestivals
+NELL:moviessuchasmovies	rdfs:comment	Describes the movies types that are generalizations of specific movies
+NELL:countriessuchascountries	rdfs:comment	Describes the countries types that are generalizations of specific countries
+NELL:animalssuchasmammals	rdfs:comment	Describes the animal types that are generalizations of mammals
+NELL:musicgenressuchasmusicgenres	rdfs:comment	Describes the musicgenre types that are generalizations of specific musicgenres
+NELL:mammalsuchasmammal	rdfs:comment	Describes the specific actors types that are generalizations of actors
+NELL:celebritysuchascelebrity	rdfs:comment	Describes the specific celebrity types that are generalizations of celebrities
+NELL:booksuchasbook	rdfs:comment	Describes the specific book types that are generalizations of actors
+NELL:automobileenginesuchasautomobileengine	rdfs:comment	Describes the specific automobile Engine types that are generalizations of automobile Engines
+NELL:touristattractionsuchastouristattraction	rdfs:comment	Describes the specific tourist attraction types that are generalizations of tourist attractions
+NELL:athletessuchasathletes	rdfs:comment	Describes the specific athlete types that are generalizations of athletes
+NELL:astronautssuchasaustronauts	rdfs:comment	Describes the specific astronaut types that are generalizations of astronauts
+NELL:arteriessuchasarteries	rdfs:comment	Describes the specific artery types that are generalizations of arteries
+NELL:architectssuchasarchitects	rdfs:comment	Describes the specific architect types that are generalizations of architects
+NELL:archaeasuchasarchaea	rdfs:comment	Describes the specific archaea types that are generalizations of archaeas
+NELL:arachnidssuchasarachnids	rdfs:comment	Describes the specific arachnid types that are generalizations of arachnids
+NELL:aquariumssuchasaquariums	rdfs:comment	Describes the specific aquarium types that are generalizations of aquariums
+NELL:amphibiansuchasamphibian	rdfs:comment	Describes the amphibian types that are generalizations of specific amphibians
+NELL:airportsuchasairport	rdfs:comment	Describes the airport types that are generalizations of specific aiports
+NELL:actorsuchasactor	rdfs:comment	Describes the actor types that are generalizations of specific actors
+NELL:agriculturalproductincludingagriculturalproduct	rdfs:comment	Describes the agricultural products that are generalizations of other agriculture products
+NELL:academicfieldsuchasacademicfield	rdfs:comment	Describes a specialization fo an Academic Field
+NELL:plantincludeplant	rdfs:comment	Describes the subcategories of a plant
+NELL:chemicaltypehaschemical	rdfs:comment	indicates that one chemical is special case of another chemical
+NELL:professiontypehasprofession	rdfs:comment	Type-specific generalization of professions.
+NELL:vehicletypehasvehicle	rdfs:comment	Type-specific generalization of vehicles.
+NELL:animaltypehasanimal	rdfs:comment	Type-specific generalization of animals.
+NELL:inverseofarthropodandotherarthropod	rdfs:comment	Describes similar arthropods
+NELL:animalsuchasinvertebrate	rdfs:comment	Describes the invertebrate that are from a specific type of animals
+NELL:animalsuchasmollusk	rdfs:comment	Describes the mollusk that are from a specific type of animals
+NELL:animalsuchasinsect	rdfs:comment	Describes the insect that are from a specific type of animals
+NELL:animalsuchasfish	rdfs:comment	Describes the fish that are from a specific type of animals
+NELL:productinstances	rdfs:comment	Specifies that a particular product is a particular kind of thing
+NELL:inverseofbeveragecontainsprotein	rdfs:comment	Describes the proteins contained in beverages
+NELL:sportusesstadium	rdfs:comment	Specifies that a particular sport is played in a particular venue
+NELL:grainusedtomakecandy	rdfs:comment	grain and candy are related
+NELL:animaleatfood	rdfs:comment	Describes the foods that are eaten by an animal
+NELL:insecteatsgrain	rdfs:comment	Describes the grains eaten by an insect
+NELL:invertebratefeedonfood	rdfs:comment	Describes the foods that are eaten by an invertebrate
+NELL:animaleatvegetable	rdfs:comment	Describes the vegetables eaten by an animal
+NELL:personinacademicfield	rdfs:comment	People trained or active in a given academic field
+NELL:inverseofagriculturalproducttoattractinsect	rdfs:comment	Describes the agricultural products that attract insects
+NELL:plantgrowinginplant	rdfs:comment	Describes the plants that grow on other plants
+NELL:inverseofmusicsongisatrackofmusicalbum	rdfs:comment	Identifies a music song which is a track of a music album
+NELL:coachcanspeaklanguage	rdfs:comment	Describes the languages that coaches might speak
+NELL:economicsectorcompany	rdfs:comment	specifies that a particular company does business in a particular economic sector
+NELL:trophywonbyteam	rdfs:comment	Trophies that a team has won
+NELL:inverseofagriculturalproductcontainchemical	rdfs:comment	Describes the agricultural products that contain a chemical
+NELL:arthropodcanbeveryirritatingtomammal	rdfs:comment	Arthropode that usually irritates mammal
+NELL:languagespokenatisland	rdfs:comment	Describes languages spoken at islands
+NELL:inverseofgrainusedtomakecandy	rdfs:comment	grain and candy are related
+NELL:atlocation	rdfs:comment	assigns locations to things.
+NELL:inverseofmountainatgeopoliticallocation	rdfs:comment	geopoliticallocation and mountain are related
+NELL:awardtrophytournamentwasawardedonstadium	rdfs:comment	Stadium of event venue where a award trophy tournament was at least once awarded
+NELL:hasvisualappearance	rdfs:comment	The NEIL-learned visual appearance of something
+NELL:zipcodeinlocation	rdfs:comment	Describes one or more locations to which a zipcode may correspond.
+NELL:haswikipediaurl	rdfs:comment	The Wikipedia page for a given category instance
+NELL:riveremptiesintoriver	rdfs:comment	Describes the tributaries of a river
+NELL:religionusesplaceofworship	rdfs:comment	The religion practied in a place of worship.
+NELL:eventatlocation	rdfs:comment	the location that an event is happened at
+NELL:meetingeventtitleinbuilding	rdfs:comment	In which building a particular meeting will take place
+NELL:meetingeventtitleinofficebuildingroom	rdfs:comment	In which room a particular meeting will take place
+NELL:itemexistsatlocation	rdfs:comment	An item that is typically found in a particular place. While most any item could concievably exist at most any place the intent for this relation and its children is to capture "common knowledge" about what would be expected to be found where.
+NELL:vegetableisproducedatcountry	rdfs:comment	Describes the countries that are big produces of vegetables
+NELL:agriculturalproductgrowinginstateorprovince	rdfs:comment	Describes the agricultural products that are produced in a state or province
+NELL:agriculturalproductcamefromcountry	rdfs:comment	Describes the agricultural products that came from a country
+NELL:weaponmadeincountry	rdfs:comment	Describes the weapons produced by a country
+NELL:productproducedincountry	rdfs:comment	Describes the products produced by a country
+NELL:vegetableproductioninstateorprovince	rdfs:comment	Describes the vegetables produced in a state or province
+NELL:agriculturalproductproducedbyfarm	rdfs:comment	the agricultural products produced by a farm
+NELL:itemfoundinroom	rdfs:comment	Relates items to rooms in which they are often found
+NELL:furniturefoundinroom	rdfs:comment	Relates furniture to rooms in which it is often found
+NELL:itemusedatlocation	rdfs:comment	an item used in a specific place
+NELL:locationlocatedwithinlocation	rdfs:comment	a location that is a subpart of another location
+NELL:hotelwasbuiltatfarm	rdfs:comment	Describes hotels built at farms
+NELL:restaurantlocatedinskyscraper	rdfs:comment	Describes restaurants located in skyscrapers
+NELL:officebuildingroominbuilding	rdfs:comment	Which office-style building a particular room is found in
+NELL:countrylocatedingeopoliticallocation	rdfs:comment	specifies that a particular country is located in a particular geopolitical entity
+NELL:statelocatedingeopoliticallocation	rdfs:comment	specifies that a particular state or province is located in a particular geopolitical location
+NELL:statelocatedincountry	rdfs:comment	The country which the state or province is a part of.
+NELL:citylocatedingeopoliticallocation	rdfs:comment	specifies that a particular city is located in a particular geopolitical location
+NELL:citylocatedinstate	rdfs:comment	specifies that a particular city is located in a particular state or province
+NELL:citylocatedincountry	rdfs:comment	specifies that a particular city is located in a particular country
+NELL:farmlocatedincountry	rdfs:comment	The country a farm is located in
+NELL:farmlocatedinstate	rdfs:comment	The state/province a farm is located in
+NELL:mountaininstate	rdfs:comment	State/province a mountain is located in.
+NELL:trainstationincity	rdfs:comment	The city a train station is in.
+NELL:lakeinstate	rdfs:comment	The state/province a river is in.
+NELL:streetincity	rdfs:comment	this street is at least partly inside this city
+NELL:attractionofcity	rdfs:comment	The city that an attraction is located in
+NELL:attractionbefallincity	rdfs:comment	Attraction occurs in the city
+NELL:museumincity	rdfs:comment	The city that a museum is located in
+NELL:transportationincity	rdfs:comment	City of a transportation system.
+NELL:aquariumincity	rdfs:comment	The city an aquarium is located in.
+NELL:parkincity	rdfs:comment	The city a park is located in.
+NELL:zooincity	rdfs:comment	The city a zoo is located in
+NELL:buildinglocatedincity	rdfs:comment	specifies that a particular building is located in a particular city
+NELL:restaurantincity	rdfs:comment	The city a restaurant is located in.
+NELL:shoppingmallincity	rdfs:comment	The city a shopping mall is located in.
+NELL:airportincity	rdfs:comment	The city an airport is located in.
+NELL:hospitalincity	rdfs:comment	The city a hostpital is located in.
+NELL:hotelincity	rdfs:comment	The city a hotel is located in.
+NELL:agentrelatedtolocation	rdfs:comment	Most general agent-to-location relation
+NELL:inverseofcountryisthehomeofsportsteam	rdfs:comment	Describes the home country of sports teams
+NELL:criminalarrestedincountry	rdfs:comment	Country where criminal was arrested
+NELL:agenthaswebsite	rdfs:comment	The organization that operates a website
+NELL:organizationhasofficialwebsite	rdfs:comment	An official top-level URL for an organization's website
+NELL:newpaperhaswebsite	rdfs:comment	Present the oficial website of a newspaper
+NELL:politicianrepresentslocation	rdfs:comment	Describes the city state country or other location represented by a politician
+NELL:personhascitizenship	rdfs:comment	the citizenship of a person
+NELL:agentactsinlocation	rdfs:comment	As with agentInteractsWithAgent we take existing at a location to be an action at that location.
+NELL:coachworksincountry	rdfs:comment	Describes the country where a coach works
+NELL:persondiedinlocation	rdfs:comment	the location that a person died in
+NELL:persondiedinstateorprovince	rdfs:comment	the state or province that a person died in
+NELL:persondiedincity	rdfs:comment	the city that a person died in
+NELL:persondiedincountry	rdfs:comment	the country that a person died in
+NELL:personborninlocation	rdfs:comment	the location that a person is born in
+NELL:personborninstateorprovince	rdfs:comment	the state or province that a person was born in
+NELL:personbornincountry	rdfs:comment	the country that a person was born in
+NELL:personbornincity	rdfs:comment	the city that a person was born in
+NELL:writerwasbornincity	rdfs:comment	Describes the city where a write was born in
+NELL:personhasresidenceinlocation	rdfs:comment	the location that person has residence in
+NELL:personhasresidenceincity	rdfs:comment	the city that a person has residence in
+NELL:personhasresidenceinstateorprovince	rdfs:comment	the state or province that a person has residence in
+NELL:personhasresidenceincountry	rdfs:comment	the country that a person has residence in
+NELL:personmovedtostateorprovince	rdfs:comment	Describes the people that moved to live in a state or province
+NELL:malemovedtostateorprovince	rdfs:comment	Describes the male people that moved to live in a state or province
+NELL:personhasresidenceingeopoliticallocation	rdfs:comment	the geopolitical location that person has residence in
+NELL:organizationactsinlocation	rdfs:comment	location of an organization or company
+NELL:organizationhasbuilding	rdfs:comment	Which organization a building belongs to
+NELL:organizationheadquarteredincountry	rdfs:comment	The country where a given organization is headquartered
+NELL:organizationheadquarteredinstateorprovince	rdfs:comment	The state or province where a given organization is headquartered
+NELL:organizationheadquarteredincity	rdfs:comment	The city where a given organization is headquartered
+NELL:headquarteredin	rdfs:comment	specifies that a particular company is headquartered in a particular city
+NELL:universityincity	rdfs:comment	The city a university is located in.
+NELL:teamhomestadium	rdfs:comment	The stadium or other sporting venue which a team designates as its "home." Typically a large percentage of the team's games occur in this location.
+NELL:leaguestadiums	rdfs:comment	specifies that a particular league uses a particular venue for its games
+NELL:hasofficeincountry	rdfs:comment	specifies that a particular company has offices in a particular country
+NELL:bankbankincountry	rdfs:comment	Describes the banks in a country
+NELL:automobilemakerdealersincountry	rdfs:comment	Describes the car dealers in a country
+NELL:hasofficeincity	rdfs:comment	specifies that a particular company has offices in a particular city
+NELL:automobilemakerdealersincity	rdfs:comment	Describes the car dealers in a city
+NELL:televisionstationincity	rdfs:comment	The city where a TV station is located or broadcasts to.
+NELL:radiostationincity	rdfs:comment	Specifies that a particular radio station is headquarted in a particular city
+NELL:newspaperincity	rdfs:comment	Specifies the city in which a particular newspaper is headquartered
+NELL:athletehomestadium	rdfs:comment	a sports arena usually oval or horseshoe-shaped with tiers of seats for spectators (which is home for an athlete) 
+NELL:cityliesonriver	rdfs:comment	Rivers that flow or through or immediately adjacent to the city.
+NELL:politicsbillsponsoredbypolitician	rdfs:comment	Politician(s) sponsoring a particular legislative bill
+NELL:politicsbillsponsoredbypoliticianus	rdfs:comment	U.S. Politician sponsoring a particular legislative bill
+NELL:beveragecontainsprotein	rdfs:comment	Describes the proteins contained in beverages
+NELL:agentstudiesphysiologicalcondition	rdfs:comment	This predicate holds between a HumanAgent and a condition and means that the HumanAgent performs research related to condition.
+NELL:agriculturalproductgrowninlandscapefeatures	rdfs:comment	Describes the agricultural products that are grown in landscape features
+NELL:inverseofcoachcanspeaklanguage	rdfs:comment	Describes the languages that coaches might speak
+NELL:religionofperson	rdfs:comment	The religion to which a person has belonged.
+NELL:animaldevelopdisease	rdfs:comment	Describes the diseases that can be developed by an animal
+NELL:athletebeatathlete	rdfs:comment	Describes the athletes whom beat other athletes
+NELL:musicgenreartist	rdfs:comment	Specifies that a musicArtist performs in a particular genre
+NELL:economicsectorusingacademicfield	rdfs:comment	Academic fields used by economic fields
+NELL:politicianholdsoffice	rdfs:comment	Specifies that a particular politician holds a particular office
+NELL:politicianusholdsoffice	rdfs:comment	U.S. Politician who holds an office
+NELL:politicianuswenttoschool	rdfs:comment	Describes the school where a US politician studied
+NELL:inverseofathletewinsawardtrophytournament	rdfs:comment	Describes the athletes who won an award trophy tournament
+NELL:losingscoreofsportsgame	rdfs:comment	Specifies the score with which the loosing team in a particular sportsGame lost.
+NELL:universityhasacademicprogram	rdfs:comment	this academic program is offered by this university
+NELL:agentcontributedtocreativework	rdfs:comment	Specifies that a particular agent contributed to the production or creation of a particular creativeWork. An actor in a movie contributes to that movie but agentCreated would probably be to strong an assertion for that.
+NELL:writerwrotebook	rdfs:comment	author of a book
+NELL:directordirectedmovie	rdfs:comment	to direct a monvie
+NELL:actorstarredinmovie	rdfs:comment	to perform as an actor (in movie) 
+NELL:sportsgamescore	rdfs:comment	the score of this game
+NELL:sportnamehasoriginlanguage	rdfs:comment	Describes the origin language of the sports name
+NELL:teamwontrophy	rdfs:comment	Trophies that a team has won
+NELL:mammalinducesemotion	rdfs:comment	The emotion that human beings generally have by looking at a mammal
+NELL:agentowns	rdfs:comment	an agent owns any object animal product company etc.
+NELL:mammalcanbeirritatedbyarthropod	rdfs:comment	Arthropode that usually irritates mammal
+NELL:scoreofsportsgame	rdfs:comment	the score of this game
+NELL:magazineisleadbyceo	rdfs:comment	Identifies the CEO of a Magazine
+NELL:inverseofastronautwasonamissionwithastronaut	rdfs:comment	Describes astronauts that were at a space mission togheter
+NELL:beveragemadefrombeverage	rdfs:comment	Describes the names an artery can be called
+NELL:inverseofstadiumoreventvenuedisclosescompany	rdfs:comment	Describes a stadium or event venue that discloses a company
+NELL:attractionmadeofbuildingmaterial	rdfs:comment	Describes the materials used to build attractions
+NELL:latitudelongitudeof	rdfs:comment	the latitude and longitude of this location or the latitude and longitude typically associated with this thing
+NELL:inverseofmammalinducesemotion	rdfs:comment	The emotion that human beings generally have by looking at a mammal
+NELL:inverseofarterycalledartery	rdfs:comment	Describes the names an artery can be called
+NELL:inverseofbacteriacancauseillnessfromfood	rdfs:comment	Describes the foods that bacterias can cause illness from
+NELL:companyproducesvideogamesystem	rdfs:comment	company produces a video game system
+NELL:scenecontainsobject	rdfs:comment	Object found in scene (NEIL)
+NELL:issueofpoliticsbill	rdfs:comment	Issues that a legislative billl is concerned with.
+NELL:iteminvolvedwithagent	rdfs:comment	Most general agent-to-item relation. As with agentInteractsWithAgent we'll use this for states of being as well as actions at least for now.
+NELL:wineproducedbywinery	rdfs:comment	Describes the wines sold by a winery
+NELL:drugworkedonbyagent	rdfs:comment	This predicate relates a substance and a HumanAgent who is responsible for it. Responsibility is understoond relatively broadly and includes people or organizations responsible for the substance's discovery or marketing and manufacturing.  Additionally agents that own the rights to the substance are also eligible to participate in this relationship.  Note that the humanAgent category include organizations including universities companies and government agencies.
+NELL:typeproducedby	rdfs:comment	Specifies that a particular compnay produces a particular type of product
+NELL:producedby	rdfs:comment	Specifies that a particular compnay produces a particular product
+NELL:automodelproducedbymaker	rdfs:comment	this automobile manufacturer produces this particular automobile make or model
+NELL:instrumentplayedbymusician	rdfs:comment	Specifies that a musical instrument is played by a paritcular musician
+NELL:mlsoftwareauthor	rdfs:comment	Specifies ML software that is written by a particular ML author
+NELL:academicfieldconcernssubject	rdfs:comment	Subjects of study within a given academic field
+NELL:atdate	rdfs:comment	assigns dates to things.
+NELL:organizationcreatedatdate	rdfs:comment	The date on which a given organization was founded
+NELL:organizationdissolvedatdate	rdfs:comment	The date on which a given organization was dissolved
+NELL:marriedinyear	rdfs:comment	This relation holds when a person married some other person in the specified year.
+NELL:drugexpectedreleasedate	rdfs:comment	This predicate represents the relationship between a pharmaceutical substance and the date when it is expected to be approved for legal marketing. For our purposes the date will typically correspond to a date for FDA approval but the relationship itself is not restricted to approval for sale in the United States.
+NELL:itemexistsatdate	rdfs:comment	a item exists in a determined time (or date)
+NELL:locationexistsatdate	rdfs:comment	Most general location-to-date relation. Note that locations are not eternal.
+NELL:persondeathdate	rdfs:comment	the date on which this person died
+NELL:personbirthdate	rdfs:comment	the date on which this person was born
+NELL:eventdate	rdfs:comment	specifies that the duration of a particular event overlapped with a particular date.
+NELL:meetingeventtitleatdate	rdfs:comment	When a particular meeting will take place
+NELL:sportsgamedate	rdfs:comment	the date on which this game occurred
+NELL:mlareaexpert	rdfs:comment	specifies that a particular ML author is an expert in a particular ML area
+NELL:meatcomesfromanimal	rdfs:comment	Describes the animals and their meat cuts
+NELL:visualartmovementartist	rdfs:comment	The art movements or styles that a visualArtist is associated with.
+NELL:athleteplayssportsteamposition	rdfs:comment	The team position played by an athlete.
+NELL:toolusedbyprofession	rdfs:comment	those who practice this profession use this tool
+NELL:creativeworkcontributedtobyagent	rdfs:comment	Specifies that a particular agent contributed to the production or creation of a particular creativeWork. An actor in a movie contributes to that movie but agentCreated would probably be to strong an assertion for that.
+NELL:moviedirectedbydirector	rdfs:comment	to direct a monvie
+NELL:moviestaractor	rdfs:comment	to perform as an actor (in movie) 
+NELL:bookwriter	rdfs:comment	author of a book
+NELL:inverseofstateorprovinceattainstrainstation	rdfs:comment	Describes the trainstantions location (state or province)
+NELL:buildingispartofuniversity	rdfs:comment	Describes buildings that universities might own
+NELL:personhasreligion	rdfs:comment	The religion to which a person has belonged.
+NELL:athleteplayssport	rdfs:comment	to engage in (a game pastime etc.) 
+NELL:eventcausedevent	rdfs:comment	Any events that is caused by another event
+NELL:meetingeventtitlehasmeetingeventtype	rdfs:comment	What series of meetings a particular meeting belongs to or what kind of a meeting it is
+NELL:objectcontainsobject	rdfs:comment	meronym
+NELL:controlledbyagent	rdfs:comment	to exercise restraint or direction over; dominate; command 
+NELL:agentbelongstoorganization	rdfs:comment	to be in the relation of a member adherent inhabitant etc 
+NELL:subpartoforganization	rdfs:comment	one organization is a subpart of a larger controlling organization
+NELL:televisionstationaffiliatedwith	rdfs:comment	The network that a TV station gets its programming from
+NELL:teamplaysinleague	rdfs:comment	The league that a team plays in.
+NELL:acquiredby	rdfs:comment	to come into possession or ownership of; get as one's own 
+NELL:inverseofbankboughtbank	rdfs:comment	Describes the banks that bought other banks
+NELL:personbelongstoorganization	rdfs:comment	organization or company that person is belonged to
+NELL:athleteplayedforschool	rdfs:comment	The school that an athlete used to play for its team
+NELL:worksfor	rdfs:comment	to be employed esp. as a means of earning one's livelihood 
+NELL:personterminatedbyorganization	rdfs:comment	This relation holds when the organization has teminated the employment relationship. This includes firings RIFs resignations and retirements. Normal ending of a contract does not constitute terminatedEmployment. A termination event (the endinf of the employment) must be mentioned for this relation to apply; if the text just says that Mary Smith used to work for IBM that is not enough to assert a terminatedEmployment relation.
+NELL:personhiredbyorganization	rdfs:comment	This relation connects an organization to individuals that it hired. It does include people hired as contractors not just people hired as employees. It does not include elected officials. It does not include organizations that may be hired for some particular purpose. Typically hiring someone does involve paying them though that is seldom stated explicitly when the relation is mentioned. A hiring event (the actual initiation of the employment) must be mentioned for this relation to apply; if the text just says that Mary Smith works for IBM that is not enough to assert a hired relation.
+NELL:journalistwritesforpublication	rdfs:comment	specifies that a particular journalist writes for a particular publication
+NELL:coachesteam	rdfs:comment	specifies that a particular coach coaches a particular team
+NELL:politicianmemberofpoliticsgroup	rdfs:comment	Specifies that a particular politician belongs to a particular
+NELL:politicianusmemberofpoliticalgroup	rdfs:comment	U.S. Politician who is member of a political group
+NELL:personattendsschool	rdfs:comment	person has attended a school
+NELL:persongraduatedschool	rdfs:comment	This holds when the person has graduated from the educational institution at some time. This includes high schools say as well as universities. A division of an institution ("Yale Business School") will be scored as the same answer as the institution as a whole ("Yale").
+NELL:persongraduatedfromuniversity	rdfs:comment	Describes the people graduated from a university
+NELL:musicianinmusicartist	rdfs:comment	Specifies that a particular musician has performed as particular musicArtist
+NELL:coachesinleague	rdfs:comment	specifies that a particular coach coaches a team that plays in a particular league
+NELL:athleteplaysinleague	rdfs:comment	a group of athletic teams organized to promote mutual interests and to compete chiefly among themselves 
+NELL:athleteplaysforteam	rdfs:comment	to join together in a team 
+NELL:athleteledsportsteam	rdfs:comment	Describes the athletes that lead/led a sports team
+NELL:athletecoach	rdfs:comment	to give instruction or advice to in the capacity of a coach; instruct 
+NELL:objectfoundinscene	rdfs:comment	Object found in scene (NEIL)
+NELL:equipmentusedbysport	rdfs:comment	Specifies equipment that is used by a particular sport.
+NELL:shapeofobject	rdfs:comment	Object has shape (NEIL)
+NELL:objectpartofobject	rdfs:comment	meronym
+NELL:bakegoodistypicalincountry	rdfs:comment	Describes the typicall bakegoods of the countries
+NELL:agentcreated	rdfs:comment	general relation to identify creation and authorships
+NELL:agentcreatedorganization	rdfs:comment	The person organization or geopoiltical entity that founded the given organization
+NELL:biologicalfatherofperson	rdfs:comment	is biological father of a person
+NELL:biologicalmotherofperson	rdfs:comment	is biological mother of a person
+NELL:agentcausedevent	rdfs:comment	Companion to agentParticipatedInEvent. Note that one needn't participate in an event in order to be a causal factor.
+NELL:producesproducttype	rdfs:comment	Specifies that a particular compnay produces a particular type of product
+NELL:producesproduct	rdfs:comment	Specifies that a particular compnay produces a particular product
+NELL:automakerproducesmodel	rdfs:comment	this automobile manufacturer produces this particular automobile make or model
+NELL:mlauthorofsoftware	rdfs:comment	Specifies ML software that is written by a particular ML author
+NELL:mlauthorexpertin	rdfs:comment	specifies that a particular ML author is an expert in a particular ML area
+NELL:emotionassociatedwithdisease	rdfs:comment	Describes the emotions associated with a disease
+NELL:personhasage	rdfs:comment	the age of this person
+NELL:inverseofbuildingfeaturemadefrombuildingmaterial	rdfs:comment	Describes the building features that are made of a building material
+NELL:canbethesameas	rdfs:comment	Describes two instances that are the same thing in different categories
+NELL:writecanbethesameasscientist	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:femalecanbethesameascomedian	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:comediancanbethesameasfemale	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:vegetablecanbethesameasagriculturalproduct	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:ceocanbethesameascelebrity	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:scientistcanbethesameaswriter	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:celebritycanbethesameasceo	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:agriculturalproductcanbethesameasvegetable	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:comediancanbethesameasmale	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:malecanbethesameascomedian	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:politicalofficecanbethesameasjobposition	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:jobpositioncanbethesameaspoliticaloffice	rdfs:comment	Describes two instances that are the same thing in these two different categories
+NELL:athletecanbethesameasactor	rdfs:comment	Describes actors that are the same instances as athlete
+NELL:actorcanbethesameasathlete	rdfs:comment	Describes actors that are the same instances as athlete
+NELL:writercanbethesameaspersonafrica	rdfs:comment	Describes writers that are the same instances as personafrica
+NELL:personafricacanbethesameaswriter	rdfs:comment	Describes writers that are the same instances as personafrica
+NELL:buildingfeaturemadefrombuildingmaterial	rdfs:comment	Describes the building features that are made of a building material
+NELL:arthropodlookslikeinsect	rdfs:comment	Describes the arthropod that look like specific insects
+NELL:inverseofsportschoolincountry	rdfs:comment	Describes the sports practiced in a country
+NELL:televisionshowisbasedonmovie	rdfs:comment	Movie that a television show was based in
+NELL:subpartof	rdfs:comment	a portion or division of a whole that is separate or distinct; piece fragment fraction or section; constituent 
+NELL:musclelocatedinbodypart	rdfs:comment	Describes the muscles in body parts
+NELL:publicationpublishedinmagazine	rdfs:comment	Magazine in which a publication was published in
+NELL:eventsubeventof	rdfs:comment	event that is happened as a sub-event of another event
+NELL:iteminvolvedinevent	rdfs:comment	Umbrella relation for identifying items in events.
+NELL:agentparticipatedinevent	rdfs:comment	identifies participants in events
+NELL:universityledmusicfestival	rdfs:comment	identifies the university that led a Musical Festival
+NELL:personspeakingatmeetingeventtitle	rdfs:comment	Who will be speaking at a particular meeting
+NELL:personchargedwithcrime	rdfs:comment	Charges or crimes (alleged or convicted) of the given person
+NELL:teamingame	rdfs:comment	Specifies the teams that played in a particular sports game
+NELL:winneringame	rdfs:comment	Specifies that a particular team that played in a particular sportsGame was the winner thereof.
+NELL:loseringame	rdfs:comment	Specifies that a particular team that played in a particular sportsGame was the loser thereof.
+NELL:hometeamingame	rdfs:comment	Specifies that a particular team is the home team in a particular sportsGame
+NELL:awayteamingame	rdfs:comment	Specifies that a particular team is the away team in a particular sportsGame.
+NELL:bodypartwithinbodypart	rdfs:comment	indicates that one body part is contained inside another
+NELL:academicprogramatuniversity	rdfs:comment	this academic program is offered by this university
+NELL:automobilemakercardealersinstateorprovince	rdfs:comment	Describes the car dealers in a state or province
+NELL:dateof	rdfs:comment	assigns dates to things.
+NELL:dateoforganzationdissolution	rdfs:comment	The date on which a given organization was dissolved
+NELL:dateoforganizationcreation	rdfs:comment	The date on which a given organization was founded
+NELL:yearofmarriage	rdfs:comment	This relation holds when a person married some other person in the specified year.
+NELL:releasedateexpectedfordrug	rdfs:comment	This predicate represents the relationship between a pharmaceutical substance and the date when it is expected to be approved for legal marketing. For our purposes the date will typically correspond to a date for FDA approval but the relationship itself is not restricted to approval for sale in the United States.
+NELL:dateatwhichexistsitem	rdfs:comment	a item exists in a determined time (or date)
+NELL:dateatwhichexistslocation	rdfs:comment	Most general location-to-date relation. Note that locations are not eternal.
+NELL:dateofpersondeath	rdfs:comment	the date on which this person died
+NELL:dateofpersonbirth	rdfs:comment	the date on which this person was born
+NELL:dateevent	rdfs:comment	specifies that the duration of a particular event overlapped with a particular date.
+NELL:dateofmeetingeventtitle	rdfs:comment	When a particular meeting will take place
+NELL:dateofsportsgame	rdfs:comment	the date on which this game occurred
+NELL:bacteriacancauseillnessfromfood	rdfs:comment	Describes the foods that bacterias can cause illness from
+NELL:islandhasskiarea	rdfs:comment	Describes island that have ski a area
+NELL:musicartistgenre	rdfs:comment	Specifies that a musicArtist performs in a particular genre
+NELL:ownedbyagent	rdfs:comment	an agent owns any object animal product company etc.
+NELL:inverseoflanguegeschoolincity	rdfs:comment	Describes the language schools for specific languages in a city
+NELL:inverseofplantgrowinginplant	rdfs:comment	Describes the plants that grow on other plants
+NELL:fooddecreasestheriskofdisease	rdfs:comment	Describes the foods that can reduce the risks of having a disease
+NELL:agriculturalproductcutintogeometricshape	rdfs:comment	Describes the agricultural products that are usually cut into geometric shapes
+NELL:diseasecausesphysiologicalcondition	rdfs:comment	Describes diseases that may cause a physiological condition
+NELL:inverseofawardtrophytournamentisthechampionshipgameofthenationalsport	rdfs:comment	Describes award trophy tournaments related to specific sports
+NELL:inverseofathletepublishesinblog	rdfs:comment	The blog where an athlete publishes
+NELL:languageofsportsgame	rdfs:comment	Describes the origin language of the sports name
+NELL:sporthassportsteamposition	rdfs:comment	The relation between a sport and team positions filled by athletes
+NELL:sportsportsgameexample	rdfs:comment	Specifies the sport that was played in a particular sportsGame.
+NELL:inverseofcoachstudiedatuniversity	rdfs:comment	Describes the university where the coach studied at
+NELL:personhasethnicity	rdfs:comment	The ethnicity of a person
+NELL:moviethatgeneratestelevisionshow	rdfs:comment	Movie that a television show was based in
+NELL:currencycountry	rdfs:comment	specifies that a particular country uses a particular currency
+NELL:inverseofislandhasskiarea	rdfs:comment	Describes island that have ski a area
+NELL:createdbyagent	rdfs:comment	general relation to identify creation and authorships
+NELL:organizationcreatedbyperson	rdfs:comment	The person organization or geopoiltical entity that founded the given organization
+NELL:personhasbiologicalfather	rdfs:comment	is biological father of a person
+NELL:personhasbiologicalmother	rdfs:comment	is biological mother of a person
+NELL:eventcausedbyagent	rdfs:comment	Companion to agentParticipatedInEvent. Note that one needn't participate in an event in order to be a causal factor.
+NELL:stateorprovinceattainstrainstation	rdfs:comment	Describes the trainstantions location (state or province)
+NELL:politiciansponsoredpoliticsbill	rdfs:comment	Politician(s) sponsoring a particular legislative bill
+NELL:politicianussponsoredpoliticsbill	rdfs:comment	U.S. Politician sponsoring a particular legislative bill
+NELL:sportusesequipment	rdfs:comment	Specifies equipment that is used by a particular sport.
+NELL:agentinteractswithagent	rdfs:comment	to act one upon another 
+NELL:hasfamilymember	rdfs:comment	two persons are family members
+NELL:hasspouse	rdfs:comment	person has a spouse
+NELL:haswife	rdfs:comment	person has a wife
+NELL:hashusband	rdfs:comment	person has a husband
+NELL:wifeof	rdfs:comment	person has a wife
+NELL:husbandof	rdfs:comment	person has a husband
+NELL:hassibling	rdfs:comment	two persons are siblings
+NELL:hassister	rdfs:comment	person has a sister
+NELL:hasbrother	rdfs:comment	person has a brother
+NELL:sisterof	rdfs:comment	person has a sister
+NELL:brotherof	rdfs:comment	person has a brother
+NELL:parentofperson	rdfs:comment	parent of a person
+NELL:fatherofperson	rdfs:comment	father of a person
+NELL:motherofperson	rdfs:comment	mother of a person
+NELL:personhasparent	rdfs:comment	parent of a person
+NELL:personhasfather	rdfs:comment	father of a person
+NELL:personhasmother	rdfs:comment	mother of a person
+NELL:agentcompeteswithagent	rdfs:comment	Non-cooperative interaction. Primary alternative to agentCollaboratesWithAgent.
+NELL:animalpreyson	rdfs:comment	Animals that are hunted and eaten by this animal.
+NELL:arachnidiseatenbybird	rdfs:comment	Describes arachnids that are hunted and eaten by this bird
+NELL:animalthatfeedoninsect	rdfs:comment	Describes the animals that feed on Insects
+NELL:mammaleatsinsect	rdfs:comment	Describes the insects that mammals eats
+NELL:teamplaysagainstteam	rdfs:comment	Teams that play against each other competitively
+NELL:competeswith	rdfs:comment	specifies that a particular company has been in competition with another particular company
+NELL:animalpredators	rdfs:comment	Animals that are hunted and eaten by this animal.
+NELL:inverseofarachnidiseatenbybird	rdfs:comment	Describes arachnids that are hunted and eaten by this bird
+NELL:inverseofanimalfeedoninsect	rdfs:comment	Describes the animals that feed on Insects
+NELL:inverseofmammaleatsinsect	rdfs:comment	Describes the insects that mammals eats
+NELL:agentcollaborateswithagent	rdfs:comment	to work one with another; cooperate as on a literary work 
+NELL:directorworkedwithactor	rdfs:comment	Relates the actors and directors that at least once worked together
+NELL:actorworkedwithdirector	rdfs:comment	Relates the actors and directors that at least once worked together
+NELL:agentholdssharesincompany	rdfs:comment	Any organization person or geopolitical entity that holds shares (majority or otherwise) of the given company.
+NELL:companyhasshareholder	rdfs:comment	Any organization person or geopolitical entity that holds shares (majority or otherwise) of the given company.
+NELL:politicianendorsedbypolitician	rdfs:comment	Politician that endorses another politician
+NELL:politicianusendorsedbypoliticianus	rdfs:comment	U.S. Politician that endorses another U.S. politician
+NELL:teammate	rdfs:comment	Two athletes are teammates if they play on the same team.
+NELL:politicianendorsespolitician	rdfs:comment	Politician that endorses another politician
+NELL:politicianusendorsespoliticianus	rdfs:comment	U.S. Politician that endorses another U.S. politician
+NELL:bacteriaisthecausativeagentofphysiologicalcondition	rdfs:comment	Describes the bacterias that causes physiological conditions
+NELL:astronautwasonamissionwithastronaut	rdfs:comment	Describes astronauts that were at a space mission togheter
+NELL:inverseofdiseasemaybecausedbydrug	rdfs:comment	Describes a disease that can be caused by a drug
+NELL:colorassociatedwithvisualizableattribute	rdfs:comment	color and visualizableattribute are related
+NELL:agentinvolvedwithitem	rdfs:comment	Most general agent-to-item relation. As with agentInteractsWithAgent we'll use this for states of being as well as actions at least for now.
+NELL:wineryproduceswine	rdfs:comment	Describes the wines sold by a winery
+NELL:agentworkedondrug	rdfs:comment	This predicate relates a substance and a HumanAgent who is responsible for it. Responsibility is understoond relatively broadly and includes people or organizations responsible for the substance's discovery or marketing and manufacturing.  Additionally agents that own the rights to the substance are also eligible to participate in this relationship.  Note that the humanAgent category include organizations including universities companies and government agencies.
+NELL:musicianplaysinstrument	rdfs:comment	Specifies that a musical instrument is played by a paritcular musician
+NELL:inverseofanimaleatfood	rdfs:comment	Describes the foods that are eaten by an animal
+NELL:inverseofinsecteatsgrain	rdfs:comment	Describes the grains eaten by an insect
+NELL:inverseofinvertebratefeedonfood	rdfs:comment	Describes the foods that are eaten by an invertebrate
+NELL:inverseofanimaleatvegetable	rdfs:comment	Describes the vegetables eaten by an animal
+NELL:languageofuniversity	rdfs:comment	Language spoken at a college/university.
+NELL:stateorprovinceisborderedbystateorprovince	rdfs:comment	Describes the states that borders a state
+NELL:insectcanbeconfundedwitharthropod	rdfs:comment	Arthropodes that usually are confunded by insects
